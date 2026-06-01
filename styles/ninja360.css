@@ -1,0 +1,30 @@
+/* Ninja-360 design system. Paste ONCE into GHL site custom CSS. */
+:root{
+  --n-red:#c8102e; --n-red-dk:#8f0b20; --n-black:#0d0f12; --n-ink:#15171a;
+  --n-muted:#5b636c; --n-line:#e4e7eb; --n-soft:#f6f7f9; --n-white:#fff;
+  --n-font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+.n-wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+.n-section{padding:56px 0}
+.n-hero{background:linear-gradient(135deg,#0d0f12,#1c2026);color:#fff;padding:72px 0}
+.n-eyebrow{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--n-red);font-weight:800}
+.n-h1{font-size:clamp(28px,5vw,46px);line-height:1.08;margin:10px 0 14px;font-weight:800;letter-spacing:-.02em}
+.n-h2{font-size:clamp(22px,3vw,32px);font-weight:800;margin:0 0 10px}
+.n-lead{font-size:18px;color:#cfd5dd;max-width:680px}
+.n-sub{color:var(--n-muted);max-width:680px}
+.n-btn{display:inline-block;background:var(--n-red);color:#fff;font-weight:700;padding:14px 26px;border-radius:8px;text-decoration:none;font-size:16px}
+.n-btn:hover{background:var(--n-red-dk)}
+.n-btn-ghost{display:inline-block;border:2px solid #fff;color:#fff;font-weight:700;padding:12px 24px;border-radius:8px;text-decoration:none;margin-left:10px}
+.n-map{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px}
+.n-card{background:#fff;border:1px solid var(--n-line);border-radius:12px;padding:22px}
+.n-card .step{font-size:12px;font-weight:800;color:var(--n-red);text-transform:uppercase;letter-spacing:.05em}
+.n-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
+/* work card */
+.wc{background:#fff;border:1px solid var(--n-line);border-radius:12px;overflow:hidden}
+.wc-embed{aspect-ratio:16/9;width:100%;border:0;display:block;background:#000}
+.wc-body{padding:14px 16px}
+.wc-name{font-weight:800;font-size:17px;margin:0}
+.wc-city{color:var(--n-muted);font-size:13px;margin:2px 0 8px}
+.wc-badges span{display:inline-block;font-size:11px;font-weight:700;background:#f0f2f5;color:#3b454f;border-radius:20px;padding:3px 9px;margin:0 4px 4px 0}
+.wc-out{font-size:13.5px;color:var(--n-ink);margin:8px 0 0}
+@media(max-width:760px){.n-map{grid-template-columns:1fr}}

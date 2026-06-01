@@ -1,0 +1,10 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "REPLACE - video title with keyword",
+  "description": "REPLACE - one sentence with City + service.",
+  "thumbnailUrl": "https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg",
+  "uploadDate": "2024-01-01",
+  "contentUrl": "https://www.youtube.com/watch?v=VIDEO_ID",
+  "embedUrl": "https://www.youtube.com/embed/VIDEO_ID"
+}

@@ -1,0 +1,74 @@
+{
+  "business": {
+    "name": "Ninja-360 Digital Media",
+    "positioning": "Local visibility system - get found and chosen on Google",
+    "phone": "(844) 360-6465",
+    "site": "https://ninja360.net",
+    "city": "Kansas City",
+    "region": "MO/KS metro"
+  },
+  "verticals": [
+    {"slug": "restaurants", "title": "Restaurant Virtual Tours | Kansas City", "h1": "Restaurants", "featured": true},
+    {"slug": "medical-dental", "title": "Dental & Medical Visibility | Kansas City", "h1": "Medical & Dental"},
+    {"slug": "wellness-chiro", "title": "Chiropractic & Wellness Visibility | KC", "h1": "Wellness & Chiropractic"},
+    {"slug": "real-estate", "title": "Real Estate Virtual Tours", "h1": "Real Estate"},
+    {"slug": "automotive", "title": "Automotive & Dealership Virtual Tours", "h1": "Automotive"},
+    {"slug": "gyms-fitness", "title": "Gym Virtual Tours", "h1": "Gyms & Fitness"},
+    {"slug": "hospitality", "title": "Hotel & B&B Virtual Tours", "h1": "Hospitality"},
+    {"slug": "schools", "title": "School & Athletic Virtual Tours", "h1": "Schools"},
+    {"slug": "parks-events", "title": "Park, Rec & Event Virtual Tours", "h1": "Parks & Events"}
+  ],
+  "media_types": ["360tour", "matterport", "drone", "video", "youtube", "photo"],
+  "clients": [
+    {
+      "name": "54th Street Grill",
+      "slug": "54th-street-grill",
+      "vertical": "restaurants",
+      "featured": true,
+      "type": "multi-location chain",
+      "note": "FLAGSHIP case study. 15+ locations across TX & MO. Proof for the 30+ location white-whale. Build as Problem -> What we did -> location grid -> outcome -> CTA.",
+      "locations": [
+        {"city": "Zona Rosa", "state": "MO", "tour": "https://kuula.co/share/collection/7vGKJ"},
+        {"city": "Olathe", "state": "KS", "tour": "https://virtualtour.ninja-360.com/share/collection/7cSTD"},
+        {"city": "Independence", "state": "MO", "tour": "https://virtualtour.ninja-360.com/share/collection/7cCF0"},
+        {"city": "Lee's Summit", "state": "MO", "tour": "https://virtualtour.ninja-360.com/share/collection/7qzC7"},
+        {"city": "Chesterfield", "state": "MO", "tour": "https://kuula.co/share/collection/7kKRj"},
+        {"city": "Glen Carbon", "state": "MO", "tour": "https://kuula.co/share/collection/7kybV"},
+        {"city": "Frisco", "state": "TX", "tour": "https://kuula.co/share/collection/7YWBv"},
+        {"city": "McKinney", "state": "TX", "tour": "https://kuula.co/share/N70Kn/collection/7kNG4"},
+        {"city": "Irving", "state": "TX", "tour": "https://kuula.co/share/collection/7kRVv"},
+        {"city": "Mansfield", "state": "TX", "tour": "https://kuula.co/share/collection/7Yj01"},
+        {"city": "Lewisville", "state": "TX", "tour": "https://kuula.co/share/collection/7Yt0W"},
+        {"city": "Pflugerville", "state": "TX", "tour": "https://kuula.co/share/collection/7v9Md"},
+        {"city": "Live Oak", "state": "TX", "tour": "https://kuula.co/share/collection/7LiveOak"},
+        {"city": "The Colony", "state": "TX", "tour": "https://kuula.co/share/collection/7YrRN"},
+        {"city": "City Base West", "state": "TX", "tour": "https://kuula.co/share/collection/7q4hX"},
+        {"city": "The Rim", "state": "TX", "tour": "https://kuula.co/share/NPwbW/collection/7kr2K"}
+      ],
+      "outcome": "Consistent, search-ready 360 presence across every market the chain operates in."
+    },
+    {
+      "name": "EXAMPLE: NKC EEC",
+      "slug": "nkc-eec",
+      "vertical": "schools",
+      "media": [
+        {"type": "360tour", "platform": "kuula", "url": "https://kuula.co/share/collection/7qhgl", "alt": "NKC Early Education Center 360 virtual tour - Ninja-360"}
+      ],
+      "outcome": "Virtual tour + video marketing for the facility."
+    },
+    {
+      "name": "TEMPLATE - copy this block per client",
+      "slug": "client-slug",
+      "vertical": "restaurants",
+      "city": "City",
+      "state": "MO",
+      "media": [
+        {"type": "360tour",    "platform": "selfhosted", "url": "https://virtualtour.ninja-360.com/share/collection/XXXX", "alt": "Business 360 virtual tour in City - Ninja-360"},
+        {"type": "matterport", "platform": "matterport", "url": "https://my.matterport.com/show/?m=XXXX",                  "alt": "Business Matterport walkthrough in City - Ninja-360"},
+        {"type": "drone",      "platform": "image",       "url": "/assets/img/business-city-drone-01.webp",               "alt": "Aerial drone photo of Business in City - Ninja-360"},
+        {"type": "youtube",    "platform": "youtube",     "url": "https://www.youtube.com/watch?v=XXXX",                    "alt": "Business owner interview - Ninja-360"}
+      ],
+      "outcome": "One-line result."
+    }
+  ]
+}
