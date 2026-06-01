@@ -1,3 +1,27 @@
+<!-- NAV -->
+<style>
+.nv-nav{position:sticky;top:0;z-index:50;background:#31343B;border-bottom:1px solid rgba(255,255,255,.08)}
+.nv-in{max-width:1080px;margin:0 auto;padding:10px 22px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.nv-logo{display:flex;align-items:center;text-decoration:none;font-weight:800;font-size:20px;letter-spacing:-.01em;margin-right:auto;color:#fff}
+.nv-logo span{color:#FF8D2D}
+.nv-links{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.nv-links a{color:#d4d7dd;text-decoration:none;font-weight:600;font-size:14px}
+.nv-links a:hover{color:#fff}
+.nv-cta{background:#FF8D2D;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
+.nv-cta:hover{background:#E67A1C}
+@media(max-width:640px){.nv-logo{font-size:18px}.nv-links{gap:13px;font-size:13px;width:100%;justify-content:flex-start}}
+</style>
+<nav class="nv-nav"><div class="nv-in">
+  <a class="nv-logo" href="/">NINJA<span>360</span></a>
+  <div class="nv-links">
+    <a href="/how-it-works">How It Works</a>
+    <a href="/work">Work</a>
+    <a href="/services">Services</a>
+    <a href="/pricing">Pricing</a>
+    <a href="/about">About</a>
+    <a class="nv-cta" href="https://ninja360.net/#section-JXWJCHUYEK">Free Audit</a>
+  </div>
+</div></nav>
 <!-- /pricing  -  paste into a GHL Custom Code block.
      NOTE: audit CTAs point to the home-page audit section (https://ninja360.net/#audit).
      Promote to a dedicated /free-audit page later when optimizing conversion.
@@ -40,7 +64,7 @@
       <!-- BROWN BELT (anchor) -->
       <div class="n-card" style="display:flex;flex-direction:column;border:2px solid var(--n-red);position:relative">
         <span style="position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:var(--n-red);color:#fff;font-size:11px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;padding:4px 12px;border-radius:20px">Build fee waived</span>
-        <img class="belt-icon" src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/cCPr3A6gnc4ihe1G44w5/media/69c403b776c88204c13af763.png" alt="Ninja-360 Brown Belt" width="96" height="96">
+        <img class="belt-icon" src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/cCPr3A6gnc4ihe1G44w5/media/69d5a77ba7dcb4cff02c16a2.png" alt="Ninja-360 Brown Belt" width="96" height="96">
         <p class="step">Brown Belt</p>
         <h3 class="n-h2" style="font-size:22px;margin:4px 0">Grow &amp; get chosen</h3>
         <p style="margin:6px 0 2px"><strong style="font-size:30px">$499</strong><span style="color:var(--n-muted)">/month</span></p>
@@ -58,7 +82,6 @@
       <!-- BLACK BELT -->
       <div class="n-card" style="display:flex;flex-direction:column;background:var(--n-black);color:#fff">
         <span style="display:inline-block;background:var(--n-red);color:#fff;font-size:11px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;padding:3px 10px;border-radius:20px;width:max-content">Build fee waived</span>
-        <!-- TODO: confirm distinct Black/Promote ninja URL - live page currently reuses the Amplify image -->
         <img class="belt-icon" src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/cCPr3A6gnc4ihe1G44w5/media/69c403b776c88204c13af763.png" alt="Ninja-360 Black Belt" width="96" height="96">
         <p class="step" style="margin-top:10px">Black Belt</p>
         <h3 class="n-h2" style="font-size:22px;margin:4px 0;color:#fff">Own your market</h3>
@@ -98,3 +121,35 @@
 }
 </script>
 ============================================================= -->
+
+<!-- FOOTER -->
+<style>
+.nf-foot{background:#23262b;color:#cfd3d9;padding:44px 0 18px}
+.nf-in{max-width:1080px;margin:0 auto;padding:0 22px;display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:26px}
+.nf-foot a{color:#cfd3d9;text-decoration:none;font-size:14px}
+.nf-foot a:hover{color:#fff}
+.nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
+.nf-col a{display:block;margin:6px 0}
+.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-bottom{max-width:1080px;margin:20px auto 0;padding:14px 22px 0;border-top:1px solid rgba(255,255,255,.1);font-size:12px;color:#9aa0a8}
+@media(max-width:780px){.nf-in{grid-template-columns:1fr}}
+</style>
+<footer class="nf-foot">
+  <div class="nf-in">
+    <div class="nf-brand"><b>NINJA<span>360</span></b><p style="font-size:14px;margin:10px 0 0;max-width:330px">Kansas City's local visibility system. We help local businesses get found and chosen on Google.</p></div>
+    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a></div>
+    <div class="nf-col">
+      <p class="nf-h">Contact</p>
+      <a href="tel:+18443606465">(844) 360-6465</a>
+      <a href="https://ninja360.net/#section-JXWJCHUYEK">Free Visibility Audit</a>
+      <span style="display:block;margin:6px 0;font-size:14px">Kansas City, MO</span>
+      <p class="nf-h" style="margin-top:14px">Follow</p>
+      <a href="https://www.facebook.com/KCNinja360">Facebook</a>
+      <a href="https://www.instagram.com/kcninja360/">Instagram</a>
+      <a href="https://www.youtube.com/@ninja360vr">YouTube</a>
+      <a href="https://www.tiktok.com/@ninja360digitalma">TikTok</a>
+      <a href="https://www.linkedin.com/company/ninja360/">LinkedIn</a>
+    </div>
+  </div>
+  <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
+</footer>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ninja360.net Publish Checklist</title>
+<style>
+  :root{--ink:#15171a;--muted:#5b636c;--line:#e4e7eb;--orange:#FF8D2D;--charcoal:#31343B;--soft:#f6f7f9;--ok:#137a4b;--warn:#b25e00;}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--soft);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.5;font-size:14px}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 22px 70px}
+  header{background:var(--charcoal);color:#fff;padding:30px 22px;border-bottom:5px solid var(--orange)}
+  header .in{max-width:1080px;margin:0 auto}
+  .badge{display:inline-block;background:var(--orange);color:#fff;font-weight:800;font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:5px 11px;border-radius:4px}
+  h1{font-size:26px;margin:12px 0 4px}
+  .sub{color:#aeb6c0;margin:0;font-size:14px}
+  h2{font-size:18px;margin:34px 0 8px;padding-top:10px;border-top:2px solid var(--line)}
+  table{width:100%;border-collapse:collapse;margin:12px 0;background:#fff;border:1px solid var(--line);border-radius:8px;overflow:hidden;font-size:12.5px}
+  th{background:var(--charcoal);color:#fff;text-align:left;padding:8px 9px;font-size:11px;text-transform:uppercase;letter-spacing:.03em}
+  td{padding:8px 9px;border-top:1px solid var(--line);vertical-align:top}
+  td code{background:#f3f5f8;border:1px solid #e6e9ee;border-radius:4px;padding:1px 5px;font-family:Menlo,Consolas,monospace;font-size:11.5px}
+  tr:nth-child(even) td{background:#fbfcfd}
+  .callout{border-left:4px solid var(--orange);background:#fff;padding:11px 15px;margin:14px 0;border-radius:0 8px 8px 0}
+  .callout.warn{border-left-color:var(--warn);background:#fff9f1}
+  .callout .t{font-weight:800;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:3px}
+  .callout.warn .t{color:var(--warn)}
+  ol{padding-left:20px}li{margin:5px 0}
+  .seq{counter-reset:s;list-style:none;padding-left:0}
+  .seq>li{position:relative;padding:2px 0 12px 40px}
+  .seq>li:before{counter-increment:s;content:counter(s);position:absolute;left:0;top:0;width:28px;height:28px;background:var(--orange);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800}
+  .small{font-size:12px;color:var(--muted)}
+  .pill{display:inline-block;font-size:10.5px;font-weight:800;padding:2px 7px;border-radius:20px}
+  .new{background:#e3f5ec;color:var(--ok)}.red{background:#fde7eb;color:#b00020}
+  @media print{body{background:#fff}table,.callout{break-inside:avoid}header{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+</style>
+</head>
+<body>
+<header><div class="in">
+  <span class="badge">Ninja-360 &middot; Go-Live</span>
+  <h1>Publish Checklist &mdash; ninja360.net</h1>
+  <p class="sub">Every page, its slug, SEO title/meta, and the 301 from the old site. Run it top to bottom.</p>
+</div></header>
+
+<div class="wrap">
+
+<h2>The sequence (do not reorder)</h2>
+<ol class="seq">
+  <li><strong>Commit &amp; push</strong> the repo so everything is versioned: <code>git add -A &amp;&amp; git commit -m "site build" &amp;&amp; git push</code></li>
+  <li><strong>Publish each page in GHL</strong> from the table below. For every funnel step: paste the page HTML into a Custom JS/HTML element, set the SEO Title + Meta, set the slug, and <strong>uncheck Header and Footer</strong> in the step settings (our nav/footer is in the page body).</li>
+  <li><strong>Verify</strong> each live URL loads, is styled, nav works, and the audit buttons reach the form.</li>
+  <li><strong>Point the 301s</strong> (last column) in Cloudflare only after the new URLs are confirmed live.</li>
+  <li><strong>Submit</strong> the GHL sitemap in Google Search Console + use Change of Address so rankings move from ninja-360.com.</li>
+</ol>
+
+<div class="callout warn">
+  <div class="t">Confirm this before publishing the /work pages</div>
+  <p style="margin:4px 0">The table uses nested paths like <code>/work/restaurants</code>. If your GHL funnel won't accept a slash in the step path, use the flat form <code>work-restaurants</code> instead &mdash; <strong>and update that row's 301 target to match the real published URL.</strong> Whatever GHL actually serves is what the 301 must point to.</p>
+</div>
+
+<h2>Pages, slugs, SEO &amp; 301 map</h2>
+<table>
+  <tr><th>Page (repo file)</th><th>Slug / path</th><th>SEO Title</th><th>Meta description</th><th>Old URL &rarr; 301</th></tr>
+
+  <tr><td>home.html</td><td><code>/</code></td><td>Get Found on Google in Kansas City | Ninja-360 Local Visibility</td><td>Ninja-360 puts Kansas City businesses on the map &mdash; better visuals, a stronger Google presence, and a system that keeps you chosen. Start with a free visibility audit.</td><td><code>ninja-360.com/</code></td></tr>
+
+  <tr><td>how-it-works.html</td><td><code>/how-it-works</code></td><td>How It Works: The M.A.P. System | Ninja-360 Kansas City</td><td>The M.A.P. System &mdash; Make, Amplify, Promote. How Ninja-360 gets Kansas City businesses found and chosen on Google.</td><td><span class="pill new">new</span></td></tr>
+
+  <tr><td>services.html</td><td><code>/services</code></td><td>Services | Drone, 360 Tours, Matterport &amp; Local SEO | Ninja-360</td><td>Ninja-360 services in Kansas City: drone, Google 360 tours, Matterport, photo/video, and Google Business Profile optimization.</td><td><code>/our-services/</code><br><code>/drone-photography-services/</code> &rarr; <code>/services#drone</code><br><code>/custom-virtual-tour-packages/</code> &rarr; <code>/services#tours</code></td></tr>
+
+  <tr><td>pricing.html</td><td><code>/pricing</code></td><td>Pricing - White, Brown &amp; Black Belt | Ninja-360 Kansas City</td><td>Simple local-visibility pricing in Kansas City. Three belts &mdash; one-time build + monthly. Every plan starts with a free visibility audit.</td><td><code>/google-virtual-tour-pricing-kansas-city/</code></td></tr>
+
+  <tr><td>about.html</td><td><code>/about</code></td><td>About Ninja-360 | Kansas City's Visibility Guide</td><td>Meet Tim Petet, Google Certified Photographer and founder of Ninja-360 &mdash; helping Kansas City businesses get found and chosen on Google.</td><td><code>/about-ninja-360-digital-marketing/</code></td></tr>
+
+  <tr><td>work.html</td><td><code>/work</code></td><td>Our Work | Kansas City Visibility &amp; Virtual Tours | Ninja-360</td><td>See Ninja-360's work across Kansas City &mdash; restaurants, real estate, schools, parks, dental, chiropractic, and more.</td><td><code>/portfolio</code></td></tr>
+
+  <tr><td>work-restaurants.html ★</td><td><code>/work/restaurants</code></td><td>Restaurant Virtual Tours | Kansas City | Ninja-360</td><td>Restaurant 360 virtual tours and Google visibility in Kansas City. See how we put a 15+ location chain (54th Street Grill) on the map across MO and TX.</td><td><code>/restaurant-virtual-tours-kc/</code></td></tr>
+
+  <tr><td>work-real-estate.html</td><td><code>/work/real-estate</code></td><td>Real Estate Virtual Tours | Kansas City | Ninja-360</td><td>360 real estate virtual tours in Kansas City &mdash; residential &amp; commercial. Add to your website, Zillow, and social.</td><td><code>/real-estate-virtual-tours/</code></td></tr>
+
+  <tr><td>work-automotive.html</td><td><code>/work/automotive</code></td><td>Automotive &amp; Dealership Virtual Tours | Kansas City</td><td>Automotive and dealership 360 tours, drone, and video in Kansas City. Showcase your lot, showroom, and service department.</td><td><code>/automotive-virtual-tours/</code></td></tr>
+
+  <tr><td>work-gyms-fitness.html</td><td><code>/work/gyms-fitness</code></td><td>Gym &amp; Fitness Virtual Tours | Kansas City | Ninja-360</td><td>Gym and fitness 360 virtual tours in Kansas City &mdash; show prospects your equipment, classes, and vibe.</td><td><code>/gym-virtual-tours/</code></td></tr>
+
+  <tr><td>work-hospitality.html</td><td><code>/work/hospitality</code></td><td>Hotel &amp; B&amp;B Virtual Tours | Kansas City | Ninja-360</td><td>Hotel and bed-and-breakfast 360 virtual tours in Kansas City. Let guests walk your space before they book.</td><td><code>/hotel-bed-and-breakfast-virtual-tours/</code></td></tr>
+
+  <tr><td>work-schools.html</td><td><code>/work/schools</code></td><td>School &amp; Athletic Virtual Tours | Kansas City</td><td>School and athletic 360 tours and drone video in Kansas City. Campus walkthroughs for families and recruits.</td><td><code>/school-virtual-tours/</code></td></tr>
+
+  <tr><td>work-parks-events.html</td><td><code>/work/parks-events</code></td><td>Park, Rec &amp; Event Virtual Tours | Kansas City</td><td>Park, rec, and event 360 tours and drone reels in Kansas City. Experience the space before you arrive.</td><td><code>/parks-virtual-tours/</code><br><code>/concerts-events-virtual-tours/</code></td></tr>
+
+  <tr><td>work-medical-dental.html</td><td><code>/work/medical-dental</code></td><td>Dental &amp; Medical Visibility | Kansas City | Ninja-360</td><td>Dental and medical 360 tours and Google visibility in Kansas City. Build trust before the first visit.</td><td><span class="pill new">new</span></td></tr>
+
+  <tr><td>work-wellness-chiro.html</td><td><code>/work/wellness-chiro</code></td><td>Chiropractic &amp; Wellness Visibility | Kansas City</td><td>Chiropractic and wellness 360 tours and video in Kansas City. A full visibility system for multi-location practices.</td><td><span class="pill new">new</span></td></tr>
+</table>
+
+<h2>Loose ends to settle</h2>
+<div class="callout">
+  <div class="t">Before / during go-live</div>
+  <ul style="margin:6px 0">
+    <li><strong>/contact</strong> &mdash; the old <code>/contact/</code> 301 has no new target yet. Either build a contact step, or 301 <code>/contact/</code> &rarr; <code>/#section-JXWJCHUYEK</code> (the home audit form). <span class="small">Pick one before pointing redirects.</span></li>
+    <li><strong>Redirect domains</strong> &mdash; <code>ninja360.co</code> and <code>ninja360.org</code> 301 to <code>ninja360.net/</code> (already in <code>redirects.csv</code>).</li>
+    <li><strong>About photo</strong> &mdash; upload Tim's headshot to GHL media and drop it into the marked spot on <code>/about</code>.</li>
+    <li><strong>Gyms &amp; automotive</strong> &mdash; gyms has no tour yet (publishes with a written pitch); automotive is reframed as a work sample, not a client case study. Drop real embeds in later from Matterport / virtualtour.ninja-360.com when available.</li>
+    <li><strong>Don't retire the WordPress site</strong> until every 301 above is confirmed resolving.</li>
+  </ul>
+</div>
+
+<div class="callout warn">
+  <div class="t">Reminder</div>
+  <p style="margin:4px 0">Uncheck <strong>Header</strong> and <strong>Footer</strong> on every GHL step (Settings) so GHL's native chrome doesn't double up with the custom nav/footer baked into each page.</p>
+</div>
+
+<p class="small" style="margin-top:24px">Companion files in the repo: <code>data/redirects.csv</code> (machine-readable 301 map) &middot; <code>seo/sitemap.xml</code> (planning master) &middot; <code>seo/image-naming-SOP.md</code>.</p>
+
+</div>
+</body>
+</html>
