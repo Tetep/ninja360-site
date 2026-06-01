@@ -1,43 +1,138 @@
-<!-- HOME - paste into a GHL Custom Code block. StoryBrand: customer = hero, Ninja-360 = guide. -->
+<!-- HOME  -  paste into a GHL Custom Code block on the home step.
+     KEEP your existing GHL nav at the top, your native AUDIT FORM section
+     (#section-JXWJCHUYEK), and your footer. This replaces the middle content
+     sections only. StoryBrand: customer = hero, Ninja-360 = guide.
+     Brand palette: charcoal #31343B + orange #FF8D2D (from ninja-360.com).
+     GHL PAGE SEO:
+       Title: Get Found on Google in Kansas City | Ninja-360 Local Visibility
+       Meta:  Ninja-360 puts Kansas City businesses on the map - better visuals,
+              a stronger Google presence, and a system that keeps you chosen.
+              Start with a free visibility audit. -->
+
+<style>
+:root{--n-red:#FF8D2D;--n-red-dk:#E67A1C;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
+.n-wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+.n-section{padding:56px 0}
+.n-hero{background:linear-gradient(135deg,#31343B,#23262b);color:#fff;padding:84px 0}
+.n-eyebrow{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--n-red);font-weight:800}
+.n-h1{font-size:clamp(30px,5.5vw,50px);line-height:1.06;margin:10px 0 14px;font-weight:800;letter-spacing:-.02em}
+.n-h2{font-size:clamp(22px,3vw,34px);font-weight:800;margin:0 0 10px}
+.n-lead{font-size:18px;color:#d4d7dd;max-width:680px}
+.n-sub{color:var(--n-muted);max-width:720px;font-size:16px}
+.n-btn{display:inline-block;background:var(--n-red);color:#fff;font-weight:700;padding:14px 26px;border-radius:8px;text-decoration:none;font-size:16px}
+.n-btn:hover{background:var(--n-red-dk)}
+.n-btn-ghost{display:inline-block;border:2px solid #fff;color:#fff;font-weight:700;padding:12px 24px;border-radius:8px;text-decoration:none;margin-left:10px}
+.map-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px}
+.map-card{background:#fff;border:1px solid var(--n-line);border-radius:12px;padding:24px;text-align:center}
+.map-card img{display:block;width:104px;height:104px;object-fit:contain;margin:0 auto 10px}
+.map-step{font-size:12px;font-weight:800;color:var(--n-red);text-transform:uppercase;letter-spacing:.06em}
+.map-card h3{font-size:19px;margin:4px 0 8px}
+.map-belt{display:inline-block;margin-top:12px;font-size:11px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;color:var(--n-muted);border:1px solid var(--n-line);border-radius:20px;padding:3px 10px}
+.vid-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:24px}
+.vid{aspect-ratio:16/9;width:100%;border:0;border-radius:10px;background:#000}
+.price-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:24px}
+.price-card{background:#fff;border:1px solid var(--n-line);border-radius:12px;padding:20px;text-align:center}
+.price-card .pb{font-size:12px;font-weight:800;color:var(--n-red);text-transform:uppercase;letter-spacing:.05em}
+.price-card .pa{font-size:26px;font-weight:800;margin:6px 0 0}
+@media(max-width:780px){.map-grid,.vid-grid,.price-grid{grid-template-columns:1fr}}
+</style>
+
+<!-- HERO -->
 <section class="n-hero">
   <div class="n-wrap">
     <p class="n-eyebrow">Kansas City Local Visibility</p>
-    <h1 class="n-h1">If your business isn't showing up on Google,<br>you're losing customers.</h1>
-    <p class="n-lead">Ninja-360 helps local businesses get found and chosen - with better visuals, a stronger Google presence, and a system that keeps you ahead.</p>
-    <div style="margin-top:26px">
-      <a class="n-btn" href="/free-audit">Get My Free Visibility Audit</a>
-      <a class="n-btn-ghost" href="/work">See Our Work</a>
+    <h1 class="n-h1">If your business isn't showing up on Google search,<br>you're losing customers.</h1>
+    <p class="n-lead">Ninja-360 helps local businesses get found and chosen - with better visuals, a stronger Google presence, and a system that keeps you ahead of your competition.</p>
+    <div style="margin-top:28px">
+      <a class="n-btn" href="#section-JXWJCHUYEK">Get My Free Visibility Audit</a>
+      <a class="n-btn-ghost" href="/pricing">See Pricing</a>
     </div>
+    <p style="color:#9aa0a8;font-size:13px;margin-top:14px">Takes 30 seconds. No obligation.</p>
   </div>
 </section>
 
+<!-- PROBLEM / EMPATHY -->
 <section class="n-section">
   <div class="n-wrap">
     <p class="n-eyebrow">The problem</p>
     <h2 class="n-h2">Most local businesses aren't failing because they're bad.</h2>
-    <p class="n-sub">They're invisible - weak or outdated photos, an incomplete Google Business Profile, no consistent updates, and competitors showing up first. If you don't look good online, you don't get chosen.</p>
+    <p class="n-sub">They're invisible - weak or outdated photos, an incomplete or poorly optimized Google Business Profile, no consistent updates, and competitors showing up first. If you don't look good online, you don't get chosen. You're great at what you do; your online presence just doesn't show it yet.</p>
   </div>
 </section>
 
+<!-- THE PLAN: M.A.P. (your copy + the belt ninjas) -->
 <section class="n-section" style="background:var(--n-soft)">
   <div class="n-wrap">
     <p class="n-eyebrow">The plan</p>
     <h2 class="n-h2">We put you on the M.A.P.</h2>
-    <div class="n-map">
-      <div class="n-card"><div class="step">01 - Make</div><h3>We make you look your best</h3><p class="n-sub">High-quality photo, video, drone, and 360 content that builds instant trust.</p></div>
-      <div class="n-card"><div class="step">02 - Amplify</div><h3>We get you on Google</h3><p class="n-sub">We optimize and publish so you appear where customers already search - Maps, Search, and beyond.</p></div>
-      <div class="n-card"><div class="step">03 - Promote</div><h3>We keep you ahead</h3><p class="n-sub">Ongoing updates and content so you stay visible and keep getting chosen.</p></div>
+    <p class="n-sub">A simple, proven system to get your business found, chosen, and consistently ahead of your competition.</p>
+    <div class="map-grid">
+      <div class="map-card">
+        <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/cCPr3A6gnc4ihe1G44w5/media/69c403a5c14403201337659d.png" alt="Ninja-360 Make - White Belt" width="104" height="104">
+        <p class="map-step">01 - Make</p>
+        <h3>We Make Your Business Look Its Best</h3>
+        <p class="n-sub" style="margin:0 auto">We capture high-quality photos, video, and 360&deg; content that instantly builds trust and shows customers why they should choose you.</p>
+        <span class="map-belt">White Belt</span>
+      </div>
+      <div class="map-card">
+        <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/cCPr3A6gnc4ihe1G44w5/media/69d5a77ba7dcb4cff02c16a2.png" alt="Ninja-360 Amplify - Brown Belt" width="104" height="104">
+        <p class="map-step">02 - Amplify</p>
+        <h3>Get You Showing Up on Google</h3>
+        <p class="n-sub" style="margin:0 auto">We optimize and publish your content so your business appears where customers are already searching - on Google Maps, Search, and beyond.</p>
+        <span class="map-belt">Brown Belt</span>
+      </div>
+      <div class="map-card">
+        <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/cCPr3A6gnc4ihe1G44w5/media/69c403b776c88204c13af763.png" alt="Ninja-360 Promote - Black Belt" width="104" height="104">
+        <p class="map-step">03 - Promote</p>
+        <h3>Keep You Visible &amp; Top of Search</h3>
+        <p class="n-sub" style="margin:0 auto">We keep your business active, updated, and consistently visible so you continue getting chosen over your competitors.</p>
+        <span class="map-belt">Black Belt</span>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:28px"><a class="n-btn" href="#section-JXWJCHUYEK">Get My Free Visibility Audit</a></div>
+  </div>
+</section>
+
+<!-- PROOF -->
+<section class="n-section">
+  <div class="n-wrap">
+    <p class="n-eyebrow">Proof</p>
+    <h2 class="n-h2">Real work. Real Kansas City businesses.</h2>
+    <p class="n-sub">From single storefronts to a 15+ location restaurant chain (54th Street Grill), we've put hundreds of businesses on the map.</p>
+    <div class="vid-grid">
+      <iframe class="vid" src="https://www.youtube.com/embed/60xCoFbbfuU" title="Ninja-360 client video" loading="lazy" allowfullscreen></iframe>
+      <iframe class="vid" src="https://www.youtube.com/embed/v87kC9x-F04" title="Ninja-360 client video" loading="lazy" allowfullscreen></iframe>
+      <iframe class="vid" src="https://www.youtube.com/embed/hAZtFQ_5kOk" title="Ninja-360 client video" loading="lazy" allowfullscreen></iframe>
     </div>
   </div>
 </section>
 
-<!-- proof strip: pull 3 featured items from portfolio.json (lead with 54th Street Grill) -->
-<section class="n-section">
+<!-- PRICING TEASER -->
+<section class="n-section" style="background:var(--n-soft)">
   <div class="n-wrap">
-    <p class="n-eyebrow">Proof</p>
-    <h2 class="n-h2">15+ locations. One chain. Found everywhere.</h2>
-    <p class="n-sub">We put every 54th Street Grill location on the map across Missouri and Texas. <a href="/work/restaurants">See the restaurant work -></a></p>
+    <p class="n-eyebrow">Simple pricing</p>
+    <h2 class="n-h2">Pick your belt</h2>
+    <div class="price-grid">
+      <div class="price-card"><p class="pb">White Belt</p><p class="pa">$99<span style="font-size:14px;color:var(--n-muted)">/mo</span></p><p class="n-sub" style="margin:6px auto 0;font-size:13px">Get on the map</p></div>
+      <div class="price-card" style="border:2px solid var(--n-red)"><p class="pb">Brown Belt</p><p class="pa">$499<span style="font-size:14px;color:var(--n-muted)">/mo</span></p><p class="n-sub" style="margin:6px auto 0;font-size:13px">Grow &amp; get chosen</p></div>
+      <div class="price-card"><p class="pb">Black Belt</p><p class="pa">$999<span style="font-size:14px;color:var(--n-muted)">/mo</span></p><p class="n-sub" style="margin:6px auto 0;font-size:13px">Own your market</p></div>
+    </div>
+    <div style="text-align:center;margin-top:24px"><a class="n-btn" href="/pricing">See Full Pricing</a></div>
   </div>
 </section>
 
-<!-- include cta.html here -->
+<!-- ============================================================
+     KEEP YOUR NATIVE GHL AUDIT FORM SECTION HERE (#section-JXWJCHUYEK).
+     Do NOT replace it with custom code - it must stay a GHL Form element
+     so submissions land in your CRM. Every CTA above scrolls to it.
+     ============================================================ -->
+
+<!-- FINAL CTA (optional - place below the form, or remove if redundant) -->
+<section class="n-section" style="background:var(--n-black);color:#fff;text-align:center">
+  <div class="n-wrap">
+    <p class="n-eyebrow">See what your customers see</p>
+    <h2 class="n-h2" style="color:#fff">Get your free visibility audit</h2>
+    <p class="n-lead" style="margin:0 auto 22px">In 30 seconds we show you exactly where you are - and aren't - showing up on Google.</p>
+    <a class="n-btn" href="#section-JXWJCHUYEK">Get My Free Visibility Audit</a>
+  </div>
+</section>
