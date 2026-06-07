@@ -1,6 +1,28 @@
 <!-- /how-it-works  -  GHL SEO Title: How It Works: The M.A.P. System | Ninja-360 Kansas City
      Meta: The M.A.P. System - Make, Amplify, Promote. How Ninja-360 gets Kansas City businesses found and chosen on Google, step by step.
      Keep nav + footer native. Paste body into a Custom JS/HTML element. -->
+
+<!-- ===== PASTE THIS INTO THE PAGE HEAD (GHL tracking code) - FAQPage + VideoObject =====
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+    {"@type":"Question","name":"What is the M.A.P. System?","acceptedAnswer":{"@type":"Answer","text":"M.A.P. stands for Make, Amplify, Promote. Make = capture high-quality photo, video, drone and 360 content. Amplify = optimize and publish it to Google Maps, Search, your website and listings. Promote = keep you active and visible so you keep getting chosen."}},
+    {"@type":"Question","name":"How long until I see results?","acceptedAnswer":{"@type":"Answer","text":"Your media and Google Business Profile improvements go live quickly. Local visibility compounds over weeks as Google indexes the updates and you stay consistently active."}},
+    {"@type":"Question","name":"Do I need a website to work with Ninja-360?","acceptedAnswer":{"@type":"Answer","text":"No. Much of local visibility lives on your Google Business Profile, Maps, and listings. We can also embed tours and video into any site you do have."}},
+    {"@type":"Question","name":"What areas does Ninja-360 serve?","acceptedAnswer":{"@type":"Answer","text":"We're based in Kansas City and serve the greater KC metro across Missouri and Kansas, plus multi-location clients in other markets."}},
+    {"@type":"Question","name":"What does it cost?","acceptedAnswer":{"@type":"Answer","text":"Three plans: White Belt $99/month, Brown Belt $499/month, and Black Belt $999/month. Every engagement starts with a free visibility audit."}}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{ "@context":"https://schema.org","@type":"VideoObject",
+  "name":"REPLACE - e.g. How Ninja-360 Puts Kansas City Businesses on the Map",
+  "description":"REPLACE - one sentence describing your M.A.P. / explainer video.",
+  "thumbnailUrl":"https://i.ytimg.com/vi/hAZtFQ_5kOk/maxresdefault.jpg",
+  "uploadDate":"REPLACE-YYYY-MM-DD","duration":"REPLACE-PT#M#S",
+  "contentUrl":"https://www.youtube.com/watch?v=hAZtFQ_5kOk","embedUrl":"https://www.youtube.com/embed/hAZtFQ_5kOk" }
+</script>
+===== END HEAD CODE ===== -->
 <style>
 :root{--n-red:#FF8D2D;--n-red-dk:#E67A1C;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
 .n-wrap{max-width:1080px;margin:0 auto;padding:0 22px}
@@ -47,12 +69,44 @@
 </div></nav>
 
 
-<section class="n-hero"><div class="n-wrap">
+<!-- VIDEO HERO + FAQ -->
+<style>
+.vh-frame{position:relative;max-width:840px;margin:30px auto 0;aspect-ratio:16/9;border-radius:14px;overflow:hidden;background:#000;cursor:pointer;box-shadow:0 24px 60px rgba(0,0,0,.45)}
+.vh-frame img{width:100%;height:100%;object-fit:cover;display:block}
+.vh-frame iframe{width:100%;height:100%;border:0;display:block}
+.vh-play{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.18);transition:background .2s}
+.vh-frame:hover .vh-play{background:rgba(0,0,0,.06)}
+.vh-play b{width:80px;height:80px;border-radius:50%;background:var(--n-red);display:flex;align-items:center;justify-content:center;box-shadow:0 10px 28px rgba(0,0,0,.45)}
+.vh-play b:after{content:"";border-style:solid;border-width:14px 0 14px 23px;border-color:transparent transparent transparent #fff;margin-left:5px}
+.vh-center{text-align:center}.vh-center .n-lead{margin-left:auto;margin-right:auto}
+.vh-cap{color:#aeb4bd;font-size:14px;margin:14px auto 0;max-width:660px}
+.faq details{background:#fff;border:1px solid var(--n-line);border-radius:10px;padding:14px 18px;margin:10px 0;max-width:820px}
+.faq summary{font-weight:700;cursor:pointer;list-style:none;font-size:16px;color:var(--n-ink)}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:after{content:"+";float:right;color:var(--n-red);font-weight:800}
+.faq details[open] summary:after{content:"\2013"}
+.faq details p{color:var(--n-muted);margin:10px 0 0;font-size:15px}
+</style>
+<section class="n-hero"><div class="n-wrap vh-center">
   <p class="n-eyebrow">How it works</p>
   <h1 class="n-h1">The M.A.P. System</h1>
   <p class="n-lead">A simple, proven path to get your business found, chosen, and consistently ahead of your competition: Make, Amplify, Promote.</p>
-  <a class="n-btn" href="https://ninja360.net/#section-JXWJCHUYEK" style="margin-top:22px">Get My Free Visibility Audit</a>
+  <!-- SWAP VIDEO: change data-yt + both image IDs (currently hAZtFQ_5kOk) to your explainer/brand reel. -->
+  <div class="vh-frame" data-yt="hAZtFQ_5kOk" data-title="How Ninja-360 puts Kansas City businesses on the map" role="button" tabindex="0" aria-label="Play the Ninja-360 explainer video">
+    <img src="https://i.ytimg.com/vi/hAZtFQ_5kOk/maxresdefault.jpg" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/hAZtFQ_5kOk/hqdefault.jpg'" alt="How Ninja-360 puts Kansas City businesses on the map">
+    <span class="vh-play"><b></b></span>
+  </div>
+  <p class="vh-cap">Watch the M.A.P. System in action.</p>
+  <a class="n-btn" href="https://ninja360.net/#section-JXWJCHUYEK" style="margin-top:18px">Get My Free Visibility Audit</a>
 </div></section>
+<script>
+(function(){
+  function vhPlay(f){if(!f||f.dataset.loaded)return;f.dataset.loaded="1";var id=f.getAttribute("data-yt");
+    f.innerHTML='<iframe src="https://www.youtube.com/embed/'+id+'?autoplay=1&rel=0&modestbranding=1&playsinline=1" title="'+(f.getAttribute("data-title")||"")+'" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen></iframe>';}
+  document.addEventListener("click",function(e){var f=e.target.closest&&e.target.closest(".vh-frame");if(f)vhPlay(f);});
+  document.addEventListener("keydown",function(e){if(e.key==="Enter"||e.key===" "){var f=e.target.closest&&e.target.closest(".vh-frame");if(f){e.preventDefault();vhPlay(f);}}});
+})();
+</script>
 
 <section class="n-section"><div class="n-wrap">
 
@@ -86,6 +140,16 @@
   <div style="text-align:center;margin-top:34px">
     <a class="n-btn" href="/pricing">See Pricing &amp; Belts</a>
   </div>
+</div></section>
+
+<section class="n-section faq" style="background:var(--n-soft)"><div class="n-wrap">
+  <p class="n-eyebrow">Questions</p>
+  <h2 class="n-h2">Frequently asked</h2>
+  <details><summary>What is the M.A.P. System?</summary><p>M.A.P. stands for Make, Amplify, Promote. Make = capture high-quality photo, video, drone and 360&deg; content. Amplify = optimize and publish it to Google Maps, Search, your website and listings. Promote = keep you active and visible so you keep getting chosen.</p></details>
+  <details><summary>How long until I see results?</summary><p>Your media and Google Business Profile improvements go live quickly. Local visibility compounds over the following weeks as Google indexes the updates and you stay consistently active.</p></details>
+  <details><summary>Do I need a website to work with Ninja-360?</summary><p>No. Much of local visibility lives on your Google Business Profile, Maps, and listings. We can also embed tours and video into any site you do have.</p></details>
+  <details><summary>What areas does Ninja-360 serve?</summary><p>We're based in Kansas City and serve the greater KC metro across Missouri and Kansas, plus multi-location clients in other markets.</p></details>
+  <details><summary>What does it cost?</summary><p>Three plans: White Belt $99/month, Brown Belt $499/month, and Black Belt $999/month. Every engagement starts with a free visibility audit.</p></details>
 </div></section>
 
 <section class="n-section" style="background:var(--n-black);color:#fff;text-align:center"><div class="n-wrap">

@@ -1,0 +1,33 @@
+<!-- Ninja-360 HOME PAGE entity schema (ProfessionalService / LocalBusiness).
+     Paste into the Home page HEAD code in GHL (Page Settings -> Tracking Code -> Head),
+     or a Custom Code element on the Home page. ONE per site, home page only.
+     TODO before/after publish:
+       - sameAs: replace the placeholder social URLs with the real profile links (or delete the array).
+       - Do NOT add aggregateRating here (self-serving review markup on your own page violates Google guidelines). -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": "https://ninja360.net/#business",
+  "name": "Ninja-360 Digital Media",
+  "url": "https://ninja360.net",
+  "telephone": "+1-844-360-6465",
+  "description": "Ninja-360 is a Kansas City local-visibility system that helps businesses get found and chosen on Google with professional media, Google Business Profile optimization, and ongoing local SEO.",
+  "priceRange": "$$",
+  "areaServed": { "@type": "Place", "name": "Kansas City metropolitan area" },
+  "logo": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/cCPr3A6gnc4ihe1G44w5/media/69d5a732a7dcb4cff02c0cf5.png",
+  "image": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/cCPr3A6gnc4ihe1G44w5/media/69d5a732a7dcb4cff02c0cf5.png",
+  "founder": { "@type": "Person", "name": "Tim Petet" },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Ninja-360 Services",
+    "itemListElement": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Virtual Tours — Google Street View & 360°" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Aerial / Drone Photography" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Videography" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Cinematic Digital Marketing" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Google Business Profile Optimization & Local SEO" } }
+    ]
+  }
+}
+</script>

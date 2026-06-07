@@ -1,0 +1,27 @@
+/* ============================================================
+   NINJA-360 GLOBAL STYLESHEET  ·  V01  ·  paste ONCE per page
+   Fixes site-wide: (1) sideways scroll  (2) inconsistent fonts
+   Also defines brand tokens for future sections to reference.
+   ============================================================ */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@400;500;600;700&display=swap');
+
+/* 1) Brand tokens — single source of truth */
+:root{
+  --n-accent:#FF6A00;      /* BRAND ORANGE */
+  --n-accent-dk:#E65F00;   /* hover */
+  --n-bg:#0a0c10;          /* near-black */
+  --n-panel:#13161c;       /* panel */
+  --n-charcoal:#31343B;
+  --n-text:#f4f6f8;
+  --n-muted:#9aa3ad;
+  --n-font-head:'Playfair Display',Georgia,serif;
+  --n-font-body:'Poppins',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+}
+
+/* 2) Kill the sideways scroll site-wide.
+      The 100vw full-bleed sections counted the scrollbar width and overflowed;
+      this clips that overflow without affecting layout. */
+html,body{overflow-x:hidden;max-width:100%;}
+
+/* 3) Reusable full-bleed utility so future sections drop the per-section hack */
+.n-fullbleed{width:100vw;margin-left:calc(50% - 50vw);}
