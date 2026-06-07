@@ -2,6 +2,22 @@
      Meta: Ninja-360 services in Kansas City: drone photography, Google 360 virtual tours, Matterport, professional photo/video, and Google Business Profile optimization.
      Keep nav + footer native. Paste body into a Custom JS/HTML element.
      Anchors #drone and #tours are linked from old-site 301s - keep them. -->
+
+<!-- ===== PASTE THIS INTO THE PAGE HEAD (GHL tracking code) - VideoObject for the hero video =====
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "REPLACE - e.g. Kansas City [Landmark Name] - Drone, 360 & Video by Ninja-360",
+  "description": "REPLACE - one sentence: the Kansas City landmark shown + the media (drone/360/video) Ninja-360 produced.",
+  "thumbnailUrl": "https://i.ytimg.com/vi/VmOPhGmy2uk/maxresdefault.jpg",
+  "uploadDate": "REPLACE-YYYY-MM-DD",
+  "duration": "REPLACE-PT#M#S",
+  "contentUrl": "https://www.youtube.com/watch?v=VmOPhGmy2uk",
+  "embedUrl": "https://www.youtube.com/embed/VmOPhGmy2uk"
+}
+</script>
+===== END HEAD CODE ===== -->
 <style>
 :root{--n-red:#FF8D2D;--n-red-dk:#E67A1C;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
 .n-wrap{max-width:1080px;margin:0 auto;padding:0 22px}
@@ -49,12 +65,38 @@
 </div></nav>
 
 
-<section class="n-hero"><div class="n-wrap">
+<!-- VIDEO HERO -->
+<style>
+.vh-frame{position:relative;max-width:840px;margin:30px auto 0;aspect-ratio:16/9;border-radius:14px;overflow:hidden;background:#000;cursor:pointer;box-shadow:0 24px 60px rgba(0,0,0,.45)}
+.vh-frame img{width:100%;height:100%;object-fit:cover;display:block}
+.vh-frame iframe{width:100%;height:100%;border:0;display:block}
+.vh-play{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.18);transition:background .2s}
+.vh-frame:hover .vh-play{background:rgba(0,0,0,.06)}
+.vh-play b{width:80px;height:80px;border-radius:50%;background:var(--n-red);display:flex;align-items:center;justify-content:center;box-shadow:0 10px 28px rgba(0,0,0,.45)}
+.vh-play b:after{content:"";border-style:solid;border-width:14px 0 14px 23px;border-color:transparent transparent transparent #fff;margin-left:5px}
+.vh-center{text-align:center}.vh-center .n-lead{margin-left:auto;margin-right:auto}
+.vh-cap{color:#aeb4bd;font-size:14px;margin:14px auto 0;max-width:660px}
+</style>
+<section class="n-hero"><div class="n-wrap vh-center">
   <p class="n-eyebrow">Services</p>
   <h1 class="n-h1">Everything you need to get found and chosen.</h1>
   <p class="n-lead">We capture it, publish it to Google, and keep it working &mdash; the full M.A.P. system, done for you.</p>
-  <a class="n-btn" href="https://ninja360.net/#section-JXWJCHUYEK" style="margin-top:22px">Get My Free Visibility Audit</a>
+  <!-- SWAP VIDEO: change data-yt + both image IDs (currently VmOPhGmy2uk) to use a different YouTube video here. -->
+  <div class="vh-frame" data-yt="VmOPhGmy2uk" data-title="Kansas City landmark captured by Ninja-360 - drone, 360 and video" role="button" tabindex="0" aria-label="Play Kansas City landmark video">
+    <img src="https://i.ytimg.com/vi/VmOPhGmy2uk/maxresdefault.jpg" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/VmOPhGmy2uk/hqdefault.jpg'" alt="Kansas City landmark captured by Ninja-360 in drone, 360 and video">
+    <span class="vh-play"><b></b></span>
+  </div>
+  <p class="vh-cap">See the caliber of media we make &mdash; a Kansas City landmark, captured in drone, 360&deg; and video.</p>
+  <a class="n-btn" href="https://ninja360.net/#section-JXWJCHUYEK" style="margin-top:18px">Get My Free Visibility Audit</a>
 </div></section>
+<script>
+(function(){
+  function vhPlay(f){if(!f||f.dataset.loaded)return;f.dataset.loaded="1";var id=f.getAttribute("data-yt");
+    f.innerHTML='<iframe src="https://www.youtube.com/embed/'+id+'?autoplay=1&rel=0&modestbranding=1&playsinline=1" title="'+(f.getAttribute("data-title")||"")+'" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen></iframe>';}
+  document.addEventListener("click",function(e){var f=e.target.closest&&e.target.closest(".vh-frame");if(f)vhPlay(f);});
+  document.addEventListener("keydown",function(e){if(e.key==="Enter"||e.key===" "){var f=e.target.closest&&e.target.closest(".vh-frame");if(f){e.preventDefault();vhPlay(f);}}});
+})();
+</script>
 
 <section class="n-section" id="make"><div class="n-wrap">
   <div class="maprow"><b>01 - Make</b></div>

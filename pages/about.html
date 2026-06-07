@@ -2,6 +2,22 @@
      Meta: Meet Tim Petet, Google Certified Photographer and founder of Ninja-360 - helping Kansas City businesses get found and chosen on Google.
      Keep nav + footer native. Paste body into a Custom JS/HTML element.
      Add Tim's photo where marked (upload to GHL media; alt "Tim Petet, Ninja-360 founder, Kansas City"). -->
+
+<!-- ===== PASTE THIS INTO THE PAGE HEAD (GHL tracking code) - VideoObject for the hero video =====
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "REPLACE - e.g. Kansas City [Landmark Name] - Captured by Ninja-360",
+  "description": "REPLACE - one sentence: the Kansas City landmark shown + that Ninja-360 is a KC-based visibility studio.",
+  "thumbnailUrl": "https://i.ytimg.com/vi/SxluMw0OGfo/maxresdefault.jpg",
+  "uploadDate": "REPLACE-YYYY-MM-DD",
+  "duration": "REPLACE-PT#M#S",
+  "contentUrl": "https://www.youtube.com/watch?v=SxluMw0OGfo",
+  "embedUrl": "https://www.youtube.com/embed/SxluMw0OGfo"
+}
+</script>
+===== END HEAD CODE ===== -->
 <style>
 :root{--n-red:#FF8D2D;--n-red-dk:#E67A1C;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
 .n-wrap{max-width:1080px;margin:0 auto;padding:0 22px}
@@ -47,11 +63,37 @@
 </div></nav>
 
 
-<section class="n-hero"><div class="n-wrap">
+<!-- VIDEO HERO -->
+<style>
+.vh-frame{position:relative;max-width:840px;margin:30px auto 0;aspect-ratio:16/9;border-radius:14px;overflow:hidden;background:#000;cursor:pointer;box-shadow:0 24px 60px rgba(0,0,0,.45)}
+.vh-frame img{width:100%;height:100%;object-fit:cover;display:block}
+.vh-frame iframe{width:100%;height:100%;border:0;display:block}
+.vh-play{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.18);transition:background .2s}
+.vh-frame:hover .vh-play{background:rgba(0,0,0,.06)}
+.vh-play b{width:80px;height:80px;border-radius:50%;background:var(--n-red);display:flex;align-items:center;justify-content:center;box-shadow:0 10px 28px rgba(0,0,0,.45)}
+.vh-play b:after{content:"";border-style:solid;border-width:14px 0 14px 23px;border-color:transparent transparent transparent #fff;margin-left:5px}
+.vh-center{text-align:center}.vh-center .n-lead{margin-left:auto;margin-right:auto}
+.vh-cap{color:#aeb4bd;font-size:14px;margin:14px auto 0;max-width:660px}
+</style>
+<section class="n-hero"><div class="n-wrap vh-center">
   <p class="n-eyebrow">About Ninja-360</p>
   <h1 class="n-h1">Your great work deserves to be found.</h1>
   <p class="n-lead">We're a Kansas City local-visibility studio. We know what it's like to watch lesser competitors get chosen first &mdash; and we built a system to fix it.</p>
+  <!-- SWAP VIDEO: change data-yt + both image IDs (currently SxluMw0OGfo) to use a different YouTube video here. -->
+  <div class="vh-frame" data-yt="SxluMw0OGfo" data-title="Kansas City landmark captured by Ninja-360" role="button" tabindex="0" aria-label="Play Kansas City landmark video">
+    <img src="https://i.ytimg.com/vi/SxluMw0OGfo/maxresdefault.jpg" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/SxluMw0OGfo/hqdefault.jpg'" alt="Kansas City landmark captured by Ninja-360">
+    <span class="vh-play"><b></b></span>
+  </div>
+  <p class="vh-cap">Kansas City is our home &mdash; here's our city the way we capture it.</p>
 </div></section>
+<script>
+(function(){
+  function vhPlay(f){if(!f||f.dataset.loaded)return;f.dataset.loaded="1";var id=f.getAttribute("data-yt");
+    f.innerHTML='<iframe src="https://www.youtube.com/embed/'+id+'?autoplay=1&rel=0&modestbranding=1&playsinline=1" title="'+(f.getAttribute("data-title")||"")+'" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen></iframe>';}
+  document.addEventListener("click",function(e){var f=e.target.closest&&e.target.closest(".vh-frame");if(f)vhPlay(f);});
+  document.addEventListener("keydown",function(e){if(e.key==="Enter"||e.key===" "){var f=e.target.closest&&e.target.closest(".vh-frame");if(f){e.preventDefault();vhPlay(f);}}});
+})();
+</script>
 
 <section class="n-section"><div class="n-wrap">
   <div class="bio">
