@@ -1,5 +1,13 @@
 # Fix Google Workspace email on ninja-360.com (after Cloudflare move)
 
+> **RESOLUTION (2026-06-09):** Diagnosed live. Domain Active on Cloudflare (NS `marty`/
+> `ophelia`, moved off Google Domains). Email Routing **off**; **MX** (5 Google records),
+> **SPF**, and **DMARC** all survived the migration. The **only** record dropped was
+> **DKIM** (`google._domainkey`) — re-added from the Admin console (2048-bit). Google now
+> reports **"Authenticating email with DKIM."** Email fully restored. Final user check:
+> send from `@ninja-360.com` → Gmail → *Show original* → `DKIM: PASS` / `DMARC: PASS`.
+
+
 **Symptom:** You moved `ninja-360.com`'s nameservers to Cloudflare and email stopped.
 **Cause:** Cloudflare started answering DNS for the domain from a **fresh, empty zone**. The
 **MX records** (and SPF/DKIM) that routed mail to Google Workspace did not carry over, so
