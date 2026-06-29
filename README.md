@@ -7,7 +7,7 @@ GoHighLevel Website Builder, which hosts the live site.
 ## The three systems
 - **GitHub (this repo):** page code, design system, image library, SEO files, redirect map, portfolio data.
 - **GoHighLevel:** hosts ninja360.net + runs the audit funnel, forms, CRM.
-- **Cloudflare:** DNS, 301 redirects from the old site, caching.
+- **Cloudflare:** DNS, 301 redirects from the old site, caching, and the **Google Workspace email DNS** (MX/SPF/DKIM/DMARC) for the legacy `ninja-360.com` domain — see `EMAIL-FIX.md`.
 
 ## Workflow (per page)
 1. Build/edit the page HTML in `/pages` (use sections from `/components`).

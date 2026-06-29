@@ -7,6 +7,24 @@
 > reports **"Authenticating email with DKIM."** Email fully restored. Final user check:
 > send from `@ninja-360.com` → Gmail → *Show original* → `DKIM: PASS` / `DMARC: PASS`.
 
+## Current verified DNS state — `ninja-360.com` (source of truth)
+
+Snapshot confirmed 2026-06-09. `ninja-360.com` is the **legacy domain** (moved Google
+Domains → Cloudflare, Active since 2026-06-07, NS `marty`/`ophelia.ns.cloudflare.com`); its
+only live job now is **Google Workspace email**. The website is the separate `ninja360.net`.
+
+| Record | Name | Value | Status |
+|--------|------|-------|--------|
+| MX ×5 | `@` | `ASPMX.L.GOOGLE.COM` (1), `ALT1`/`ALT2` (5), `ALT3`/`ALT4` (10) | ✅ |
+| SPF (TXT) | `@` | `v=spf1 include:_spf.google.com ~all` | ✅ |
+| DKIM (TXT) | `google._domainkey` | `v=DKIM1; k=rsa; p=…` (2048-bit, DNS-only) | ✅ Authenticating |
+| DMARC (TXT) | `_dmarc` | `v=DMARC1; p=none; rua=mailto:postmaster@ninja-360.com` | ✅ |
+| Cloudflare Email Routing | — | Disabled (so Google MX is authoritative) | ✅ correct |
+
+Open follow-up (non-urgent): once DKIM passes in the wild for a week or two, tighten DMARC
+from `p=none` → `p=quarantine`.
+
+
 
 **Symptom:** You moved `ninja-360.com`'s nameservers to Cloudflare and email stopped.
 **Cause:** Cloudflare started answering DNS for the domain from a **fresh, empty zone**. The
