@@ -26,7 +26,7 @@ Funnel: **Ninja 360 Digital Media** (`PQKNMX7MrLGXz9cD7CuQ`).
 3. **Page Settings → Custom Code → Head** → paste the page's **non-video** schema, uncommented:
    - **Every page:** the `Organization + WebSite` block from `seo/HEAD-SCHEMA.md`.
    - **Plus the page's own:** Person (about) · Service (services) · FAQPage (how-it-works).
-   - **SKIP the VideoObject blocks for now** — they contain `REPLACE-` placeholders and would fail validation. The video heroes still render and play without them. We add video schema in Phase 4.
+   - **SKIP the VideoObject blocks for now** — they contain `REPLACE-` placeholders and would fail validation. The video heroes still render and play without them. We add video schema in Phase 4[...]
 4. Set **SEO Title + Meta** (from the page's top comment or `PUBLISH-CHECKLIST.html`).
 5. **Uncheck Header and Footer** in step settings.
 6. **Save → Publish.**
@@ -61,7 +61,7 @@ Funnel: **Ninja 360 Digital Media** (`PQKNMX7MrLGXz9cD7CuQ`).
 ## PHASE 2 — Host llms.txt at ninja360.net/llms.txt (Cloudflare, 10 min)
 GHL can't serve a raw file there. Cloudflare fronts your DNS, so use a Worker:
 
-1. Cloudflare → **Workers & Pages → Create Worker** → name it `llms-txt` → paste:
+1. Cloudflare → **Workers & Pages → Create Worker** → name it `ninja360-llms` → paste:
 ```js
 export default {
   async fetch(request) {
