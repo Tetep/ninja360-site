@@ -19,15 +19,34 @@ GoHighLevel Website Builder, which hosts the live site.
 
 ## Folder map
 - `/pages` - one HTML file per page (paste targets)
-- `/components` - reusable sections (nav, hero, cta, work-card, footer)
+- `/components` - reusable sections (nav, hero, cta, work-card, footer, video-embed)
+- `/components/video-embed.html` - reusable click-to-play YouTube block (hero + card variants)
 - `/styles/ninja360.css` - design system
 - `/assets/img` - optimized WebP (named per `/seo/image-naming-SOP.md`)
 - `/assets/img-src` - originals pulled from ninja-360.com
 - `/data/portfolio.json` - ALL work as structured data (drives the work cards)
+- `/data/videos.json` - ALL embedded YouTube videos: id -> page, location, schema fields (SINGLE SOURCE OF TRUTH)
 - `/data/redirects.csv` - old URL -> new URL -> 301
 - `/seo/sitemap.xml` - planning master (mirror of the live GHL sitemap)
 - `/seo/image-naming-SOP.md` - image rename + alt-text rules
 - `/seo/schema/` - JSON-LD templates
+- `/seo/schema/SCHEMA-MAP.md` - which JSON-LD type belongs on each page
+
+## Video system
+- Videos use the facade in `/components/video-embed.html` (thumbnail -> loads the
+  YouTube iframe only on click; keeps Core Web Vitals fast). Two variants: HERO
+  (large, in `.n-hero`) and CARD (grid cell matching `.wc`).
+- Every embedded video is logged in `/data/videos.json` and paired with a
+  `VideoObject` JSON-LD block in that page's GHL **Head** (`/seo/schema/`).
+- Live placements: Services hero + About hero (KC-landmark videos),
+  Restaurants video grid (4 FPV drone tours).
+- `duration` is left blank in the schema until video lengths are confirmed
+  (recommended field, schema is valid without it).
+
+## Known issues
+- `pages/home.html` is truncated: the CSS cuts off mid-rule (~`padding:3px`)
+  and jumps to the footer, so the map/steps middle section is missing. Rebuild
+  before pasting home.
 
 ## Rules
 - Never retire the WordPress site until its 301s are live and resolving.

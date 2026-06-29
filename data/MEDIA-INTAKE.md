@@ -2,7 +2,9 @@
 
 Pages still needing media: automotive, gyms-fitness, hospitality, schools,
 parks-events, medical-dental, wellness-chiro.
-(restaurants + real-estate are done.)
+(restaurants + real-estate are done. Restaurants now also has 4 FPV drone
+videos - see `data/videos.json` for the single source of truth on all
+embedded YouTube videos. Channel: https://youtube.com/@ninja360vr)
 
 You do NOT need to download anything. I just need the SHARE LINK for each project.
 

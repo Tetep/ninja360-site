@@ -1,0 +1,70 @@
+<!-- ============================================================================
+  REUSABLE VIDEO EMBED  -  ninja360.net
+  Canonical click-to-play YouTube block. Two variants share one CSS + one JS:
+    1) HERO   (.vh-frame) - one large 16:9 video centered in an .n-hero section
+    2) CARD   (.vframe)   - grid cell that matches the .wc work cards
+
+  WHY A FACADE: we render only the YouTube THUMBNAIL until the visitor clicks,
+  then swap in the iframe. Keeps Largest Contentful Paint fast (no heavy YouTube
+  iframe on load) - important because ninja360 sells Google visibility, and
+  Core Web Vitals feed that. Keyboard accessible (Enter/Space). One <script>
+  on the page handles every .vh-frame and .vframe via event delegation.
+
+  ALWAYS PAIR WITH: a VideoObject JSON-LD block in the page's GHL Head
+  (see seo/schema/videoobject.json). Log every placed video in data/videos.json.
+  Thumbnail: https://i.ytimg.com/vi/{ID}/maxresdefault.jpg (fallback /hqdefault.jpg)
+============================================================================ -->
+
+<!-- ---------- SHARED STYLES (paste once per page) ---------- -->
+<style>
+/* hero variant */
+.vh-frame{position:relative;max-width:840px;margin:30px auto 0;aspect-ratio:16/9;border-radius:14px;overflow:hidden;background:#000;cursor:pointer;box-shadow:0 24px 60px rgba(0,0,0,.45)}
+.vh-frame img,.vframe img{width:100%;height:100%;object-fit:cover;display:block}
+.vh-frame iframe,.vframe iframe{width:100%;height:100%;border:0;display:block}
+.vh-play{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.18);transition:background .2s}
+.vh-frame:hover .vh-play{background:rgba(0,0,0,.06)}
+.vh-play b{width:80px;height:80px;border-radius:50%;background:var(--n-red);display:flex;align-items:center;justify-content:center;box-shadow:0 10px 28px rgba(0,0,0,.45)}
+.vh-play b:after{content:"";border-style:solid;border-width:14px 0 14px 23px;border-color:transparent transparent transparent #fff;margin-left:5px}
+.vh-center{text-align:center}.vh-center .n-lead{margin-left:auto;margin-right:auto}
+.vh-cap{color:#aeb4bd;font-size:14px;margin:14px auto 0;max-width:660px}
+/* card variant (drop inside an existing .n-grid of .wc cards) */
+.vframe{position:relative;aspect-ratio:16/9;background:#000;cursor:pointer;overflow:hidden;display:block}
+.vplay{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.18);transition:background .2s}
+.vframe:hover .vplay{background:rgba(0,0,0,.06)}
+.vplay b{width:62px;height:62px;border-radius:50%;background:var(--n-red);display:flex;align-items:center;justify-content:center;box-shadow:0 8px 22px rgba(0,0,0,.4)}
+.vplay b:after{content:"";border-style:solid;border-width:11px 0 11px 18px;border-color:transparent transparent transparent #fff;margin-left:4px}
+</style>
+
+<!-- ---------- VARIANT 1: HERO (replaces the text-only .n-hero block) ---------- -->
+<section class="n-hero"><div class="n-wrap vh-center">
+  <p class="n-eyebrow">EYEBROW</p>
+  <h1 class="n-h1">TITLE</h1>
+  <p class="n-lead">SUBTITLE.</p>
+  <!-- SWAP VIDEO: change data-yt + both image IDs to use a different YouTube video. -->
+  <div class="vh-frame" data-yt="VIDEO_ID" data-title="Descriptive title with City - Ninja-360" role="button" tabindex="0" aria-label="Play video">
+    <img src="https://i.ytimg.com/vi/VIDEO_ID/maxresdefault.jpg" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/VIDEO_ID/hqdefault.jpg'" alt="Descriptive alt with City - Ninja-360">
+    <span class="vh-play"><b></b></span>
+  </div>
+  <p class="vh-cap">Optional one-line caption.</p>
+  <a class="n-btn" href="https://ninja360.net/#section-JXWJCHUYEK" style="margin-top:18px">Get My Free Visibility Audit</a>
+</div></section>
+
+<!-- ---------- VARIANT 2: CARD (one cell inside an existing .n-grid) ---------- -->
+<article class="wc">
+  <div class="vframe" data-yt="VIDEO_ID" data-title="Descriptive title with City - Ninja-360" role="button" tabindex="0" aria-label="Play video">
+    <img src="https://i.ytimg.com/vi/VIDEO_ID/maxresdefault.jpg" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/VIDEO_ID/hqdefault.jpg'" alt="Descriptive alt with City - Ninja-360">
+    <span class="vplay"><b></b></span>
+  </div>
+  <div class="wc-body"><h3 class="wc-name">Business Name</h3><p class="wc-city">City, ST</p><div class="wc-badges"><span>FPV Tour</span></div></div>
+</article>
+
+<!-- ---------- SHARED SCRIPT (paste once per page; handles both variants) ---------- -->
+<script>
+(function(){
+  function play(f){if(!f||f.dataset.loaded)return;f.dataset.loaded="1";var id=f.getAttribute("data-yt");
+    f.innerHTML='<iframe src="https://www.youtube.com/embed/'+id+'?autoplay=1&rel=0&modestbranding=1&playsinline=1" title="'+(f.getAttribute("data-title")||"")+'" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen></iframe>';}
+  function hit(e){return (e.target.closest&&(e.target.closest(".vh-frame")||e.target.closest(".vframe")))||null;}
+  document.addEventListener("click",function(e){var f=hit(e);if(f)play(f);});
+  document.addEventListener("keydown",function(e){if(e.key==="Enter"||e.key===" "){var f=hit(e);if(f){e.preventDefault();play(f);}}});
+})();
+</script>

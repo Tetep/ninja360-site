@@ -1,0 +1,78 @@
+{
+  "_note": "SINGLE SOURCE OF TRUTH for YouTube videos embedded on ninja360.net. One entry per placed video. Each video on the site uses the click-to-play facade in components/video-embed.html plus a VideoObject JSON-LD block in that page's GHL Head. Fill 'duration' (ISO 8601, e.g. PT2M30S) before publishing to earn the search-result duration badge - it is a recommended (not required) field, so schema is valid without it.",
+  "channel": "https://youtube.com/@ninja360vr",
+  "thumbnailPattern": "https://i.ytimg.com/vi/{ID}/maxresdefault.jpg (falls back to /hqdefault.jpg)",
+  "videos": [
+    {
+      "id": "VmOPhGmy2uk",
+      "page": "/services",
+      "placement": "hero",
+      "type": "KC landmark / showcase b-roll",
+      "title": "PLACEHOLDER - confirm Kansas City landmark name",
+      "location": "Kansas City, MO",
+      "uploadDate": null,
+      "duration": null,
+      "status": "needs real title + uploadDate (KC landmark not yet identified)"
+    },
+    {
+      "id": "SxluMw0OGfo",
+      "page": "/about",
+      "placement": "hero",
+      "type": "KC landmark / showcase b-roll",
+      "title": "PLACEHOLDER - confirm Kansas City landmark name",
+      "location": "Kansas City, MO",
+      "uploadDate": null,
+      "duration": null,
+      "status": "needs real title + uploadDate (KC landmark not yet identified)"
+    },
+    {
+      "id": "v87kC9x-F04",
+      "page": "/work/restaurants",
+      "placement": "video grid",
+      "type": "FPV drone tour",
+      "brand": "54th Street Grill & Bar",
+      "location": "Pflugerville, TX",
+      "uploadDate": null,
+      "duration": null,
+      "status": "final (uploadDate + duration still blank)"
+    },
+    {
+      "id": "aZW2q3-NLwc",
+      "page": "/work/restaurants",
+      "placement": "video grid",
+      "type": "FPV drone tour",
+      "brand": "Five Four Draft House",
+      "location": "Zona Rosa, MO (Kansas City metro)",
+      "uploadDate": "2026-02-13",
+      "duration": null,
+      "status": "final (duration still blank)"
+    },
+    {
+      "id": "QVYWWu5k4Ss",
+      "page": "/work/restaurants",
+      "placement": "video grid",
+      "type": "FPV drone tour",
+      "brand": "Five Four Draft House",
+      "location": "Independence, MO (Kansas City metro)",
+      "uploadDate": "2026-02-06",
+      "duration": null,
+      "status": "final (duration still blank)"
+    },
+    {
+      "id": "EHRUOzmVtyA",
+      "page": "/work/restaurants",
+      "placement": "video grid",
+      "type": "FPV drone tour",
+      "brand": "54th Street Restaurant & Drafthouse",
+      "location": "Cedar Park, TX",
+      "uploadDate": "2026-03-10",
+      "duration": null,
+      "status": "final (duration still blank)"
+    }
+  ],
+  "notRunning": [
+    { "id": "URthrO_HQt4", "reason": "wrong video - explicitly removed from the restaurants grid" },
+    { "id": "5I3Or2sYQ0I", "reason": "from the initial rough list; never confirmed, slot reused for v87kC9x-F04" },
+    { "id": "CCM0DNVCRR8", "reason": "from the initial rough list; never confirmed, slot reused for aZW2q3-NLwc" }
+  ]
+}
