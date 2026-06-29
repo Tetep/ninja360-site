@@ -14,6 +14,19 @@ connective tissue is the **cloud layer** every surface reads from and writes bac
 In Claude Code, "read/write the source of truth" means **this repo**: read the docs below at
 the start, and commit your changes back at the end.
 
+### Drive `Ninja-360 Core` layout (top-level taxonomy)
+The Drive brain is organized into a fixed tier structure (detail + sensitive contents live in
+Drive, not this repo):
+- `00 — Single Source of Truth.md` (pinned at top)
+- `01 — NINJA-360 CORE` — Audit·Pitch·Sales Engine (Agents/Cowork) · Brand & Logo · KPI
+  Knowledge Base · Operator Workspace · Audits · Proposals & Templates · Business Plans ·
+  Sales & Marketing · Media
+- `02 — CLIENTS` · `03 — PERSONAL PROJECTS` · `04 — ARCHIVE` (old versions/dupes, never deleted)
+- `844-360-Ninja` — standalone top-level item
+
+> Reorg of Drive itself runs in the Drive web app via the Cowork/web session — the Code and
+> connector surfaces are read/create only and cannot move or delete Drive files.
+
 ## Start / finish ritual
 - **Start:** skim `README.md` (the index), then the doc relevant to the task.
 - **Finish:** update the affected doc(s) and commit, so the repo stays the source of truth.
