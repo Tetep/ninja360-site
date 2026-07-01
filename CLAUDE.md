@@ -42,9 +42,9 @@ Drive, not this repo):
 - `seo/` — schema templates, sitemap, image-naming SOP.
 
 ## Durable facts (keep consistent everywhere)
-- **Two domains, two jobs:** `ninja-360.com` = legacy domain, now **email-only** (Google
-  Workspace, DNS on Cloudflare). `ninja360.net` = the **live website** (GHL-hosted, fronted
-  by Cloudflare).
+- **Two domains, two jobs:** `ninja-360.com` = legacy domain — its old **Wix** site is **not
+  live**; the domain is now **email-only** (Google Workspace, DNS on Cloudflare). `ninja360.net`
+  = the **live website** (GoHighLevel-hosted, fronted by Cloudflare).
 - **Three systems:** GitHub (this repo) · GoHighLevel (hosts the site + funnel) · Cloudflare
   (DNS, 301s, caching, email DNS).
 - **Brand/NAP — pick ONE of each:** Phone **(844) 360-6465** · Site **ninja360.net** ·
@@ -60,5 +60,6 @@ Drive, not this repo):
 
 ## Rules
 - Nothing in this repo is live; pages are pasted into GoHighLevel to publish.
-- Never retire the old WordPress site until its 301s resolve.
+- The old **Wix** site at `ninja-360.com` is **not live** (domain = email-only); keep the
+  `redirects.csv` 301 map so any still-indexed old URLs resolve to `ninja360.net`.
 - One H1 per page · every image alt-tagged · WebP < 200KB.
