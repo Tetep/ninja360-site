@@ -6,7 +6,7 @@ Publish order, top to bottom. For **each** page in GHL:
 4. **Uncheck Header and Footer** in the step settings (our nav/footer is in the code).
 5. Publish, then verify.
 > Slugs use nested paths like `/work/restaurants`. If GHL rejects the slash, use the flat form `work-restaurants` **and** update that row's 301 target to match.
-> Do all 301s LAST, after all 15 are live and verified. Don't retire WordPress until they resolve.
+> Do all 301s LAST, after all 15 are live and verified. The old Wix site at ninja-360.com is not live; the 301s just catch any still-indexed old URLs.
 
 ---
 

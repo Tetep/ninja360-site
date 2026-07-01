@@ -30,7 +30,7 @@ GoHighLevel Website Builder, which hosts the live site.
 - `/seo/schema/` - JSON-LD templates
 
 ## Rules
-- Never retire the WordPress site until its 301s are live and resolving.
+- The old Wix site at `ninja-360.com` is not live (domain is email-only); keep the 301 map so any still-indexed old URLs resolve to ninja360.net.
 - Build on a staging/unlisted slug; only swap the live route when the page is done.
 - Keep proven old keywords in each new page's **title + H1**, even when the slug is cleaner.
 - One H1 per page. Every image alt-tagged. WebP < 200KB.

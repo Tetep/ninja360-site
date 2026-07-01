@@ -47,7 +47,7 @@ ninja360.net is served by **GoHighLevel**. Confirmed in the live DOM (GHL classe
   `https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/cCPr3A6gnc4ihe1G44w5/media/{id}.png`.
 - Capture each returned URL (GHL assigns its own IDs — it does NOT preserve the `trustedby-*-V01` filenames), and map it back to the logo by what you uploaded.
 
-**Do NOT host these on ninja-360.com.** That WordPress site is being retired and 301'd to .net — anything hot-linked from it dies on retirement (this is the exact hot-link problem we're removing, not re-creating).
+**Do NOT host these on ninja-360.com.** That old Wix site is not live (domain is email-only) and its URLs are 301'd to .net — anything hot-linked from it is already dead (this is the exact hot-link problem we're removing, not re-creating).
 
 After upload, write the final URL list back into the file at the top of Step 3.
 

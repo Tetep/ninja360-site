@@ -112,7 +112,7 @@ Use `data/redirects.csv`. Cloudflare → **Rules → Redirect Rules**, 301 each 
 ## PHASE 6 — Search Console + retire old site
 1. Submit `ninja360.net/sitemap.xml` in Google Search Console.
 2. Use **Change of Address** (ninja-360.com → ninja360.net).
-3. Only after all 301s resolve for a few days: take down the old WordPress site.
+3. The old Wix site at ninja-360.com is already not live — nothing to take down; just confirm all 301s resolve and the Change of Address is submitted.
 
 ---
 

@@ -73,7 +73,7 @@ Navbar and portfolio modal are **both `99999`**. They're rarely on screen togeth
 
 ## Review Ask #4 — Asset migration (before retiring ninja-360.com)
 
-Hot-links that **break** when the WordPress site is retired:
+Hot-links that **break** because the old Wix site at ninja-360.com is not live:
 | File | Asset | Action |
 |---|---|---|
 | `ninja360-about-page.html` | `ninja-360.com/.../ProfilePicture.jpg` (headshot) | Re-upload to GHL Media, swap `src` |
