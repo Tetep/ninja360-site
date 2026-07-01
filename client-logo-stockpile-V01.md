@@ -90,36 +90,36 @@ Then the bot can update the `<img src="…">` list inside the `tb-track` div. Ex
 
 ## Existing five — already on the live strip
 
-These are the logos currently scrolling in the `tb-track`. They live on the Ninja-360 WordPress media library at `ninja-360.com/wp-content/uploads/2024/08/`. Re-Canva them to the same white-monochrome spec so the whole strip is uniform on the next bot push.
+These are the logos on the `tb-track` strip. They were hot-linked from the old media library at `ninja-360.com/wp-content/uploads/2024/08/` — but **`ninja-360.com` is no longer live** (domain is email-only now), so **those URLs are dead** and the strip is currently pulling broken images. **Action:** re-source each logo (from the client's public site below), re-Canva to the white-monochrome spec, and **re-host on GHL / ninja360.net** on the next bot push — do not point back at `ninja-360.com`.
 
 ### 8. 54th Street
 
-- **Current live URL:** https://ninja-360.com/wp-content/uploads/2024/08/Logo.png
-- Public site: 54thstreet.com (grab a fresh higher-res source here if the WP upload is small)
+- **Old URL (DEAD — ninja-360.com not live):** https://ninja-360.com/wp-content/uploads/2024/08/Logo.png
+- Public site: 54thstreet.com (grab a fresh higher-res source here — the old upload is dead)
 - Canva target: `trustedby-54thstreet-white-V01.png`
 
 ### 9. Atchison Family Dentistry
 
-- **Current live URL:** https://ninja-360.com/wp-content/uploads/2024/08/Logo-2.png
+- **Old URL (DEAD — ninja-360.com not live):** https://ninja-360.com/wp-content/uploads/2024/08/Logo-2.png
 - Public site: atchisonfamilydentistry.com (fresh-source candidate)
 - Canva target: `trustedby-atchison-white-V01.png`
 - Canva note: tooth-icon circle lockup — keep the circle intact when cropping.
 
 ### 10. KC Complete
 
-- **Current live URL:** https://ninja-360.com/wp-content/uploads/2024/08/Logo-3.png
+- **Old URL (DEAD — ninja-360.com not live):** https://ninja-360.com/wp-content/uploads/2024/08/Logo-3.png
 - Public site: search "KC Complete" on the client list to confirm domain
 - Canva target: `trustedby-kccomplete-white-V01.png`
 
 ### 11. Bishop Miege
 
-- **Current live URL:** https://ninja-360.com/wp-content/uploads/2024/08/Logo-5.png
+- **Old URL (DEAD — ninja-360.com not live):** https://ninja-360.com/wp-content/uploads/2024/08/Logo-5.png
 - Public site: bishopmiege.com (Stags athletics mark)
 - Canva target: `trustedby-bishopmiege-white-V01.png`
 
 ### 12. Armour Oaks Senior Living Community
 
-- **Current live URL:** https://ninja-360.com/wp-content/uploads/2024/08/Logo-1.png
+- **Old URL (DEAD — ninja-360.com not live):** https://ninja-360.com/wp-content/uploads/2024/08/Logo-1.png
 - Public site: armouroaks.org (fresh-source candidate — the live HTML's `alt="Client"` is a placeholder that should also be fixed to `alt="Armour Oaks"` on the bot pass)
 - Canva target: `trustedby-armouroaks-white-V01.png`
 - Canva note: tree-mark + wordmark lockup. Keep both elements; the tree silhouette inverts cleanly to white.
