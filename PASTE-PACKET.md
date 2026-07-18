@@ -838,7 +838,15 @@ Publish order, top to bottom. For **each** page in GHL:
      Paste body into a Custom JS/HTML element.
      ENTITY / AI-SEARCH: the AboutPage/Organization schema below goes in the page HEAD -
      canonical NAP, sameAs -> official socials, triad description, founder = Tim Petet.
-     Add Tim's photo where marked (upload to GHL media; alt "Tim Petet, Ninja-360 founder, Kansas City"). -->
+     Add Tim's photo where marked (upload to GHL media; alt "Tim Petet, Ninja-360 founder, Kansas City").
+     BADGE IMAGES: 4 img slots have src="REPLACE-GHL-URL-..." - upload the ninja badge art
+     to GHL media (webp/png, ~600px is plenty) and swap each URL. Until swapped, the imgs
+     hide themselves (onerror) so the page still renders clean.
+       ninja360-badge-crew        -> origin block   (four-ninja production crew)
+       ninja360-badge-map         -> Philosophy 1   (mountaintop flag + map pin)
+       ninja360-badge-camera-crew -> Philosophy 2   (three ninjas, camera forward)
+       ninja360-badge-blades      -> Philosophy 3   (crossed blades + shurikens)
+     (5th badge - checklist ninja - reserved for /how-it-works or /pricing, not this page.) -->
 
 <!-- ===== PASTE THIS INTO THE PAGE HEAD (GHL tracking code) - AboutPage/Organization entity schema =====
 <script type="application/ld+json">
@@ -909,6 +917,9 @@ Publish order, top to bottom. For **each** page in GHL:
 .root{border-left:4px solid var(--n-red);background:#fff;border:1px solid var(--n-line);border-left:4px solid var(--n-red);border-radius:0 10px 10px 0;padding:14px 18px;margin-top:18px;max-width:760px}
 .root .rt{font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--n-red);margin:0 0 6px}
 .root p{font-style:italic;color:var(--n-ink);margin:0;font-size:15.5px}
+.phil-split{display:grid;grid-template-columns:1fr 280px;gap:32px;align-items:center}
+.phil-badge{width:100%;max-width:280px;height:auto;justify-self:center}
+@media(max-width:780px){.phil-split{grid-template-columns:1fr}.phil-badge{max-width:220px;margin-top:8px}}
 .bio{display:grid;grid-template-columns:280px 1fr;gap:28px;align-items:start}
 .bio .ph{aspect-ratio:3/4;background:#eef0f3;border:1px solid var(--n-line);border-radius:12px;display:flex;align-items:center;justify-content:center;color:#8a929b;font-size:13px;text-align:center;padding:10px}
 .creds{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}
@@ -976,14 +987,19 @@ Publish order, top to bottom. For **each** page in GHL:
 
 <!-- ORIGIN (short - the customer stays the hero) -->
 <section class="n-section"><div class="n-wrap">
+  <div class="phil-split"><div>
   <p class="n-eyebrow">Where it started</p>
   <h2 class="n-h2">The best businesses aren't always the most visible ones.</h2>
   <p class="n-sub">It started with a simple observation about Kansas City: the restaurant with the perfect recipe loses foot traffic to the chain with better Google photos. The dentist with a decade of five-star care sits below a competitor with triple the reviews. That's not a marketing problem. That's an injustice &mdash; and it's fixable.</p>
   <p class="n-sub" style="margin-top:12px">Tim Petet watched it happen from both sides: years building marketing technology for the big leagues of automotive retail, then back home in Kansas City, watching the businesses he grew up around lose to weaker competitors with better pixels. Ninja-360 is what he did about it. The three philosophies below aren't a branding exercise &mdash; they're his experience, written down.</p>
+  </div>
+  <img class="phil-badge" src="REPLACE-GHL-URL-ninja360-badge-crew" alt="Ninja-360 badge: four-ninja media crew with cameras, microphone, and tools - the Kansas City visibility team" width="280" height="280" loading="lazy" onerror="this.style.display='none'">
+  </div>
 </div></section>
 
 <!-- PHILOSOPHY 1 -->
 <section class="n-section" style="background:var(--n-soft)"><div class="n-wrap">
+  <div class="phil-split"><div>
   <span class="phil-num" aria-hidden="true">1</span>
   <h2 class="n-h2">Put People on the Map</h2>
   <p class="n-sub">We exist to make deserving businesses visible, heard, and chosen. Rooted in Kansas City and local business, we use the M.A.P. Method &mdash; Make, Amplify, Promote &mdash; to help our clients grow. And notice the word: <em>people</em>. Behind every storefront is an owner who bet everything on their craft. When we put a business on the map, we're putting a person's life work in front of the customers who've been driving past it.</p>
@@ -991,10 +1007,14 @@ Publish order, top to bottom. For **each** page in GHL:
     <p class="rt">The root &mdash; Tim</p>
     <p>&ldquo;I'm a Kansas City native. The owners behind these storefronts are my neighbors &mdash; people who bet everything on their craft. Ninja-360 started as a hobby that Google put on the map, and being found turned it into a business. I know firsthand what being found can do. Now it's what I do for other people.&rdquo;</p>
   </div>
+  </div>
+  <img class="phil-badge" src="REPLACE-GHL-URL-ninja360-badge-map" alt="Ninja-360 badge: ninja planting a flag beside a glowing map pin on a mountain summit - Put People on the Map" width="280" height="280" loading="lazy" onerror="this.style.display='none'">
+  </div>
 </div></section>
 
 <!-- PHILOSOPHY 2 -->
 <section class="n-section"><div class="n-wrap">
+  <div class="phil-split"><div>
   <span class="phil-num" aria-hidden="true">2</span>
   <h2 class="n-h2">Fall in Love with the Client's True Story</h2>
   <p class="n-sub">We seek the authentic heart of every client and tell their story in a unique, beautiful, and emotionally compelling way. Real places, real people &mdash; never staged, never stock. Technology is the tool; genuine human connection is the goal. If the story could be told about any business in your category, we haven't found yours yet.</p>
@@ -1002,16 +1022,23 @@ Publish order, top to bottom. For **each** page in GHL:
     <p class="rt">The root &mdash; Tim</p>
     <p>&ldquo;I was a photographer before I was a marketer. Ninja-360 was born from a fascination with virtual reality &mdash; technology that lets someone stand inside your story. The camera, the drone, the 360 rig: none of it is the point. The point is what it lets people feel about a real place. Tech is the tool. The story was always the goal.&rdquo;</p>
   </div>
+  </div>
+  <img class="phil-badge" src="REPLACE-GHL-URL-ninja360-badge-camera-crew" alt="Ninja-360 badge: ninja camera crew with camera, blade, and drone - Fall in Love with the Client's True Story" width="280" height="280" loading="lazy" onerror="this.style.display='none'">
+  </div>
 </div></section>
 
 <!-- PHILOSOPHY 3 -->
 <section class="n-section" style="background:var(--n-soft)"><div class="n-wrap">
+  <div class="phil-split"><div>
   <span class="phil-num" aria-hidden="true">3</span>
   <h2 class="n-h2">Always Sharpen the Blade</h2>
   <p class="n-sub">We stay on the cutting edge through research, experimentation, disciplined execution, and honest reflection. We are willing to try, fail, learn, and improve &mdash; but we innovate responsibly, transparently, and in service of the client. It's why our plans are named after belts: mastery isn't a purchase, it's a practice.</p>
   <div class="root">
     <p class="rt">The root &mdash; Tim</p>
     <p>&ldquo;Nobody handed me this. I taught myself virtual tours as a hobby until Google certified the work. Every skill on my belt &mdash; web, photo, drone, 360, Matterport &mdash; came the same way: try, fail, learn, improve. That's why the plans are belts. It's not a gimmick; it's how I actually work.&rdquo;</p>
+  </div>
+  </div>
+  <img class="phil-badge" src="REPLACE-GHL-URL-ninja360-badge-blades" alt="Ninja-360 badge: ninja with crossed blades and throwing stars - Always Sharpen the Blade" width="280" height="280" loading="lazy" onerror="this.style.display='none'">
   </div>
 </div></section>
 
