@@ -2,6 +2,15 @@
 
 *Paste-ready copy for every page, organized top-to-bottom as sections appear. Voice: StoryBrand (customer = hero, Ninja-360 = guide). The three philosophies threaded throughout: #1 Put People on the Map · #2 Fall in Love with the Client's True Story · #3 Always Sharpen the Blade. Errors found during the crawl are flagged inline as ⚠️ FIX.*
 
+> **V02.1 (2026-07-18, same day):** /about re-rooted in Tim per direction — "the core of
+> the page is the philosophy; the root of that core is Tim Petet." Each philosophy now
+> carries a first-person root quote from Tim (drafted in his voice — approve/edit before
+> publish), the origin block tells his both-sides story, and the bio leads with
+> "autobiography before strategy." AboutPage/Organization schema added to the page head.
+> ALSO: screenshots confirm /about is now LIVE on ninja360.net running the old V01 copy
+> (no philosophy) — so fix #1 below is no longer a 404, it's a re-paste. Tim's headshot
+> is already in GHL media; use it for the bio photo slot.
+>
 > **Repo status (2026-07-18):** this copy is APPLIED to the build kit — `pages/*.html`,
 > `components/footer.html`, and `PASTE-PACKET.md` carry the V02 copy. The ⚠️ FIX items that
 > live only in GHL (stray draft text, old-template nav/footer, canonical NAP decision,

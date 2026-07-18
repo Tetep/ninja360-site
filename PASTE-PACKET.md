@@ -822,21 +822,60 @@ Publish order, top to bottom. For **each** page in GHL:
 ## 5. About
 - **Slug / path:** `/about`  _(flat fallback: `about`)_
 - **SEO Title:** About Ninja-360 | Our Three Philosophies | Kansas City
-- **Meta description:** Put them on the map. Tell the truth beautifully. Always sharpen the blade. Meet Ninja-360 - Kansas City's local visibility studio - and the three philosophies behind every project.
+- **Meta description:** Put them on the map. Tell the truth beautifully. Always sharpen the blade. Meet Ninja-360 and the three philosophies behind every Kansas City project.
 - **301:** /about-ninja-360-digital-marketing/ -> /about
 
 **Paste this into the Custom JS/HTML element:**
 
 ```html
 <!-- /about - "Our Philosophy"  -  GHL SEO Title: About Ninja-360 | Our Three Philosophies | Kansas City
-     Meta: Put them on the map. Tell the truth beautifully. Always sharpen the blade. Meet Ninja-360 - Kansas City's local visibility studio - and the three philosophies behind every project.
-     Copy: V02 philosophy infusion (see COPY-REWRITE-V02.md + philosophies_V02.md).
+     Meta: Put them on the map. Tell the truth beautifully. Always sharpen the blade. Meet Ninja-360 and the three philosophies behind every Kansas City project.
+     Copy: V02 philosophy infusion, Tim-rooted (see COPY-REWRITE-V02.md + philosophies_V02.md).
+     The core of this page is the philosophy; the root of the philosophy is Tim Petet -
+     each philosophy carries a first-person "root" from Tim (DRAFTED IN HIS VOICE from
+     documented facts - Tim should read + approve/edit the three quotes before publish).
      This page kills the live /about 404 AND ships the philosophy page.
      Paste body into a Custom JS/HTML element.
-     ENTITY / AI-SEARCH: this page is the natural home for Organization schema -
-     name, canonical NAP, sameAs -> the official social URLs, and a description
-     that carries the triad (see seo/home-organization-schema-V01.html).
+     ENTITY / AI-SEARCH: the AboutPage/Organization schema below goes in the page HEAD -
+     canonical NAP, sameAs -> official socials, triad description, founder = Tim Petet.
      Add Tim's photo where marked (upload to GHL media; alt "Tim Petet, Ninja-360 founder, Kansas City"). -->
+
+<!-- ===== PASTE THIS INTO THE PAGE HEAD (GHL tracking code) - AboutPage/Organization entity schema =====
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "@id": "https://ninja360.net/about#aboutpage",
+  "url": "https://ninja360.net/about",
+  "name": "About Ninja-360 | Our Three Philosophies",
+  "mainEntity": {
+    "@type": "ProfessionalService",
+    "@id": "https://ninja360.net/#business",
+    "name": "Ninja-360 Digital Media",
+    "url": "https://ninja360.net",
+    "telephone": "+1-844-360-6465",
+    "address": { "@type": "PostalAddress", "addressLocality": "Kansas City", "addressRegion": "MO", "addressCountry": "US" },
+    "areaServed": { "@type": "Place", "name": "Kansas City metropolitan area" },
+    "slogan": "Put them on the map. Tell the truth beautifully. Always sharpen the blade.",
+    "description": "Ninja-360 is Kansas City's local visibility system, built on three philosophies: put people on the map, fall in love with the client's true story, and always sharpen the blade. In short: put them on the map, tell the truth beautifully, always sharpen the blade.",
+    "founder": {
+      "@type": "Person",
+      "name": "Tim Petet",
+      "jobTitle": "Owner / Operator",
+      "description": "Google Certified Photographer, web developer, and Kansas City native. The three Ninja-360 philosophies are built from his experience.",
+      "knowsAbout": ["Google Business Profile optimization", "Local SEO", "360 virtual tours", "Drone photography", "Web development"]
+    },
+    "sameAs": [
+      "https://www.facebook.com/KCNinja360",
+      "https://www.instagram.com/kcninja360/",
+      "https://www.youtube.com/@ninja360vr",
+      "https://www.tiktok.com/@ninja360digitalma",
+      "https://www.linkedin.com/company/ninja360/"
+    ]
+  }
+}
+</script>
+===== END HEAD CODE ===== -->
 
 <!-- ===== PASTE THIS INTO THE PAGE HEAD (GHL tracking code) - VideoObject for the hero video =====
 <script type="application/ld+json">
@@ -867,6 +906,9 @@ Publish order, top to bottom. For **each** page in GHL:
 .n-btn:hover{background:var(--n-red-dk)}
 .phil-num{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;background:var(--n-red);color:#fff;font-weight:800;font-size:20px;margin-bottom:12px}
 .pull-quote{font-size:clamp(22px,3.4vw,32px);font-weight:800;line-height:1.25;letter-spacing:-.01em;color:var(--n-ink);max-width:820px;margin:14px 0}
+.root{border-left:4px solid var(--n-red);background:#fff;border:1px solid var(--n-line);border-left:4px solid var(--n-red);border-radius:0 10px 10px 0;padding:14px 18px;margin-top:18px;max-width:760px}
+.root .rt{font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--n-red);margin:0 0 6px}
+.root p{font-style:italic;color:var(--n-ink);margin:0;font-size:15.5px}
 .bio{display:grid;grid-template-columns:280px 1fr;gap:28px;align-items:start}
 .bio .ph{aspect-ratio:3/4;background:#eef0f3;border:1px solid var(--n-line);border-radius:12px;display:flex;align-items:center;justify-content:center;color:#8a929b;font-size:13px;text-align:center;padding:10px}
 .creds{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}
@@ -936,28 +978,41 @@ Publish order, top to bottom. For **each** page in GHL:
 <section class="n-section"><div class="n-wrap">
   <p class="n-eyebrow">Where it started</p>
   <h2 class="n-h2">The best businesses aren't always the most visible ones.</h2>
-  <p class="n-sub">Ninja-360 started with a simple observation about Kansas City: the best businesses aren't always the most visible ones. The restaurant with the perfect recipe loses foot traffic to the chain with better Google photos. The dentist with a decade of five-star care sits below a competitor with triple the reviews. That's not a marketing problem. That's an injustice &mdash; and it's fixable.</p>
+  <p class="n-sub">It started with a simple observation about Kansas City: the restaurant with the perfect recipe loses foot traffic to the chain with better Google photos. The dentist with a decade of five-star care sits below a competitor with triple the reviews. That's not a marketing problem. That's an injustice &mdash; and it's fixable.</p>
+  <p class="n-sub" style="margin-top:12px">Tim Petet watched it happen from both sides: years building marketing technology for the big leagues of automotive retail, then back home in Kansas City, watching the businesses he grew up around lose to weaker competitors with better pixels. Ninja-360 is what he did about it. The three philosophies below aren't a branding exercise &mdash; they're his experience, written down.</p>
 </div></section>
 
 <!-- PHILOSOPHY 1 -->
 <section class="n-section" style="background:var(--n-soft)"><div class="n-wrap">
-  <span class="phil-num">1</span>
+  <span class="phil-num" aria-hidden="true">1</span>
   <h2 class="n-h2">Put People on the Map</h2>
   <p class="n-sub">We exist to make deserving businesses visible, heard, and chosen. Rooted in Kansas City and local business, we use the M.A.P. Method &mdash; Make, Amplify, Promote &mdash; to help our clients grow. And notice the word: <em>people</em>. Behind every storefront is an owner who bet everything on their craft. When we put a business on the map, we're putting a person's life work in front of the customers who've been driving past it.</p>
+  <div class="root">
+    <p class="rt">The root &mdash; Tim</p>
+    <p>&ldquo;I'm a Kansas City native. The owners behind these storefronts are my neighbors &mdash; people who bet everything on their craft. Ninja-360 started as a hobby that Google put on the map, and being found turned it into a business. I know firsthand what being found can do. Now it's what I do for other people.&rdquo;</p>
+  </div>
 </div></section>
 
 <!-- PHILOSOPHY 2 -->
 <section class="n-section"><div class="n-wrap">
-  <span class="phil-num">2</span>
+  <span class="phil-num" aria-hidden="true">2</span>
   <h2 class="n-h2">Fall in Love with the Client's True Story</h2>
   <p class="n-sub">We seek the authentic heart of every client and tell their story in a unique, beautiful, and emotionally compelling way. Real places, real people &mdash; never staged, never stock. Technology is the tool; genuine human connection is the goal. If the story could be told about any business in your category, we haven't found yours yet.</p>
+  <div class="root">
+    <p class="rt">The root &mdash; Tim</p>
+    <p>&ldquo;I was a photographer before I was a marketer. Ninja-360 was born from a fascination with virtual reality &mdash; technology that lets someone stand inside your story. The camera, the drone, the 360 rig: none of it is the point. The point is what it lets people feel about a real place. Tech is the tool. The story was always the goal.&rdquo;</p>
+  </div>
 </div></section>
 
 <!-- PHILOSOPHY 3 -->
 <section class="n-section" style="background:var(--n-soft)"><div class="n-wrap">
-  <span class="phil-num">3</span>
+  <span class="phil-num" aria-hidden="true">3</span>
   <h2 class="n-h2">Always Sharpen the Blade</h2>
   <p class="n-sub">We stay on the cutting edge through research, experimentation, disciplined execution, and honest reflection. We are willing to try, fail, learn, and improve &mdash; but we innovate responsibly, transparently, and in service of the client. It's why our plans are named after belts: mastery isn't a purchase, it's a practice.</p>
+  <div class="root">
+    <p class="rt">The root &mdash; Tim</p>
+    <p>&ldquo;Nobody handed me this. I taught myself virtual tours as a hobby until Google certified the work. Every skill on my belt &mdash; web, photo, drone, 360, Matterport &mdash; came the same way: try, fail, learn, improve. That's why the plans are belts. It's not a gimmick; it's how I actually work.&rdquo;</p>
+  </div>
 </div></section>
 
 <!-- FOUNDER (entity block: name, role - pairs with Organization schema + sameAs links) -->
@@ -965,13 +1020,13 @@ Publish order, top to bottom. For **each** page in GHL:
   <div class="bio">
     <div class="ph">[ Add Tim's photo here<br>upload to GHL media ]</div>
     <div>
-      <p class="n-eyebrow">The person behind the drone</p>
+      <p class="n-eyebrow">The root of the philosophy</p>
       <h2 class="n-h2">Tim Petet &mdash; Owner / Operator</h2>
       <div class="creds">
         <span>Google Certified Photographer</span><span>Web Development</span><span>Graphic Design</span><span>Google Analytics</span><span>Google Ads</span>
       </div>
-      <p class="n-sub">Tim is a web developer and photographer based in Kansas City. Ninja-360 was born from his fascination with virtual reality and digital media. Over the years he's contributed to companies like VinSolutions, Autotrader, dealer.com, and ScriptPro.</p>
-      <p class="n-sub" style="margin-top:12px">A Kansas City native with deep ties to the local business community, Tim started doing Google virtual tours as a hobby. His skill earned him the Google Certified Photographer badge, which turned into local business leads &mdash; and the start of Ninja-360. With formal training in marketing and sales, he helps businesses thrive by building websites, optimizing Google Business Profiles, and managing local listings.</p>
+      <p class="n-sub">Every philosophy above is autobiography before it's strategy. Tim is a Kansas City native and a web developer-turned-photographer who spent years building marketing technology for the big leagues &mdash; VinSolutions, Autotrader, dealer.com, ScriptPro &mdash; and brought everything he learned back to Main Street.</p>
+      <p class="n-sub" style="margin-top:12px">Ninja-360 began as a hobby: Google virtual tours, born from a fascination with virtual reality. The work was good enough that Google made him a Certified Photographer, and being findable turned the hobby into a business. With formal training in marketing and sales, he now does the same for the businesses he grew up around &mdash; building their websites, optimizing their Google Business Profiles, managing their listings, and telling their stories the way he'd want his own told.</p>
     </div>
   </div>
 </div></section>
