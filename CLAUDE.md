@@ -35,6 +35,8 @@ Drive, not this repo):
 
 ## Where knowledge lives (read these, don't re-derive)
 - `README.md` — master index: the three systems, folder map, workflow, brand/NAP rules.
+- `philosophies_V02.md` + `COPY-REWRITE-V02.md` — the three philosophies (LOCKED) and the
+  sitewide V02 copy that applies them; `PASTE-PACKET.md` holds the assembled paste blocks.
 - `GO-LIVE.md` — publish runbook (GHL pages, Cloudflare Worker for `llms.txt`, 301s).
 - `EMAIL-FIX.md` — Google Workspace email DNS for `ninja-360.com` (MX/SPF/DKIM/DMARC) +
   current verified DNS state.

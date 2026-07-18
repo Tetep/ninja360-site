@@ -18,6 +18,9 @@ GoHighLevel Website Builder, which hosts the live site.
 6. When the new page is live, point the matching old `ninja-360.com` URL at it with a 301 in Cloudflare (`/data/redirects.csv`).
 
 ## Folder map
+- `COPY-REWRITE-V02.md` - the V02 philosophy-infusion copy rewrite (applied to /pages + PASTE-PACKET; carries the remaining GHL-side fix list)
+- `philosophies_V02.md` - the three core philosophies (LOCKED source copy)
+- `PASTE-PACKET.md` - assembled per-page paste blocks + slugs/SEO (generated from /pages; keep in sync)
 - `/pages` - one HTML file per page (paste targets)
 - `/components` - reusable sections (nav, hero, cta, work-card, footer)
 - `/styles/ninja360.css` - design system
@@ -38,4 +41,6 @@ GoHighLevel Website Builder, which hosts the live site.
 ## Brand / NAP (use everywhere - pick ONE of each)
 - Phone: **(844) 360-6465**
 - Site: **ninja360.net**
+- Location (public NAP): **Kansas City, MO** (no street address on the site)
 - Positioning: local **visibility** system - "get found and chosen on Google." NOT "virtual tour company."
+- Philosophy triad (footer + /about, use verbatim): **Put them on the map. Tell the truth beautifully. Always sharpen the blade.**
