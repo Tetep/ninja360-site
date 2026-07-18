@@ -846,7 +846,8 @@ Publish order, top to bottom. For **each** page in GHL:
        ninja360-badge-map         -> Philosophy 1   (mountaintop flag + map pin)
        ninja360-badge-camera-crew -> Philosophy 2   (three ninjas, camera forward)
        ninja360-badge-blades      -> Philosophy 3   (crossed blades + shurikens)
-     (5th badge - checklist ninja - reserved for /how-it-works or /pricing, not this page.) -->
+       ninja360-badge-checklist   -> closing section (checklist ninja + star; optional -
+                                     delete the img if the page feels crowded) -->
 
 <!-- ===== PASTE THIS INTO THE PAGE HEAD (GHL tracking code) - AboutPage/Organization entity schema =====
 <script type="application/ld+json">
@@ -1064,6 +1065,7 @@ Publish order, top to bottom. For **each** page in GHL:
   <p class="pull-quote" style="color:#fff;margin-left:auto;margin-right:auto">Put them on the map. Tell the truth beautifully. Always sharpen the blade.</p>
   <p class="n-lead" style="margin:0 auto 22px"><em>Want to see what those three philosophies look like applied to your business?</em></p>
   <a class="n-btn" href="https://ninja360.net/#section-JXWJCHUYEK">Get My Free Visibility Audit</a>
+  <img class="phil-badge" src="REPLACE-GHL-URL-ninja360-badge-checklist" alt="Ninja-360 badge: ninja beside a completed checklist under a shooting star - disciplined execution, honest reflection" width="200" height="200" style="max-width:200px;margin:28px auto 0;display:block" loading="lazy" onerror="this.style.display='none'">
 </div></section>
 
 <!-- FOOTER -->
