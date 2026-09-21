@@ -839,6 +839,9 @@ Publish order, top to bottom. For **each** page in GHL:
      ENTITY / AI-SEARCH: the AboutPage/Organization schema below goes in the page HEAD -
      canonical NAP, sameAs -> official socials, triad description, founder = Tim Petet.
      Tim's photo: LOCKED to media/6a26069049e55f8519a1a718.png (Tim's pick - NOT the black-shirt one).
+     REVIEWS: the review section carries REPLACE-* slots - paste real GBP reviews verbatim.
+     Do NOT add Review/aggregateRating schema for them (self-serving markup, against Google's
+     guidelines). Also swap REPLACE-GBP-REVIEW-URL or delete that link line.
      BADGE IMAGES: 4 img slots have src="REPLACE-GHL-URL-..." - upload the ninja badge art
      to GHL media (webp/png, ~600px is plenty) and swap each URL. Until swapped, the imgs
      hide themselves (onerror) so the page still renders clean.
@@ -923,6 +926,13 @@ Publish order, top to bottom. For **each** page in GHL:
 .phil-split{display:grid;grid-template-columns:1fr 280px;gap:32px;align-items:center}
 .phil-badge{width:100%;max-width:280px;height:auto;justify-self:center}
 @media(max-width:780px){.phil-split{grid-template-columns:1fr}.phil-badge{max-width:220px;margin-top:8px}}
+.rev-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:26px}
+.rev-card{background:#fff;border:1px solid var(--n-line);border-radius:12px;padding:22px;display:flex;flex-direction:column}
+.rev-stars{color:var(--n-red);font-size:15px;letter-spacing:2px;margin:0 0 10px}
+.rev-card blockquote{margin:0 0 14px;font-size:15.5px;color:var(--n-ink);line-height:1.55}
+.rev-who{margin:auto 0 0;font-size:13.5px;color:var(--n-muted)}
+.rev-who b{display:block;color:var(--n-ink);font-size:15px;font-weight:800}
+@media(max-width:780px){.rev-grid{grid-template-columns:1fr}}
 .bio{display:grid;grid-template-columns:280px 1fr;gap:28px;align-items:start}
 .bio .ph{aspect-ratio:3/4;background:#eef0f3;border:1px solid var(--n-line);border-radius:12px;display:flex;align-items:center;justify-content:center;color:#8a929b;font-size:13px;text-align:center;padding:10px}
 .creds{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}
@@ -1059,6 +1069,46 @@ Publish order, top to bottom. For **each** page in GHL:
       <p class="n-sub" style="margin-top:12px">Ninja-360 began as a hobby: Google virtual tours, born from a fascination with virtual reality. The work was good enough that Google made him a Certified Photographer, and being findable turned the hobby into a business. With formal training in marketing and sales, he now does the same for the businesses he grew up around &mdash; building their websites, optimizing their Google Business Profiles, managing their listings, and telling their stories the way he'd want his own told.</p>
     </div>
   </div>
+</div></section>
+
+<!-- REVIEWS - proof that the three philosophies are real.
+     FILL THESE IN: replace each REPLACE-* below with a real review. Keep them verbatim -
+     do not polish a client's words (Philosophy #2: tell the truth beautifully, not prettier).
+     Source: Google Business Profile reviews (the ones that mention being FOUND / getting
+     calls beat the ones that praise the photos - visibility is the product, media is proof).
+     Star row: keep 5 filled stars only if the review is genuinely 5-star.
+     Add or delete cards freely - the grid handles 2, 3, or 6.
+     SCHEMA NOTE: do NOT add Review or aggregateRating JSON-LD for these. Review markup about
+     your own business on your own site is self-serving markup and violates Google's
+     guidelines (same rule already noted in seo/home-organization-schema-V01.html).
+     The reviews live on your GBP - that is where the stars legitimately come from. -->
+<section class="n-section" style="background:var(--n-soft)"><div class="n-wrap">
+  <p class="n-eyebrow">Proof</p>
+  <h2 class="n-h2">What it looks like when it works.</h2>
+  <p class="n-sub">Three philosophies are only worth something if they show up in someone else's business. Here's what our clients say.</p>
+  <div class="rev-grid">
+
+    <div class="rev-card">
+      <p class="rev-stars" role="img" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+      <blockquote>REPLACE - paste the review text verbatim.</blockquote>
+      <p class="rev-who"><b>REPLACE - Reviewer Name</b>REPLACE - Business Name, City</p>
+    </div>
+
+    <div class="rev-card">
+      <p class="rev-stars" role="img" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+      <blockquote>REPLACE - paste the review text verbatim.</blockquote>
+      <p class="rev-who"><b>REPLACE - Reviewer Name</b>REPLACE - Business Name, City</p>
+    </div>
+
+    <div class="rev-card">
+      <p class="rev-stars" role="img" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+      <blockquote>REPLACE - paste the review text verbatim.</blockquote>
+      <p class="rev-who"><b>REPLACE - Reviewer Name</b>REPLACE - Business Name, City</p>
+    </div>
+
+  </div>
+  <!-- REPLACE-GBP-REVIEW-URL: your Google Business Profile review link. Delete this line if you'd rather not send traffic off-page. -->
+  <p style="margin-top:20px"><a href="REPLACE-GBP-REVIEW-URL" style="color:var(--n-red);font-weight:700;text-decoration:none">Read every review on Google &rarr;</a></p>
 </div></section>
 
 <!-- CLOSING + CTA -->
