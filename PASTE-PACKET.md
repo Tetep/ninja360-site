@@ -232,13 +232,17 @@ Publish order, top to bottom. For **each** page in GHL:
 .nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
 .nf-col a{display:block;margin:6px 0}
 .nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-legal{max-width:1080px;margin:14px auto 0;padding:0 22px;font-size:13px;color:#9aa0a8}
+.nf-legal a{font-size:13px;color:#cfd3d9;text-decoration:none}
+.nf-legal a:hover{color:#fff;text-decoration:underline}
+.nf-legal span{margin:0 8px;color:#6b7178}
 .nf-bottom{max-width:1080px;margin:20px auto 0;padding:14px 22px 0;border-top:1px solid rgba(255,255,255,.1);font-size:12px;color:#9aa0a8}
 @media(max-width:780px){.nf-in{grid-template-columns:1fr}}
 </style>
 <footer class="nf-foot">
   <div class="nf-in">
     <div class="nf-brand"><b>NINJA<span>360</span></b><p style="font-size:14px;margin:10px 0 0;max-width:330px">Kansas City's local visibility system. We put local businesses &mdash; and the people behind them &mdash; on the map: visible, heard, and chosen on Google.</p></div>
-    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a><a href="/terms">Terms &amp; Conditions</a></div>
+    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a></div>
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
@@ -253,6 +257,7 @@ Publish order, top to bottom. For **each** page in GHL:
     </div>
   </div>
   <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell the truth beautifully &middot; Always sharpen the blade</div>
+  <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
   <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
 </footer>
 ```
@@ -440,13 +445,17 @@ Publish order, top to bottom. For **each** page in GHL:
 .nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
 .nf-col a{display:block;margin:6px 0}
 .nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-legal{max-width:1080px;margin:14px auto 0;padding:0 22px;font-size:13px;color:#9aa0a8}
+.nf-legal a{font-size:13px;color:#cfd3d9;text-decoration:none}
+.nf-legal a:hover{color:#fff;text-decoration:underline}
+.nf-legal span{margin:0 8px;color:#6b7178}
 .nf-bottom{max-width:1080px;margin:20px auto 0;padding:14px 22px 0;border-top:1px solid rgba(255,255,255,.1);font-size:12px;color:#9aa0a8}
 @media(max-width:780px){.nf-in{grid-template-columns:1fr}}
 </style>
 <footer class="nf-foot">
   <div class="nf-in">
     <div class="nf-brand"><b>NINJA<span>360</span></b><p style="font-size:14px;margin:10px 0 0;max-width:330px">Kansas City's local visibility system. We put local businesses &mdash; and the people behind them &mdash; on the map: visible, heard, and chosen on Google.</p></div>
-    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a><a href="/terms">Terms &amp; Conditions</a></div>
+    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a></div>
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
@@ -461,6 +470,7 @@ Publish order, top to bottom. For **each** page in GHL:
     </div>
   </div>
   <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell the truth beautifully &middot; Always sharpen the blade</div>
+  <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
   <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
 </footer>
 ```
@@ -623,13 +633,17 @@ Publish order, top to bottom. For **each** page in GHL:
 .nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
 .nf-col a{display:block;margin:6px 0}
 .nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-legal{max-width:1080px;margin:14px auto 0;padding:0 22px;font-size:13px;color:#9aa0a8}
+.nf-legal a{font-size:13px;color:#cfd3d9;text-decoration:none}
+.nf-legal a:hover{color:#fff;text-decoration:underline}
+.nf-legal span{margin:0 8px;color:#6b7178}
 .nf-bottom{max-width:1080px;margin:20px auto 0;padding:14px 22px 0;border-top:1px solid rgba(255,255,255,.1);font-size:12px;color:#9aa0a8}
 @media(max-width:780px){.nf-in{grid-template-columns:1fr}}
 </style>
 <footer class="nf-foot">
   <div class="nf-in">
     <div class="nf-brand"><b>NINJA<span>360</span></b><p style="font-size:14px;margin:10px 0 0;max-width:330px">Kansas City's local visibility system. We put local businesses &mdash; and the people behind them &mdash; on the map: visible, heard, and chosen on Google.</p></div>
-    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a><a href="/terms">Terms &amp; Conditions</a></div>
+    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a></div>
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
@@ -644,6 +658,7 @@ Publish order, top to bottom. For **each** page in GHL:
     </div>
   </div>
   <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell the truth beautifully &middot; Always sharpen the blade</div>
+  <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
   <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
 </footer>
 ```
@@ -792,13 +807,17 @@ Publish order, top to bottom. For **each** page in GHL:
 .nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
 .nf-col a{display:block;margin:6px 0}
 .nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-legal{max-width:1080px;margin:14px auto 0;padding:0 22px;font-size:13px;color:#9aa0a8}
+.nf-legal a{font-size:13px;color:#cfd3d9;text-decoration:none}
+.nf-legal a:hover{color:#fff;text-decoration:underline}
+.nf-legal span{margin:0 8px;color:#6b7178}
 .nf-bottom{max-width:1080px;margin:20px auto 0;padding:14px 22px 0;border-top:1px solid rgba(255,255,255,.1);font-size:12px;color:#9aa0a8}
 @media(max-width:780px){.nf-in{grid-template-columns:1fr}}
 </style>
 <footer class="nf-foot">
   <div class="nf-in">
     <div class="nf-brand"><b>NINJA<span>360</span></b><p style="font-size:14px;margin:10px 0 0;max-width:330px">Kansas City's local visibility system. We put local businesses &mdash; and the people behind them &mdash; on the map: visible, heard, and chosen on Google.</p></div>
-    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a><a href="/terms">Terms &amp; Conditions</a></div>
+    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a></div>
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
@@ -813,6 +832,7 @@ Publish order, top to bottom. For **each** page in GHL:
     </div>
   </div>
   <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell the truth beautifully &middot; Always sharpen the blade</div>
+  <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
   <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
 </footer>
 ```
@@ -1129,13 +1149,17 @@ Publish order, top to bottom. For **each** page in GHL:
 .nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
 .nf-col a{display:block;margin:6px 0}
 .nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-legal{max-width:1080px;margin:14px auto 0;padding:0 22px;font-size:13px;color:#9aa0a8}
+.nf-legal a{font-size:13px;color:#cfd3d9;text-decoration:none}
+.nf-legal a:hover{color:#fff;text-decoration:underline}
+.nf-legal span{margin:0 8px;color:#6b7178}
 .nf-bottom{max-width:1080px;margin:20px auto 0;padding:14px 22px 0;border-top:1px solid rgba(255,255,255,.1);font-size:12px;color:#9aa0a8}
 @media(max-width:780px){.nf-in{grid-template-columns:1fr}}
 </style>
 <footer class="nf-foot">
   <div class="nf-in">
     <div class="nf-brand"><b>NINJA<span>360</span></b><p style="font-size:14px;margin:10px 0 0;max-width:330px">Kansas City's local visibility system. We put local businesses &mdash; and the people behind them &mdash; on the map: visible, heard, and chosen on Google.</p></div>
-    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a><a href="/terms">Terms &amp; Conditions</a></div>
+    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a></div>
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
@@ -1150,6 +1174,7 @@ Publish order, top to bottom. For **each** page in GHL:
     </div>
   </div>
   <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell the truth beautifully &middot; Always sharpen the blade</div>
+  <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
   <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
 </footer>
 ```
@@ -1253,13 +1278,17 @@ Publish order, top to bottom. For **each** page in GHL:
 .nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
 .nf-col a{display:block;margin:6px 0}
 .nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-legal{max-width:1080px;margin:14px auto 0;padding:0 22px;font-size:13px;color:#9aa0a8}
+.nf-legal a{font-size:13px;color:#cfd3d9;text-decoration:none}
+.nf-legal a:hover{color:#fff;text-decoration:underline}
+.nf-legal span{margin:0 8px;color:#6b7178}
 .nf-bottom{max-width:1080px;margin:20px auto 0;padding:14px 22px 0;border-top:1px solid rgba(255,255,255,.1);font-size:12px;color:#9aa0a8}
 @media(max-width:780px){.nf-in{grid-template-columns:1fr}}
 </style>
 <footer class="nf-foot">
   <div class="nf-in">
     <div class="nf-brand"><b>NINJA<span>360</span></b><p style="font-size:14px;margin:10px 0 0;max-width:330px">Kansas City's local visibility system. We put local businesses &mdash; and the people behind them &mdash; on the map: visible, heard, and chosen on Google.</p></div>
-    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a><a href="/terms">Terms &amp; Conditions</a></div>
+    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a></div>
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
@@ -1274,6 +1303,7 @@ Publish order, top to bottom. For **each** page in GHL:
     </div>
   </div>
   <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell the truth beautifully &middot; Always sharpen the blade</div>
+  <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
   <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
 </footer>
 ```
@@ -1538,13 +1568,17 @@ Publish order, top to bottom. For **each** page in GHL:
 .nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
 .nf-col a{display:block;margin:6px 0}
 .nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-legal{max-width:1080px;margin:14px auto 0;padding:0 22px;font-size:13px;color:#9aa0a8}
+.nf-legal a{font-size:13px;color:#cfd3d9;text-decoration:none}
+.nf-legal a:hover{color:#fff;text-decoration:underline}
+.nf-legal span{margin:0 8px;color:#6b7178}
 .nf-bottom{max-width:1080px;margin:20px auto 0;padding:14px 22px 0;border-top:1px solid rgba(255,255,255,.1);font-size:12px;color:#9aa0a8}
 @media(max-width:780px){.nf-in{grid-template-columns:1fr}}
 </style>
 <footer class="nf-foot">
   <div class="nf-in">
     <div class="nf-brand"><b>NINJA<span>360</span></b><p style="font-size:14px;margin:10px 0 0;max-width:330px">Kansas City's local visibility system. We put local businesses &mdash; and the people behind them &mdash; on the map: visible, heard, and chosen on Google.</p></div>
-    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a><a href="/terms">Terms &amp; Conditions</a></div>
+    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a></div>
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
@@ -1559,6 +1593,7 @@ Publish order, top to bottom. For **each** page in GHL:
     </div>
   </div>
   <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell the truth beautifully &middot; Always sharpen the blade</div>
+  <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
   <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
 </footer>
 ```
@@ -1681,13 +1716,17 @@ Publish order, top to bottom. For **each** page in GHL:
 .nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
 .nf-col a{display:block;margin:6px 0}
 .nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-legal{max-width:1080px;margin:14px auto 0;padding:0 22px;font-size:13px;color:#9aa0a8}
+.nf-legal a{font-size:13px;color:#cfd3d9;text-decoration:none}
+.nf-legal a:hover{color:#fff;text-decoration:underline}
+.nf-legal span{margin:0 8px;color:#6b7178}
 .nf-bottom{max-width:1080px;margin:20px auto 0;padding:14px 22px 0;border-top:1px solid rgba(255,255,255,.1);font-size:12px;color:#9aa0a8}
 @media(max-width:780px){.nf-in{grid-template-columns:1fr}}
 </style>
 <footer class="nf-foot">
   <div class="nf-in">
     <div class="nf-brand"><b>NINJA<span>360</span></b><p style="font-size:14px;margin:10px 0 0;max-width:330px">Kansas City's local visibility system. We put local businesses &mdash; and the people behind them &mdash; on the map: visible, heard, and chosen on Google.</p></div>
-    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a><a href="/terms">Terms &amp; Conditions</a></div>
+    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a></div>
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
@@ -1702,6 +1741,7 @@ Publish order, top to bottom. For **each** page in GHL:
     </div>
   </div>
   <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell the truth beautifully &middot; Always sharpen the blade</div>
+  <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
   <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
 </footer>
 ```
@@ -1802,13 +1842,17 @@ Publish order, top to bottom. For **each** page in GHL:
 .nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
 .nf-col a{display:block;margin:6px 0}
 .nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-legal{max-width:1080px;margin:14px auto 0;padding:0 22px;font-size:13px;color:#9aa0a8}
+.nf-legal a{font-size:13px;color:#cfd3d9;text-decoration:none}
+.nf-legal a:hover{color:#fff;text-decoration:underline}
+.nf-legal span{margin:0 8px;color:#6b7178}
 .nf-bottom{max-width:1080px;margin:20px auto 0;padding:14px 22px 0;border-top:1px solid rgba(255,255,255,.1);font-size:12px;color:#9aa0a8}
 @media(max-width:780px){.nf-in{grid-template-columns:1fr}}
 </style>
 <footer class="nf-foot">
   <div class="nf-in">
     <div class="nf-brand"><b>NINJA<span>360</span></b><p style="font-size:14px;margin:10px 0 0;max-width:330px">Kansas City's local visibility system. We put local businesses &mdash; and the people behind them &mdash; on the map: visible, heard, and chosen on Google.</p></div>
-    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a><a href="/terms">Terms &amp; Conditions</a></div>
+    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a></div>
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
@@ -1823,6 +1867,7 @@ Publish order, top to bottom. For **each** page in GHL:
     </div>
   </div>
   <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell the truth beautifully &middot; Always sharpen the blade</div>
+  <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
   <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
 </footer>
 ```
@@ -1938,13 +1983,17 @@ Publish order, top to bottom. For **each** page in GHL:
 .nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
 .nf-col a{display:block;margin:6px 0}
 .nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-legal{max-width:1080px;margin:14px auto 0;padding:0 22px;font-size:13px;color:#9aa0a8}
+.nf-legal a{font-size:13px;color:#cfd3d9;text-decoration:none}
+.nf-legal a:hover{color:#fff;text-decoration:underline}
+.nf-legal span{margin:0 8px;color:#6b7178}
 .nf-bottom{max-width:1080px;margin:20px auto 0;padding:14px 22px 0;border-top:1px solid rgba(255,255,255,.1);font-size:12px;color:#9aa0a8}
 @media(max-width:780px){.nf-in{grid-template-columns:1fr}}
 </style>
 <footer class="nf-foot">
   <div class="nf-in">
     <div class="nf-brand"><b>NINJA<span>360</span></b><p style="font-size:14px;margin:10px 0 0;max-width:330px">Kansas City's local visibility system. We put local businesses &mdash; and the people behind them &mdash; on the map: visible, heard, and chosen on Google.</p></div>
-    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a><a href="/terms">Terms &amp; Conditions</a></div>
+    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a></div>
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
@@ -1959,6 +2008,7 @@ Publish order, top to bottom. For **each** page in GHL:
     </div>
   </div>
   <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell the truth beautifully &middot; Always sharpen the blade</div>
+  <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
   <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
 </footer>
 ```
@@ -2066,13 +2116,17 @@ Publish order, top to bottom. For **each** page in GHL:
 .nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
 .nf-col a{display:block;margin:6px 0}
 .nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-legal{max-width:1080px;margin:14px auto 0;padding:0 22px;font-size:13px;color:#9aa0a8}
+.nf-legal a{font-size:13px;color:#cfd3d9;text-decoration:none}
+.nf-legal a:hover{color:#fff;text-decoration:underline}
+.nf-legal span{margin:0 8px;color:#6b7178}
 .nf-bottom{max-width:1080px;margin:20px auto 0;padding:14px 22px 0;border-top:1px solid rgba(255,255,255,.1);font-size:12px;color:#9aa0a8}
 @media(max-width:780px){.nf-in{grid-template-columns:1fr}}
 </style>
 <footer class="nf-foot">
   <div class="nf-in">
     <div class="nf-brand"><b>NINJA<span>360</span></b><p style="font-size:14px;margin:10px 0 0;max-width:330px">Kansas City's local visibility system. We put local businesses &mdash; and the people behind them &mdash; on the map: visible, heard, and chosen on Google.</p></div>
-    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a><a href="/terms">Terms &amp; Conditions</a></div>
+    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a></div>
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
@@ -2087,6 +2141,7 @@ Publish order, top to bottom. For **each** page in GHL:
     </div>
   </div>
   <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell the truth beautifully &middot; Always sharpen the blade</div>
+  <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
   <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
 </footer>
 ```
@@ -2210,13 +2265,17 @@ Publish order, top to bottom. For **each** page in GHL:
 .nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
 .nf-col a{display:block;margin:6px 0}
 .nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-legal{max-width:1080px;margin:14px auto 0;padding:0 22px;font-size:13px;color:#9aa0a8}
+.nf-legal a{font-size:13px;color:#cfd3d9;text-decoration:none}
+.nf-legal a:hover{color:#fff;text-decoration:underline}
+.nf-legal span{margin:0 8px;color:#6b7178}
 .nf-bottom{max-width:1080px;margin:20px auto 0;padding:14px 22px 0;border-top:1px solid rgba(255,255,255,.1);font-size:12px;color:#9aa0a8}
 @media(max-width:780px){.nf-in{grid-template-columns:1fr}}
 </style>
 <footer class="nf-foot">
   <div class="nf-in">
     <div class="nf-brand"><b>NINJA<span>360</span></b><p style="font-size:14px;margin:10px 0 0;max-width:330px">Kansas City's local visibility system. We put local businesses &mdash; and the people behind them &mdash; on the map: visible, heard, and chosen on Google.</p></div>
-    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a><a href="/terms">Terms &amp; Conditions</a></div>
+    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a></div>
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
@@ -2231,6 +2290,7 @@ Publish order, top to bottom. For **each** page in GHL:
     </div>
   </div>
   <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell the truth beautifully &middot; Always sharpen the blade</div>
+  <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
   <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
 </footer>
 ```
@@ -2350,13 +2410,17 @@ Publish order, top to bottom. For **each** page in GHL:
 .nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
 .nf-col a{display:block;margin:6px 0}
 .nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-legal{max-width:1080px;margin:14px auto 0;padding:0 22px;font-size:13px;color:#9aa0a8}
+.nf-legal a{font-size:13px;color:#cfd3d9;text-decoration:none}
+.nf-legal a:hover{color:#fff;text-decoration:underline}
+.nf-legal span{margin:0 8px;color:#6b7178}
 .nf-bottom{max-width:1080px;margin:20px auto 0;padding:14px 22px 0;border-top:1px solid rgba(255,255,255,.1);font-size:12px;color:#9aa0a8}
 @media(max-width:780px){.nf-in{grid-template-columns:1fr}}
 </style>
 <footer class="nf-foot">
   <div class="nf-in">
     <div class="nf-brand"><b>NINJA<span>360</span></b><p style="font-size:14px;margin:10px 0 0;max-width:330px">Kansas City's local visibility system. We put local businesses &mdash; and the people behind them &mdash; on the map: visible, heard, and chosen on Google.</p></div>
-    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a><a href="/terms">Terms &amp; Conditions</a></div>
+    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a></div>
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
@@ -2371,6 +2435,7 @@ Publish order, top to bottom. For **each** page in GHL:
     </div>
   </div>
   <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell the truth beautifully &middot; Always sharpen the blade</div>
+  <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
   <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
 </footer>
 ```
@@ -2478,13 +2543,17 @@ Publish order, top to bottom. For **each** page in GHL:
 .nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
 .nf-col a{display:block;margin:6px 0}
 .nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-legal{max-width:1080px;margin:14px auto 0;padding:0 22px;font-size:13px;color:#9aa0a8}
+.nf-legal a{font-size:13px;color:#cfd3d9;text-decoration:none}
+.nf-legal a:hover{color:#fff;text-decoration:underline}
+.nf-legal span{margin:0 8px;color:#6b7178}
 .nf-bottom{max-width:1080px;margin:20px auto 0;padding:14px 22px 0;border-top:1px solid rgba(255,255,255,.1);font-size:12px;color:#9aa0a8}
 @media(max-width:780px){.nf-in{grid-template-columns:1fr}}
 </style>
 <footer class="nf-foot">
   <div class="nf-in">
     <div class="nf-brand"><b>NINJA<span>360</span></b><p style="font-size:14px;margin:10px 0 0;max-width:330px">Kansas City's local visibility system. We put local businesses &mdash; and the people behind them &mdash; on the map: visible, heard, and chosen on Google.</p></div>
-    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a><a href="/terms">Terms &amp; Conditions</a></div>
+    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a></div>
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
@@ -2499,6 +2568,7 @@ Publish order, top to bottom. For **each** page in GHL:
     </div>
   </div>
   <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell the truth beautifully &middot; Always sharpen the blade</div>
+  <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
   <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
 </footer>
 ```
@@ -2623,13 +2693,17 @@ Publish order, top to bottom. For **each** page in GHL:
 .nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
 .nf-col a{display:block;margin:6px 0}
 .nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-legal{max-width:1080px;margin:14px auto 0;padding:0 22px;font-size:13px;color:#9aa0a8}
+.nf-legal a{font-size:13px;color:#cfd3d9;text-decoration:none}
+.nf-legal a:hover{color:#fff;text-decoration:underline}
+.nf-legal span{margin:0 8px;color:#6b7178}
 .nf-bottom{max-width:1080px;margin:20px auto 0;padding:14px 22px 0;border-top:1px solid rgba(255,255,255,.1);font-size:12px;color:#9aa0a8}
 @media(max-width:780px){.nf-in{grid-template-columns:1fr}}
 </style>
 <footer class="nf-foot">
   <div class="nf-in">
     <div class="nf-brand"><b>NINJA<span>360</span></b><p style="font-size:14px;margin:10px 0 0;max-width:330px">Kansas City's local visibility system. We put local businesses &mdash; and the people behind them &mdash; on the map: visible, heard, and chosen on Google.</p></div>
-    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a><a href="/terms">Terms &amp; Conditions</a></div>
+    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a></div>
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
@@ -2644,6 +2718,7 @@ Publish order, top to bottom. For **each** page in GHL:
     </div>
   </div>
   <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell the truth beautifully &middot; Always sharpen the blade</div>
+  <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
   <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
 </footer>
 ```
@@ -2762,13 +2837,17 @@ Publish order, top to bottom. For **each** page in GHL:
 .nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
 .nf-col a{display:block;margin:6px 0}
 .nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-legal{max-width:1080px;margin:14px auto 0;padding:0 22px;font-size:13px;color:#9aa0a8}
+.nf-legal a{font-size:13px;color:#cfd3d9;text-decoration:none}
+.nf-legal a:hover{color:#fff;text-decoration:underline}
+.nf-legal span{margin:0 8px;color:#6b7178}
 .nf-bottom{max-width:1080px;margin:20px auto 0;padding:14px 22px 0;border-top:1px solid rgba(255,255,255,.1);font-size:12px;color:#9aa0a8}
 @media(max-width:780px){.nf-in{grid-template-columns:1fr}}
 </style>
 <footer class="nf-foot">
   <div class="nf-in">
     <div class="nf-brand"><b>NINJA<span>360</span></b><p style="font-size:14px;margin:10px 0 0;max-width:330px">Kansas City's local visibility system. We put local businesses &mdash; and the people behind them &mdash; on the map: visible, heard, and chosen on Google.</p></div>
-    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a><a href="/terms">Terms &amp; Conditions</a></div>
+    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a></div>
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
@@ -2783,6 +2862,7 @@ Publish order, top to bottom. For **each** page in GHL:
     </div>
   </div>
   <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell the truth beautifully &middot; Always sharpen the blade</div>
+  <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
   <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
 </footer>
 ```
@@ -3014,13 +3094,17 @@ Publish order, top to bottom. For **each** page in GHL:
 .nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
 .nf-col a{display:block;margin:6px 0}
 .nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-legal{max-width:1080px;margin:14px auto 0;padding:0 22px;font-size:13px;color:#9aa0a8}
+.nf-legal a{font-size:13px;color:#cfd3d9;text-decoration:none}
+.nf-legal a:hover{color:#fff;text-decoration:underline}
+.nf-legal span{margin:0 8px;color:#6b7178}
 .nf-bottom{max-width:1080px;margin:20px auto 0;padding:14px 22px 0;border-top:1px solid rgba(255,255,255,.1);font-size:12px;color:#9aa0a8}
 @media(max-width:780px){.nf-in{grid-template-columns:1fr}}
 </style>
 <footer class="nf-foot">
   <div class="nf-in">
     <div class="nf-brand"><b>NINJA<span>360</span></b><p style="font-size:14px;margin:10px 0 0;max-width:330px">Kansas City's local visibility system. We put local businesses &mdash; and the people behind them &mdash; on the map: visible, heard, and chosen on Google.</p></div>
-    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a><a href="/terms">Terms &amp; Conditions</a></div>
+    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a></div>
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
@@ -3035,17 +3119,18 @@ Publish order, top to bottom. For **each** page in GHL:
     </div>
   </div>
   <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell the truth beautifully &middot; Always sharpen the blade</div>
+  <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
   <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
 </footer>
 ```
 
 ---
 
-## 18. Terms & Conditions
-- **Slug / path:** `/terms`  _(flat fallback: `terms`)_
-- **SEO Title:** Terms & Conditions | Ninja-360 Kansas City
+## 18. Terms of Service
+- **Slug / path:** `/termsofservice`  _(flat fallback: `termsofservice`)_
+- **SEO Title:** Terms of Service | Ninja-360 Kansas City
 - **Meta description:** The terms that govern Ninja-360 Digital Media's local visibility services, plans, billing, and media rights.
-- **Canonical:** https://ninja360.net/terms
+- **Canonical:** https://ninja360.net/termsofservice
 - **301:** if the live footer links point at a different slug (e.g. `/terms-and-conditions`
   or `/terms-conditions`), either publish at THAT slug or 301 it to `/terms`. Those links
   are currently broken on the live site.
@@ -3059,9 +3144,9 @@ Publish order, top to bottom. For **each** page in GHL:
 **Paste this into the Custom JS/HTML element:**
 
 ```html
-<!-- /terms  -  GHL SEO Title: Terms & Conditions | Ninja-360 Kansas City
+<!-- /termsofservice  -  GHL SEO Title: Terms of Service | Ninja-360 Kansas City
      Meta: The terms that govern Ninja-360 Digital Media's local visibility services, plans, billing, and media rights.
-     Canonical: https://ninja360.net/terms
+     Canonical: https://ninja360.net/termsofservice
 
      ################ READ BEFORE PUBLISHING ################
      THIS IS A DRAFT FOR AN ATTORNEY TO REVIEW - NOT LEGAL ADVICE.
@@ -3148,7 +3233,7 @@ Publish order, top to bottom. For **each** page in GHL:
 
 <section class="n-hero"><div class="n-wrap">
   <p class="n-eyebrow">Legal</p>
-  <h1 class="n-h1">Terms &amp; Conditions</h1>
+  <h1 class="n-h1">Terms of Service</h1>
   <p class="n-lead">The plain-language terms that govern our work together. We'd rather you read them than skim them &mdash; telling the truth about scope before you sign is how we work.</p>
 </div></section>
 
@@ -3326,13 +3411,17 @@ Publish order, top to bottom. For **each** page in GHL:
 .nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
 .nf-col a{display:block;margin:6px 0}
 .nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-legal{max-width:1080px;margin:14px auto 0;padding:0 22px;font-size:13px;color:#9aa0a8}
+.nf-legal a{font-size:13px;color:#cfd3d9;text-decoration:none}
+.nf-legal a:hover{color:#fff;text-decoration:underline}
+.nf-legal span{margin:0 8px;color:#6b7178}
 .nf-bottom{max-width:1080px;margin:20px auto 0;padding:14px 22px 0;border-top:1px solid rgba(255,255,255,.1);font-size:12px;color:#9aa0a8}
 @media(max-width:780px){.nf-in{grid-template-columns:1fr}}
 </style>
 <footer class="nf-foot">
   <div class="nf-in">
     <div class="nf-brand"><b>NINJA<span>360</span></b><p style="font-size:14px;margin:10px 0 0;max-width:330px">Kansas City's local visibility system. We put local businesses &mdash; and the people behind them &mdash; on the map: visible, heard, and chosen on Google.</p></div>
-    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a><a href="/terms">Terms &amp; Conditions</a></div>
+    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a></div>
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
@@ -3347,6 +3436,7 @@ Publish order, top to bottom. For **each** page in GHL:
     </div>
   </div>
   <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell the truth beautifully &middot; Always sharpen the blade</div>
+  <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
   <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
 </footer>
 ```
