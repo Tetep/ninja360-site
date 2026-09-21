@@ -1,0 +1,233 @@
+<!-- /free-audit  -  GHL SEO Title: Free Visibility Audit | Ninja-360 Kansas City
+     Meta: Get a free visibility audit and see exactly where your Kansas City business is losing customers online. Takes 30 seconds, no cost, no obligation.
+     Copy: V02 philosophy infusion (see COPY-REWRITE-V02.md + philosophies_V02.md).
+     Resolves FIX #3: /free-audit was a 404 linked from the older nav.
+
+     ============ THE ONE THING THAT MATTERS ON THIS PAGE ============
+     The audit form MUST be a NATIVE GHL FORM ELEMENT so submissions land in the CRM.
+     Do NOT rebuild it as custom code. Paste this file as ONE custom-code block, then
+     drop a GHL Form element directly BELOW it and set that section's ID to "audit-form"
+     (Section settings -> Advanced -> ID). Every CTA on this page scrolls to #audit-form.
+     If GHL won't let you set the ID, change the 3 href="#audit-form" links to the
+     section ID GHL generates instead.
+
+     ============ SITEWIDE DECISION THIS PAGE TRIGGERS ============
+     68 audit CTAs across the other pages currently point at
+     https://ninja360.net/#section-JXWJCHUYEK (the homepage form).
+     Once THIS page is live and its form is tested, repoint them all to
+     https://ninja360.net/free-audit so there is ONE audit destination (FIX #3).
+     Do NOT repoint before this page is live - that breaks every CTA on the site.
+
+     Page SEO -> Title: Free Visibility Audit | Ninja-360 Kansas City
+     Page SEO -> Meta:  Get a free visibility audit and see exactly where your Kansas City business is losing customers online. Takes 30 seconds, no cost, no obligation. -->
+
+<!-- ===== PASTE THIS INTO THE PAGE HEAD (GHL tracking code) - FAQPage schema =====
+     These are the real objections answered on the page, so the markup matches the content.
+     (Unlike review markup, FAQ markup about your own page is legitimate structured data.)
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type":"Question","name":"Is the visibility audit really free?","acceptedAnswer":{"@type":"Answer","text":"Yes. No cost, no card, no obligation. You get the findings whether or not you ever hire us."}},
+    {"@type":"Question","name":"How long does the audit take?","acceptedAnswer":{"@type":"Answer","text":"The form takes about 30 seconds. We do the digging on our end and walk you through what we found."}},
+    {"@type":"Question","name":"Do I have to buy anything afterward?","acceptedAnswer":{"@type":"Answer","text":"No. Some businesses take the findings and fix things themselves. That is a fine outcome - the business is more visible either way."}},
+    {"@type":"Question","name":"What will the audit show me?","acceptedAnswer":{"@type":"Answer","text":"Where you show up (and where you do not) in Google Search and Maps, what your Google Business Profile is missing, how your photos and media compare to competitors ranking above you, and which fixes would move the needle first."}},
+    {"@type":"Question","name":"Who is the audit for?","acceptedAnswer":{"@type":"Answer","text":"Kansas City area local businesses - restaurants and cafes, dental, chiropractic and wellness practices, gyms, hotels, schools, and multi-location operators."}}
+  ]
+}
+</script>
+===== END HEAD CODE ===== -->
+<style>
+:root{--n-red:#FF8D2D;--n-red-dk:#E67A1C;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
+.n-wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+.n-section{padding:56px 0}
+.n-hero{background:linear-gradient(135deg,#31343B,#23262b);color:#fff;padding:72px 0}
+.n-eyebrow{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--n-red);font-weight:800}
+.n-h1{font-size:clamp(28px,5vw,46px);line-height:1.08;margin:10px 0 14px;font-weight:800;letter-spacing:-.02em}
+.n-h2{font-size:clamp(22px,3vw,30px);font-weight:800;margin:0 0 10px}
+.n-lead{font-size:18px;color:#d4d7dd;max-width:720px}
+.n-sub{color:var(--n-ink);max-width:760px;font-size:16px}
+.n-btn{display:inline-block;background:var(--n-red);color:#fff;font-weight:700;padding:14px 26px;border-radius:8px;text-decoration:none;font-size:16px}
+.n-btn:hover{background:var(--n-red-dk)}
+.fa-marks{display:flex;gap:18px;flex-wrap:wrap;margin-top:16px;font-size:13.5px;color:#aeb4bd;font-weight:600}
+.fa-marks span:before{content:"\2713";color:var(--n-red);font-weight:800;margin-right:6px}
+.get-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:26px}
+.get-card{background:#fff;border:1px solid var(--n-line);border-left:4px solid var(--n-red);border-radius:0 12px 12px 0;padding:22px}
+.get-card h3{font-size:17px;margin:0 0 6px}
+.get-card p{margin:0;font-size:15.5px;color:var(--n-muted);line-height:1.55}
+.steps{counter-reset:st;margin-top:24px}
+.step{display:grid;grid-template-columns:44px 1fr;gap:16px;align-items:start;padding:16px 0;border-top:1px solid var(--n-line)}
+.step:first-child{border-top:0}
+.step b.sn{display:flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;background:var(--n-red);color:#fff;font-weight:800;font-size:18px}
+.step h3{font-size:17px;margin:8px 0 4px}
+.step p{margin:0;font-size:15.5px;color:var(--n-muted);line-height:1.55}
+.faq details{background:#fff;border:1px solid var(--n-line);border-radius:10px;padding:14px 18px;margin:10px 0;max-width:820px}
+.faq summary{font-weight:700;cursor:pointer;list-style:none;font-size:16px;color:var(--n-ink)}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:after{content:"+";float:right;color:var(--n-red);font-weight:800}
+.faq details[open] summary:after{content:"\2013"}
+.faq details p{color:var(--n-muted);margin:10px 0 0;font-size:15px}
+@media(max-width:780px){.get-grid{grid-template-columns:1fr}}
+</style>
+
+<!-- NAV -->
+<style>
+.nv-nav{position:sticky;top:0;z-index:50;background:#31343B;border-bottom:1px solid rgba(255,255,255,.08)}
+.nv-in{max-width:1080px;margin:0 auto;padding:10px 22px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.nv-logo{display:flex;align-items:center;text-decoration:none;font-weight:800;font-size:20px;letter-spacing:-.01em;margin-right:auto;color:#fff}
+.nv-logo span{color:#FF8D2D}
+.nv-links{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.nv-links a{color:#d4d7dd;text-decoration:none;font-weight:600;font-size:14px}
+.nv-links a:hover{color:#fff}
+.nv-cta{background:#FF8D2D;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
+.nv-cta:hover{background:#E67A1C}
+@media(max-width:640px){.nv-logo{font-size:18px}.nv-links{gap:13px;font-size:13px;width:100%;justify-content:flex-start}}
+</style>
+<nav class="nv-nav"><div class="nv-in">
+  <a class="nv-logo" href="/">NINJA<span>360</span></a>
+  <div class="nv-links">
+    <a href="/how-it-works">How It Works</a>
+    <a href="/work">Work</a>
+    <a href="/services">Services</a>
+    <a href="/pricing">Pricing</a>
+    <a href="/about">About</a>
+    <a class="nv-cta" href="#audit-form">Free Audit</a>
+  </div>
+</div></nav>
+
+
+<!-- HERO -->
+<section class="n-hero"><div class="n-wrap">
+  <p class="n-eyebrow">Free Visibility Audit</p>
+  <h1 class="n-h1">See exactly what your customers see &mdash; before your competitors do.</h1>
+  <p class="n-lead">Most Kansas City businesses have no idea where they disappear on Google. We'll show you: where you rank, what your Google Business Profile is missing, and what the competitors above you are doing that you aren't.</p>
+  <div style="margin-top:28px"><a class="n-btn" href="#audit-form">Get My Free Visibility Audit</a></div>
+  <div class="fa-marks">
+    <span>Takes 30 seconds</span>
+    <span>No cost</span>
+    <span>No obligation</span>
+    <span>Kansas City local</span>
+  </div>
+</div></section>
+
+<!-- ==========================================================================
+     PUT THE NATIVE GHL FORM ELEMENT DIRECTLY BELOW THIS BLOCK.
+     Set that section's ID to:  audit-form
+     It must stay a GHL Form element so submissions land in the CRM.
+     Do not replace it with custom code.
+     ========================================================================== -->
+
+<!-- WHAT YOU GET -->
+<section class="n-section"><div class="n-wrap">
+  <p class="n-eyebrow">What you get</p>
+  <h2 class="n-h2">A straight answer about where you stand.</h2>
+  <p class="n-sub">Not a sales deck. The actual gaps between your business and the ones getting chosen instead of you.</p>
+  <div class="get-grid">
+    <div class="get-card">
+      <h3>Where you actually rank</h3>
+      <p>Your real position in Google Search and Maps for the searches your customers use &mdash; not the ones that flatter you.</p>
+    </div>
+    <div class="get-card">
+      <h3>What your profile is missing</h3>
+      <p>The incomplete fields, stale hours, thin categories, and missing media that quietly cost you the click.</p>
+    </div>
+    <div class="get-card">
+      <h3>How your visuals compare</h3>
+      <p>Your photos and video next to the competitors ranking above you. This is usually the uncomfortable slide.</p>
+    </div>
+    <div class="get-card">
+      <h3>What to fix first</h3>
+      <p>The short list, in order of what actually moves the needle &mdash; so you can act on it with us or without us.</p>
+    </div>
+  </div>
+</div></section>
+
+<!-- WHAT HAPPENS -->
+<section class="n-section" style="background:var(--n-soft)"><div class="n-wrap">
+  <p class="n-eyebrow">What happens next</p>
+  <h2 class="n-h2">Three steps. No pressure at any of them.</h2>
+  <div class="steps">
+    <div class="step">
+      <b class="sn">1</b>
+      <div>
+        <h3>You fill out the form</h3>
+        <p>Name, business, and how to reach you. About 30 seconds.</p>
+      </div>
+    </div>
+    <div class="step">
+      <b class="sn">2</b>
+      <div>
+        <h3>We do the digging</h3>
+        <p>We look at your Google Business Profile, your rankings, your listings, and your media &mdash; and at the competitors beating you.</p>
+      </div>
+    </div>
+    <div class="step">
+      <b class="sn">3</b>
+      <div>
+        <h3>We walk you through what we found</h3>
+        <p>Plainly, including the parts that are already working. If it makes sense to work together, we'll say so. If it doesn't, we'll say that too.</p>
+      </div>
+    </div>
+  </div>
+</div></section>
+
+<!-- WHY FREE - trust / philosophy 3 -->
+<section class="n-section"><div class="n-wrap">
+  <p class="n-eyebrow">The honest answer</p>
+  <h2 class="n-h2">Why we give this away.</h2>
+  <p class="n-sub">Because most owners have never actually been shown what their customers see, and once they are, the problem becomes obvious. Some hire us to fix it. Some fix it themselves. Both are fine by us &mdash; a Kansas City business that's easier to find is the point, and we'd rather tell you the truth about your gaps than sell you a package you don't need.</p>
+  <p class="n-sub" style="margin-top:14px"><a href="/about" style="color:var(--n-red);font-weight:700;text-decoration:none">The three philosophies behind that &rarr;</a></p>
+</div></section>
+
+<!-- FAQ -->
+<section class="n-section faq" style="background:var(--n-soft)"><div class="n-wrap">
+  <p class="n-eyebrow">Before you ask</p>
+  <h2 class="n-h2">Frequently asked</h2>
+  <details><summary>Is the visibility audit really free?</summary><p>Yes. No cost, no card, no obligation. You get the findings whether or not you ever hire us.</p></details>
+  <details><summary>How long does the audit take?</summary><p>The form takes about 30 seconds. We do the digging on our end and walk you through what we found.</p></details>
+  <details><summary>Do I have to buy anything afterward?</summary><p>No. Some businesses take the findings and fix things themselves. That's a fine outcome &mdash; the business is more visible either way.</p></details>
+  <details><summary>What will the audit show me?</summary><p>Where you show up (and where you don't) in Google Search and Maps, what your Google Business Profile is missing, how your photos and media compare to competitors ranking above you, and which fixes would move the needle first.</p></details>
+  <details><summary>Who is the audit for?</summary><p>Kansas City area local businesses &mdash; restaurants and caf&eacute;s, dental, chiropractic and wellness practices, gyms, hotels, schools, and multi-location operators.</p></details>
+</div></section>
+
+<!-- FINAL CTA -->
+<section class="n-section" style="background:var(--n-black);color:#fff;text-align:center"><div class="n-wrap">
+  <p class="n-eyebrow">See what your customers see</p>
+  <h2 class="n-h2" style="color:#fff">Let's put you on the map.</h2>
+  <p class="n-lead" style="margin:0 auto 22px">30 seconds now, and you'll know exactly where you stand.</p>
+  <a class="n-btn" href="#audit-form">Get My Free Visibility Audit</a>
+</div></section>
+
+<!-- FOOTER -->
+<style>
+.nf-foot{background:#23262b;color:#cfd3d9;padding:44px 0 18px}
+.nf-in{max-width:1080px;margin:0 auto;padding:0 22px;display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:26px}
+.nf-foot a{color:#cfd3d9;text-decoration:none;font-size:14px}
+.nf-foot a:hover{color:#fff}
+.nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
+.nf-col a{display:block;margin:6px 0}
+.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-bottom{max-width:1080px;margin:20px auto 0;padding:14px 22px 0;border-top:1px solid rgba(255,255,255,.1);font-size:12px;color:#9aa0a8}
+@media(max-width:780px){.nf-in{grid-template-columns:1fr}}
+</style>
+<footer class="nf-foot">
+  <div class="nf-in">
+    <div class="nf-brand"><b>NINJA<span>360</span></b><p style="font-size:14px;margin:10px 0 0;max-width:330px">Kansas City's local visibility system. We put local businesses &mdash; and the people behind them &mdash; on the map: visible, heard, and chosen on Google.</p></div>
+    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a></div>
+    <div class="nf-col">
+      <p class="nf-h">Contact</p>
+      <a href="tel:+18443606465">(844) 360-6465</a>
+      <a href="https://ninja360.net/free-audit">Free Visibility Audit</a>
+      <span style="display:block;margin:6px 0;font-size:14px">Kansas City, MO</span>
+      <p class="nf-h" style="margin-top:14px">Follow</p>
+      <a href="https://www.facebook.com/KCNinja360">Facebook</a>
+      <a href="https://www.instagram.com/kcninja360/">Instagram</a>
+      <a href="https://www.youtube.com/@ninja360vr">YouTube</a>
+      <a href="https://www.tiktok.com/@ninja360digitalma">TikTok</a>
+      <a href="https://www.linkedin.com/company/ninja360/">LinkedIn</a>
+    </div>
+  </div>
+  <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell the truth beautifully &middot; Always sharpen the blade</div>
+  <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
+</footer>

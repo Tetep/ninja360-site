@@ -30,6 +30,42 @@ hold multiple blocks. VideoObject blocks already live in services/about/work-res
 
 ---
 
+## CANONICAL TAGS — one per page, into that page's HEAD
+⚠️ CHECK FIRST: GoHighLevel may already emit its own `<link rel="canonical">`. Two canonical
+tags on one page is worse than none — view-source the live page and only add this if GHL
+isn't already emitting one (or if the one it emits points at the wrong URL, e.g. a
+`...-page` slug or a funnel preview URL).
+
+```html
+<link rel="canonical" href="https://ninja360.net/">              <!-- home -->
+<link rel="canonical" href="https://ninja360.net/about">         <!-- /about -->
+<link rel="canonical" href="https://ninja360.net/work">          <!-- /work -->
+<link rel="canonical" href="https://ninja360.net/services">      <!-- /services -->
+<link rel="canonical" href="https://ninja360.net/how-it-works">  <!-- /how-it-works -->
+<link rel="canonical" href="https://ninja360.net/pricing">       <!-- /pricing -->
+<link rel="canonical" href="https://ninja360.net/contact">       <!-- /contact -->
+<link rel="canonical" href="https://ninja360.net/free-audit">    <!-- /free-audit -->
+```
+Industry pages self-canonical to their own URL: `https://ninja360.net/work/<industry>`.
+
+**NO canonical for /portfolio — that page should 301 to /work instead.** See the note at
+the bottom of this file.
+
+---
+
+## ENTITY @id — ONE VALUE SITEWIDE
+The business entity is **`https://ninja360.net/#org`** everywhere. Never introduce a second
+id (`#business`, `#organization`, …) for the same company — two ids = two competing
+entities, which is exactly the entity-confidence problem the schema is meant to fix.
+Other blocks REFERENCE it (`{"@id":"https://ninja360.net/#org"}`) rather than redefining it.
+
+On pages that only need the business entity (/work, /contact, /free-audit), paste the
+EVERY PAGE block above as-is — identical `@id` means search engines merge them into one
+entity rather than splitting it. **Keep `sameAs` in it**: the social profile links are the
+entity-confidence payload, and a copy without them is weaker than no copy at all.
+
+---
+
 ## /about — Person (Tim Petet) = the Key Person of Influence "Profile" pillar
 ```html
 <script type="application/ld+json">
@@ -93,3 +129,15 @@ hold multiple blocks. VideoObject blocks already live in services/about/work-res
 Already included in the video-branch versions of those files (in the head comment marked
 "PASTE THIS INTO THE PAGE HEAD"). Fill the REPLACE placeholders (name, description,
 uploadDate YYYY-MM-DD, duration PT#M#S) before publishing.
+
+---
+
+## /portfolio — do not build it
+The IA already resolves this and has for a while:
+- `seo/sitemap.xml` does not list /portfolio.
+- `data/redirects.csv` already 301s the old `ninja-360.com/portfolio` to `/work`.
+- `/work` is on the new template with 9 industry pages behind it; /portfolio is thin and on
+  the old template.
+
+Two pages competing for the same intent split the ranking signal. **301 `/portfolio` →
+`/work`.** Don't give it a title, meta, canonical, or schema.
