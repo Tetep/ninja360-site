@@ -238,7 +238,7 @@ Publish order, top to bottom. For **each** page in GHL:
 <footer class="nf-foot">
   <div class="nf-in">
     <div class="nf-brand"><b>NINJA<span>360</span></b><p style="font-size:14px;margin:10px 0 0;max-width:330px">Kansas City's local visibility system. We put local businesses &mdash; and the people behind them &mdash; on the map: visible, heard, and chosen on Google.</p></div>
-    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a></div>
+    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a><a href="/terms">Terms &amp; Conditions</a></div>
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
@@ -446,7 +446,7 @@ Publish order, top to bottom. For **each** page in GHL:
 <footer class="nf-foot">
   <div class="nf-in">
     <div class="nf-brand"><b>NINJA<span>360</span></b><p style="font-size:14px;margin:10px 0 0;max-width:330px">Kansas City's local visibility system. We put local businesses &mdash; and the people behind them &mdash; on the map: visible, heard, and chosen on Google.</p></div>
-    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a></div>
+    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a><a href="/terms">Terms &amp; Conditions</a></div>
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
@@ -629,7 +629,7 @@ Publish order, top to bottom. For **each** page in GHL:
 <footer class="nf-foot">
   <div class="nf-in">
     <div class="nf-brand"><b>NINJA<span>360</span></b><p style="font-size:14px;margin:10px 0 0;max-width:330px">Kansas City's local visibility system. We put local businesses &mdash; and the people behind them &mdash; on the map: visible, heard, and chosen on Google.</p></div>
-    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a></div>
+    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a><a href="/terms">Terms &amp; Conditions</a></div>
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
@@ -798,7 +798,7 @@ Publish order, top to bottom. For **each** page in GHL:
 <footer class="nf-foot">
   <div class="nf-in">
     <div class="nf-brand"><b>NINJA<span>360</span></b><p style="font-size:14px;margin:10px 0 0;max-width:330px">Kansas City's local visibility system. We put local businesses &mdash; and the people behind them &mdash; on the map: visible, heard, and chosen on Google.</p></div>
-    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a></div>
+    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a><a href="/terms">Terms &amp; Conditions</a></div>
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
@@ -1135,7 +1135,7 @@ Publish order, top to bottom. For **each** page in GHL:
 <footer class="nf-foot">
   <div class="nf-in">
     <div class="nf-brand"><b>NINJA<span>360</span></b><p style="font-size:14px;margin:10px 0 0;max-width:330px">Kansas City's local visibility system. We put local businesses &mdash; and the people behind them &mdash; on the map: visible, heard, and chosen on Google.</p></div>
-    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a></div>
+    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a><a href="/terms">Terms &amp; Conditions</a></div>
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
@@ -1259,7 +1259,7 @@ Publish order, top to bottom. For **each** page in GHL:
 <footer class="nf-foot">
   <div class="nf-in">
     <div class="nf-brand"><b>NINJA<span>360</span></b><p style="font-size:14px;margin:10px 0 0;max-width:330px">Kansas City's local visibility system. We put local businesses &mdash; and the people behind them &mdash; on the map: visible, heard, and chosen on Google.</p></div>
-    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a></div>
+    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a><a href="/terms">Terms &amp; Conditions</a></div>
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
@@ -1544,7 +1544,7 @@ Publish order, top to bottom. For **each** page in GHL:
 <footer class="nf-foot">
   <div class="nf-in">
     <div class="nf-brand"><b>NINJA<span>360</span></b><p style="font-size:14px;margin:10px 0 0;max-width:330px">Kansas City's local visibility system. We put local businesses &mdash; and the people behind them &mdash; on the map: visible, heard, and chosen on Google.</p></div>
-    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a></div>
+    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a><a href="/terms">Terms &amp; Conditions</a></div>
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
@@ -1687,7 +1687,7 @@ Publish order, top to bottom. For **each** page in GHL:
 <footer class="nf-foot">
   <div class="nf-in">
     <div class="nf-brand"><b>NINJA<span>360</span></b><p style="font-size:14px;margin:10px 0 0;max-width:330px">Kansas City's local visibility system. We put local businesses &mdash; and the people behind them &mdash; on the map: visible, heard, and chosen on Google.</p></div>
-    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a></div>
+    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a><a href="/terms">Terms &amp; Conditions</a></div>
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
@@ -1808,7 +1808,7 @@ Publish order, top to bottom. For **each** page in GHL:
 <footer class="nf-foot">
   <div class="nf-in">
     <div class="nf-brand"><b>NINJA<span>360</span></b><p style="font-size:14px;margin:10px 0 0;max-width:330px">Kansas City's local visibility system. We put local businesses &mdash; and the people behind them &mdash; on the map: visible, heard, and chosen on Google.</p></div>
-    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a></div>
+    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a><a href="/terms">Terms &amp; Conditions</a></div>
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
@@ -1944,7 +1944,7 @@ Publish order, top to bottom. For **each** page in GHL:
 <footer class="nf-foot">
   <div class="nf-in">
     <div class="nf-brand"><b>NINJA<span>360</span></b><p style="font-size:14px;margin:10px 0 0;max-width:330px">Kansas City's local visibility system. We put local businesses &mdash; and the people behind them &mdash; on the map: visible, heard, and chosen on Google.</p></div>
-    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a></div>
+    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a><a href="/terms">Terms &amp; Conditions</a></div>
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
@@ -2072,7 +2072,7 @@ Publish order, top to bottom. For **each** page in GHL:
 <footer class="nf-foot">
   <div class="nf-in">
     <div class="nf-brand"><b>NINJA<span>360</span></b><p style="font-size:14px;margin:10px 0 0;max-width:330px">Kansas City's local visibility system. We put local businesses &mdash; and the people behind them &mdash; on the map: visible, heard, and chosen on Google.</p></div>
-    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a></div>
+    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a><a href="/terms">Terms &amp; Conditions</a></div>
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
@@ -2216,7 +2216,7 @@ Publish order, top to bottom. For **each** page in GHL:
 <footer class="nf-foot">
   <div class="nf-in">
     <div class="nf-brand"><b>NINJA<span>360</span></b><p style="font-size:14px;margin:10px 0 0;max-width:330px">Kansas City's local visibility system. We put local businesses &mdash; and the people behind them &mdash; on the map: visible, heard, and chosen on Google.</p></div>
-    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a></div>
+    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a><a href="/terms">Terms &amp; Conditions</a></div>
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
@@ -2356,7 +2356,7 @@ Publish order, top to bottom. For **each** page in GHL:
 <footer class="nf-foot">
   <div class="nf-in">
     <div class="nf-brand"><b>NINJA<span>360</span></b><p style="font-size:14px;margin:10px 0 0;max-width:330px">Kansas City's local visibility system. We put local businesses &mdash; and the people behind them &mdash; on the map: visible, heard, and chosen on Google.</p></div>
-    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a></div>
+    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a><a href="/terms">Terms &amp; Conditions</a></div>
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
@@ -2484,7 +2484,7 @@ Publish order, top to bottom. For **each** page in GHL:
 <footer class="nf-foot">
   <div class="nf-in">
     <div class="nf-brand"><b>NINJA<span>360</span></b><p style="font-size:14px;margin:10px 0 0;max-width:330px">Kansas City's local visibility system. We put local businesses &mdash; and the people behind them &mdash; on the map: visible, heard, and chosen on Google.</p></div>
-    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a></div>
+    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a><a href="/terms">Terms &amp; Conditions</a></div>
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
@@ -2629,7 +2629,7 @@ Publish order, top to bottom. For **each** page in GHL:
 <footer class="nf-foot">
   <div class="nf-in">
     <div class="nf-brand"><b>NINJA<span>360</span></b><p style="font-size:14px;margin:10px 0 0;max-width:330px">Kansas City's local visibility system. We put local businesses &mdash; and the people behind them &mdash; on the map: visible, heard, and chosen on Google.</p></div>
-    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a></div>
+    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a><a href="/terms">Terms &amp; Conditions</a></div>
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
@@ -2768,7 +2768,7 @@ Publish order, top to bottom. For **each** page in GHL:
 <footer class="nf-foot">
   <div class="nf-in">
     <div class="nf-brand"><b>NINJA<span>360</span></b><p style="font-size:14px;margin:10px 0 0;max-width:330px">Kansas City's local visibility system. We put local businesses &mdash; and the people behind them &mdash; on the map: visible, heard, and chosen on Google.</p></div>
-    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a></div>
+    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a><a href="/terms">Terms &amp; Conditions</a></div>
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
@@ -3020,7 +3020,319 @@ Publish order, top to bottom. For **each** page in GHL:
 <footer class="nf-foot">
   <div class="nf-in">
     <div class="nf-brand"><b>NINJA<span>360</span></b><p style="font-size:14px;margin:10px 0 0;max-width:330px">Kansas City's local visibility system. We put local businesses &mdash; and the people behind them &mdash; on the map: visible, heard, and chosen on Google.</p></div>
-    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a></div>
+    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a><a href="/terms">Terms &amp; Conditions</a></div>
+    <div class="nf-col">
+      <p class="nf-h">Contact</p>
+      <a href="tel:+18443606465">(844) 360-6465</a>
+      <a href="https://ninja360.net/free-audit">Free Visibility Audit</a>
+      <span style="display:block;margin:6px 0;font-size:14px">Kansas City, MO</span>
+      <p class="nf-h" style="margin-top:14px">Follow</p>
+      <a href="https://www.facebook.com/KCNinja360">Facebook</a>
+      <a href="https://www.instagram.com/kcninja360/">Instagram</a>
+      <a href="https://www.youtube.com/@ninja360vr">YouTube</a>
+      <a href="https://www.tiktok.com/@ninja360digitalma">TikTok</a>
+      <a href="https://www.linkedin.com/company/ninja360/">LinkedIn</a>
+    </div>
+  </div>
+  <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell the truth beautifully &middot; Always sharpen the blade</div>
+  <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
+</footer>
+```
+
+---
+
+## 18. Terms & Conditions
+- **Slug / path:** `/terms`  _(flat fallback: `terms`)_
+- **SEO Title:** Terms & Conditions | Ninja-360 Kansas City
+- **Meta description:** The terms that govern Ninja-360 Digital Media's local visibility services, plans, billing, and media rights.
+- **Canonical:** https://ninja360.net/terms
+- **301:** if the live footer links point at a different slug (e.g. `/terms-and-conditions`
+  or `/terms-conditions`), either publish at THAT slug or 301 it to `/terms`. Those links
+  are currently broken on the live site.
+- **⚠️ ATTORNEY REVIEW REQUIRED before publishing.** Three `[[CONFIRM]]` decisions are
+  marked in the file: legal entity name, media copyright/licensing split, and what happens
+  to hosted tours after cancellation.
+- **⚠️ A PRIVACY POLICY IS STILL MISSING** and is very likely the other broken footer link.
+  It is separately required - you collect names, emails and phone numbers via the audit
+  form, and the SMS opt-in needs A2P 10DLC-compliant consent language.
+
+**Paste this into the Custom JS/HTML element:**
+
+```html
+<!-- /terms  -  GHL SEO Title: Terms & Conditions | Ninja-360 Kansas City
+     Meta: The terms that govern Ninja-360 Digital Media's local visibility services, plans, billing, and media rights.
+     Canonical: https://ninja360.net/terms
+
+     ################ READ BEFORE PUBLISHING ################
+     THIS IS A DRAFT FOR AN ATTORNEY TO REVIEW - NOT LEGAL ADVICE.
+     It is written from the commercial terms this repo already records (belt pricing,
+     minimum terms, auto-billing, early-termination balance, SOW-confirmed scope) so a
+     lawyer is editing real terms instead of drafting from nothing. Do not publish it as
+     final until counsel signs off. The accountant/lawyer structure session already on the
+     24Assets roadmap is the natural place to do this.
+
+     THREE THINGS ONLY TIM CAN DECIDE - they are marked [[CONFIRM]] in the text below:
+       1. LEGAL ENTITY - written as "Ninja-360 Digital Media LLC" (the form used in the
+          dojo footers). Confirm the exact registered name and state of formation.
+       2. MEDIA RIGHTS - section 7 proposes the industry-standard split: Ninja-360 keeps
+          copyright, the client gets a broad perpetual license to delivered assets, and
+          Ninja-360 keeps portfolio rights. This is a real business decision - some
+          clients (especially chains) will demand full assignment. Decide the default.
+       3. WHAT HAPPENS TO HOSTED TOURS AFTER CANCELLATION - section 9. Whatever you
+          choose, it must match what actually happens operationally.
+
+     STILL MISSING (separate documents, both genuinely needed):
+       - PRIVACY POLICY. You collect names, emails and phone numbers through the audit
+         form and run analytics. Required by law in several states and by Google/Meta ad
+         policies. /terms does not cover it.
+       - SMS / A2P 10DLC CONSENT LANGUAGE. The audit form takes phone numbers with SMS
+         opt-in through GHL. Carriers require specific disclosures (message frequency,
+         "msg & data rates may apply", STOP/HELP instructions, and a link to the privacy
+         policy) at the point of consent AND in the terms. Section 12 has placeholder
+         language - reconcile it with what the GHL form actually says, or the campaign
+         registration can be rejected.
+     ######################################################## -->
+<style>
+:root{--n-red:#FF8D2D;--n-red-dk:#E67A1C;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
+.n-wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+.n-section{padding:56px 0}
+.n-hero{background:linear-gradient(135deg,#31343B,#23262b);color:#fff;padding:64px 0}
+.n-eyebrow{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--n-red);font-weight:800}
+.n-h1{font-size:clamp(28px,5vw,42px);line-height:1.08;margin:10px 0 14px;font-weight:800;letter-spacing:-.02em}
+.n-lead{font-size:18px;color:#d4d7dd;max-width:720px}
+.n-btn{display:inline-block;background:var(--n-red);color:#fff;font-weight:700;padding:14px 26px;border-radius:8px;text-decoration:none;font-size:16px}
+.n-btn:hover{background:var(--n-red-dk)}
+.legal{max-width:820px}
+.legal h2{font-size:20px;font-weight:800;margin:36px 0 10px;color:var(--n-ink);scroll-margin-top:80px}
+.legal h2 span{color:var(--n-red);margin-right:8px}
+.legal h3{font-size:16px;font-weight:800;margin:20px 0 6px;color:var(--n-ink)}
+.legal p,.legal li{font-size:15.5px;line-height:1.65;color:var(--n-ink)}
+.legal ul{padding-left:20px;margin:8px 0}
+.legal li{margin:5px 0}
+.legal .meta{font-size:14px;color:var(--n-muted);margin:0 0 6px}
+.toc{background:var(--n-soft);border:1px solid var(--n-line);border-radius:12px;padding:20px 24px;margin:28px 0}
+.toc p{font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--n-red);margin:0 0 10px}
+.toc ol{columns:2;column-gap:28px;padding-left:20px;margin:0}
+.toc li{font-size:14.5px;margin:4px 0}
+.toc a{color:var(--n-ink);text-decoration:none}
+.toc a:hover{color:var(--n-red);text-decoration:underline}
+.callout{background:#fff;border:1px solid var(--n-line);border-left:4px solid var(--n-red);border-radius:0 10px 10px 0;padding:16px 20px;margin:18px 0}
+.callout p{margin:0;font-size:15px}
+@media(max-width:680px){.toc ol{columns:1}}
+</style>
+
+<!-- NAV -->
+<style>
+.nv-nav{position:sticky;top:0;z-index:50;background:#31343B;border-bottom:1px solid rgba(255,255,255,.08)}
+.nv-in{max-width:1080px;margin:0 auto;padding:10px 22px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.nv-logo{display:flex;align-items:center;text-decoration:none;font-weight:800;font-size:20px;letter-spacing:-.01em;margin-right:auto;color:#fff}
+.nv-logo span{color:#FF8D2D}
+.nv-links{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.nv-links a{color:#d4d7dd;text-decoration:none;font-weight:600;font-size:14px}
+.nv-links a:hover{color:#fff}
+.nv-cta{background:#FF8D2D;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
+.nv-cta:hover{background:#E67A1C}
+@media(max-width:640px){.nv-logo{font-size:18px}.nv-links{gap:13px;font-size:13px;width:100%;justify-content:flex-start}}
+</style>
+<nav class="nv-nav"><div class="nv-in">
+  <a class="nv-logo" href="/">NINJA<span>360</span></a>
+  <div class="nv-links">
+    <a href="/how-it-works">How It Works</a>
+    <a href="/work">Work</a>
+    <a href="/services">Services</a>
+    <a href="/pricing">Pricing</a>
+    <a href="/about">About</a>
+    <a class="nv-cta" href="/free-audit">Free Audit</a>
+  </div>
+</div></nav>
+
+<section class="n-hero"><div class="n-wrap">
+  <p class="n-eyebrow">Legal</p>
+  <h1 class="n-h1">Terms &amp; Conditions</h1>
+  <p class="n-lead">The plain-language terms that govern our work together. We'd rather you read them than skim them &mdash; telling the truth about scope before you sign is how we work.</p>
+</div></section>
+
+<section class="n-section"><div class="n-wrap">
+  <div class="legal">
+
+    <p class="meta"><strong>Effective date:</strong> September 21, 2026</p>
+    <p class="meta"><strong>Last updated:</strong> September 21, 2026</p>
+
+    <div class="toc">
+      <p>Contents</p>
+      <ol>
+        <li><a href="#t1">Who we are &amp; what this covers</a></li>
+        <li><a href="#t2">The free visibility audit</a></li>
+        <li><a href="#t3">Services &amp; scope</a></li>
+        <li><a href="#t4">Plans, minimum terms &amp; billing</a></li>
+        <li><a href="#t5">Changing or ending a plan</a></li>
+        <li><a href="#t6">What we need from you</a></li>
+        <li><a href="#t7">Media, copyright &amp; licensing</a></li>
+        <li><a href="#t8">Drone operations</a></li>
+        <li><a href="#t9">Third-party platforms &amp; hosting</a></li>
+        <li><a href="#t10">No guarantee of rankings or results</a></li>
+        <li><a href="#t11">Confidentiality</a></li>
+        <li><a href="#t12">Communications &amp; text messages</a></li>
+        <li><a href="#t13">Warranties &amp; disclaimers</a></li>
+        <li><a href="#t14">Limitation of liability</a></li>
+        <li><a href="#t15">Indemnification</a></li>
+        <li><a href="#t16">Governing law &amp; disputes</a></li>
+        <li><a href="#t17">Changes to these terms</a></li>
+        <li><a href="#t18">Contact us</a></li>
+      </ol>
+    </div>
+
+    <h2 id="t1"><span>1.</span>Who we are &amp; what this covers</h2>
+    <p>These Terms &amp; Conditions ("Terms") are an agreement between you ("you," "your," or "Client") and Ninja-360 Digital Media LLC ("Ninja-360," "we," "us," or "our"), a Kansas City, Missouri business. <!-- [[CONFIRM]] exact registered entity name + state of formation --></p>
+    <p>They govern your use of ninja360.net (the "Site") and any services you purchase from us. By using the Site, submitting a form, or engaging our services, you agree to these Terms.</p>
+    <p>If we sign a separate written agreement or Statement of Work ("SOW") with you, and anything in it conflicts with these Terms, <strong>the SOW controls</strong> for that engagement.</p>
+
+    <h2 id="t2"><span>2.</span>The free visibility audit</h2>
+    <p>The visibility audit is free and carries no purchase obligation. We provide it as our professional assessment of your current online visibility based on publicly available information and our review of your Google Business Profile, listings, and media at a point in time.</p>
+    <p>The audit is informational. It is not a guarantee of results, an appraisal, or a promise of any particular outcome. You are free to act on its findings yourself, with another provider, or not at all.</p>
+
+    <h2 id="t3"><span>3.</span>Services &amp; scope</h2>
+    <p>Depending on what you purchase, our services may include: photography, videography, aerial (drone) media, 360&deg; virtual tours, Matterport walkthroughs, Google Business Profile optimization, local listings and citation management, website work, content publishing, and ongoing visibility upkeep.</p>
+    <p><strong>Your exact deliverables are defined in your SOW</strong>, which we confirm with you before work begins. Anything not listed in the SOW is out of scope. Additional work can be added by written agreement and may change your fees.</p>
+    <p>We may use qualified subcontractors or partners to perform parts of the work. We remain responsible to you for the work performed.</p>
+
+    <h2 id="t4"><span>4.</span>Plans, minimum terms &amp; billing</h2>
+    <h3>Plans</h3>
+    <p>Our recurring plans are offered in tiers ("belts"). Current pricing, one-time build fees, and minimum terms are published on our <a href="/pricing" style="color:var(--n-red);font-weight:700;text-decoration:none">pricing page</a> and confirmed in your SOW. Pricing on the Site may change; the pricing in your signed SOW governs your engagement for its term.</p>
+    <h3>Auto-billing</h3>
+    <p>Automatic billing is required on all plans. You authorize us to charge your payment method on a recurring basis for the monthly fee, plus any one-time build fee and any approved additional work, until your plan is properly terminated under Section 5.</p>
+    <h3>Minimum terms</h3>
+    <p>Plans carry a minimum commitment term, stated on the pricing page and in your SOW. By starting a plan you commit to that full term.</p>
+    <h3>Build fees</h3>
+    <p>A one-time build fee may apply to set up your media and profiles. Build fees may be reduced or waived on higher tiers; whether a waiver applies to you is stated in your SOW. <strong>A waived build fee is earned over your minimum term</strong> &mdash; if you terminate early, Section 5 applies.</p>
+    <h3>Late or failed payments</h3>
+    <p>If a payment fails or is late, we may suspend work and pause publishing until the account is current. We will make reasonable attempts to reach you before suspending anything. Suspension does not extend or pause your minimum term.</p>
+    <h3>Taxes</h3>
+    <p>Fees are exclusive of applicable sales or use taxes, which we may add where required.</p>
+
+    <h2 id="t5"><span>5.</span>Changing or ending a plan</h2>
+    <h3>Early termination</h3>
+    <p>If you end a plan before the end of your minimum term, <strong>the remaining balance of the contract becomes due</strong>. If a build fee was waived at signup, that waived amount also becomes due.</p>
+    <h3>After the minimum term</h3>
+    <p>Once your minimum term is complete, your plan continues month to month unless you tell us otherwise. Either of us may end it with <strong>30 days' written notice</strong>. <!-- [[CONFIRM]] notice period matches how you actually operate --></p>
+    <h3>Upgrades and downgrades</h3>
+    <p>You may upgrade at any time; the new rate applies to your next billing cycle and may start a new minimum term. Downgrades take effect only after your current minimum term is complete.</p>
+    <h3>If we end the agreement</h3>
+    <p>We may end an engagement for non-payment, for abusive or unlawful conduct, or if the work would require us to misrepresent your business. If we terminate without cause, we will refund any prepaid fees for services not yet delivered.</p>
+
+    <h2 id="t6"><span>6.</span>What we need from you</h2>
+    <p>Our work depends on your cooperation. You agree to:</p>
+    <ul>
+      <li>Provide accurate, current business information (name, address, phone, hours, services).</li>
+      <li>Grant us the access we need &mdash; including manager access to your Google Business Profile and any relevant listing, website, or social accounts &mdash; and keep it in place during the engagement.</li>
+      <li>Provide safe, lawful access to your property for scheduled shoots, and secure any permissions required from landlords, property managers, or venue owners.</li>
+      <li>Obtain consent from any identifiable people appearing in media we capture for you.</li>
+      <li>Respond to approval requests within a reasonable time. Delays in approvals shift our timelines, not your billing dates.</li>
+      <li>Ensure any materials you give us (logos, photos, copy) don't infringe anyone else's rights.</li>
+    </ul>
+    <div class="callout"><p><strong>Rescheduling and access.</strong> If a scheduled shoot can't proceed because access wasn't available, the location wasn't ready, or we weren't notified of a cancellation at least 24 hours in advance, we may charge a reasonable rescheduling fee. Weather cancellations for aerial work are rescheduled at no charge.</p></div>
+
+    <h2 id="t7"><span>7.</span>Media, copyright &amp; licensing</h2>
+    <!-- [[CONFIRM]] This section is the single most important business decision in this
+         document. The split below is the standard one for media studios. Some clients -
+         especially multi-location chains and franchises - will push for full assignment
+         of copyright. Decide whether that is available, and at what price. -->
+    <h3>What we own</h3>
+    <p>Unless your SOW says otherwise in writing, Ninja-360 retains copyright in all photography, video, aerial media, and virtual tours we create, including all raw and unused footage. Raw files are not delivered as part of a standard engagement.</p>
+    <h3>What you get</h3>
+    <p>On payment in full, you receive a <strong>perpetual, non-exclusive, worldwide license</strong> to use the final delivered assets to market and operate your own business &mdash; on your website, Google Business Profile, listings, social channels, advertising, print, and in-store. You may not resell, sublicense, or redistribute the assets as stock media, and you may not materially alter them in a way that misrepresents your business.</p>
+    <h3>Our portfolio rights</h3>
+    <p>We may display work created for you in our portfolio, case studies, social channels, and marketing, and may identify you as a client. <strong>If you'd rather we didn't, tell us in writing and we'll honor it.</strong></p>
+    <h3>Your materials</h3>
+    <p>You keep all rights to your trademarks, logos, and any materials you provide. You grant us a license to use them only as needed to perform the services.</p>
+    <h3>Published virtual tours</h3>
+    <p>Virtual tours published to Google are subject to Google's terms and, once published, become part of Google's platform. Removal, replacement, and retention are governed by Google's policies, not ours.</p>
+
+    <h2 id="t8"><span>8.</span>Drone operations</h2>
+    <p>Aerial work is performed in compliance with Federal Aviation Administration (FAA) regulations, including 14 CFR Part 107. We fly only where it's lawful to do so.</p>
+    <p>Some locations require airspace authorization, which the FAA may deny or delay. Flights are also subject to weather, daylight, temporary flight restrictions, and safety judgment. <strong>If conditions or airspace prevent a flight, we'll reschedule</strong> &mdash; that's a normal part of aerial work and not a breach of these Terms.</p>
+    <p>You confirm you have the authority to permit aerial capture of the property, or have obtained it from whoever does.</p>
+
+    <h2 id="t9"><span>9.</span>Third-party platforms &amp; hosting</h2>
+    <p>Our work depends on platforms we don't control &mdash; including Google (Search, Maps, Business Profile, Street View), Matterport, virtual tour hosts, listing aggregators, and social networks. These platforms set their own rules and change them without notice.</p>
+    <p>We aren't responsible for a platform changing its algorithm, policies, pricing, or availability; suspending or removing your profile or content; or losing data on their systems. We'll work with you in good faith to respond when it happens.</p>
+    <h3>Hosting after cancellation</h3>
+    <!-- [[CONFIRM]] This must match what operationally happens when someone cancels.
+         Matterport in particular carries an ongoing hosting cost. -->
+    <p>Some deliverables (such as Matterport walkthroughs and certain hosted tours) require ongoing hosting that is included only while your plan is active. If your plan ends, hosted tours may be taken offline unless you arrange to continue hosting. Assets already published to your own Google Business Profile generally remain there, subject to Google's policies. We'll tell you clearly which of your deliverables depend on active hosting.</p>
+
+    <h2 id="t10"><span>10.</span>No guarantee of rankings or results</h2>
+    <div class="callout"><p><strong>We do not guarantee rankings, traffic, leads, calls, or revenue.</strong> No honest provider can. Search rankings are determined by Google, not by us, and they're affected by competitors, algorithm changes, your reviews, your category, and market conditions outside anyone's control.</p></div>
+    <p>What we do commit to is performing the work in your SOW competently, on schedule, and telling you the truth about what we find and what it means &mdash; including when something isn't working.</p>
+    <p>Any examples, case studies, or past results we show represent those clients' outcomes, not a prediction of yours.</p>
+
+    <h2 id="t11"><span>11.</span>Confidentiality</h2>
+    <p>Each of us may learn non-public information about the other. Both of us agree to keep it confidential and use it only for the engagement. This doesn't apply to information that's already public, that we knew beforehand, that we received legitimately from someone else, or that we're legally required to disclose.</p>
+
+    <h2 id="t12"><span>12.</span>Communications &amp; text messages</h2>
+    <!-- [[CONFIRM]] Reconcile this with the exact consent language on the GHL audit form.
+         Carrier A2P 10DLC registration can be rejected if the form language and the terms
+         don't match. A Privacy Policy must exist and be linked before this goes live. -->
+    <p>By giving us your contact information, you agree we may contact you about your audit, your account, and your services by email, phone, and text message.</p>
+    <p>If you opt in to text messages, message frequency varies. <strong>Message and data rates may apply.</strong> Reply <strong>STOP</strong> to opt out at any time, or <strong>HELP</strong> for help. Opting out of marketing messages doesn't stop essential service messages about work in progress.</p>
+    <p>Consent to marketing messages is not a condition of purchase. How we handle your information is described in our Privacy Policy.</p>
+
+    <h2 id="t13"><span>13.</span>Warranties &amp; disclaimers</h2>
+    <p>We warrant that we'll perform the services in a professional and workmanlike manner consistent with industry standards.</p>
+    <p>Otherwise, to the fullest extent permitted by law, the Site and services are provided <strong>"as is" and "as available,"</strong> and we disclaim all other warranties, express or implied, including implied warranties of merchantability, fitness for a particular purpose, and non-infringement. We don't warrant that the Site will be uninterrupted or error-free.</p>
+
+    <h2 id="t14"><span>14.</span>Limitation of liability</h2>
+    <p>To the fullest extent permitted by law, neither party is liable to the other for indirect, incidental, special, consequential, or punitive damages, or for lost profits, lost revenue, or lost business opportunities, even if advised such damages were possible.</p>
+    <p>Our total aggregate liability arising out of or relating to these Terms or the services <strong>will not exceed the total amount you paid us in the twelve (12) months immediately before the event giving rise to the claim</strong>.</p>
+    <p>Nothing here limits liability that cannot be limited under applicable law, including for fraud, willful misconduct, or gross negligence.</p>
+
+    <h2 id="t15"><span>15.</span>Indemnification</h2>
+    <p>You agree to indemnify and hold harmless Ninja-360 and its owners, employees, and contractors from third-party claims arising out of: the information or materials you provide us; your failure to obtain necessary property access, permissions, or consents; your use of the delivered assets beyond the license granted in Section 7; or your violation of these Terms or applicable law.</p>
+    <p>We'll indemnify you against third-party claims that media we independently created for you infringes that party's copyright &mdash; excluding anything arising from materials you supplied or changes made without us.</p>
+
+    <h2 id="t16"><span>16.</span>Governing law &amp; disputes</h2>
+    <p>These Terms are governed by the laws of the State of Missouri, without regard to its conflict-of-laws rules. Any dispute will be brought exclusively in the state or federal courts located in Jackson County, Missouri, and both of us consent to their jurisdiction. <!-- [[CONFIRM]] county + whether you want arbitration instead - ask counsel --></p>
+    <p>Before filing anything, both of us agree to first try to resolve the dispute in good faith by talking about it &mdash; a written notice describing the problem, and 30 days to work it out.</p>
+
+    <h2 id="t17"><span>17.</span>Changes to these terms</h2>
+    <p>We may update these Terms. When we do, we'll change the "Last updated" date above. Material changes won't apply retroactively to an engagement already underway under a signed SOW. Continuing to use the Site or services after an update means you accept the updated Terms.</p>
+    <p>If any provision is found unenforceable, the rest stays in effect.</p>
+
+    <h2 id="t18"><span>18.</span>Contact us</h2>
+    <p>Questions about these Terms:</p>
+    <p>
+      <strong>Ninja-360 Digital Media LLC</strong><br>
+      Kansas City, MO<br>
+      Phone: <a href="tel:+18443606465" style="color:var(--n-red);font-weight:700;text-decoration:none">(844) 360-6465</a><br>
+      Web: <a href="https://ninja360.net" style="color:var(--n-red);font-weight:700;text-decoration:none">ninja360.net</a>
+    </p>
+
+  </div>
+</div></section>
+
+<section class="n-section" style="background:var(--n-black);color:#fff;text-align:center"><div class="n-wrap">
+  <p class="n-eyebrow">Questions before you commit?</p>
+  <h2 style="font-size:clamp(22px,3vw,30px);font-weight:800;margin:0 0 10px;color:#fff">Start with the free audit.</h2>
+  <p class="n-lead" style="margin:0 auto 22px">No cost, no obligation &mdash; and we'll tell you the truth about scope before you sign anything.</p>
+  <a class="n-btn" href="/free-audit">Get My Free Visibility Audit</a>
+</div></section>
+
+<!-- FOOTER -->
+<style>
+.nf-foot{background:#23262b;color:#cfd3d9;padding:44px 0 18px}
+.nf-in{max-width:1080px;margin:0 auto;padding:0 22px;display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:26px}
+.nf-foot a{color:#cfd3d9;text-decoration:none;font-size:14px}
+.nf-foot a:hover{color:#fff}
+.nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
+.nf-col a{display:block;margin:6px 0}
+.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-bottom{max-width:1080px;margin:20px auto 0;padding:14px 22px 0;border-top:1px solid rgba(255,255,255,.1);font-size:12px;color:#9aa0a8}
+@media(max-width:780px){.nf-in{grid-template-columns:1fr}}
+</style>
+<footer class="nf-foot">
+  <div class="nf-in">
+    <div class="nf-brand"><b>NINJA<span>360</span></b><p style="font-size:14px;margin:10px 0 0;max-width:330px">Kansas City's local visibility system. We put local businesses &mdash; and the people behind them &mdash; on the map: visible, heard, and chosen on Google.</p></div>
+    <div class="nf-col"><p class="nf-h">Explore</p><a href="/how-it-works">How It Works</a><a href="/work">Our Work</a><a href="/services">Services</a><a href="/pricing">Pricing</a><a href="/about">About</a><a href="/terms">Terms &amp; Conditions</a></div>
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
