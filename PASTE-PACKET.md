@@ -256,7 +256,7 @@ Publish order, top to bottom. For **each** page in GHL:
       <a href="https://www.linkedin.com/company/ninja360/">LinkedIn</a>
     </div>
   </div>
-  <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell the truth beautifully &middot; Always sharpen the blade</div>
+  <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell their story, well &middot; Always sharpen the blade</div>
   <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
   <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
 </footer>
@@ -469,7 +469,7 @@ Publish order, top to bottom. For **each** page in GHL:
       <a href="https://www.linkedin.com/company/ninja360/">LinkedIn</a>
     </div>
   </div>
-  <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell the truth beautifully &middot; Always sharpen the blade</div>
+  <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell their story, well &middot; Always sharpen the blade</div>
   <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
   <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
 </footer>
@@ -657,7 +657,7 @@ Publish order, top to bottom. For **each** page in GHL:
       <a href="https://www.linkedin.com/company/ninja360/">LinkedIn</a>
     </div>
   </div>
-  <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell the truth beautifully &middot; Always sharpen the blade</div>
+  <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell their story, well &middot; Always sharpen the blade</div>
   <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
   <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
 </footer>
@@ -831,7 +831,7 @@ Publish order, top to bottom. For **each** page in GHL:
       <a href="https://www.linkedin.com/company/ninja360/">LinkedIn</a>
     </div>
   </div>
-  <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell the truth beautifully &middot; Always sharpen the blade</div>
+  <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell their story, well &middot; Always sharpen the blade</div>
   <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
   <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
 </footer>
@@ -842,14 +842,14 @@ Publish order, top to bottom. For **each** page in GHL:
 ## 5. About
 - **Slug / path:** `/about`  _(flat fallback: `about`)_
 - **SEO Title:** About Ninja-360 | Our Three Philosophies | Kansas City
-- **Meta description:** Put them on the map. Tell the truth beautifully. Always sharpen the blade. Meet Ninja-360 and the three philosophies behind every Kansas City project.
+- **Meta description:** Put them on the map. Tell their story, well. Always sharpen the blade. Meet Ninja-360 and the three philosophies behind every Kansas City project.
 - **301:** /about-ninja-360-digital-marketing/ -> /about
 
 **Paste this into the Custom JS/HTML element:**
 
 ```html
 <!-- /about - "Our Philosophy"  -  GHL SEO Title: About Ninja-360 | Our Three Philosophies | Kansas City
-     Meta: Put them on the map. Tell the truth beautifully. Always sharpen the blade. Meet Ninja-360 and the three philosophies behind every Kansas City project.
+     Meta: Put them on the map. Tell their story, well. Always sharpen the blade. Meet Ninja-360 and the three philosophies behind every Kansas City project.
      Copy: V02 philosophy infusion, Tim-rooted (see COPY-REWRITE-V02.md + philosophies_V02.md).
      The core of this page is the philosophy; the root of the philosophy is Tim Petet -
      each philosophy carries a first-person "root" from Tim (DRAFTED IN HIS VOICE from
@@ -890,8 +890,8 @@ Publish order, top to bottom. For **each** page in GHL:
     "image": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/cCPr3A6gnc4ihe1G44w5/media/69d5a732a7dcb4cff02c0cf5.png",
     "address": { "@type": "PostalAddress", "addressLocality": "Kansas City", "addressRegion": "MO", "addressCountry": "US" },
     "areaServed": { "@type": "Place", "name": "Kansas City metropolitan area" },
-    "slogan": "Put them on the map. Tell the truth beautifully. Always sharpen the blade.",
-    "description": "Ninja-360 is Kansas City's local visibility system, built on three philosophies: put people on the map, fall in love with the client's true story, and always sharpen the blade. In short: put them on the map, tell the truth beautifully, always sharpen the blade.",
+    "slogan": "Put them on the map. Tell their story, well. Always sharpen the blade.",
+    "description": "Ninja-360 is Kansas City's local visibility system, built on three philosophies: put people on the map, fall in love with the client's true story, and always sharpen the blade. In short: put them on the map; tell their story, well; always sharpen the blade.",
     "founder": {
       "@type": "Person",
       "name": "Tim Petet",
@@ -1000,7 +1000,7 @@ Publish order, top to bottom. For **each** page in GHL:
 </style>
 <section class="n-hero"><div class="n-wrap vh-center">
   <p class="n-eyebrow">About Ninja-360</p>
-  <h1 class="n-h1">Put them on the map. Tell the truth beautifully.<br>Always sharpen the blade.</h1>
+  <h1 class="n-h1">Put them on the map. Tell their story, well.<br>Always sharpen the blade.</h1>
   <p class="n-lead">Three philosophies. Every project. No exceptions.</p>
   <!-- SWAP VIDEO: change data-yt + both image IDs (currently SxluMw0OGfo) to use a different YouTube video here. -->
   <div class="vh-frame" data-yt="SxluMw0OGfo" data-title="Kansas City landmark captured by Ninja-360" role="button" tabindex="0" aria-label="Play Kansas City landmark video">
@@ -1093,7 +1093,7 @@ Publish order, top to bottom. For **each** page in GHL:
 
 <!-- REVIEWS - proof that the three philosophies are real.
      FILL THESE IN: replace each REPLACE-* below with a real review. Keep them verbatim -
-     do not polish a client's words (Philosophy #2: tell the truth beautifully, not prettier).
+     do not polish a client's words (Philosophy #2: tell their story, well, not prettier).
      Source: Google Business Profile reviews (the ones that mention being FOUND / getting
      calls beat the ones that praise the photos - visibility is the product, media is proof).
      Star row: keep 5 filled stars only if the review is genuinely 5-star.
@@ -1134,7 +1134,7 @@ Publish order, top to bottom. For **each** page in GHL:
 <!-- CLOSING + CTA -->
 <section class="n-section" style="background:var(--n-black);color:#fff;text-align:center"><div class="n-wrap">
   <p class="n-eyebrow">In its simplest form:</p>
-  <p class="pull-quote" style="color:#fff;margin-left:auto;margin-right:auto">Put them on the map. Tell the truth beautifully. Always sharpen the blade.</p>
+  <p class="pull-quote" style="color:#fff;margin-left:auto;margin-right:auto">Put them on the map. Tell their story, well. Always sharpen the blade.</p>
   <p class="n-lead" style="margin:0 auto 22px"><em>Want to see what those three philosophies look like applied to your business?</em></p>
   <a class="n-btn" href="https://ninja360.net/#section-JXWJCHUYEK">Get My Free Visibility Audit</a>
   <img class="phil-badge" src="REPLACE-GHL-URL-ninja360-badge-checklist" alt="Ninja-360 badge: ninja beside a completed checklist under a shooting star - disciplined execution, honest reflection" width="200" height="200" style="max-width:200px;margin:28px auto 0;display:block" loading="lazy" onerror="this.style.display='none'">
@@ -1173,7 +1173,7 @@ Publish order, top to bottom. For **each** page in GHL:
       <a href="https://www.linkedin.com/company/ninja360/">LinkedIn</a>
     </div>
   </div>
-  <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell the truth beautifully &middot; Always sharpen the blade</div>
+  <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell their story, well &middot; Always sharpen the blade</div>
   <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
   <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
 </footer>
@@ -1302,7 +1302,7 @@ Publish order, top to bottom. For **each** page in GHL:
       <a href="https://www.linkedin.com/company/ninja360/">LinkedIn</a>
     </div>
   </div>
-  <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell the truth beautifully &middot; Always sharpen the blade</div>
+  <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell their story, well &middot; Always sharpen the blade</div>
   <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
   <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
 </footer>
@@ -1592,7 +1592,7 @@ Publish order, top to bottom. For **each** page in GHL:
       <a href="https://www.linkedin.com/company/ninja360/">LinkedIn</a>
     </div>
   </div>
-  <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell the truth beautifully &middot; Always sharpen the blade</div>
+  <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell their story, well &middot; Always sharpen the blade</div>
   <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
   <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
 </footer>
@@ -1740,7 +1740,7 @@ Publish order, top to bottom. For **each** page in GHL:
       <a href="https://www.linkedin.com/company/ninja360/">LinkedIn</a>
     </div>
   </div>
-  <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell the truth beautifully &middot; Always sharpen the blade</div>
+  <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell their story, well &middot; Always sharpen the blade</div>
   <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
   <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
 </footer>
@@ -1866,7 +1866,7 @@ Publish order, top to bottom. For **each** page in GHL:
       <a href="https://www.linkedin.com/company/ninja360/">LinkedIn</a>
     </div>
   </div>
-  <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell the truth beautifully &middot; Always sharpen the blade</div>
+  <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell their story, well &middot; Always sharpen the blade</div>
   <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
   <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
 </footer>
@@ -2007,7 +2007,7 @@ Publish order, top to bottom. For **each** page in GHL:
       <a href="https://www.linkedin.com/company/ninja360/">LinkedIn</a>
     </div>
   </div>
-  <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell the truth beautifully &middot; Always sharpen the blade</div>
+  <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell their story, well &middot; Always sharpen the blade</div>
   <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
   <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
 </footer>
@@ -2140,7 +2140,7 @@ Publish order, top to bottom. For **each** page in GHL:
       <a href="https://www.linkedin.com/company/ninja360/">LinkedIn</a>
     </div>
   </div>
-  <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell the truth beautifully &middot; Always sharpen the blade</div>
+  <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell their story, well &middot; Always sharpen the blade</div>
   <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
   <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
 </footer>
@@ -2289,7 +2289,7 @@ Publish order, top to bottom. For **each** page in GHL:
       <a href="https://www.linkedin.com/company/ninja360/">LinkedIn</a>
     </div>
   </div>
-  <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell the truth beautifully &middot; Always sharpen the blade</div>
+  <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell their story, well &middot; Always sharpen the blade</div>
   <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
   <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
 </footer>
@@ -2434,7 +2434,7 @@ Publish order, top to bottom. For **each** page in GHL:
       <a href="https://www.linkedin.com/company/ninja360/">LinkedIn</a>
     </div>
   </div>
-  <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell the truth beautifully &middot; Always sharpen the blade</div>
+  <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell their story, well &middot; Always sharpen the blade</div>
   <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
   <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
 </footer>
@@ -2567,7 +2567,7 @@ Publish order, top to bottom. For **each** page in GHL:
       <a href="https://www.linkedin.com/company/ninja360/">LinkedIn</a>
     </div>
   </div>
-  <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell the truth beautifully &middot; Always sharpen the blade</div>
+  <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell their story, well &middot; Always sharpen the blade</div>
   <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
   <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
 </footer>
@@ -2717,7 +2717,7 @@ Publish order, top to bottom. For **each** page in GHL:
       <a href="https://www.linkedin.com/company/ninja360/">LinkedIn</a>
     </div>
   </div>
-  <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell the truth beautifully &middot; Always sharpen the blade</div>
+  <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell their story, well &middot; Always sharpen the blade</div>
   <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
   <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
 </footer>
@@ -2861,7 +2861,7 @@ Publish order, top to bottom. For **each** page in GHL:
       <a href="https://www.linkedin.com/company/ninja360/">LinkedIn</a>
     </div>
   </div>
-  <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell the truth beautifully &middot; Always sharpen the blade</div>
+  <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell their story, well &middot; Always sharpen the blade</div>
   <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
   <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
 </footer>
@@ -3118,7 +3118,7 @@ Publish order, top to bottom. For **each** page in GHL:
       <a href="https://www.linkedin.com/company/ninja360/">LinkedIn</a>
     </div>
   </div>
-  <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell the truth beautifully &middot; Always sharpen the blade</div>
+  <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell their story, well &middot; Always sharpen the blade</div>
   <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
   <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
 </footer>
@@ -3435,7 +3435,7 @@ Publish order, top to bottom. For **each** page in GHL:
       <a href="https://www.linkedin.com/company/ninja360/">LinkedIn</a>
     </div>
   </div>
-  <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell the truth beautifully &middot; Always sharpen the blade</div>
+  <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell their story, well &middot; Always sharpen the blade</div>
   <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
   <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
 </footer>

@@ -43,4 +43,4 @@ GoHighLevel Website Builder, which hosts the live site.
 - Site: **ninja360.net**
 - Location (public NAP): **Kansas City, MO** (no street address on the site)
 - Positioning: local **visibility** system - "get found and chosen on Google." NOT "virtual tour company."
-- Philosophy triad (footer + /about, use verbatim): **Put them on the map. Tell the truth beautifully. Always sharpen the blade.**
+- Philosophy triad (footer + /about, use verbatim): **Put them on the map. Tell their story, well. Always sharpen the blade.**

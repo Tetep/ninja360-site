@@ -12,7 +12,7 @@ We seek the authentic heart of every client and tell their story in a unique, be
 We stay on the cutting edge through research, experimentation, disciplined execution, and honest reflection. We are willing to try, fail, learn, and improve — but we innovate responsibly, transparently, and in service of the client.
 
 ## The triad (pitch-grade, use everywhere)
-**Put them on the map. Tell the truth beautifully. Always sharpen the blade.**
+**Put them on the map. Tell their story, well. Always sharpen the blade.**
 
 ## Room mapping (V02)
 | Philosophy | Anchor room | Guide |

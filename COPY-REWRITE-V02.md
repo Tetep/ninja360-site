@@ -21,7 +21,7 @@
 ## GLOBAL (all pages)
 
 ### Footer triad (add to both footer templates, above the copyright line)
-> Put them on the map · Tell the truth beautifully · Always sharpen the blade
+> Put them on the map · Tell their story, well · Always sharpen the blade
 
 ### Footer brand blurb (newer template — replace existing)
 > **NINJA360** — Kansas City's local visibility system. We put local businesses — and the people behind them — on the map: visible, heard, and chosen on Google.
@@ -103,11 +103,11 @@ Get Found on Google in Kansas City | Ninja-360 Local Visibility
 > About Ninja-360 | Our Three Philosophies | Kansas City
 
 ### Meta description
-> Put them on the map. Tell the truth beautifully. Always sharpen the blade. Meet Ninja-360 — Kansas City's local visibility studio — and the three philosophies behind every project.
+> Put them on the map. Tell their story, well. Always sharpen the blade. Meet Ninja-360 — Kansas City's local visibility studio — and the three philosophies behind every project.
 
 ### Hero
 - Eyebrow: **About Ninja-360**
-- H1: **Put them on the map. Tell the truth beautifully. Always sharpen the blade.**
+- H1: **Put them on the map. Tell their story, well. Always sharpen the blade.**
 - Sub: *Three philosophies. Every project. No exceptions.*
 
 ### Origin block (short — customer stays the hero)
@@ -127,7 +127,7 @@ Get Found on Google in Kansas City | Ninja-360 Local Visibility
 
 ### Closing + CTA
 - H2: **In its simplest form:**
-- Pull-quote: **Put them on the map. Tell the truth beautifully. Always sharpen the blade.**
+- Pull-quote: **Put them on the map. Tell their story, well. Always sharpen the blade.**
 - Body: *Want to see what those three philosophies look like applied to your business?*
 - CTA: **Get My Free Visibility Audit**
 
