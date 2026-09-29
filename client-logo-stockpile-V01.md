@@ -1,5 +1,15 @@
 # Client Logo Stockpile — V01
 
+> **STATUS 2026-09-29 — the strip is broken on the live site right now.** All five
+> hot-linked logos 404 because `ninja-360.com` is not live. A replacement component
+> now exists at `components/trusted-by.html` with two variants:
+> **Variant A (text wordmarks)** ships immediately with no assets and removes the
+> broken-image defect today. **Variant B (logos)** is the same markup with
+> `REPLACE-GHL-URL-*` tokens, ready for the Canva exports below — unswapped tokens
+> hide themselves, so a partial upload degrades cleanly.
+> Canva work is still the path to the real thing; it is no longer a blocker for
+> getting the defect off the page.
+
 Sourcing file for the "Trusted By" scroll strip on ninja360.net.
 Goal: pull each logo from its **official source** (press kit / brand portal / live client site), then convert in Canva to the white-monochrome treatment used by the existing strip (`filter: brightness(0) invert(1); opacity:.8; height:54px`).
 
