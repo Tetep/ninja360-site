@@ -9,9 +9,9 @@
      ENTITY / AI-SEARCH: the AboutPage/Organization schema below goes in the page HEAD -
      canonical NAP, sameAs -> official socials, triad description, founder = Tim Petet.
      Tim's photo: LOCKED to media/6a26069049e55f8519a1a718.png (Tim's pick - NOT the black-shirt one).
-     REVIEWS: the review section carries REPLACE-* slots - paste real GBP reviews verbatim.
-     Do NOT add Review/aggregateRating schema for them (self-serving markup, against Google's
-     guidelines). Also swap REPLACE-GBP-REVIEW-URL or delete that link line.
+     REVIEWS: the Proof section embeds the live Zyene review widget (third-party iframe).
+     Nothing to fill in. Do NOT add Review/aggregateRating schema for it - self-serving
+     markup, against Google's guidelines. Adjust --rev-h if the widget height looks wrong.
      BADGE IMAGES: 4 img slots have src="REPLACE-GHL-URL-..." - upload the ninja badge art
      to GHL media (webp/png, ~600px is plenty) and swap each URL. Until swapped, the imgs
      hide themselves (onerror) so the page still renders clean.
@@ -96,13 +96,9 @@
 .phil-split{display:grid;grid-template-columns:1fr 280px;gap:32px;align-items:center}
 .phil-badge{width:100%;max-width:280px;height:auto;justify-self:center}
 @media(max-width:780px){.phil-split{grid-template-columns:1fr}.phil-badge{max-width:220px;margin-top:8px}}
-.rev-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:26px}
-.rev-card{background:#fff;border:1px solid var(--n-line);border-radius:12px;padding:22px;display:flex;flex-direction:column}
-.rev-stars{color:var(--n-red);font-size:15px;letter-spacing:2px;margin:0 0 10px}
-.rev-card blockquote{margin:0 0 14px;font-size:15.5px;color:var(--n-ink);line-height:1.55}
-.rev-who{margin:auto 0 0;font-size:13.5px;color:var(--n-muted)}
-.rev-who b{display:block;color:var(--n-ink);font-size:15px;font-weight:800}
-@media(max-width:780px){.rev-grid{grid-template-columns:1fr}}
+.rev-embed{--rev-h:400px;margin-top:26px;background:#fff;border:1px solid var(--n-line);border-radius:12px;overflow:hidden}
+.rev-embed iframe{display:block;width:100%;height:var(--rev-h);border:0}
+@media(max-width:780px){.rev-embed{--rev-h:520px}}
 .bio{display:grid;grid-template-columns:280px 1fr;gap:28px;align-items:start}
 .bio .ph{aspect-ratio:3/4;background:#eef0f3;border:1px solid var(--n-line);border-radius:12px;display:flex;align-items:center;justify-content:center;color:#8a929b;font-size:13px;text-align:center;padding:10px}
 .creds{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}
@@ -241,44 +237,26 @@
   </div>
 </div></section>
 
-<!-- REVIEWS - proof that the three philosophies are real.
-     FILL THESE IN: replace each REPLACE-* below with a real review. Keep them verbatim -
-     do not polish a client's words (Philosophy #2: tell their story, well, not prettier).
-     Source: Google Business Profile reviews (the ones that mention being FOUND / getting
-     calls beat the ones that praise the photos - visibility is the product, media is proof).
-     Star row: keep 5 filled stars only if the review is genuinely 5-star.
-     Add or delete cards freely - the grid handles 2, 3, or 6.
-     SCHEMA NOTE: do NOT add Review or aggregateRating JSON-LD for these. Review markup about
-     your own business on your own site is self-serving markup and violates Google's
-     guidelines (same rule already noted in seo/home-organization-schema-V01.html).
-     The reviews live on your GBP - that is where the stars legitimately come from. -->
+<!-- REVIEWS - live Zyene widget. Replaces the hardcoded review cards.
+     The widget is a third-party iframe: reviews render for humans but are NOT crawlable
+     as page content, so this adds social proof and zero SEO weight. That is the right
+     trade here - it also sidesteps self-serving Review/aggregateRating markup, which
+     violates Google's guidelines on your own site. Do NOT add review schema for these.
+     HEIGHT: 400px is the vendor's suggested default and is unverified against the real
+     widget. If reviews are clipped or there is dead space, change --rev-h below (one
+     value, both breakpoints inherit it).
+     If the widget ever fails to load, the <noscript>-style fallback link below still
+     gives visitors a way to read the reviews. -->
 <section class="n-section" style="background:var(--n-soft)"><div class="n-wrap">
   <p class="n-eyebrow">Proof</p>
   <h2 class="n-h2">What it looks like when it works.</h2>
-  <p class="n-sub">Three philosophies are only worth something if they show up in someone else's business. Here's what our clients say.</p>
-  <div class="rev-grid">
-
-    <div class="rev-card">
-      <p class="rev-stars" role="img" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-      <blockquote>REPLACE - paste the review text verbatim.</blockquote>
-      <p class="rev-who"><b>REPLACE - Reviewer Name</b>REPLACE - Business Name, City</p>
-    </div>
-
-    <div class="rev-card">
-      <p class="rev-stars" role="img" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-      <blockquote>REPLACE - paste the review text verbatim.</blockquote>
-      <p class="rev-who"><b>REPLACE - Reviewer Name</b>REPLACE - Business Name, City</p>
-    </div>
-
-    <div class="rev-card">
-      <p class="rev-stars" role="img" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-      <blockquote>REPLACE - paste the review text verbatim.</blockquote>
-      <p class="rev-who"><b>REPLACE - Reviewer Name</b>REPLACE - Business Name, City</p>
-    </div>
-
+  <p class="n-sub">Three philosophies are only worth something if they show up in someone else's business. Here's what our clients say &mdash; unedited, straight from the source.</p>
+  <div class="rev-embed">
+    <iframe src="https://zyenereviews.com/w/ninja-360-digital-media"
+            title="Customer reviews for Ninja-360 Digital Media"
+            loading="lazy"
+            width="100%" height="400"></iframe>
   </div>
-  <!-- REPLACE-GBP-REVIEW-URL: your Google Business Profile review link. Delete this line if you'd rather not send traffic off-page. -->
-  <p style="margin-top:20px"><a href="REPLACE-GBP-REVIEW-URL" style="color:var(--n-red);font-weight:700;text-decoration:none">Read every review on Google &rarr;</a></p>
 </div></section>
 
 <!-- CLOSING + CTA -->
