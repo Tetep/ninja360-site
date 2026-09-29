@@ -95,6 +95,40 @@ All seven are confirmed Ninja-360 clients per Tim (2026-06-03). "Good enough" so
 - Canva note: red wordmark, sometimes with the "TSC" mark. The wordmark is long — it will be
   one of the widest marks in the strip. Flattens to white cleanly.
 
+## 6d. Athleta  (Gap Inc.)
+
+- **Wikipedia Commons:** https://en.wikipedia.org/wiki/File:Athleta_logo.svg
+- Site: https://athleta.gap.com/ — same Gap Inc. asset-archive pattern as Gap / Old Navy
+- Canva target: `trustedby-athleta-white-V01.png`
+- Canva note: clean wordmark, inverts without trouble.
+
+## 6e. Banana Republic  (Gap Inc.)
+
+- **Wikipedia Commons:** https://en.wikipedia.org/wiki/File:Banana_Republic_logo.svg
+- Site: https://bananarepublic.gap.com/
+- Canva target: `trustedby-bananarepublic-white-V01.png`
+- Canva note: long wordmark — it and Tractor Supply will be the two widest marks in the
+  strip. Fine, but don't place them adjacent (the deploy order already separates them).
+
+## 6f. ACA Liberty
+
+- ⚠️ **No public source found — Tim needs to supply this one.** Ask the ACA Liberty contact
+  for their mark, or pull it from whatever collateral you already shot for them.
+- Canva target: `trustedby-acaliberty-white-V01.png`
+- ⚠️ **Check it against `trustedby-aca-white-V01.png` before deploying.** If ACA Liberty uses
+  the same ACA corporate mark with only a location line, the two will render as visually
+  identical white shapes in the strip and look like a duplication bug. If that is the case,
+  either keep one or make sure the Liberty lockup keeps its distinguishing text at 54px.
+
+## 6g. Speak Easy Spa KC
+
+- ⚠️ **No public source in this file — Tim to supply.** Likely from the client's own site or
+  social profile, or from the shoot assets already on hand.
+- Canva target: `trustedby-speakeasyspa-white-V01.png`
+- Canva note: spa marks often use thin scripts, which are the first thing to break at 54px
+  once inverted to flat white. If the script disappears, ask for a horizontal lockup or use
+  the wordmark portion only.
+
 ## 7. Valvoline
 
 - Site blocked direct fetch — easiest grabs:
@@ -173,32 +207,43 @@ These are the logos on the `tb-track` strip. They were hot-linked from the old m
 
 ---
 
-## Full deploy roster — 16 marks, interleaved
+## Full deploy roster — 20 marks, interleaved
 
-Matches the order in `components/trusted-by.html`. National and local alternate on purpose:
-big names clustered read as padding, alternated they read as range. Each entry appears twice
-in the markup (the seamless `-50%` loop) — keep both lists in sync.
+Matches `components/trusted-by.html`. Three rules built into this order:
+- **national and local alternate** — big names clustered read as padding, alternated they read as range;
+- **the four Gap Inc. brands** (Gap, Old Navy, Banana Republic, Athleta) sit at 1 / 7 / 11 / 15
+  so a single parent company never appears as a block;
+- **the two ACA entries** sit at 6 and 18 so near-identical marks never land side by side.
+
+Each entry appears twice in the markup (the seamless `-50%` loop) — keep both lists in sync.
 
 1. `trustedby-gap-white-V01.png` — Gap
 2. `trustedby-kobler-white-V01.png` — Kobler Chiropractic
 3. `trustedby-verizon-white-V01.png` — Verizon
 4. `trustedby-54thstreet-white-V01.png` — 54th Street
 5. `trustedby-target-white-V01.png` — Target
-6. `trustedby-atchison-white-V01.png` — Atchison Family Dentistry
+6. `trustedby-aca-white-V01.png` — ACA Business Club
 7. `trustedby-oldnavy-white-V01.png` — Old Navy
 8. `trustedby-marshall-white-V01.png` — Marshall School District
 9. `trustedby-tractorsupply-white-V01.png` — Tractor Supply
-10. `trustedby-bishopmiege-white-V01.png` — Bishop Miege
-11. `trustedby-homedepot-white-V01.png` — Home Depot
-12. `trustedby-kccomplete-white-V01.png` — KC Complete
-13. `trustedby-valvoline-white-V01.png` — Valvoline
-14. `trustedby-armouroaks-white-V01.png` — Armour Oaks Senior Living
-15. `trustedby-scriptpro-white-V01.png` — ScriptPro
-16. `trustedby-aca-white-V01.png` — ACA Business Club
+10. `trustedby-speakeasyspa-white-V01.png` — Speak Easy Spa KC
+11. `trustedby-bananarepublic-white-V01.png` — Banana Republic
+12. `trustedby-bishopmiege-white-V01.png` — Bishop Miege
+13. `trustedby-homedepot-white-V01.png` — Home Depot
+14. `trustedby-atchison-white-V01.png` — Atchison Family Dentistry
+15. `trustedby-athleta-white-V01.png` — Athleta
+16. `trustedby-armouroaks-white-V01.png` — Armour Oaks Senior Living
+17. `trustedby-valvoline-white-V01.png` — Valvoline
+18. `trustedby-acaliberty-white-V01.png` — ACA Liberty
+19. `trustedby-scriptpro-white-V01.png` — ScriptPro
+20. `trustedby-kccomplete-white-V01.png` — KC Complete
 
 **Partial uploads are safe.** Unswapped `REPLACE-GHL-URL-*` tokens hide themselves, so the
-strip can never show a broken image again. A strip running 3 of 16 still looks thinner than
+strip can never show a broken image again. A strip running 3 of 20 still looks thinner than
 the text variant — under ~8 ready, ship Variant A and come back.
+
+**Two still need a source from Tim:** ACA Liberty and Speak Easy Spa KC. Everything else has
+a public link above.
 
 ## The relationship — recorded 2026-09-29
 
