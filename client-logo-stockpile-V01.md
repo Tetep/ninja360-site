@@ -58,6 +58,24 @@ All seven are confirmed Ninja-360 clients per Tim (2026-06-03). "Good enough" so
   - **Direct logo file:** https://corporate.homedepot.com/media/home-depot-logojpg
 - Canva note: the orange square is the recognizable shape. Once inverted to flat white the square + wordmark still reads.
 
+## 5b. Old Navy
+
+- **Wikipedia Commons:** https://en.wikipedia.org/wiki/File:Old_Navy_Logo.svg
+- Site: https://oldnavy.gap.com/ — same Gap Inc. asset archive pattern as the Gap mark
+- Brandfetch fallback: https://brandfetch.com/oldnavy.com
+- Canva target: `trustedby-oldnavy-white-V01.png`
+- Canva note: navy wordmark, sometimes in a rounded box. Use the plain wordmark — the boxed
+  version turns into a solid white slab under `brightness(0) invert(1)` and loses the letters.
+
+## 5c. Verizon
+
+- **Wikipedia Commons:** https://en.wikipedia.org/wiki/File:Verizon_2015_logo_-vector.svg
+- Brand assets: https://www.verizon.com/about/brand-assets
+- Brandfetch fallback: https://brandfetch.com/verizon.com
+- Canva target: `trustedby-verizon-white-V01.png`
+- Canva note: the checkmark is the recognizable element and it is thin — check it survives at
+  54px once inverted. If it disappears, use the wordmark-only lockup.
+
 ## 7. Valvoline
 
 - Site blocked direct fetch — easiest grabs:
@@ -136,21 +154,27 @@ These are the logos on the `tb-track` strip. They were hot-linked from the old m
 
 ---
 
-## Full deploy roster (final order for the `tb-track`)
+## Full deploy roster — 14 marks, interleaved
 
-When all Canva exports are back in `assets\trustedby\`, the bot should update the `tb-track` to this list (duplicated once for the seamless scroll loop, as the current pattern does):
+Order below is the one in `components/trusted-by.html`. National and local alternate
+deliberately: big names clustered together read as padding, alternating reads as range.
+Each entry appears twice in the markup (the seamless `-50%` loop) — keep both lists in sync.
 
-1. `trustedby-aca-white-V01.png` — ACA Business Club
-2. `trustedby-marshall-white-V01.png` — Marshall School District
-3. `trustedby-scriptpro-white-V01.png` — ScriptPro
-4. `trustedby-kobler-white-V01.png` — Kobler Chiropractic
-5. `trustedby-gap-white-V01.png` — Gap
-6. `trustedby-homedepot-white-V01.png` — Home Depot
-7. `trustedby-valvoline-white-V01.png` — Valvoline
-8. `trustedby-54thstreet-white-V01.png` — 54th Street
-9. `trustedby-atchison-white-V01.png` — Atchison Family Dentistry
-10. `trustedby-kccomplete-white-V01.png` — KC Complete
-11. `trustedby-bishopmiege-white-V01.png` — Bishop Miege
-12. `trustedby-armouroaks-white-V01.png` — Armour Oaks Senior Living
+1. `trustedby-gap-white-V01.png` — Gap
+2. `trustedby-kobler-white-V01.png` — Kobler Chiropractic
+3. `trustedby-verizon-white-V01.png` — Verizon
+4. `trustedby-54thstreet-white-V01.png` — 54th Street
+5. `trustedby-homedepot-white-V01.png` — Home Depot
+6. `trustedby-atchison-white-V01.png` — Atchison Family Dentistry
+7. `trustedby-oldnavy-white-V01.png` — Old Navy
+8. `trustedby-marshall-white-V01.png` — Marshall School District
+9. `trustedby-valvoline-white-V01.png` — Valvoline
+10. `trustedby-bishopmiege-white-V01.png` — Bishop Miege
+11. `trustedby-scriptpro-white-V01.png` — ScriptPro
+12. `trustedby-kccomplete-white-V01.png` — KC Complete
+13. `trustedby-aca-white-V01.png` — ACA Business Club
+14. `trustedby-armouroaks-white-V01.png` — Armour Oaks Senior Living
 
-Order is up to you — alphabetical, by recognition value, or by mix-them-up rhythm. The current strip alternates large/small naturally; I'd recommend keeping that visual rhythm rather than clustering big brands together.
+**Partial uploads are safe.** Unswapped `REPLACE-GHL-URL-*` tokens hide themselves, so the
+strip never shows a broken image again. But a strip running 3 of 14 looks thinner than the
+text variant — if fewer than ~8 are ready, ship Variant A and come back.

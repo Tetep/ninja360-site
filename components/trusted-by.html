@@ -1,38 +1,39 @@
-<!-- TRUSTED BY - client strip for the home page.
+<!-- TRUSTED BY - client logo strip for the home page.
      ============================================================================
-     WHY THIS FILE EXISTS: the live strip hot-links 5 logos from
+     ACTIVE VARIANT: LOGOS. Variant A (text wordmarks) is kept commented at the
+     bottom as the zero-asset fallback.
+
+     BEFORE THIS GOES LIVE: every src below is a REPLACE-GHL-URL-* token. Upload
+     the white PNG exports to GHL Media and swap each one. Any token left
+     unswapped hides itself (onerror), so a partial upload degrades cleanly - it
+     will NOT put broken images back on the page. But a strip with 3 of 14 logos
+     showing looks worse than the text variant, so if fewer than ~8 are ready,
+     ship Variant A instead and come back to this.
+
+     WHY THIS FILE EXISTS: the previous strip hot-linked 5 logos from
      ninja-360.com/wp-content/uploads/2024/08/ - that Wix site is NOT live (the
-     domain is email-only now), so every one of those images 404s. The strip has
-     been rendering broken images on the highest-traffic page.
-     Root cause + re-sourcing plan: client-logo-stockpile-V01.md.
+     domain is email-only now), so all five 404 and the home page has been
+     rendering broken images. Never point at ninja-360.com again.
+     Sourcing + Canva spec: client-logo-stockpile-V01.md.
 
-     TWO VARIANTS BELOW. Ship A now, upgrade to B when the Canva exports land.
-
-       VARIANT A - TEXT (ships immediately, zero assets)
-         Client names as a scrolling wordmark strip. This is a legitimate,
-         common pattern - it reads as deliberate, not as a fallback - and it
-         removes the broken-image defect today without waiting on Canva.
-
-       VARIANT B - LOGOS (paste-ready, needs the 12 white PNGs first)
-         Same markup with <img>. Each src is a REPLACE-GHL-URL-* token; upload
-         the Canva exports to GHL Media and swap. Unswapped images hide
-         themselves, so a partial upload degrades cleanly instead of breaking.
-
-     STYLE SPEC (from client-logo-stockpile-V01.md, matches the existing strip):
-       render height 54px (mobile 42px) | filter brightness(0) invert(1)
+     STYLE SPEC (matches the original strip):
+       54px render (42px mobile) | filter brightness(0) invert(1)
        opacity .8, hover 1.0 | gap 64px (mobile 42px) | background #13161c
        edge fade: transparent -> opaque at 8%, opaque -> transparent at 92%
+       list duplicated once for the seamless -50% scroll loop - keep both in sync
 
-     ROSTER ACCURACY - read before publishing:
-     Your /about bio says Tim "contributed to companies like VinSolutions,
-     Autotrader, dealer.com, and ScriptPro" - that is career history. ScriptPro
-     also appears in this roster, where the heading implies a Ninja-360 client.
-     Those are different claims and a visitor could notice the tension. Same
-     question applies to Gap, Home Depot and Valvoline: if the relationship was
-     through a former employer rather than Ninja-360, listing them here
-     overstates it. The stockpile doc records these as confirmed Ninja-360
-     clients (Tim, 2026-06-03) - just confirm that still reads true before it
-     goes live, because a "Trusted By" strip is a claim, not decoration.
+     ORDER: national and local are deliberately interleaved rather than clustered.
+     Big names grouped together read as padding; alternating reads as range.
+
+     ROSTER ACCURACY - confirm before publish:
+     A "Trusted By" strip is a claim, not decoration. Two things worth a second
+     look: (1) the /about bio lists ScriptPro among companies Tim contributed to
+     in his career, while this strip implies a Ninja-360 client relationship -
+     same question for Gap, Old Navy, Verizon, Home Depot and Valvoline; if any
+     of that work happened through a former employer, this overstates it.
+     (2) Large brands often have trademark policies covering logo use in
+     customer/endorsement contexts. Worth knowing you have the relationship you
+     are implying before a national brand's legal team asks.
      ============================================================================ -->
 
 <style>
@@ -42,21 +43,19 @@
 .tb-label{max-width:1080px;margin:0 auto 18px;padding:0 22px;font-size:12px;letter-spacing:.16em;
   text-transform:uppercase;color:#FF8D2D;font-weight:800}
 .tb-track{display:flex;align-items:center;gap:64px;width:max-content;
-  animation:tb-scroll 42s linear infinite}
+  animation:tb-scroll 52s linear infinite}
 .tb-wrap:hover .tb-track{animation-play-state:paused}
-/* VARIANT A - text wordmarks */
-.tb-track b{flex:0 0 auto;color:#fff;opacity:.8;font-size:19px;font-weight:700;
-  letter-spacing:.03em;white-space:nowrap;transition:opacity .2s}
-.tb-track b:hover{opacity:1}
-/* VARIANT B - logo images */
 .tb-track img{flex:0 0 auto;height:54px;width:auto;opacity:.8;
   filter:brightness(0) invert(1);transition:opacity .2s}
 .tb-track img:hover{opacity:1}
+.tb-track b{flex:0 0 auto;color:#fff;opacity:.8;font-size:19px;font-weight:700;
+  letter-spacing:.03em;white-space:nowrap;transition:opacity .2s}
+.tb-track b:hover{opacity:1}
 @keyframes tb-scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 @media(max-width:780px){
   .tb-track{gap:42px}
-  .tb-track b{font-size:16px}
   .tb-track img{height:42px}
+  .tb-track b{font-size:16px}
 }
 @media(prefers-reduced-motion:reduce){
   .tb-track{animation:none;flex-wrap:wrap;width:auto;justify-content:center;
@@ -65,74 +64,63 @@
 }
 </style>
 
-
-<!-- ========================= VARIANT A - TEXT (ship this now) ========================= -->
 <section class="tb-wrap" aria-label="Clients Ninja-360 has worked with">
   <p class="tb-label">Trusted by</p>
   <div class="tb-track">
-    <!-- list 1 -->
-    <b>ACA Business Club</b>
-    <b>Marshall School District</b>
-    <b>ScriptPro</b>
-    <b>Kobler Chiropractic</b>
-    <b>Gap</b>
-    <b>Home Depot</b>
-    <b>Valvoline</b>
-    <b>54th Street</b>
-    <b>Atchison Family Dentistry</b>
-    <b>KC Complete</b>
-    <b>Bishop Miege</b>
-    <b>Armour Oaks</b>
-    <!-- list 2 - exact duplicate, required for the seamless -50% loop. Keep in sync. -->
-    <b aria-hidden="true">ACA Business Club</b>
-    <b aria-hidden="true">Marshall School District</b>
-    <b aria-hidden="true">ScriptPro</b>
-    <b aria-hidden="true">Kobler Chiropractic</b>
-    <b aria-hidden="true">Gap</b>
-    <b aria-hidden="true">Home Depot</b>
-    <b aria-hidden="true">Valvoline</b>
-    <b aria-hidden="true">54th Street</b>
-    <b aria-hidden="true">Atchison Family Dentistry</b>
-    <b aria-hidden="true">KC Complete</b>
-    <b aria-hidden="true">Bishop Miege</b>
-    <b aria-hidden="true">Armour Oaks</b>
-  </div>
-</section>
 
+    <!-- ===== list 1 (the one screen readers announce) ===== -->
+    <img src="REPLACE-GHL-URL-trustedby-gap"          alt="Gap"                          height="54" loading="lazy" onerror="this.style.display='none'">
+    <img src="REPLACE-GHL-URL-trustedby-kobler"       alt="Kobler Chiropractic"          height="54" loading="lazy" onerror="this.style.display='none'">
+    <img src="REPLACE-GHL-URL-trustedby-verizon"      alt="Verizon"                      height="54" loading="lazy" onerror="this.style.display='none'">
+    <img src="REPLACE-GHL-URL-trustedby-54thstreet"   alt="54th Street"                  height="54" loading="lazy" onerror="this.style.display='none'">
+    <img src="REPLACE-GHL-URL-trustedby-homedepot"    alt="Home Depot"                   height="54" loading="lazy" onerror="this.style.display='none'">
+    <img src="REPLACE-GHL-URL-trustedby-atchison"     alt="Atchison Family Dentistry"    height="54" loading="lazy" onerror="this.style.display='none'">
+    <img src="REPLACE-GHL-URL-trustedby-oldnavy"      alt="Old Navy"                     height="54" loading="lazy" onerror="this.style.display='none'">
+    <img src="REPLACE-GHL-URL-trustedby-marshall"     alt="Marshall School District"     height="54" loading="lazy" onerror="this.style.display='none'">
+    <img src="REPLACE-GHL-URL-trustedby-valvoline"    alt="Valvoline"                    height="54" loading="lazy" onerror="this.style.display='none'">
+    <img src="REPLACE-GHL-URL-trustedby-bishopmiege"  alt="Bishop Miege"                 height="54" loading="lazy" onerror="this.style.display='none'">
+    <img src="REPLACE-GHL-URL-trustedby-scriptpro"    alt="ScriptPro"                    height="54" loading="lazy" onerror="this.style.display='none'">
+    <img src="REPLACE-GHL-URL-trustedby-kccomplete"   alt="KC Complete"                  height="54" loading="lazy" onerror="this.style.display='none'">
+    <img src="REPLACE-GHL-URL-trustedby-aca"          alt="ACA Business Club"            height="54" loading="lazy" onerror="this.style.display='none'">
+    <img src="REPLACE-GHL-URL-trustedby-armouroaks"   alt="Armour Oaks Senior Living"    height="54" loading="lazy" onerror="this.style.display='none'">
 
-<!-- ================= VARIANT B - LOGOS (swap in when Canva exports land) =================
-     Upload each white PNG to GHL Media, then replace the matching REPLACE-GHL-URL-* token.
-     Filenames follow client-logo-stockpile-V01.md: trustedby-{slug}-white-V01.png
-     Any token left unswapped hides itself, so a partial upload degrades cleanly.
-
-<section class="tb-wrap" aria-label="Clients Ninja-360 has worked with">
-  <p class="tb-label">Trusted by</p>
-  <div class="tb-track">
-    <img src="REPLACE-GHL-URL-trustedby-aca"          alt="ACA Business Club" height="54" loading="lazy" onerror="this.style.display='none'">
-    <img src="REPLACE-GHL-URL-trustedby-marshall"     alt="Marshall School District" height="54" loading="lazy" onerror="this.style.display='none'">
-    <img src="REPLACE-GHL-URL-trustedby-scriptpro"    alt="ScriptPro" height="54" loading="lazy" onerror="this.style.display='none'">
-    <img src="REPLACE-GHL-URL-trustedby-kobler"       alt="Kobler Chiropractic" height="54" loading="lazy" onerror="this.style.display='none'">
-    <img src="REPLACE-GHL-URL-trustedby-gap"          alt="Gap" height="54" loading="lazy" onerror="this.style.display='none'">
-    <img src="REPLACE-GHL-URL-trustedby-homedepot"    alt="Home Depot" height="54" loading="lazy" onerror="this.style.display='none'">
-    <img src="REPLACE-GHL-URL-trustedby-valvoline"    alt="Valvoline" height="54" loading="lazy" onerror="this.style.display='none'">
-    <img src="REPLACE-GHL-URL-trustedby-54thstreet"   alt="54th Street" height="54" loading="lazy" onerror="this.style.display='none'">
-    <img src="REPLACE-GHL-URL-trustedby-atchison"     alt="Atchison Family Dentistry" height="54" loading="lazy" onerror="this.style.display='none'">
-    <img src="REPLACE-GHL-URL-trustedby-kccomplete"   alt="KC Complete" height="54" loading="lazy" onerror="this.style.display='none'">
-    <img src="REPLACE-GHL-URL-trustedby-bishopmiege"  alt="Bishop Miege" height="54" loading="lazy" onerror="this.style.display='none'">
-    <img src="REPLACE-GHL-URL-trustedby-armouroaks"   alt="Armour Oaks Senior Living" height="54" loading="lazy" onerror="this.style.display='none'">
-
-    <img src="REPLACE-GHL-URL-trustedby-aca"          alt="" aria-hidden="true" height="54" loading="lazy" onerror="this.style.display='none'">
-    <img src="REPLACE-GHL-URL-trustedby-marshall"     alt="" aria-hidden="true" height="54" loading="lazy" onerror="this.style.display='none'">
-    <img src="REPLACE-GHL-URL-trustedby-scriptpro"    alt="" aria-hidden="true" height="54" loading="lazy" onerror="this.style.display='none'">
-    <img src="REPLACE-GHL-URL-trustedby-kobler"       alt="" aria-hidden="true" height="54" loading="lazy" onerror="this.style.display='none'">
+    <!-- ===== list 2: exact duplicate, required for the seamless loop. ===== -->
+    <!-- Hidden from screen readers so the roster isn't announced twice. Keep in sync with list 1. -->
     <img src="REPLACE-GHL-URL-trustedby-gap"          alt="" aria-hidden="true" height="54" loading="lazy" onerror="this.style.display='none'">
-    <img src="REPLACE-GHL-URL-trustedby-homedepot"    alt="" aria-hidden="true" height="54" loading="lazy" onerror="this.style.display='none'">
-    <img src="REPLACE-GHL-URL-trustedby-valvoline"    alt="" aria-hidden="true" height="54" loading="lazy" onerror="this.style.display='none'">
+    <img src="REPLACE-GHL-URL-trustedby-kobler"       alt="" aria-hidden="true" height="54" loading="lazy" onerror="this.style.display='none'">
+    <img src="REPLACE-GHL-URL-trustedby-verizon"      alt="" aria-hidden="true" height="54" loading="lazy" onerror="this.style.display='none'">
     <img src="REPLACE-GHL-URL-trustedby-54thstreet"   alt="" aria-hidden="true" height="54" loading="lazy" onerror="this.style.display='none'">
+    <img src="REPLACE-GHL-URL-trustedby-homedepot"    alt="" aria-hidden="true" height="54" loading="lazy" onerror="this.style.display='none'">
     <img src="REPLACE-GHL-URL-trustedby-atchison"     alt="" aria-hidden="true" height="54" loading="lazy" onerror="this.style.display='none'">
-    <img src="REPLACE-GHL-URL-trustedby-kccomplete"   alt="" aria-hidden="true" height="54" loading="lazy" onerror="this.style.display='none'">
+    <img src="REPLACE-GHL-URL-trustedby-oldnavy"      alt="" aria-hidden="true" height="54" loading="lazy" onerror="this.style.display='none'">
+    <img src="REPLACE-GHL-URL-trustedby-marshall"     alt="" aria-hidden="true" height="54" loading="lazy" onerror="this.style.display='none'">
+    <img src="REPLACE-GHL-URL-trustedby-valvoline"    alt="" aria-hidden="true" height="54" loading="lazy" onerror="this.style.display='none'">
     <img src="REPLACE-GHL-URL-trustedby-bishopmiege"  alt="" aria-hidden="true" height="54" loading="lazy" onerror="this.style.display='none'">
+    <img src="REPLACE-GHL-URL-trustedby-scriptpro"    alt="" aria-hidden="true" height="54" loading="lazy" onerror="this.style.display='none'">
+    <img src="REPLACE-GHL-URL-trustedby-kccomplete"   alt="" aria-hidden="true" height="54" loading="lazy" onerror="this.style.display='none'">
+    <img src="REPLACE-GHL-URL-trustedby-aca"          alt="" aria-hidden="true" height="54" loading="lazy" onerror="this.style.display='none'">
     <img src="REPLACE-GHL-URL-trustedby-armouroaks"   alt="" aria-hidden="true" height="54" loading="lazy" onerror="this.style.display='none'">
+
   </div>
 </section>
-================================ END VARIANT B ================================ -->
+
+
+<!-- ============ VARIANT A - TEXT FALLBACK (no assets required) ============
+     Swap this in for the <section> above if the logo exports aren't ready.
+     Same CSS drives it - the .tb-track b rules are already in the style block.
+
+<section class="tb-wrap" aria-label="Clients Ninja-360 has worked with">
+  <p class="tb-label">Trusted by</p>
+  <div class="tb-track">
+    <b>Gap</b><b>Kobler Chiropractic</b><b>Verizon</b><b>54th Street</b>
+    <b>Home Depot</b><b>Atchison Family Dentistry</b><b>Old Navy</b>
+    <b>Marshall School District</b><b>Valvoline</b><b>Bishop Miege</b>
+    <b>ScriptPro</b><b>KC Complete</b><b>ACA Business Club</b><b>Armour Oaks</b>
+
+    <b aria-hidden="true">Gap</b><b aria-hidden="true">Kobler Chiropractic</b><b aria-hidden="true">Verizon</b><b aria-hidden="true">54th Street</b>
+    <b aria-hidden="true">Home Depot</b><b aria-hidden="true">Atchison Family Dentistry</b><b aria-hidden="true">Old Navy</b>
+    <b aria-hidden="true">Marshall School District</b><b aria-hidden="true">Valvoline</b><b aria-hidden="true">Bishop Miege</b>
+    <b aria-hidden="true">ScriptPro</b><b aria-hidden="true">KC Complete</b><b aria-hidden="true">ACA Business Club</b><b aria-hidden="true">Armour Oaks</b>
+  </div>
+</section>
+==================== END VARIANT A ==================== -->
