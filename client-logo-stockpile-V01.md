@@ -251,9 +251,10 @@ Tim works the national accounts (Gap, Old Navy, Verizon, Target, Tractor Supply,
 Valvoline, ScriptPro) as a **subcontractor**. The capture work is real; those brands did not
 retain Ninja-360 directly. Two consequences:
 
-1. **"Trusted by" overstates it.** `components/trusted-by.html` carries three accurate
-   alternatives in a comment beside the label — recommended: **"Brands we've shot for."**
-   Every logo stays; only the four words above them change.
+1. **Label settled (Tim, 2026-09-29): "Brands we've shot for."** "Trusted by" implied a
+   direct client relationship the subcontract does not support. The new label is true of
+   subcontracted capture work and holds up if a prospect asks. Every logo stays — only the
+   four words above them changed. Do not revert.
 2. **Check the subcontract before publishing.** National retail capture subcontracts
    commonly include a publicity or confidentiality clause restricting naming the end client
    in your own marketing. That is a contract question and the likelier snag — more likely to
