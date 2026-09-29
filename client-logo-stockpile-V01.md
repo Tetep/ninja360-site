@@ -76,6 +76,25 @@ All seven are confirmed Ninja-360 clients per Tim (2026-06-03). "Good enough" so
 - Canva note: the checkmark is the recognizable element and it is thin — check it survives at
   54px once inverted. If it disappears, use the wordmark-only lockup.
 
+## 6b. Target
+
+- **Wikipedia Commons:** https://en.wikipedia.org/wiki/File:Target_logo.svg
+- Brand site: https://corporate.target.com/ (press/brand assets)
+- Canva target: `trustedby-target-white-V01.png`
+- ⚠️ **Canva trap — the worst one in this list.** The bullseye is concentric red rings on
+  white. Under `brightness(0) invert(1)` every ring becomes white and the logo collapses
+  into a featureless white dot. **Use the bullseye + "TARGET" wordmark lockup**, or
+  hand-build the bullseye as white ring / transparent gap / white centre so the rings
+  survive. Check it at 54px before calling it done.
+
+## 6c. Tractor Supply
+
+- **Wikipedia Commons:** https://en.wikipedia.org/wiki/File:Tractor_Supply_Company_logo.svg
+- Brand site: https://www.tractorsupply.com/
+- Canva target: `trustedby-tractorsupply-white-V01.png`
+- Canva note: red wordmark, sometimes with the "TSC" mark. The wordmark is long — it will be
+  one of the widest marks in the strip. Flattens to white cleanly.
+
 ## 7. Valvoline
 
 - Site blocked direct fetch — easiest grabs:
@@ -154,27 +173,43 @@ These are the logos on the `tb-track` strip. They were hot-linked from the old m
 
 ---
 
-## Full deploy roster — 14 marks, interleaved
+## Full deploy roster — 16 marks, interleaved
 
-Order below is the one in `components/trusted-by.html`. National and local alternate
-deliberately: big names clustered together read as padding, alternating reads as range.
-Each entry appears twice in the markup (the seamless `-50%` loop) — keep both lists in sync.
+Matches the order in `components/trusted-by.html`. National and local alternate on purpose:
+big names clustered read as padding, alternated they read as range. Each entry appears twice
+in the markup (the seamless `-50%` loop) — keep both lists in sync.
 
 1. `trustedby-gap-white-V01.png` — Gap
 2. `trustedby-kobler-white-V01.png` — Kobler Chiropractic
 3. `trustedby-verizon-white-V01.png` — Verizon
 4. `trustedby-54thstreet-white-V01.png` — 54th Street
-5. `trustedby-homedepot-white-V01.png` — Home Depot
+5. `trustedby-target-white-V01.png` — Target
 6. `trustedby-atchison-white-V01.png` — Atchison Family Dentistry
 7. `trustedby-oldnavy-white-V01.png` — Old Navy
 8. `trustedby-marshall-white-V01.png` — Marshall School District
-9. `trustedby-valvoline-white-V01.png` — Valvoline
+9. `trustedby-tractorsupply-white-V01.png` — Tractor Supply
 10. `trustedby-bishopmiege-white-V01.png` — Bishop Miege
-11. `trustedby-scriptpro-white-V01.png` — ScriptPro
+11. `trustedby-homedepot-white-V01.png` — Home Depot
 12. `trustedby-kccomplete-white-V01.png` — KC Complete
-13. `trustedby-aca-white-V01.png` — ACA Business Club
+13. `trustedby-valvoline-white-V01.png` — Valvoline
 14. `trustedby-armouroaks-white-V01.png` — Armour Oaks Senior Living
+15. `trustedby-scriptpro-white-V01.png` — ScriptPro
+16. `trustedby-aca-white-V01.png` — ACA Business Club
 
 **Partial uploads are safe.** Unswapped `REPLACE-GHL-URL-*` tokens hide themselves, so the
-strip never shows a broken image again. But a strip running 3 of 14 looks thinner than the
-text variant — if fewer than ~8 are ready, ship Variant A and come back.
+strip can never show a broken image again. A strip running 3 of 16 still looks thinner than
+the text variant — under ~8 ready, ship Variant A and come back.
+
+## The relationship — recorded 2026-09-29
+
+Tim works the national accounts (Gap, Old Navy, Verizon, Target, Tractor Supply, Home Depot,
+Valvoline, ScriptPro) as a **subcontractor**. The capture work is real; those brands did not
+retain Ninja-360 directly. Two consequences:
+
+1. **"Trusted by" overstates it.** `components/trusted-by.html` carries three accurate
+   alternatives in a comment beside the label — recommended: **"Brands we've shot for."**
+   Every logo stays; only the four words above them change.
+2. **Check the subcontract before publishing.** National retail capture subcontracts
+   commonly include a publicity or confidentiality clause restricting naming the end client
+   in your own marketing. That is a contract question and the likelier snag — more likely to
+   bite than trademark.
