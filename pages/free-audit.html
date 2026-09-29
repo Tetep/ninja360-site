@@ -68,7 +68,9 @@
 .faq summary:after{content:"+";float:right;color:var(--n-red);font-weight:800}
 .faq details[open] summary:after{content:"\2013"}
 .faq details p{color:var(--n-muted);margin:10px 0 0;font-size:15px}
-@media(max-width:780px){.get-grid{grid-template-columns:1fr}}
+.rev-embed{--rev-h:400px;margin-top:26px;background:#fff;border:1px solid var(--n-line);border-radius:12px;overflow:hidden}
+.rev-embed iframe{display:block;width:100%;height:var(--rev-h);border:0}
+@media(max-width:780px){.get-grid{grid-template-columns:1fr}.rev-embed{--rev-h:520px}}
 </style>
 
 <!-- NAV -->
@@ -172,8 +174,24 @@
   </div>
 </div></section>
 
-<!-- WHY FREE - trust / philosophy 3 -->
+<!-- REVIEWS - live Zyene widget. Proof sits between "how it works" and the trust close.
+     Third-party iframe: social proof for humans, not crawlable as page content, so no
+     SEO weight - and deliberately NO Review/aggregateRating schema (self-serving markup).
+     HEIGHT: 400px is the vendor default, unverified. Tune --rev-h if clipped. -->
 <section class="n-section"><div class="n-wrap">
+  <p class="n-eyebrow">Proof</p>
+  <h2 class="n-h2">Businesses that already did this.</h2>
+  <p class="n-sub">Every one of them started with the same free audit you're looking at.</p>
+  <div class="rev-embed">
+    <iframe src="https://zyenereviews.com/w/ninja-360-digital-media"
+            title="Customer reviews for Ninja-360 Digital Media"
+            loading="lazy"
+            width="100%" height="400"></iframe>
+  </div>
+</div></section>
+
+<!-- WHY FREE - trust / philosophy 3 -->
+<section class="n-section" style="background:var(--n-soft)"><div class="n-wrap">
   <p class="n-eyebrow">The honest answer</p>
   <h2 class="n-h2">Why we give this away.</h2>
   <p class="n-sub">Because most owners have never actually been shown what their customers see, and once they are, the problem becomes obvious. Some hire us to fix it. Some fix it themselves. Both are fine by us &mdash; a Kansas City business that's easier to find is the point, and we'd rather tell you the truth about your gaps than sell you a package you don't need.</p>
@@ -181,7 +199,7 @@
 </div></section>
 
 <!-- FAQ -->
-<section class="n-section faq" style="background:var(--n-soft)"><div class="n-wrap">
+<section class="n-section faq"><div class="n-wrap">
   <p class="n-eyebrow">Before you ask</p>
   <h2 class="n-h2">Frequently asked</h2>
   <details><summary>Is the visibility audit really free?</summary><p>Yes. No cost, no card, no obligation. You get the findings whether or not you ever hire us.</p></details>
