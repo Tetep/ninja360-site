@@ -12,9 +12,15 @@
      subcontracted work - real, but those brands did not retain Ninja-360 directly. This
      wording is true and survives a prospect asking "so Target is your client?".
 
+     FULL-BLEED: .tb uses the same width:100vw + margin-left:calc(50% - 50vw) breakout as
+     the block it replaces, so it spans edge to edge exactly like the old strip. Without it
+     the strip renders narrower than its neighbours. overflow-x:hidden is on the section
+     because 100vw includes the scrollbar width - the known site-wide quirk noted in
+     REVIEW-V01.md.
+
      NEVER point an image at ninja-360.com again. That domain serves email only. -->
 <style>
-.tb{background:#13161c;padding:44px 0 36px;overflow:hidden}
+.tb{width:100vw;margin-left:calc(50% - 50vw);background:#13161c;padding:44px 0 36px;overflow-x:hidden;overflow-y:visible}
 .tb-h{text-align:center;font-size:clamp(24px,3.2vw,34px);font-weight:800;color:#fff;margin:0}
 .tb-h .o{color:#FF8D2D}
 .tb-sub{text-align:center;color:#aeb4bd;font-size:15px;margin:10px 0 0}
