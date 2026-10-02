@@ -1,0 +1,88 @@
+<!-- TRUSTED BY - drop-in replacement for the live block.
+     WHY: every logo in the old block 404s. They were hot-linked from
+     ninja-360.com/wp-content/uploads/2024/08/ and that Wix site is NOT live - the domain is
+     email-only now. Five logos duplicated for the scroll loop = 10 broken images.
+     Also fixes alt="Client" on Logo-1, which should have read "Armour Oaks".
+
+     THIS IS THE TEXT VERSION - ships today with zero assets and gets the broken images off
+     the page now. The logo version is ready in the repo (components/trusted-by.html) and
+     swaps in when the white PNG exports land.
+
+     LABEL: "Brands we've shot for", not "Trusted by". The national accounts are
+     subcontracted work - real, but those brands did not retain Ninja-360 directly. This
+     wording is true and survives a prospect asking "so Target is your client?".
+
+     NEVER point an image at ninja-360.com again. That domain serves email only. -->
+<style>
+.tb{background:#13161c;padding:44px 0 36px;overflow:hidden}
+.tb-h{text-align:center;font-size:clamp(24px,3.2vw,34px);font-weight:800;color:#fff;margin:0}
+.tb-h .o{color:#FF8D2D}
+.tb-sub{text-align:center;color:#aeb4bd;font-size:15px;margin:10px 0 0}
+.tb-mask{margin-top:26px;
+  -webkit-mask-image:linear-gradient(to right,transparent 0,#000 8%,#000 92%,transparent 100%);
+          mask-image:linear-gradient(to right,transparent 0,#000 8%,#000 92%,transparent 100%)}
+.tb-track{display:flex;align-items:center;gap:64px;width:max-content;
+  animation:tb-scroll 60s linear infinite}
+.tb-mask:hover .tb-track{animation-play-state:paused}
+.tb-track b{flex:0 0 auto;color:#fff;opacity:.8;font-size:19px;font-weight:700;
+  letter-spacing:.03em;white-space:nowrap;transition:opacity .2s}
+.tb-track b:hover{opacity:1}
+@keyframes tb-scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media(max-width:780px){
+  .tb-track{gap:42px} .tb-track b{font-size:16px} .tb-sub{font-size:14px;padding:0 18px}
+}
+@media(prefers-reduced-motion:reduce){
+  .tb-track{animation:none;flex-wrap:wrap;width:auto;justify-content:center;
+    max-width:1080px;margin:0 auto;padding:0 22px;gap:20px 36px}
+  .tb-mask{-webkit-mask-image:none;mask-image:none}
+}
+</style>
+<section class="tb" aria-label="Brands Ninja-360 has shot for">
+  <h2 class="tb-h">Brands We've <span class="o">Shot For</span></h2>
+  <p class="tb-sub">The businesses that put their brand in our hands.</p>
+  <div class="tb-mask">
+    <div class="tb-track">
+      <b>Gap</b>
+      <b>Kobler Chiropractic</b>
+      <b>Verizon</b>
+      <b>54th Street</b>
+      <b>Target</b>
+      <b>ACA Business Club</b>
+      <b>Old Navy</b>
+      <b>Marshall School District</b>
+      <b>Tractor Supply</b>
+      <b>Speak Easy Spa KC</b>
+      <b>Banana Republic</b>
+      <b>Bishop Miege</b>
+      <b>Home Depot</b>
+      <b>Atchison Family Dentistry</b>
+      <b>Athleta</b>
+      <b>Armour Oaks</b>
+      <b>Valvoline</b>
+      <b>ACA Liberty</b>
+      <b>ScriptPro</b>
+      <b>KC Complete</b>
+
+      <b aria-hidden="true">Gap</b>
+      <b aria-hidden="true">Kobler Chiropractic</b>
+      <b aria-hidden="true">Verizon</b>
+      <b aria-hidden="true">54th Street</b>
+      <b aria-hidden="true">Target</b>
+      <b aria-hidden="true">ACA Business Club</b>
+      <b aria-hidden="true">Old Navy</b>
+      <b aria-hidden="true">Marshall School District</b>
+      <b aria-hidden="true">Tractor Supply</b>
+      <b aria-hidden="true">Speak Easy Spa KC</b>
+      <b aria-hidden="true">Banana Republic</b>
+      <b aria-hidden="true">Bishop Miege</b>
+      <b aria-hidden="true">Home Depot</b>
+      <b aria-hidden="true">Atchison Family Dentistry</b>
+      <b aria-hidden="true">Athleta</b>
+      <b aria-hidden="true">Armour Oaks</b>
+      <b aria-hidden="true">Valvoline</b>
+      <b aria-hidden="true">ACA Liberty</b>
+      <b aria-hidden="true">ScriptPro</b>
+      <b aria-hidden="true">KC Complete</b>
+    </div>
+  </div>
+</section>
