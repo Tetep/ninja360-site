@@ -1,47 +1,38 @@
-<!-- TRUSTED BY - drop-in replacement for the live block.
-     WHY: every logo in the old block 404s. They were hot-linked from
-     ninja-360.com/wp-content/uploads/2024/08/ and that Wix site is NOT live - the domain is
-     email-only now. Five logos duplicated for the scroll loop = 10 broken images.
-     Also fixes alt="Client" on Logo-1, which should have read "Armour Oaks".
+<!-- TRUSTED BY -> "Brands We've Shot For". Drop-in replacement.
+     WHY: all ten <img> tags pointed at ninja-360.com/wp-content/uploads/2024/08/ - that Wix
+     site is NOT live, the domain serves email only, so every logo 404s. Also fixes
+     alt="Client" on Logo-1 (should have read "Armour Oaks").
+     Zero <img> tags here. Nothing in this block can 404.
 
-     THIS IS THE TEXT VERSION - ships today with zero assets and gets the broken images off
-     the page now. The logo version is ready in the repo (components/trusted-by.html) and
-     swaps in when the white PNG exports land.
+     MATCHED TO THE BLOCK IT REPLACES - do not "simplify" these:
+       - #FF6A00 is the brand orange. (The build kit uses #FF8D2D in places; REVIEW-V01.md
+         records that as the wrong-orange bug. This block was already correct.)
+       - Playfair Display headline + Poppins body, same @import as before.
+       - 38px/30px padding, the hairline top/bottom borders, #9aa3ad 13px sub,
+         width:100vw full-bleed breakout, 8%/92% edge mask - all preserved.
+       - Animation slowed 34s -> 120s because the track now carries 20 names instead of 5
+         logos. Same on-screen speed; at 34s this much content would blur past.
 
-     LABEL: "Brands we've shot for", not "Trusted by". The national accounts are
-     subcontracted work - real, but those brands did not retain Ninja-360 directly. This
-     wording is true and survives a prospect asking "so Target is your client?".
-
-     FULL-BLEED: .tb uses the same width:100vw + margin-left:calc(50% - 50vw) breakout as
-     the block it replaces, so it spans edge to edge exactly like the old strip. Without it
-     the strip renders narrower than its neighbours. overflow-x:hidden is on the section
-     because 100vw includes the scrollbar width - the known site-wide quirk noted in
-     REVIEW-V01.md.
-
-     NEVER point an image at ninja-360.com again. That domain serves email only. -->
+     LOGO VERSION: components/trusted-by.html, ready for when the white PNG exports land.
+     NEVER point an image on this site at ninja-360.com again. -->
 <style>
-.tb{width:100vw;margin-left:calc(50% - 50vw);background:#13161c;padding:44px 0 36px;overflow-x:hidden;overflow-y:visible}
-.tb-h{text-align:center;font-size:clamp(24px,3.2vw,34px);font-weight:800;color:#fff;margin:0}
-.tb-h .o{color:#FF8D2D}
-.tb-sub{text-align:center;color:#aeb4bd;font-size:15px;margin:10px 0 0}
-.tb-mask{margin-top:26px;
-  -webkit-mask-image:linear-gradient(to right,transparent 0,#000 8%,#000 92%,transparent 100%);
-          mask-image:linear-gradient(to right,transparent 0,#000 8%,#000 92%,transparent 100%)}
-.tb-track{display:flex;align-items:center;gap:64px;width:max-content;
-  animation:tb-scroll 60s linear infinite}
-.tb-mask:hover .tb-track{animation-play-state:paused}
-.tb-track b{flex:0 0 auto;color:#fff;opacity:.8;font-size:19px;font-weight:700;
-  letter-spacing:.03em;white-space:nowrap;transition:opacity .2s}
-.tb-track b:hover{opacity:1}
-@keyframes tb-scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-@media(max-width:780px){
-  .tb-track{gap:42px} .tb-track b{font-size:16px} .tb-sub{font-size:14px;padding:0 18px}
-}
-@media(prefers-reduced-motion:reduce){
-  .tb-track{animation:none;flex-wrap:wrap;width:auto;justify-content:center;
-    max-width:1080px;margin:0 auto;padding:0 22px;gap:20px 36px}
-  .tb-mask{-webkit-mask-image:none;mask-image:none}
-}
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@400;500;600;700&display=swap');
+  .tb{width:100vw;margin-left:calc(50% - 50vw);background:#13161c;padding:38px 0 30px;overflow:hidden;font-family:'Poppins',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;border-top:1px solid rgba(255,255,255,.06);border-bottom:1px solid rgba(255,255,255,.06);}
+  .tb *{box-sizing:border-box;}
+  .tb-h{font-family:'Playfair Display',Georgia,serif;color:#fff;text-align:center;font-size:clamp(20px,2.6vw,28px);font-weight:700;margin:0 0 6px;}
+  .tb-h .o{color:#FF6A00;}
+  .tb-sub{text-align:center;color:#9aa3ad;font-size:13px;letter-spacing:.04em;margin:0 0 26px;}
+  .tb-mask{position:relative;width:100%;overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);}
+  .tb-track{display:flex;align-items:center;gap:64px;width:max-content;animation:tbscroll 120s linear infinite;}
+  .tb:hover .tb-track{animation-play-state:paused;}
+  .tb-track b{flex:0 0 auto;color:#fff;opacity:.8;font-size:19px;font-weight:600;letter-spacing:.02em;white-space:nowrap;transition:opacity .2s;}
+  .tb-track b:hover{opacity:1;}
+  @keyframes tbscroll{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+  @media(max-width:600px){.tb-track{gap:42px;}.tb-track b{font-size:16px;}}
+  @media(prefers-reduced-motion:reduce){
+    .tb-track{animation:none;flex-wrap:wrap;width:auto;justify-content:center;max-width:1080px;margin:0 auto;padding:0 22px;gap:18px 34px;}
+    .tb-mask{-webkit-mask-image:none;mask-image:none;}
+  }
 </style>
 <section class="tb" aria-label="Brands Ninja-360 has shot for">
   <h2 class="tb-h">Brands We've <span class="o">Shot For</span></h2>
