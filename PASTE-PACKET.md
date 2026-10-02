@@ -200,24 +200,24 @@ Publish order, top to bottom. For **each** page in GHL:
 
      DELETE the old review section when you paste this - do not run both.
 
-     ============ SIX CONFIG CHANGES TO MAKE IN THE ZYENE BUILDER ============
-     The snippet below is exactly what Tim supplied, so it ships as-is. These are worth
-     fixing at the source (the Zyene dashboard) rather than hand-editing the URL, so the
-     dashboard stays the source of truth:
-       1. preset: "halloween"  -> none.  It is seasonal. Today is 2026-10-02; it reads
-          wrong from Nov 1 and nobody will remember to change it.
-       2. accent: "#f58220"    -> #FF8D2D. That is not the brand orange - it is visibly
-          redder. Brand orange is used everywhere else on the site.
-       3. background: "#000000" -> #31343B (or transparent). Pure black on the site's
-          charcoal sections renders as a black box floating in the page.
-       4. width: 1280          -> 1080. Site content max-width is 1080; 1280 overflows.
-       5. showTitle: true      -> false. The H2 below already carries the headline;
-          leaving both on stacks two headings. Keep showRating + showCount ON - that
-          "4.9 - 10 reviews on Google" line is live data and is the whole point.
-       6. minRating: 1         -> 4 (judgement call). At 1, a future 1-star review
-          displays on your home page automatically. Most marketing widgets floor at 4.
-     A pre-built corrected URL is in the repo if you would rather paste than re-configure.
-
+     ============ CONFIG: FIVE FIXES ALREADY APPLIED ============
+     The data-widget-url below is Tim's config with five values corrected:
+       preset      halloween -> ""       seasonal; would read wrong from Nov 1
+       accent      #f58220   -> #FF8D2D  brand orange (the original was visibly redder)
+       background  #000000   -> #31343B  brand charcoal; pure black floated as a box
+       width       1280      -> 1080     site content max-width
+       showTitle   true      -> false    the H2 below carries the headline; showRating and
+                                         showCount stay ON so the live "4.9 - 10 reviews on
+                                         Google" line still renders
+     NOT changed, because it is Tim's call, not a formatting fix:
+       minRating is still 1. At 1, a future 1-star review publishes to the home page
+       automatically. Most marketing widgets floor at 4. If you raise it, first confirm
+       whether the headline rating/count still reflect ALL reviews - if they only count
+       the filtered ones, the displayed average becomes misleading.
+     CAVEAT: zyenereviews.com is blocked from the build environment, so this edited config
+     string was never loaded against the real widget. If anything renders oddly, set these
+     five values in the Zyene dashboard and paste the URL it generates - that is
+     authoritative, this is hand-edited.
      HEADLINE: deliberately does NOT hardcode "4.9". The old section did, which is the
      exact hand-maintenance problem this widget removes - the widget's own rating line
      carries the live number and updates itself.
@@ -233,7 +233,7 @@ Publish order, top to bottom. For **each** page in GHL:
     <p class="n-eyebrow">Proof</p>
     <h2 class="n-h2" style="color:#fff">Rated by the Kansas City businesses we've put on the map.</h2>
     <div class="rev-embed-js">
-      <script src="https://www.zyenereviews.com/widget-embed.js" data-widget-url="https://www.zyenereviews.com/w/ninja-360-digital-media?config=%7B%22layout%22%3A%22carousel%22%2C%22theme%22%3A%22dark%22%2C%22accent%22%3A%22%23f58220%22%2C%22stars%22%3A%22%23fbbc04%22%2C%22preset%22%3A%22halloween%22%2C%22title%22%3A%22What+Our+Customers+Say%22%2C%22caption%22%3A%22%22%2C%22source%22%3A%22google%22%2C%22minRating%22%3A1%2C%22limit%22%3A20%2C%22sort%22%3A%22newest%22%2C%22exclude%22%3A%22%22%2C%22textOnly%22%3Afalse%2C%22columns%22%3A0%2C%22gap%22%3A20%2C%22radius%22%3A12%2C%22width%22%3A1280%2C%22fontSize%22%3A16%2C%22font%22%3A%22sans-serif%22%2C%22showHeader%22%3Atrue%2C%22showTitle%22%3Atrue%2C%22showRating%22%3Atrue%2C%22showCount%22%3Atrue%2C%22showButton%22%3Atrue%2C%22showAvatar%22%3Atrue%2C%22showDate%22%3Atrue%2C%22showPhotos%22%3Atrue%2C%22showName%22%3Atrue%2C%22showVerified%22%3Afalse%2C%22showSource%22%3Atrue%2C%22showReviewRating%22%3Atrue%2C%22showReply%22%3Afalse%2C%22showGoogleIcon%22%3Atrue%2C%22reviewStyle%22%3A%22classic%22%2C%22sourceStyle%22%3A%22avatar%22%2C%22headerStyle%22%3A%22google-reviews%22%2C%22textMode%22%3A%22short%22%2C%22textLength%22%3A%22brief%22%2C%22badgeLabel%22%3A%22none%22%2C%22badgeSize%22%3A100%2C%22badgeAlign%22%3A%22center%22%2C%22clickAction%22%3A%22popup%22%2C%22rows%22%3A1%2C%22mobileRows%22%3A1%2C%22scrollMode%22%3A%22item%22%2C%22animationDuration%22%3A300%2C%22autoplayDelay%22%3A5%2C%22swipe%22%3Atrue%2C%22background%22%3A%22%23000000%22%2C%22showSummary%22%3Afalse%2C%22showArrows%22%3Atrue%2C%22showPagination%22%3Atrue%2C%22autoplay%22%3Afalse%2C%22floating%22%3Afalse%2C%22position%22%3A%22left%22%2C%22rtl%22%3Afalse%7D" async></script>
+      <script src="https://www.zyenereviews.com/widget-embed.js" data-widget-url="https://www.zyenereviews.com/w/ninja-360-digital-media?config=%7B%22layout%22%3A%22carousel%22%2C%22theme%22%3A%22dark%22%2C%22accent%22%3A%22%23FF8D2D%22%2C%22stars%22%3A%22%23fbbc04%22%2C%22preset%22%3A%22%22%2C%22title%22%3A%22What%20Our%20Customers%20Say%22%2C%22caption%22%3A%22%22%2C%22source%22%3A%22google%22%2C%22minRating%22%3A1%2C%22limit%22%3A20%2C%22sort%22%3A%22newest%22%2C%22exclude%22%3A%22%22%2C%22textOnly%22%3Afalse%2C%22columns%22%3A0%2C%22gap%22%3A20%2C%22radius%22%3A12%2C%22width%22%3A1080%2C%22fontSize%22%3A16%2C%22font%22%3A%22sans-serif%22%2C%22showHeader%22%3Atrue%2C%22showTitle%22%3Afalse%2C%22showRating%22%3Atrue%2C%22showCount%22%3Atrue%2C%22showButton%22%3Atrue%2C%22showAvatar%22%3Atrue%2C%22showDate%22%3Atrue%2C%22showPhotos%22%3Atrue%2C%22showName%22%3Atrue%2C%22showVerified%22%3Afalse%2C%22showSource%22%3Atrue%2C%22showReviewRating%22%3Atrue%2C%22showReply%22%3Afalse%2C%22showGoogleIcon%22%3Atrue%2C%22reviewStyle%22%3A%22classic%22%2C%22sourceStyle%22%3A%22avatar%22%2C%22headerStyle%22%3A%22google-reviews%22%2C%22textMode%22%3A%22short%22%2C%22textLength%22%3A%22brief%22%2C%22badgeLabel%22%3A%22none%22%2C%22badgeSize%22%3A100%2C%22badgeAlign%22%3A%22center%22%2C%22clickAction%22%3A%22popup%22%2C%22rows%22%3A1%2C%22mobileRows%22%3A1%2C%22scrollMode%22%3A%22item%22%2C%22animationDuration%22%3A300%2C%22autoplayDelay%22%3A5%2C%22swipe%22%3Atrue%2C%22background%22%3A%22%2331343B%22%2C%22showSummary%22%3Afalse%2C%22showArrows%22%3Atrue%2C%22showPagination%22%3Atrue%2C%22autoplay%22%3Afalse%2C%22floating%22%3Afalse%2C%22position%22%3A%22left%22%2C%22rtl%22%3Afalse%7D" async></script>
       <noscript><p style="color:#aeb4bd;font-size:15px;margin-top:16px">Read our reviews on <a href="https://www.zyenereviews.com/w/ninja-360-digital-media" style="color:#FF8D2D;font-weight:700">Google</a>.</p></noscript>
     </div>
   </div>
