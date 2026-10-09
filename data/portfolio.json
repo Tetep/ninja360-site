@@ -53,6 +53,11 @@
       "slug": "parks-events",
       "title": "Park, Rec & Event Virtual Tours",
       "h1": "Parks & Events"
+    },
+    {
+      "slug": "retail",
+      "title": "Retail & Franchise Virtual Tours | Kansas City",
+      "h1": "Retail & Franchise"
     }
   ],
   "media_types": [
@@ -194,6 +199,23 @@
         }
       ],
       "outcome": "Virtual tour + video marketing for the facility."
+    },
+    {
+      "name": "Tractor Supply",
+      "slug": "tractor-supply",
+      "vertical": "retail",
+      "city": "Kansas City",
+      "state": "MO",
+      "media": [
+        {
+          "type": "matterport",
+          "platform": "matterport",
+          "url": "https://my.matterport.com/show/?m=toGKWaSucHt",
+          "alt": "Tractor Supply Matterport 3D walkthrough in Kansas City - Ninja-360"
+        }
+      ],
+      "outcome": "Matterport 3D walkthrough of the store floor.",
+      "note": "Subcontracted national retail capture. Confirm the subcontract permits naming the end client publicly before this card goes live - see client-logo-stockpile-V01.md."
     },
     {
       "name": "TEMPLATE - copy this block per client",
