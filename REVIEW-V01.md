@@ -79,6 +79,14 @@ Hot-links that **break** because the old Wix site at ninja-360.com is not live:
 | `ninja360-about-page.html` | `ninja-360.com/.../ProfilePicture.jpg` (headshot) | Re-upload to GHL Media, swap `src` |
 | `ninja360-trusted-by.html` | `ninja-360.com/.../Logo.png`…`Logo-5.png` (5 logos) | Upload white logo set to GHL Media, swap all 5 + fix alts. **These are also your two blank circles live** — broken/placeholder logos. |
 
+> **CORRECTION (2026-10-09):** the "safe" call below was wrong for the client-site
+> hot-links. `koblerchiro.com` and `1894.tours` images are now broken on the live
+> /portfolio page, taking three WEBSITE cards down with them. Client sites get redesigned,
+> replatformed and reorganised without telling you. **Treat any image hosted on a domain
+> Ninja-360 does not control as temporary.** Everything belongs in GHL Media. This is the
+> third instance of the same root cause: the ninja-360.com trusted-by logos, these portfolio
+> thumbnails, and the /about badge placeholders.
+
 Hot-links that are **safe** (persistent platform/client CDNs, no action needed): GHL `filesafe.space` + `leadconnectorhq.com` (hero video, navbar logo, belt icons), `i.ytimg.com`, `my.matterport.com`, `kuula.co`. Two client-site images (`koblerchiro.com`, `1894.tours` in the portfolio) are external but stay live — low priority to localize.
 
 ---

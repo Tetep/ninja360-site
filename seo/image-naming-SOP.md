@@ -19,6 +19,15 @@ NEVER: `IMG_4821.jpg`, `final_v2.png`, `DJI_0099.JPG`
 - "54th Street Grill 360 virtual tour interior in Olathe, KS - Ninja-360"
 - "Aerial drone photo of 54th Street Grill in Zona Rosa, Kansas City - Ninja-360"
 
+## Hosting — non-negotiable
+
+**Every image is hosted in GHL Media.** Never hot-link an image from a domain Ninja-360
+does not control — not a client's site, not a former domain, not a CDN you don't own.
+Three separate sections have broken this way already: the trusted-by logos
+(ninja-360.com, dead), the /portfolio WEBSITE cards (koblerchiro.com, 1894.tours), and
+the /about badges. A client redesign silently breaks your page and nobody notices for
+months.
+
 ## Technical
 - Format: WebP. Target < 200 KB (hero < 350 KB).
 - Set width/height on hero images to prevent layout shift.
