@@ -24,12 +24,12 @@ Publish order, top to bottom. For **each** page in GHL:
 .nv-nav{position:sticky;top:0;z-index:50;background:#31343B;border-bottom:1px solid rgba(255,255,255,.08)}
 .nv-in{max-width:1080px;margin:0 auto;padding:10px 22px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
 .nv-logo{display:flex;align-items:center;text-decoration:none;font-weight:800;font-size:20px;letter-spacing:-.01em;margin-right:auto;color:#fff}
-.nv-logo span{color:#FF8D2D}
+.nv-logo span{color:#FF6A00}
 .nv-links{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
 .nv-links a{color:#d4d7dd;text-decoration:none;font-weight:600;font-size:14px}
 .nv-links a:hover{color:#fff}
-.nv-cta{background:#FF8D2D;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
-.nv-cta:hover{background:#E67A1C}
+.nv-cta{background:#FF6A00;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
+.nv-cta:hover{background:#E65F00}
 @media(max-width:640px){.nv-logo{font-size:18px}.nv-links{gap:13px;font-size:13px;width:100%;justify-content:flex-start}}
 </style>
 <nav class="nv-nav"><div class="nv-in">
@@ -47,7 +47,7 @@ Publish order, top to bottom. For **each** page in GHL:
      KEEP your native AUDIT FORM section (#section-JXWJCHUYEK) - every CTA
      scrolls to it. StoryBrand: customer = hero, Ninja-360 = guide.
      Copy: V02 philosophy infusion (see COPY-REWRITE-V02.md + philosophies_V02.md).
-     Brand palette: charcoal #31343B + orange #FF8D2D.
+     Brand palette: charcoal #31343B + orange #FF6A00.
      GHL PAGE SEO:
        Title: Get Found on Google in Kansas City | Ninja-360 Local Visibility
        Meta:  Ninja-360 puts Kansas City businesses on the map - visible, heard,
@@ -55,7 +55,7 @@ Publish order, top to bottom. For **each** page in GHL:
               system that tells your true story beautifully. Free audit. -->
 
 <style>
-:root{--n-red:#FF8D2D;--n-red-dk:#E67A1C;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
+:root{--n-red:#FF6A00;--n-red-dk:#E65F00;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
 .n-wrap{max-width:1080px;margin:0 auto;padding:0 22px}
 .n-section{padding:56px 0}
 .n-hero{background:linear-gradient(135deg,#31343B,#23262b);color:#fff;padding:84px 0}
@@ -203,7 +203,7 @@ Publish order, top to bottom. For **each** page in GHL:
      ============ CONFIG: FIVE FIXES ALREADY APPLIED ============
      The data-widget-url below is Tim's config with five values corrected:
        preset      halloween -> ""       seasonal; would read wrong from Nov 1
-       accent      #f58220   -> #FF8D2D  brand orange (the original was visibly redder)
+       accent      #f58220   -> #FF6A00  brand orange (the original was visibly redder)
        background  #000000   -> #31343B  brand charcoal; pure black floated as a box
        width       1280      -> 1080     site content max-width
        showTitle   true      -> false    the H2 below carries the headline; showRating and
@@ -233,8 +233,8 @@ Publish order, top to bottom. For **each** page in GHL:
     <p class="n-eyebrow">Proof</p>
     <h2 class="n-h2" style="color:#fff">Rated by the Kansas City businesses we've put on the map.</h2>
     <div class="rev-embed-js">
-      <script src="https://www.zyenereviews.com/widget-embed.js" data-widget-url="https://www.zyenereviews.com/w/ninja-360-digital-media?config=%7B%22layout%22%3A%22carousel%22%2C%22theme%22%3A%22dark%22%2C%22accent%22%3A%22%23FF8D2D%22%2C%22stars%22%3A%22%23fbbc04%22%2C%22preset%22%3A%22%22%2C%22title%22%3A%22What%20Our%20Customers%20Say%22%2C%22caption%22%3A%22%22%2C%22source%22%3A%22google%22%2C%22minRating%22%3A1%2C%22limit%22%3A20%2C%22sort%22%3A%22newest%22%2C%22exclude%22%3A%22%22%2C%22textOnly%22%3Afalse%2C%22columns%22%3A0%2C%22gap%22%3A20%2C%22radius%22%3A12%2C%22width%22%3A1080%2C%22fontSize%22%3A16%2C%22font%22%3A%22sans-serif%22%2C%22showHeader%22%3Atrue%2C%22showTitle%22%3Afalse%2C%22showRating%22%3Atrue%2C%22showCount%22%3Atrue%2C%22showButton%22%3Atrue%2C%22showAvatar%22%3Atrue%2C%22showDate%22%3Atrue%2C%22showPhotos%22%3Atrue%2C%22showName%22%3Atrue%2C%22showVerified%22%3Afalse%2C%22showSource%22%3Atrue%2C%22showReviewRating%22%3Atrue%2C%22showReply%22%3Afalse%2C%22showGoogleIcon%22%3Atrue%2C%22reviewStyle%22%3A%22classic%22%2C%22sourceStyle%22%3A%22avatar%22%2C%22headerStyle%22%3A%22google-reviews%22%2C%22textMode%22%3A%22short%22%2C%22textLength%22%3A%22brief%22%2C%22badgeLabel%22%3A%22none%22%2C%22badgeSize%22%3A100%2C%22badgeAlign%22%3A%22center%22%2C%22clickAction%22%3A%22popup%22%2C%22rows%22%3A1%2C%22mobileRows%22%3A1%2C%22scrollMode%22%3A%22item%22%2C%22animationDuration%22%3A300%2C%22autoplayDelay%22%3A5%2C%22swipe%22%3Atrue%2C%22background%22%3A%22%2331343B%22%2C%22showSummary%22%3Afalse%2C%22showArrows%22%3Atrue%2C%22showPagination%22%3Atrue%2C%22autoplay%22%3Afalse%2C%22floating%22%3Afalse%2C%22position%22%3A%22left%22%2C%22rtl%22%3Afalse%7D" async></script>
-      <noscript><p style="color:#aeb4bd;font-size:15px;margin-top:16px">Read our reviews on <a href="https://www.zyenereviews.com/w/ninja-360-digital-media" style="color:#FF8D2D;font-weight:700">Google</a>.</p></noscript>
+      <script src="https://www.zyenereviews.com/widget-embed.js" data-widget-url="https://www.zyenereviews.com/w/ninja-360-digital-media?config=%7B%22layout%22%3A%22carousel%22%2C%22theme%22%3A%22dark%22%2C%22accent%22%3A%22%23FF6A00%22%2C%22stars%22%3A%22%23fbbc04%22%2C%22preset%22%3A%22%22%2C%22title%22%3A%22What%20Our%20Customers%20Say%22%2C%22caption%22%3A%22%22%2C%22source%22%3A%22google%22%2C%22minRating%22%3A1%2C%22limit%22%3A20%2C%22sort%22%3A%22newest%22%2C%22exclude%22%3A%22%22%2C%22textOnly%22%3Afalse%2C%22columns%22%3A0%2C%22gap%22%3A20%2C%22radius%22%3A12%2C%22width%22%3A1080%2C%22fontSize%22%3A16%2C%22font%22%3A%22sans-serif%22%2C%22showHeader%22%3Atrue%2C%22showTitle%22%3Afalse%2C%22showRating%22%3Atrue%2C%22showCount%22%3Atrue%2C%22showButton%22%3Atrue%2C%22showAvatar%22%3Atrue%2C%22showDate%22%3Atrue%2C%22showPhotos%22%3Atrue%2C%22showName%22%3Atrue%2C%22showVerified%22%3Afalse%2C%22showSource%22%3Atrue%2C%22showReviewRating%22%3Atrue%2C%22showReply%22%3Afalse%2C%22showGoogleIcon%22%3Atrue%2C%22reviewStyle%22%3A%22classic%22%2C%22sourceStyle%22%3A%22avatar%22%2C%22headerStyle%22%3A%22google-reviews%22%2C%22textMode%22%3A%22short%22%2C%22textLength%22%3A%22brief%22%2C%22badgeLabel%22%3A%22none%22%2C%22badgeSize%22%3A100%2C%22badgeAlign%22%3A%22center%22%2C%22clickAction%22%3A%22popup%22%2C%22rows%22%3A1%2C%22mobileRows%22%3A1%2C%22scrollMode%22%3A%22item%22%2C%22animationDuration%22%3A300%2C%22autoplayDelay%22%3A5%2C%22swipe%22%3Atrue%2C%22background%22%3A%22%2331343B%22%2C%22showSummary%22%3Afalse%2C%22showArrows%22%3Atrue%2C%22showPagination%22%3Atrue%2C%22autoplay%22%3Afalse%2C%22floating%22%3Afalse%2C%22position%22%3A%22left%22%2C%22rtl%22%3Afalse%7D" async></script>
+      <noscript><p style="color:#aeb4bd;font-size:15px;margin-top:16px">Read our reviews on <a href="https://www.zyenereviews.com/w/ninja-360-digital-media" style="color:#FF6A00;font-weight:700">Google</a>.</p></noscript>
     </div>
   </div>
 </section>
@@ -277,7 +277,7 @@ Publish order, top to bottom. For **each** page in GHL:
 .nf-foot a:hover{color:#fff}
 .nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
 .nf-col a{display:block;margin:6px 0}
-.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF6A00}
 .nf-legal{max-width:1080px;margin:14px auto 0;padding:0 22px;font-size:13px;color:#9aa0a8}
 .nf-legal a{font-size:13px;color:#cfd3d9;text-decoration:none}
 .nf-legal a:hover{color:#fff;text-decoration:underline}
@@ -346,7 +346,7 @@ Publish order, top to bottom. For **each** page in GHL:
 </script>
 ===== END HEAD CODE ===== -->
 <style>
-:root{--n-red:#FF8D2D;--n-red-dk:#E67A1C;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
+:root{--n-red:#FF6A00;--n-red-dk:#E65F00;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
 .n-wrap{max-width:1080px;margin:0 auto;padding:0 22px}
 .n-section{padding:56px 0}
 .n-hero{background:linear-gradient(135deg,#31343B,#23262b);color:#fff;padding:72px 0}
@@ -370,12 +370,12 @@ Publish order, top to bottom. For **each** page in GHL:
 .nv-nav{position:sticky;top:0;z-index:50;background:#31343B;border-bottom:1px solid rgba(255,255,255,.08)}
 .nv-in{max-width:1080px;margin:0 auto;padding:10px 22px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
 .nv-logo{display:flex;align-items:center;text-decoration:none;font-weight:800;font-size:20px;letter-spacing:-.01em;margin-right:auto;color:#fff}
-.nv-logo span{color:#FF8D2D}
+.nv-logo span{color:#FF6A00}
 .nv-links{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
 .nv-links a{color:#d4d7dd;text-decoration:none;font-weight:600;font-size:14px}
 .nv-links a:hover{color:#fff}
-.nv-cta{background:#FF8D2D;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
-.nv-cta:hover{background:#E67A1C}
+.nv-cta{background:#FF6A00;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
+.nv-cta:hover{background:#E65F00}
 @media(max-width:640px){.nv-logo{font-size:18px}.nv-links{gap:13px;font-size:13px;width:100%;justify-content:flex-start}}
 </style>
 <nav class="nv-nav"><div class="nv-in">
@@ -490,7 +490,7 @@ Publish order, top to bottom. For **each** page in GHL:
 .nf-foot a:hover{color:#fff}
 .nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
 .nf-col a{display:block;margin:6px 0}
-.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF6A00}
 .nf-legal{max-width:1080px;margin:14px auto 0;padding:0 22px;font-size:13px;color:#9aa0a8}
 .nf-legal a{font-size:13px;color:#cfd3d9;text-decoration:none}
 .nf-legal a:hover{color:#fff;text-decoration:underline}
@@ -553,7 +553,7 @@ Publish order, top to bottom. For **each** page in GHL:
 </script>
 ===== END HEAD CODE ===== -->
 <style>
-:root{--n-red:#FF8D2D;--n-red-dk:#E67A1C;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
+:root{--n-red:#FF6A00;--n-red-dk:#E65F00;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
 .n-wrap{max-width:1080px;margin:0 auto;padding:0 22px}
 .n-section{padding:56px 0}
 .n-hero{background:linear-gradient(135deg,#31343B,#23262b);color:#fff;padding:72px 0}
@@ -578,12 +578,12 @@ Publish order, top to bottom. For **each** page in GHL:
 .nv-nav{position:sticky;top:0;z-index:50;background:#31343B;border-bottom:1px solid rgba(255,255,255,.08)}
 .nv-in{max-width:1080px;margin:0 auto;padding:10px 22px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
 .nv-logo{display:flex;align-items:center;text-decoration:none;font-weight:800;font-size:20px;letter-spacing:-.01em;margin-right:auto;color:#fff}
-.nv-logo span{color:#FF8D2D}
+.nv-logo span{color:#FF6A00}
 .nv-links{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
 .nv-links a{color:#d4d7dd;text-decoration:none;font-weight:600;font-size:14px}
 .nv-links a:hover{color:#fff}
-.nv-cta{background:#FF8D2D;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
-.nv-cta:hover{background:#E67A1C}
+.nv-cta{background:#FF6A00;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
+.nv-cta:hover{background:#E65F00}
 @media(max-width:640px){.nv-logo{font-size:18px}.nv-links{gap:13px;font-size:13px;width:100%;justify-content:flex-start}}
 </style>
 <nav class="nv-nav"><div class="nv-in">
@@ -678,7 +678,7 @@ Publish order, top to bottom. For **each** page in GHL:
 .nf-foot a:hover{color:#fff}
 .nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
 .nf-col a{display:block;margin:6px 0}
-.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF6A00}
 .nf-legal{max-width:1080px;margin:14px auto 0;padding:0 22px;font-size:13px;color:#9aa0a8}
 .nf-legal a{font-size:13px;color:#cfd3d9;text-decoration:none}
 .nf-legal a:hover{color:#fff;text-decoration:underline}
@@ -722,15 +722,31 @@ Publish order, top to bottom. For **each** page in GHL:
 ```html
 <!-- NAV -->
 <style>
+:root{--n-red:#FF6A00;--n-red-dk:#E65F00;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
+.n-wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+.n-section{padding:56px 0}
+.n-hero{background:linear-gradient(135deg,#31343B,#23262b);color:#fff;padding:72px 0}
+.n-eyebrow{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--n-red);font-weight:800}
+.n-h1{font-size:clamp(28px,5vw,46px);line-height:1.08;margin:10px 0 14px;font-weight:800;letter-spacing:-.02em}
+.n-h2{font-size:clamp(22px,3vw,30px);font-weight:800;margin:0 0 10px}
+.n-lead{font-size:18px;color:#d4d7dd;max-width:720px}
+.n-sub{color:var(--n-muted);max-width:760px;font-size:16px}
+.n-btn{display:inline-block;background:var(--n-red);color:#fff;font-weight:700;padding:14px 26px;border-radius:8px;text-decoration:none;font-size:16px}
+.n-btn:hover{background:var(--n-red-dk)}
+.n-map{display:grid;gap:18px;margin-top:28px}
+.n-card{background:#fff;border:1px solid var(--n-line);border-radius:12px;padding:24px}
+.n-card .step{font-size:12px;font-weight:800;color:var(--n-red);text-transform:uppercase;letter-spacing:.06em;margin:10px 0 0}
+.n-card .belt-icon{display:block;width:96px;height:96px;object-fit:contain;margin:0 auto}
+@media(max-width:780px){.n-map{grid-template-columns:1fr !important}}
 .nv-nav{position:sticky;top:0;z-index:50;background:#31343B;border-bottom:1px solid rgba(255,255,255,.08)}
 .nv-in{max-width:1080px;margin:0 auto;padding:10px 22px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
 .nv-logo{display:flex;align-items:center;text-decoration:none;font-weight:800;font-size:20px;letter-spacing:-.01em;margin-right:auto;color:#fff}
-.nv-logo span{color:#FF8D2D}
+.nv-logo span{color:#FF6A00}
 .nv-links{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
 .nv-links a{color:#d4d7dd;text-decoration:none;font-weight:600;font-size:14px}
 .nv-links a:hover{color:#fff}
-.nv-cta{background:#FF8D2D;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
-.nv-cta:hover{background:#E67A1C}
+.nv-cta{background:#FF6A00;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
+.nv-cta:hover{background:#E65F00}
 @media(max-width:640px){.nv-logo{font-size:18px}.nv-links{gap:13px;font-size:13px;width:100%;justify-content:flex-start}}
 </style>
 <nav class="nv-nav"><div class="nv-in">
@@ -852,7 +868,7 @@ Publish order, top to bottom. For **each** page in GHL:
 .nf-foot a:hover{color:#fff}
 .nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
 .nf-col a{display:block;margin:6px 0}
-.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF6A00}
 .nf-legal{max-width:1080px;margin:14px auto 0;padding:0 22px;font-size:13px;color:#9aa0a8}
 .nf-legal a{font-size:13px;color:#cfd3d9;text-decoration:none}
 .nf-legal a:hover{color:#fff;text-decoration:underline}
@@ -973,7 +989,7 @@ Publish order, top to bottom. For **each** page in GHL:
 </script>
 ===== END HEAD CODE ===== -->
 <style>
-:root{--n-red:#FF8D2D;--n-red-dk:#E67A1C;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
+:root{--n-red:#FF6A00;--n-red-dk:#E65F00;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
 .n-wrap{max-width:1080px;margin:0 auto;padding:0 22px}
 .n-section{padding:56px 0}
 .n-hero{background:linear-gradient(135deg,#31343B,#23262b);color:#fff;padding:72px 0}
@@ -1007,12 +1023,12 @@ Publish order, top to bottom. For **each** page in GHL:
 .nv-nav{position:sticky;top:0;z-index:50;background:#31343B;border-bottom:1px solid rgba(255,255,255,.08)}
 .nv-in{max-width:1080px;margin:0 auto;padding:10px 22px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
 .nv-logo{display:flex;align-items:center;text-decoration:none;font-weight:800;font-size:20px;letter-spacing:-.01em;margin-right:auto;color:#fff}
-.nv-logo span{color:#FF8D2D}
+.nv-logo span{color:#FF6A00}
 .nv-links{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
 .nv-links a{color:#d4d7dd;text-decoration:none;font-weight:600;font-size:14px}
 .nv-links a:hover{color:#fff}
-.nv-cta{background:#FF8D2D;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
-.nv-cta:hover{background:#E67A1C}
+.nv-cta{background:#FF6A00;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
+.nv-cta:hover{background:#E65F00}
 @media(max-width:640px){.nv-logo{font-size:18px}.nv-links{gap:13px;font-size:13px;width:100%;justify-content:flex-start}}
 </style>
 <nav class="nv-nav"><div class="nv-in">
@@ -1172,7 +1188,7 @@ Publish order, top to bottom. For **each** page in GHL:
 .nf-foot a:hover{color:#fff}
 .nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
 .nf-col a{display:block;margin:6px 0}
-.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF6A00}
 .nf-legal{max-width:1080px;margin:14px auto 0;padding:0 22px;font-size:13px;color:#9aa0a8}
 .nf-legal a{font-size:13px;color:#cfd3d9;text-decoration:none}
 .nf-legal a:hover{color:#fff;text-decoration:underline}
@@ -1217,7 +1233,7 @@ Publish order, top to bottom. For **each** page in GHL:
 <!-- /work  -  GHL SEO Title: Our Work | Kansas City Visibility & Virtual Tours | Ninja-360
      Keep nav + footer native. Paste body into a Custom JS/HTML element. -->
 <style>
-:root{--n-red:#FF8D2D;--n-red-dk:#E67A1C;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
+:root{--n-red:#FF6A00;--n-red-dk:#E65F00;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
 .n-wrap{max-width:1080px;margin:0 auto;padding:0 22px}
 .n-section{padding:56px 0}
 .n-hero{background:linear-gradient(135deg,#31343B,#23262b);color:#fff;padding:72px 0}
@@ -1244,12 +1260,12 @@ Publish order, top to bottom. For **each** page in GHL:
 .nv-nav{position:sticky;top:0;z-index:50;background:#31343B;border-bottom:1px solid rgba(255,255,255,.08)}
 .nv-in{max-width:1080px;margin:0 auto;padding:10px 22px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
 .nv-logo{display:flex;align-items:center;text-decoration:none;font-weight:800;font-size:20px;letter-spacing:-.01em;margin-right:auto;color:#fff}
-.nv-logo span{color:#FF8D2D}
+.nv-logo span{color:#FF6A00}
 .nv-links{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
 .nv-links a{color:#d4d7dd;text-decoration:none;font-weight:600;font-size:14px}
 .nv-links a:hover{color:#fff}
-.nv-cta{background:#FF8D2D;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
-.nv-cta:hover{background:#E67A1C}
+.nv-cta{background:#FF6A00;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
+.nv-cta:hover{background:#E65F00}
 @media(max-width:640px){.nv-logo{font-size:18px}.nv-links{gap:13px;font-size:13px;width:100%;justify-content:flex-start}}
 </style>
 <nav class="nv-nav"><div class="nv-in">
@@ -1301,7 +1317,7 @@ Publish order, top to bottom. For **each** page in GHL:
 .nf-foot a:hover{color:#fff}
 .nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
 .nf-col a{display:block;margin:6px 0}
-.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF6A00}
 .nf-legal{max-width:1080px;margin:14px auto 0;padding:0 22px;font-size:13px;color:#9aa0a8}
 .nf-legal a{font-size:13px;color:#cfd3d9;text-decoration:none}
 .nf-legal a:hover{color:#fff;text-decoration:underline}
@@ -1383,7 +1399,7 @@ Publish order, top to bottom. For **each** page in GHL:
 </script>
 ===== END HEAD CODE ===== -->
 <style>
-:root{--n-red:#FF8D2D;--n-red-dk:#E67A1C;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
+:root{--n-red:#FF6A00;--n-red-dk:#E65F00;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
 .n-wrap{max-width:1080px;margin:0 auto;padding:0 22px}
 .n-section{padding:56px 0}
 .n-hero{background:linear-gradient(135deg,#31343B,#23262b);color:#fff;padding:72px 0}
@@ -1412,12 +1428,12 @@ Publish order, top to bottom. For **each** page in GHL:
 .nv-nav{position:sticky;top:0;z-index:50;background:#31343B;border-bottom:1px solid rgba(255,255,255,.08)}
 .nv-in{max-width:1080px;margin:0 auto;padding:10px 22px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
 .nv-logo{display:flex;align-items:center;text-decoration:none;font-weight:800;font-size:20px;letter-spacing:-.01em;margin-right:auto;color:#fff}
-.nv-logo span{color:#FF8D2D}
+.nv-logo span{color:#FF6A00}
 .nv-links{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
 .nv-links a{color:#d4d7dd;text-decoration:none;font-weight:600;font-size:14px}
 .nv-links a:hover{color:#fff}
-.nv-cta{background:#FF8D2D;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
-.nv-cta:hover{background:#E67A1C}
+.nv-cta{background:#FF6A00;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
+.nv-cta:hover{background:#E65F00}
 @media(max-width:640px){.nv-logo{font-size:18px}.nv-links{gap:13px;font-size:13px;width:100%;justify-content:flex-start}}
 </style>
 <nav class="nv-nav"><div class="nv-in">
@@ -1591,7 +1607,7 @@ Publish order, top to bottom. For **each** page in GHL:
 .nf-foot a:hover{color:#fff}
 .nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
 .nf-col a{display:block;margin:6px 0}
-.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF6A00}
 .nf-legal{max-width:1080px;margin:14px auto 0;padding:0 22px;font-size:13px;color:#9aa0a8}
 .nf-legal a{font-size:13px;color:#cfd3d9;text-decoration:none}
 .nf-legal a:hover{color:#fff;text-decoration:underline}
@@ -1637,7 +1653,7 @@ Publish order, top to bottom. For **each** page in GHL:
      Meta: 360 real estate virtual tours in Kansas City - residential & commercial. Add to your website, Zillow, and social. Drone and video available.
      Keep nav + footer native. Paste body into a Custom JS/HTML element. -->
 <style>
-:root{--n-red:#FF8D2D;--n-red-dk:#E67A1C;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
+:root{--n-red:#FF6A00;--n-red-dk:#E65F00;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
 .n-wrap{max-width:1080px;margin:0 auto;padding:0 22px}
 .n-section{padding:56px 0}
 .n-hero{background:linear-gradient(135deg,#31343B,#23262b);color:#fff;padding:72px 0}
@@ -1666,12 +1682,12 @@ Publish order, top to bottom. For **each** page in GHL:
 .nv-nav{position:sticky;top:0;z-index:50;background:#31343B;border-bottom:1px solid rgba(255,255,255,.08)}
 .nv-in{max-width:1080px;margin:0 auto;padding:10px 22px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
 .nv-logo{display:flex;align-items:center;text-decoration:none;font-weight:800;font-size:20px;letter-spacing:-.01em;margin-right:auto;color:#fff}
-.nv-logo span{color:#FF8D2D}
+.nv-logo span{color:#FF6A00}
 .nv-links{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
 .nv-links a{color:#d4d7dd;text-decoration:none;font-weight:600;font-size:14px}
 .nv-links a:hover{color:#fff}
-.nv-cta{background:#FF8D2D;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
-.nv-cta:hover{background:#E67A1C}
+.nv-cta{background:#FF6A00;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
+.nv-cta:hover{background:#E65F00}
 @media(max-width:640px){.nv-logo{font-size:18px}.nv-links{gap:13px;font-size:13px;width:100%;justify-content:flex-start}}
 </style>
 <nav class="nv-nav"><div class="nv-in">
@@ -1739,7 +1755,7 @@ Publish order, top to bottom. For **each** page in GHL:
 .nf-foot a:hover{color:#fff}
 .nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
 .nf-col a{display:block;margin:6px 0}
-.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF6A00}
 .nf-legal{max-width:1080px;margin:14px auto 0;padding:0 22px;font-size:13px;color:#9aa0a8}
 .nf-legal a{font-size:13px;color:#cfd3d9;text-decoration:none}
 .nf-legal a:hover{color:#fff;text-decoration:underline}
@@ -1785,7 +1801,7 @@ Publish order, top to bottom. For **each** page in GHL:
      Meta: Automotive and dealership 360 tours, drone, and video in Kansas City. Showcase your lot, showroom, and service department.
      Keep nav+footer in this block. Paste into a Custom JS/HTML element. -->
 <style>
-:root{--n-red:#FF8D2D;--n-red-dk:#E67A1C;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
+:root{--n-red:#FF6A00;--n-red-dk:#E65F00;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
 .n-wrap{max-width:1080px;margin:0 auto;padding:0 22px}
 .n-section{padding:56px 0}
 .n-hero{background:linear-gradient(135deg,#31343B,#23262b);color:#fff;padding:72px 0}
@@ -1811,12 +1827,12 @@ Publish order, top to bottom. For **each** page in GHL:
 .nv-nav{position:sticky;top:0;z-index:50;background:#31343B;border-bottom:1px solid rgba(255,255,255,.08)}
 .nv-in{max-width:1080px;margin:0 auto;padding:10px 22px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
 .nv-logo{display:flex;align-items:center;text-decoration:none;font-weight:800;font-size:20px;letter-spacing:-.01em;margin-right:auto;color:#fff}
-.nv-logo span{color:#FF8D2D}
+.nv-logo span{color:#FF6A00}
 .nv-links{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
 .nv-links a{color:#d4d7dd;text-decoration:none;font-weight:600;font-size:14px}
 .nv-links a:hover{color:#fff}
-.nv-cta{background:#FF8D2D;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
-.nv-cta:hover{background:#E67A1C}
+.nv-cta{background:#FF6A00;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
+.nv-cta:hover{background:#E65F00}
 @media(max-width:640px){.nv-logo{font-size:18px}.nv-links{gap:13px;font-size:13px;width:100%;justify-content:flex-start}}
 </style>
 <nav class="nv-nav"><div class="nv-in">
@@ -1865,7 +1881,7 @@ Publish order, top to bottom. For **each** page in GHL:
 .nf-foot a:hover{color:#fff}
 .nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
 .nf-col a{display:block;margin:6px 0}
-.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF6A00}
 .nf-legal{max-width:1080px;margin:14px auto 0;padding:0 22px;font-size:13px;color:#9aa0a8}
 .nf-legal a{font-size:13px;color:#cfd3d9;text-decoration:none}
 .nf-legal a:hover{color:#fff;text-decoration:underline}
@@ -1912,7 +1928,7 @@ Publish order, top to bottom. For **each** page in GHL:
      Keep nav+footer in this block. Paste into a Custom JS/HTML element.
      NOTE: no client tour yet - publishes as a written pitch + demo CTA. Drop an embed in later. -->
 <style>
-:root{--n-red:#FF8D2D;--n-red-dk:#E67A1C;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
+:root{--n-red:#FF6A00;--n-red-dk:#E65F00;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
 .n-wrap{max-width:1080px;margin:0 auto;padding:0 22px}
 .n-section{padding:56px 0}
 .n-hero{background:linear-gradient(135deg,#31343B,#23262b);color:#fff;padding:72px 0}
@@ -1938,12 +1954,12 @@ Publish order, top to bottom. For **each** page in GHL:
 .nv-nav{position:sticky;top:0;z-index:50;background:#31343B;border-bottom:1px solid rgba(255,255,255,.08)}
 .nv-in{max-width:1080px;margin:0 auto;padding:10px 22px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
 .nv-logo{display:flex;align-items:center;text-decoration:none;font-weight:800;font-size:20px;letter-spacing:-.01em;margin-right:auto;color:#fff}
-.nv-logo span{color:#FF8D2D}
+.nv-logo span{color:#FF6A00}
 .nv-links{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
 .nv-links a{color:#d4d7dd;text-decoration:none;font-weight:600;font-size:14px}
 .nv-links a:hover{color:#fff}
-.nv-cta{background:#FF8D2D;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
-.nv-cta:hover{background:#E67A1C}
+.nv-cta{background:#FF6A00;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
+.nv-cta:hover{background:#E65F00}
 @media(max-width:640px){.nv-logo{font-size:18px}.nv-links{gap:13px;font-size:13px;width:100%;justify-content:flex-start}}
 </style>
 <nav class="nv-nav"><div class="nv-in">
@@ -2006,7 +2022,7 @@ Publish order, top to bottom. For **each** page in GHL:
 .nf-foot a:hover{color:#fff}
 .nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
 .nf-col a{display:block;margin:6px 0}
-.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF6A00}
 .nf-legal{max-width:1080px;margin:14px auto 0;padding:0 22px;font-size:13px;color:#9aa0a8}
 .nf-legal a{font-size:13px;color:#cfd3d9;text-decoration:none}
 .nf-legal a:hover{color:#fff;text-decoration:underline}
@@ -2052,7 +2068,7 @@ Publish order, top to bottom. For **each** page in GHL:
      Meta: Hotel and bed-and-breakfast 360 virtual tours in Kansas City. Let guests walk your space before they book.
      Keep nav+footer in this block. Paste into a Custom JS/HTML element. -->
 <style>
-:root{--n-red:#FF8D2D;--n-red-dk:#E67A1C;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
+:root{--n-red:#FF6A00;--n-red-dk:#E65F00;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
 .n-wrap{max-width:1080px;margin:0 auto;padding:0 22px}
 .n-section{padding:56px 0}
 .n-hero{background:linear-gradient(135deg,#31343B,#23262b);color:#fff;padding:72px 0}
@@ -2078,12 +2094,12 @@ Publish order, top to bottom. For **each** page in GHL:
 .nv-nav{position:sticky;top:0;z-index:50;background:#31343B;border-bottom:1px solid rgba(255,255,255,.08)}
 .nv-in{max-width:1080px;margin:0 auto;padding:10px 22px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
 .nv-logo{display:flex;align-items:center;text-decoration:none;font-weight:800;font-size:20px;letter-spacing:-.01em;margin-right:auto;color:#fff}
-.nv-logo span{color:#FF8D2D}
+.nv-logo span{color:#FF6A00}
 .nv-links{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
 .nv-links a{color:#d4d7dd;text-decoration:none;font-weight:600;font-size:14px}
 .nv-links a:hover{color:#fff}
-.nv-cta{background:#FF8D2D;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
-.nv-cta:hover{background:#E67A1C}
+.nv-cta{background:#FF6A00;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
+.nv-cta:hover{background:#E65F00}
 @media(max-width:640px){.nv-logo{font-size:18px}.nv-links{gap:13px;font-size:13px;width:100%;justify-content:flex-start}}
 </style>
 <nav class="nv-nav"><div class="nv-in">
@@ -2139,7 +2155,7 @@ Publish order, top to bottom. For **each** page in GHL:
 .nf-foot a:hover{color:#fff}
 .nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
 .nf-col a{display:block;margin:6px 0}
-.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF6A00}
 .nf-legal{max-width:1080px;margin:14px auto 0;padding:0 22px;font-size:13px;color:#9aa0a8}
 .nf-legal a{font-size:13px;color:#cfd3d9;text-decoration:none}
 .nf-legal a:hover{color:#fff;text-decoration:underline}
@@ -2185,7 +2201,7 @@ Publish order, top to bottom. For **each** page in GHL:
      Meta: School and athletic 360 tours and drone video in Kansas City. Campus walkthroughs for families and recruits.
      Keep nav+footer in this block. Paste into a Custom JS/HTML element. -->
 <style>
-:root{--n-red:#FF8D2D;--n-red-dk:#E67A1C;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
+:root{--n-red:#FF6A00;--n-red-dk:#E65F00;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
 .n-wrap{max-width:1080px;margin:0 auto;padding:0 22px}
 .n-section{padding:56px 0}
 .n-hero{background:linear-gradient(135deg,#31343B,#23262b);color:#fff;padding:72px 0}
@@ -2211,12 +2227,12 @@ Publish order, top to bottom. For **each** page in GHL:
 .nv-nav{position:sticky;top:0;z-index:50;background:#31343B;border-bottom:1px solid rgba(255,255,255,.08)}
 .nv-in{max-width:1080px;margin:0 auto;padding:10px 22px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
 .nv-logo{display:flex;align-items:center;text-decoration:none;font-weight:800;font-size:20px;letter-spacing:-.01em;margin-right:auto;color:#fff}
-.nv-logo span{color:#FF8D2D}
+.nv-logo span{color:#FF6A00}
 .nv-links{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
 .nv-links a{color:#d4d7dd;text-decoration:none;font-weight:600;font-size:14px}
 .nv-links a:hover{color:#fff}
-.nv-cta{background:#FF8D2D;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
-.nv-cta:hover{background:#E67A1C}
+.nv-cta{background:#FF6A00;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
+.nv-cta:hover{background:#E65F00}
 @media(max-width:640px){.nv-logo{font-size:18px}.nv-links{gap:13px;font-size:13px;width:100%;justify-content:flex-start}}
 </style>
 <nav class="nv-nav"><div class="nv-in">
@@ -2288,7 +2304,7 @@ Publish order, top to bottom. For **each** page in GHL:
 .nf-foot a:hover{color:#fff}
 .nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
 .nf-col a{display:block;margin:6px 0}
-.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF6A00}
 .nf-legal{max-width:1080px;margin:14px auto 0;padding:0 22px;font-size:13px;color:#9aa0a8}
 .nf-legal a{font-size:13px;color:#cfd3d9;text-decoration:none}
 .nf-legal a:hover{color:#fff;text-decoration:underline}
@@ -2334,7 +2350,7 @@ Publish order, top to bottom. For **each** page in GHL:
      Meta: Park, rec, and event 360 tours and drone reels in Kansas City. Experience the space before you arrive.
      Keep nav+footer in this block. Paste into a Custom JS/HTML element. -->
 <style>
-:root{--n-red:#FF8D2D;--n-red-dk:#E67A1C;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
+:root{--n-red:#FF6A00;--n-red-dk:#E65F00;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
 .n-wrap{max-width:1080px;margin:0 auto;padding:0 22px}
 .n-section{padding:56px 0}
 .n-hero{background:linear-gradient(135deg,#31343B,#23262b);color:#fff;padding:72px 0}
@@ -2360,12 +2376,12 @@ Publish order, top to bottom. For **each** page in GHL:
 .nv-nav{position:sticky;top:0;z-index:50;background:#31343B;border-bottom:1px solid rgba(255,255,255,.08)}
 .nv-in{max-width:1080px;margin:0 auto;padding:10px 22px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
 .nv-logo{display:flex;align-items:center;text-decoration:none;font-weight:800;font-size:20px;letter-spacing:-.01em;margin-right:auto;color:#fff}
-.nv-logo span{color:#FF8D2D}
+.nv-logo span{color:#FF6A00}
 .nv-links{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
 .nv-links a{color:#d4d7dd;text-decoration:none;font-weight:600;font-size:14px}
 .nv-links a:hover{color:#fff}
-.nv-cta{background:#FF8D2D;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
-.nv-cta:hover{background:#E67A1C}
+.nv-cta{background:#FF6A00;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
+.nv-cta:hover{background:#E65F00}
 @media(max-width:640px){.nv-logo{font-size:18px}.nv-links{gap:13px;font-size:13px;width:100%;justify-content:flex-start}}
 </style>
 <nav class="nv-nav"><div class="nv-in">
@@ -2433,7 +2449,7 @@ Publish order, top to bottom. For **each** page in GHL:
 .nf-foot a:hover{color:#fff}
 .nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
 .nf-col a{display:block;margin:6px 0}
-.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF6A00}
 .nf-legal{max-width:1080px;margin:14px auto 0;padding:0 22px;font-size:13px;color:#9aa0a8}
 .nf-legal a{font-size:13px;color:#cfd3d9;text-decoration:none}
 .nf-legal a:hover{color:#fff;text-decoration:underline}
@@ -2479,7 +2495,7 @@ Publish order, top to bottom. For **each** page in GHL:
      Meta: Dental and medical 360 tours and Google visibility in Kansas City. Build trust before the first visit.
      Keep nav+footer in this block. Paste into a Custom JS/HTML element. -->
 <style>
-:root{--n-red:#FF8D2D;--n-red-dk:#E67A1C;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
+:root{--n-red:#FF6A00;--n-red-dk:#E65F00;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
 .n-wrap{max-width:1080px;margin:0 auto;padding:0 22px}
 .n-section{padding:56px 0}
 .n-hero{background:linear-gradient(135deg,#31343B,#23262b);color:#fff;padding:72px 0}
@@ -2505,12 +2521,12 @@ Publish order, top to bottom. For **each** page in GHL:
 .nv-nav{position:sticky;top:0;z-index:50;background:#31343B;border-bottom:1px solid rgba(255,255,255,.08)}
 .nv-in{max-width:1080px;margin:0 auto;padding:10px 22px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
 .nv-logo{display:flex;align-items:center;text-decoration:none;font-weight:800;font-size:20px;letter-spacing:-.01em;margin-right:auto;color:#fff}
-.nv-logo span{color:#FF8D2D}
+.nv-logo span{color:#FF6A00}
 .nv-links{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
 .nv-links a{color:#d4d7dd;text-decoration:none;font-weight:600;font-size:14px}
 .nv-links a:hover{color:#fff}
-.nv-cta{background:#FF8D2D;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
-.nv-cta:hover{background:#E67A1C}
+.nv-cta{background:#FF6A00;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
+.nv-cta:hover{background:#E65F00}
 @media(max-width:640px){.nv-logo{font-size:18px}.nv-links{gap:13px;font-size:13px;width:100%;justify-content:flex-start}}
 </style>
 <nav class="nv-nav"><div class="nv-in">
@@ -2566,7 +2582,7 @@ Publish order, top to bottom. For **each** page in GHL:
 .nf-foot a:hover{color:#fff}
 .nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
 .nf-col a{display:block;margin:6px 0}
-.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF6A00}
 .nf-legal{max-width:1080px;margin:14px auto 0;padding:0 22px;font-size:13px;color:#9aa0a8}
 .nf-legal a{font-size:13px;color:#cfd3d9;text-decoration:none}
 .nf-legal a:hover{color:#fff;text-decoration:underline}
@@ -2612,7 +2628,7 @@ Publish order, top to bottom. For **each** page in GHL:
      Meta: Chiropractic and wellness 360 tours and video in Kansas City. A full visibility system for multi-location practices.
      Keep nav+footer in this block. Paste into a Custom JS/HTML element. -->
 <style>
-:root{--n-red:#FF8D2D;--n-red-dk:#E67A1C;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
+:root{--n-red:#FF6A00;--n-red-dk:#E65F00;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
 .n-wrap{max-width:1080px;margin:0 auto;padding:0 22px}
 .n-section{padding:56px 0}
 .n-hero{background:linear-gradient(135deg,#31343B,#23262b);color:#fff;padding:72px 0}
@@ -2638,12 +2654,12 @@ Publish order, top to bottom. For **each** page in GHL:
 .nv-nav{position:sticky;top:0;z-index:50;background:#31343B;border-bottom:1px solid rgba(255,255,255,.08)}
 .nv-in{max-width:1080px;margin:0 auto;padding:10px 22px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
 .nv-logo{display:flex;align-items:center;text-decoration:none;font-weight:800;font-size:20px;letter-spacing:-.01em;margin-right:auto;color:#fff}
-.nv-logo span{color:#FF8D2D}
+.nv-logo span{color:#FF6A00}
 .nv-links{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
 .nv-links a{color:#d4d7dd;text-decoration:none;font-weight:600;font-size:14px}
 .nv-links a:hover{color:#fff}
-.nv-cta{background:#FF8D2D;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
-.nv-cta:hover{background:#E67A1C}
+.nv-cta{background:#FF6A00;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
+.nv-cta:hover{background:#E65F00}
 @media(max-width:640px){.nv-logo{font-size:18px}.nv-links{gap:13px;font-size:13px;width:100%;justify-content:flex-start}}
 </style>
 <nav class="nv-nav"><div class="nv-in">
@@ -2716,7 +2732,7 @@ Publish order, top to bottom. For **each** page in GHL:
 .nf-foot a:hover{color:#fff}
 .nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
 .nf-col a{display:block;margin:6px 0}
-.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF6A00}
 .nf-legal{max-width:1080px;margin:14px auto 0;padding:0 22px;font-size:13px;color:#9aa0a8}
 .nf-legal a{font-size:13px;color:#cfd3d9;text-decoration:none}
 .nf-legal a:hover{color:#fff;text-decoration:underline}
@@ -2767,7 +2783,7 @@ Publish order, top to bottom. For **each** page in GHL:
      Paste body into a Custom JS/HTML element.
      NAP: (844) 360-6465 - Kansas City, MO (canonical; match everywhere). -->
 <style>
-:root{--n-red:#FF8D2D;--n-red-dk:#E67A1C;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
+:root{--n-red:#FF6A00;--n-red-dk:#E65F00;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
 .n-wrap{max-width:1080px;margin:0 auto;padding:0 22px}
 .n-section{padding:56px 0}
 .n-hero{background:linear-gradient(135deg,#31343B,#23262b);color:#fff;padding:72px 0}
@@ -2794,12 +2810,12 @@ Publish order, top to bottom. For **each** page in GHL:
 .nv-nav{position:sticky;top:0;z-index:50;background:#31343B;border-bottom:1px solid rgba(255,255,255,.08)}
 .nv-in{max-width:1080px;margin:0 auto;padding:10px 22px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
 .nv-logo{display:flex;align-items:center;text-decoration:none;font-weight:800;font-size:20px;letter-spacing:-.01em;margin-right:auto;color:#fff}
-.nv-logo span{color:#FF8D2D}
+.nv-logo span{color:#FF6A00}
 .nv-links{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
 .nv-links a{color:#d4d7dd;text-decoration:none;font-weight:600;font-size:14px}
 .nv-links a:hover{color:#fff}
-.nv-cta{background:#FF8D2D;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
-.nv-cta:hover{background:#E67A1C}
+.nv-cta{background:#FF6A00;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
+.nv-cta:hover{background:#E65F00}
 @media(max-width:640px){.nv-logo{font-size:18px}.nv-links{gap:13px;font-size:13px;width:100%;justify-content:flex-start}}
 </style>
 <nav class="nv-nav"><div class="nv-in">
@@ -2860,7 +2876,7 @@ Publish order, top to bottom. For **each** page in GHL:
 .nf-foot a:hover{color:#fff}
 .nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
 .nf-col a{display:block;margin:6px 0}
-.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF6A00}
 .nf-legal{max-width:1080px;margin:14px auto 0;padding:0 22px;font-size:13px;color:#9aa0a8}
 .nf-legal a{font-size:13px;color:#cfd3d9;text-decoration:none}
 .nf-legal a:hover{color:#fff;text-decoration:underline}
@@ -2949,7 +2965,7 @@ Publish order, top to bottom. For **each** page in GHL:
 </script>
 ===== END HEAD CODE ===== -->
 <style>
-:root{--n-red:#FF8D2D;--n-red-dk:#E67A1C;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
+:root{--n-red:#FF6A00;--n-red-dk:#E65F00;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
 .n-wrap{max-width:1080px;margin:0 auto;padding:0 22px}
 .n-section{padding:56px 0}
 .n-hero{background:linear-gradient(135deg,#31343B,#23262b);color:#fff;padding:72px 0}
@@ -2988,12 +3004,12 @@ Publish order, top to bottom. For **each** page in GHL:
 .nv-nav{position:sticky;top:0;z-index:50;background:#31343B;border-bottom:1px solid rgba(255,255,255,.08)}
 .nv-in{max-width:1080px;margin:0 auto;padding:10px 22px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
 .nv-logo{display:flex;align-items:center;text-decoration:none;font-weight:800;font-size:20px;letter-spacing:-.01em;margin-right:auto;color:#fff}
-.nv-logo span{color:#FF8D2D}
+.nv-logo span{color:#FF6A00}
 .nv-links{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
 .nv-links a{color:#d4d7dd;text-decoration:none;font-weight:600;font-size:14px}
 .nv-links a:hover{color:#fff}
-.nv-cta{background:#FF8D2D;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
-.nv-cta:hover{background:#E67A1C}
+.nv-cta{background:#FF6A00;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
+.nv-cta:hover{background:#E65F00}
 @media(max-width:640px){.nv-logo{font-size:18px}.nv-links{gap:13px;font-size:13px;width:100%;justify-content:flex-start}}
 </style>
 <nav class="nv-nav"><div class="nv-in">
@@ -3135,7 +3151,7 @@ Publish order, top to bottom. For **each** page in GHL:
 .nf-foot a:hover{color:#fff}
 .nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
 .nf-col a{display:block;margin:6px 0}
-.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF6A00}
 .nf-legal{max-width:1080px;margin:14px auto 0;padding:0 22px;font-size:13px;color:#9aa0a8}
 .nf-legal a{font-size:13px;color:#cfd3d9;text-decoration:none}
 .nf-legal a:hover{color:#fff;text-decoration:underline}
@@ -3220,7 +3236,7 @@ Publish order, top to bottom. For **each** page in GHL:
          registration can be rejected.
      ######################################################## -->
 <style>
-:root{--n-red:#FF8D2D;--n-red-dk:#E67A1C;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
+:root{--n-red:#FF6A00;--n-red-dk:#E65F00;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
 .n-wrap{max-width:1080px;margin:0 auto;padding:0 22px}
 .n-section{padding:56px 0}
 .n-hero{background:linear-gradient(135deg,#31343B,#23262b);color:#fff;padding:64px 0}
@@ -3253,12 +3269,12 @@ Publish order, top to bottom. For **each** page in GHL:
 .nv-nav{position:sticky;top:0;z-index:50;background:#31343B;border-bottom:1px solid rgba(255,255,255,.08)}
 .nv-in{max-width:1080px;margin:0 auto;padding:10px 22px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
 .nv-logo{display:flex;align-items:center;text-decoration:none;font-weight:800;font-size:20px;letter-spacing:-.01em;margin-right:auto;color:#fff}
-.nv-logo span{color:#FF8D2D}
+.nv-logo span{color:#FF6A00}
 .nv-links{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
 .nv-links a{color:#d4d7dd;text-decoration:none;font-weight:600;font-size:14px}
 .nv-links a:hover{color:#fff}
-.nv-cta{background:#FF8D2D;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
-.nv-cta:hover{background:#E67A1C}
+.nv-cta{background:#FF6A00;color:#fff !important;padding:9px 16px;border-radius:7px;font-weight:700}
+.nv-cta:hover{background:#E65F00}
 @media(max-width:640px){.nv-logo{font-size:18px}.nv-links{gap:13px;font-size:13px;width:100%;justify-content:flex-start}}
 </style>
 <nav class="nv-nav"><div class="nv-in">
@@ -3452,7 +3468,7 @@ Publish order, top to bottom. For **each** page in GHL:
 .nf-foot a:hover{color:#fff}
 .nf-h{color:#fff;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 10px}
 .nf-col a{display:block;margin:6px 0}
-.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF8D2D}
+.nf-brand b{color:#fff;font-size:20px}.nf-brand b span{color:#FF6A00}
 .nf-legal{max-width:1080px;margin:14px auto 0;padding:0 22px;font-size:13px;color:#9aa0a8}
 .nf-legal a{font-size:13px;color:#cfd3d9;text-decoration:none}
 .nf-legal a:hover{color:#fff;text-decoration:underline}

@@ -1,10 +1,10 @@
 /* Ninja-360 design system. Paste ONCE into GHL site custom CSS.
    Brand palette pulled from ninja-360.com (Elementor globals):
-   --n-red   holds BRAND ORANGE  #FF8D2D  (secondary/accent - all CTAs, highlights)
+   --n-red   holds BRAND ORANGE  #FF6A00  (secondary/accent - all CTAs, highlights)
    --n-black holds BRAND CHARCOAL #31343B (primary - dark surfaces, hero, Black Belt)
    Names kept as-is so existing var() refs keep working. */
 :root{
-  --n-red:#FF8D2D; --n-red-dk:#E67A1C; --n-black:#31343B; --n-ink:#1a1d22;
+  --n-red:#FF6A00; --n-red-dk:#E65F00; --n-black:#31343B; --n-ink:#1a1d22;
   --n-muted:#575B63; --n-line:#e2e4e7; --n-soft:#f6f7f9; --n-white:#fff;
   --n-font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
 }
