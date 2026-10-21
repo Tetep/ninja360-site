@@ -21,6 +21,9 @@ GoHighLevel Website Builder, which hosts the live site.
 - `COPY-REWRITE-V02.md` - the V02 philosophy-infusion copy rewrite (applied to /pages + PASTE-PACKET; carries the remaining GHL-side fix list)
 - `philosophies_V02.md` - the three core philosophies (LOCKED source copy)
 - `PASTE-PACKET.md` - assembled per-page paste blocks + slugs/SEO (generated from /pages; keep in sync)
+- `/seo/NAP-SCHEMA-V03.html` - **the site-wide entity block. Paste into EVERY page's Head.**
+  Canonical NAP + Organization/LocalBusiness + WebSite under one `@id`. Supersedes
+  `/seo/home-organization-schema-V01.html` and the old EVERY PAGE block in `/seo/HEAD-SCHEMA.md`.
 - `/pages` - one HTML file per page (paste targets)
 - `/components` - reusable sections (nav, hero, cta, work-card, footer)
 - `/styles/ninja360.css` - design system

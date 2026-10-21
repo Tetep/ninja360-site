@@ -1,0 +1,136 @@
+<!-- ===========================================================================
+     Ninja 360 — SITE-WIDE ENTITY SCHEMA V03  (NAP + Organization/LocalBusiness)
+     Paste into EVERY page's HEAD in GHL: Page Settings -> Custom Code -> Head.
+     Paste it identically on every page — identical @id is what makes search
+     engines MERGE the pages into one entity instead of splitting it.
+     Supersedes the EVERY PAGE block in seo/HEAD-SCHEMA.md and
+     seo/home-organization-schema-V01.html.
+
+     WHY ONE NODE AND NOT TWO:
+     The source instruction asked for an Organization node (#organization) plus a
+     separate LocalBusiness node (#localbusiness). That is the split-entity bug
+     this repo already ruled against (seo/HEAD-SCHEMA.md -> "ENTITY @id — ONE
+     VALUE SITEWIDE"). ProfessionalService IS a subtype of LocalBusiness, which
+     is itself a subtype of Organization, so ONE node typed as both carries every
+     property both were going to carry, under the one id the rest of the site
+     already references: https://ninja360.net/#org
+
+     PHONE: (844) 360-6465 is the canonical, dialable NAP string and the only
+     form that goes in markup. 844-360-NINJA is the marketing spelling and lives
+     in visible copy only — never in "telephone", never in a tel: href.
+
+     DO NOT add aggregateRating / Review here. Self-serving review markup on your
+     own domain violates Google's guidelines. Reviews stay in the Zyene widget.
+     =========================================================================== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["Organization", "ProfessionalService"],
+      "@id": "https://ninja360.net/#org",
+      "name": "Ninja 360 Digital Media",
+      "legalName": "Ninja-360 Digital Media LLC",
+      "alternateName": ["Ninja 360", "Ninja-360", "Ninja 360 Digital Media"],
+      "url": "https://ninja360.net",
+      "telephone": "+1-844-360-6465",
+      "slogan": "We put you on the M.A.P.",
+      "description": "Ninja 360 Digital Media is Kansas City's local visibility system. We help local businesses get found and chosen on Google with 360 virtual tours, Matterport, drone and aerial media, video, and Google Business Profile optimization.",
+      "priceRange": "$$",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://ninja360.net/#logo",
+        "url": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/cCPr3A6gnc4ihe1G44w5/media/69d5a732a7dcb4cff02c0cf5.png",
+        "contentUrl": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/cCPr3A6gnc4ihe1G44w5/media/69d5a732a7dcb4cff02c0cf5.png",
+        "caption": "Ninja 360 Digital Media"
+      },
+      "image": { "@id": "https://ninja360.net/#logo" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "3205 NE 70th Ter",
+        "addressLocality": "Gladstone",
+        "addressRegion": "MO",
+        "postalCode": "64119",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Kansas City", "containedInPlace": { "@type": "State", "name": "Missouri" } },
+        { "@type": "AdministrativeArea", "name": "Kansas City metropolitan area (MO/KS)" }
+      ],
+      "founder": {
+        "@type": "Person",
+        "@id": "https://ninja360.net/#tim-petet",
+        "name": "Tim Petet",
+        "jobTitle": "Owner / Operator",
+        "worksFor": { "@id": "https://ninja360.net/#org" }
+      },
+      "knowsAbout": [
+        "Google Business Profile optimization",
+        "Local SEO",
+        "360 virtual tours",
+        "Matterport 3D capture",
+        "Drone and aerial photography",
+        "Commercial video production"
+      ],
+      "sameAs": [
+        "https://www.facebook.com/KCNinja360",
+        "https://www.instagram.com/kcninja360/",
+        "https://www.youtube.com/@ninja360vr",
+        "https://www.tiktok.com/@ninja360digitalma",
+        "https://www.linkedin.com/company/ninja360/"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Ninja 360 Services",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "360 Virtual Tours - Google Street View" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Matterport 3D Walkthroughs" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Aerial / Drone Photography" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial Videography" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Google Business Profile Optimization & Local SEO" } }
+        ]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://ninja360.net/#website",
+      "url": "https://ninja360.net",
+      "name": "Ninja 360",
+      "inLanguage": "en-US",
+      "publisher": { "@id": "https://ninja360.net/#org" }
+    }
+  ]
+}
+</script>
+
+<!-- ===========================================================================
+     sameAs — STAGED HANDLES, DO NOT PASTE YET
+     Tim confirmed these five were available 10/21 and is switching to them.
+     sameAs pointing at a handle that does not resolve is worse than no sameAs:
+     the array exists to let Google corroborate the entity against live profiles,
+     and a 404 corroborates nothing. The moment all five are live AND the old
+     profiles redirect or are retired, swap the block above for this one.
+
+      "sameAs": [
+        "https://www.facebook.com/ninja360net",
+        "https://www.instagram.com/ninja360net/",
+        "https://www.youtube.com/@ninja360net",
+        "https://www.tiktok.com/@ninja360net",
+        "https://www.linkedin.com/company/ninja360net/"
+      ],
+
+     Also swap, in the same pass: components/footer.html (Follow column),
+     pages/*.html footers, pages/contact.html (Follow card).
+     =========================================================================== -->
+
+<!-- ===========================================================================
+     NOT INCLUDED, ON PURPOSE
+     - "email": the instruction set listed info@ninja360.net. No mailbox exists
+       at that address — per EMAIL-FIX.md, Google Workspace mail runs on the
+       legacy ninja-360.com domain and ninja360.net has no MX. A schema email
+       that bounces is a live entity-trust defect. Add it here only after the
+       mailbox exists and a test message is received.
+     - "geo" (lat/long), "openingHoursSpecification": not supplied; both are
+       optional and neither is required for rich results.
+     - "aggregateRating" / "Review": prohibited here (see header).
+     =========================================================================== -->

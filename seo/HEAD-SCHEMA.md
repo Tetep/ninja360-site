@@ -6,27 +6,17 @@ hold multiple blocks. VideoObject blocks already live in services/about/work-res
 
 ---
 
-## EVERY PAGE (site-wide) — Organization + WebSite
-```html
-<script type="application/ld+json">
-{
-  "@context":"https://schema.org","@type":"ProfessionalService",
-  "@id":"https://ninja360.net/#org",
-  "name":"Ninja-360 Digital Media",
-  "description":"Kansas City local-visibility studio. We help local businesses get found and chosen on Google with drone, 360 virtual tours, Matterport, video, and Google Business Profile optimization.",
-  "url":"https://ninja360.net",
-  "telephone":"+1-844-360-6465",
-  "areaServed":"Kansas City metro (MO/KS)",
-  "priceRange":"$99–$999/mo",
-  "address":{"@type":"PostalAddress","addressLocality":"Kansas City","addressRegion":"MO","addressCountry":"US"},
-  "founder":{"@type":"Person","name":"Tim Petet"},
-  "sameAs":["https://www.youtube.com/@ninja360vr","https://www.facebook.com/KCNinja360","https://www.instagram.com/kcninja360/","https://www.linkedin.com/company/ninja360/","https://www.tiktok.com/@ninja360digitalma"]
-}
-</script>
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","name":"Ninja-360","url":"https://ninja360.net"}
-</script>
-```
+## EVERY PAGE (site-wide) — Organization/LocalBusiness + WebSite
+**→ The block to paste lives in [`seo/NAP-SCHEMA-V03.html`](NAP-SCHEMA-V03.html).** Paste it
+verbatim into every page's HEAD. It replaces the older single-node block that used to sit
+here (that one carried no `streetAddress`, no `legalName`, and the pre-rename
+`Ninja-360` display name — all three are now wrong).
+
+V03 is **one `@graph` with two nodes**: the business, typed
+`["Organization","ProfessionalService"]` at `#org`, and the `WebSite` at `#website` whose
+`publisher` points back at it. One node — not an Organization node *and* a LocalBusiness
+node — because `ProfessionalService` is already a `LocalBusiness`, which is already an
+`Organization`. See the ONE-VALUE-SITEWIDE rule below.
 
 ---
 
@@ -59,8 +49,35 @@ id (`#business`, `#organization`, …) for the same company — two ids = two co
 entities, which is exactly the entity-confidence problem the schema is meant to fix.
 Other blocks REFERENCE it (`{"@id":"https://ninja360.net/#org"}`) rather than redefining it.
 
-On pages that only need the business entity (/work, /contact, /free-audit), paste the
-EVERY PAGE block above as-is — identical `@id` means search engines merge them into one
+---
+
+## NAP — ONE STRING SITEWIDE (V03)
+Every surface — footer, contact page, schema `telephone`/`address`, Google Business
+Profile, every directory listing — carries exactly this, character for character:
+
+> **Ninja 360 Digital Media** · 3205 NE 70th Ter, Gladstone, MO 64119 · (844) 360-6465
+
+- **Name:** `Ninja 360 Digital Media` (space, no hyphen). The hyphenated
+  `Ninja-360 Digital Media LLC` is the **legal entity only** — it belongs in `legalName`,
+  in the Terms agreement, and nowhere else. `Ninja-360` is kept in `alternateName` so the
+  old spelling still resolves to this entity.
+- **Phone:** `(844) 360-6465` is the only form that appears in markup, in visible NAP lines,
+  and in `tel:` hrefs (`tel:+18443606465`). **`844-360-NINJA` is marketing copy only** — it
+  is the same number spelled for humans, and putting a lettered form in `telephone` or in a
+  NAP line breaks the exact-string match Google uses to tie listings together. Where the
+  vanity spelling earns its keep (footer Contact column, /contact Call card, ads, print,
+  voiceover) it runs as a **separate, secondary line**: "that's 844-360-NINJA".
+- **Address:** the Gladstone street address is now public, in the footer and in
+  `PostalAddress`. ⚠️ This reverses `COPY-REWRITE-V02.md` FIX #5, which had locked
+  "Kansas City, MO" with no street number on the grounds that it may be a residence. Tim
+  specified the street address directly, so it ships. Two consequences to manage, not
+  undo: (1) a published street address is effectively permanent once indexed and scraped;
+  (2) `addressLocality` is now **Gladstone**, not Kansas City, so Google reads the business
+  as Gladstone-based while the copy targets Kansas City — `areaServed` carries the KC metro
+  claim, which is the correct and honest way to span both.
+
+On pages that only need the business entity (/work, /contact, /free-audit), paste
+`seo/NAP-SCHEMA-V03.html` as-is — identical `@id` means search engines merge them into one
 entity rather than splitting it. **Keep `sameAs` in it**: the social profile links are the
 entity-confidence payload, and a copy without them is weaker than no copy at all.
 

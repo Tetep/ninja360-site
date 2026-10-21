@@ -31,7 +31,18 @@
 2. **/contact is a 404** (older nav) → build it (copy below) or remove the link.
 3. **/free-audit is a 404** from the older nav; newer pages use the homepage anchor `#section-JXWJCHUYEK`. Pick ONE audit destination and point every CTA at it.
 4. **Two nav/footer templates are live.** Home, Pricing, Portfolio use the old nav (Home/About/Work/Portfolio/Pricing/Contact); Work, How It Works, Services use the new one (How It Works/Work/Services/Pricing/About). Standardize on the NEW nav sitewide: How It Works · Work · Services · Pricing · About · Free Audit.
-5. **Footer NAP conflict:** old footer shows street address "3205 NE 70th Ter"; new footer shows "Kansas City, MO." Pick ONE canonical NAP everywhere (this feeds the AI-search entity-confidence standard — inconsistent NAP costs entity trust). If that street address is a home address, use "Kansas City, MO" publicly.
+5. ~~**Footer NAP conflict:** old footer shows street address "3205 NE 70th Ter"; new footer shows "Kansas City, MO." Pick ONE canonical NAP everywhere (this feeds the AI-search entity-confidence standard — inconsistent NAP costs entity trust). If that street address is a home address, use "Kansas City, MO" publicly.~~
+   ✅ **RESOLVED 2026-10-21 — and the recommendation was reversed.** Tim specified the
+   street address directly, so the canonical NAP is now
+   **`Ninja 360 Digital Media · 3205 NE 70th Ter, Gladstone, MO 64119 · (844) 360-6465`**,
+   applied to all 18 page footers, /contact, /terms, `llms.txt`, and `PostalAddress` in
+   schema. This overrides the "use Kansas City, MO publicly" advice above — that advice
+   was a privacy hedge, not a ruling. Two live consequences, documented in
+   `seo/HEAD-SCHEMA.md` → "NAP — ONE STRING SITEWIDE": a published street address is
+   effectively permanent once indexed/scraped, and `addressLocality` is now **Gladstone**,
+   so Google reads the business as Gladstone-based — `areaServed` carries the KC metro
+   claim. Also settled here: display name is `Ninja 360` (space); `(844) 360-6465` is the
+   only form in markup; `844-360-NINJA` is marketing copy only.
 6. **Stray draft text on homepage:** "Here is the other block" is visible on the live page → delete.
 7. **Typos:** "why they should choose you.." (double period, Make section) · How It Works cards render "…Look Its BestWhite Belt" (missing space/line break before belt label — fix in all three cards).
 

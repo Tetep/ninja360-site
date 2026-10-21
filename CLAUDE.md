@@ -49,7 +49,13 @@ Drive, not this repo):
   = the **live website** (GoHighLevel-hosted, fronted by Cloudflare).
 - **Three systems:** GitHub (this repo) · GoHighLevel (hosts the site + funnel) · Cloudflare
   (DNS, 301s, caching, email DNS).
-- **Brand/NAP — pick ONE of each:** Phone **(844) 360-6465** · Site **ninja360.net** ·
+- **Brand/NAP — ONE string sitewide (V03, see `seo/HEAD-SCHEMA.md` → "NAP — ONE STRING
+  SITEWIDE"):** **Ninja 360 Digital Media · 3205 NE 70th Ter, Gladstone, MO 64119 ·
+  (844) 360-6465**. Display name is **`Ninja 360`** (space, no hyphen) everywhere;
+  `Ninja-360 Digital Media LLC` is the **legal entity only** (Terms + schema `legalName`).
+  **(844) 360-6465** is the only form in markup, NAP lines and `tel:` hrefs —
+  **`844-360-NINJA` is marketing copy only**, run as a secondary line, never in
+  `telephone`. Site **ninja360.net** ·
   Positioning: local **visibility** system ("get found and chosen on Google"), NOT a
   "virtual tour company."
 - **Strategy spine (from Drive `000 - MASTER INDEX`):** **M.A.P. System** (Make → Amplify →

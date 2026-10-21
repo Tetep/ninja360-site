@@ -12,8 +12,8 @@ Publish order, top to bottom. For **each** page in GHL:
 
 ## 1. Home
 - **Slug / path:** `/`  _(flat fallback: ``)_
-- **SEO Title:** Get Found on Google in Kansas City | Ninja-360 Local Visibility
-- **Meta description:** Ninja-360 puts Kansas City businesses on the map - visible, heard, and chosen on Google. Virtual tours, drone media, and a visibility system that tells your true story beautifully. Free audit.
+- **SEO Title:** Get Found on Google in Kansas City | Ninja 360 Local Visibility
+- **Meta description:** Ninja 360 puts Kansas City businesses on the map - visible, heard, and chosen on Google. Virtual tours, drone media, and a visibility system that tells your true story beautifully. Free audit.
 - **301:** ninja-360.com/  ->  /
 
 **Paste this into the Custom JS/HTML element:**
@@ -45,12 +45,12 @@ Publish order, top to bottom. For **each** page in GHL:
 </div></nav>
 <!-- HOME  -  paste into a GHL Custom Code block on the home step.
      KEEP your native AUDIT FORM section (#section-JXWJCHUYEK) - every CTA
-     scrolls to it. StoryBrand: customer = hero, Ninja-360 = guide.
+     scrolls to it. StoryBrand: customer = hero, Ninja 360 = guide.
      Copy: V02 philosophy infusion (see COPY-REWRITE-V02.md + philosophies_V02.md).
      Brand palette: charcoal #31343B + orange #FF6A00.
      GHL PAGE SEO:
-       Title: Get Found on Google in Kansas City | Ninja-360 Local Visibility
-       Meta:  Ninja-360 puts Kansas City businesses on the map - visible, heard,
+       Title: Get Found on Google in Kansas City | Ninja 360 Local Visibility
+       Meta:  Ninja 360 puts Kansas City businesses on the map - visible, heard,
               and chosen on Google. Virtual tours, drone media, and a visibility
               system that tells your true story beautifully. Free audit. -->
 
@@ -92,7 +92,7 @@ Publish order, top to bottom. For **each** page in GHL:
   <div class="n-wrap">
     <p class="n-eyebrow">Get found. Get chosen.</p>
     <h1 class="n-h1">If your business isn't showing up on Google search,<br>you're losing customers.</h1>
-    <p class="n-lead">Ninja-360 puts Kansas City businesses on the map &mdash; better visuals, a true story told beautifully, and a system that keeps you visible, heard, and chosen.</p>
+    <p class="n-lead">Ninja 360 puts Kansas City businesses on the map &mdash; better visuals, a true story told beautifully, and a system that keeps you visible, heard, and chosen.</p>
     <div style="margin-top:28px">
       <a class="n-btn" href="#section-JXWJCHUYEK">Get My Free Visibility Audit</a>
       <a class="n-btn-ghost" href="/pricing">See Pricing</a>
@@ -125,7 +125,7 @@ Publish order, top to bottom. For **each** page in GHL:
 <section class="n-section">
   <div class="n-wrap">
     <p class="n-eyebrow">What we believe</p>
-    <h2 class="n-h2">Three philosophies drive everything Ninja-360 makes.</h2>
+    <h2 class="n-h2">Three philosophies drive everything Ninja 360 makes.</h2>
     <div class="phil-grid">
       <div class="phil-card">
         <p class="pn">Philosophy 01</p>
@@ -155,21 +155,21 @@ Publish order, top to bottom. For **each** page in GHL:
     <p class="n-sub">Make. Amplify. Promote. A simple, proven system to get your business found, chosen, and consistently ahead.</p>
     <div class="map-grid">
       <div class="map-card">
-        <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/cCPr3A6gnc4ihe1G44w5/media/69c403a5c14403201337659d.png" alt="Ninja-360 Make - White Belt" width="104" height="104">
+        <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/cCPr3A6gnc4ihe1G44w5/media/69c403a5c14403201337659d.png" alt="Ninja 360 Make - White Belt" width="104" height="104">
         <p class="map-step">01 - Make</p>
         <h3>We make your business look its best.</h3>
         <p class="n-sub" style="margin:0 auto">We capture high-quality photo, video, drone, and 360&deg; content that builds instant trust &mdash; real places, real people, never staged.</p>
         <span class="map-belt">White Belt</span>
       </div>
       <div class="map-card">
-        <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/cCPr3A6gnc4ihe1G44w5/media/69d5a77ba7dcb4cff02c16a2.png" alt="Ninja-360 Amplify - Brown Belt" width="104" height="104">
+        <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/cCPr3A6gnc4ihe1G44w5/media/69d5a77ba7dcb4cff02c16a2.png" alt="Ninja 360 Amplify - Brown Belt" width="104" height="104">
         <p class="map-step">02 - Amplify</p>
         <h3>We get you showing up on Google.</h3>
         <p class="n-sub" style="margin:0 auto">We optimize and publish your content where customers are already searching &mdash; Google Maps, Search, listings, your site, and social. Visible and heard.</p>
         <span class="map-belt">Brown Belt</span>
       </div>
       <div class="map-card">
-        <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/cCPr3A6gnc4ihe1G44w5/media/69c403b776c88204c13af763.png" alt="Ninja-360 Promote - Black Belt" width="104" height="104">
+        <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/cCPr3A6gnc4ihe1G44w5/media/69c403b776c88204c13af763.png" alt="Ninja 360 Promote - Black Belt" width="104" height="104">
         <p class="map-step">03 - Promote</p>
         <h3>We keep you visible and chosen.</h3>
         <p class="n-sub" style="margin:0 auto">Ongoing updates, fresh content, constant optimization. We keep sharpening so you stay ahead of competitors month after month.</p>
@@ -187,9 +187,9 @@ Publish order, top to bottom. For **each** page in GHL:
     <h2 class="n-h2">Real work. Real Kansas City businesses.</h2>
     <p class="n-sub">From single storefronts to a 15+ location restaurant chain (54th Street Grill), we've put hundreds of businesses on the map.</p>
     <div class="vid-grid">
-      <iframe class="vid" src="https://www.youtube.com/embed/60xCoFbbfuU" title="Ninja-360 client video" loading="lazy" allowfullscreen></iframe>
-      <iframe class="vid" src="https://www.youtube.com/embed/v87kC9x-F04" title="Ninja-360 client video" loading="lazy" allowfullscreen></iframe>
-      <iframe class="vid" src="https://www.youtube.com/embed/hAZtFQ_5kOk" title="Ninja-360 client video" loading="lazy" allowfullscreen></iframe>
+      <iframe class="vid" src="https://www.youtube.com/embed/60xCoFbbfuU" title="Ninja 360 client video" loading="lazy" allowfullscreen></iframe>
+      <iframe class="vid" src="https://www.youtube.com/embed/v87kC9x-F04" title="Ninja 360 client video" loading="lazy" allowfullscreen></iframe>
+      <iframe class="vid" src="https://www.youtube.com/embed/hAZtFQ_5kOk" title="Ninja 360 client video" loading="lazy" allowfullscreen></iframe>
     </div>
   </div>
 </section>
@@ -292,8 +292,9 @@ Publish order, top to bottom. For **each** page in GHL:
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
+      <span style="display:block;margin:-3px 0 4px;font-size:12px;color:#9aa0a8">that&rsquo;s 844-360-NINJA</span>
       <a href="https://ninja360.net/#section-JXWJCHUYEK">Free Visibility Audit</a>
-      <span style="display:block;margin:6px 0;font-size:14px">Kansas City, MO</span>
+      <span style="display:block;margin:6px 0;font-size:14px">3205 NE 70th Ter<br>Gladstone, MO 64119</span>
       <p class="nf-h" style="margin-top:14px">Follow</p>
       <a href="https://www.facebook.com/KCNinja360">Facebook</a>
       <a href="https://www.instagram.com/kcninja360/">Instagram</a>
@@ -304,7 +305,10 @@ Publish order, top to bottom. For **each** page in GHL:
   </div>
   <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell their story, well &middot; Always sharpen the blade</div>
   <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
-  <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
+  <div class="nf-bottom">
+    <p style="margin:0 0 6px">Ninja 360 Digital Media &middot; 3205 NE 70th Ter, Gladstone, MO 64119 &middot; <a href="tel:+18443606465" style="font-size:12px;font-weight:700;color:#cfd3d9">(844) 360-6465</a> &middot; We put you on the M.A.P.</p>
+    <p style="margin:0">&copy; Ninja 360 Digital Media. All rights reserved.</p>
+  </div>
 </footer>
 ```
 
@@ -312,15 +316,15 @@ Publish order, top to bottom. For **each** page in GHL:
 
 ## 2. How It Works
 - **Slug / path:** `/how-it-works`  _(flat fallback: `how-it-works`)_
-- **SEO Title:** How It Works: The M.A.P. System | Ninja-360 Kansas City
-- **Meta description:** The M.A.P. System - Make, Amplify, Promote. How Ninja-360 gets Kansas City businesses found and chosen on Google.
+- **SEO Title:** How It Works: The M.A.P. System | Ninja 360 Kansas City
+- **Meta description:** The M.A.P. System - Make, Amplify, Promote. How Ninja 360 gets Kansas City businesses found and chosen on Google.
 - **301:** (new page - no 301)
 
 **Paste this into the Custom JS/HTML element:**
 
 ```html
-<!-- /how-it-works  -  GHL SEO Title: How It Works: The M.A.P. System | Ninja-360 Kansas City
-     Meta: The M.A.P. System - Make, Amplify, Promote. How Ninja-360 gets Kansas City businesses found and chosen on Google, step by step.
+<!-- /how-it-works  -  GHL SEO Title: How It Works: The M.A.P. System | Ninja 360 Kansas City
+     Meta: The M.A.P. System - Make, Amplify, Promote. How Ninja 360 gets Kansas City businesses found and chosen on Google, step by step.
      Keep nav + footer native. Paste body into a Custom JS/HTML element. -->
 
 <!-- ===== PASTE THIS INTO THE PAGE HEAD (GHL tracking code) - FAQPage + VideoObject =====
@@ -328,17 +332,17 @@ Publish order, top to bottom. For **each** page in GHL:
 {
   "@context":"https://schema.org","@type":"FAQPage","mainEntity":[
     {"@type":"Question","name":"What is the M.A.P. System?","acceptedAnswer":{"@type":"Answer","text":"M.A.P. stands for Make, Amplify, Promote. Make = capture high-quality photo, video, drone and 360 content. Amplify = optimize and publish it to Google Maps, Search, your website and listings. Promote = keep you active and visible so you keep getting chosen. It's Philosophy #1 turned into a system: put people on the map."}},
-    {"@type":"Question","name":"What makes Ninja-360 different from other marketing agencies?","acceptedAnswer":{"@type":"Answer","text":"Three philosophies. First, we put people on the map - not just listings; your visibility work is personal to us. Second, we fall in love with your true story - we capture your real business beautifully instead of pasting your logo on generic content. Third, we always sharpen the blade - we research, test, and improve constantly, so the system you're paying for gets better every month, responsibly and transparently."}},
+    {"@type":"Question","name":"What makes Ninja 360 different from other marketing agencies?","acceptedAnswer":{"@type":"Answer","text":"Three philosophies. First, we put people on the map - not just listings; your visibility work is personal to us. Second, we fall in love with your true story - we capture your real business beautifully instead of pasting your logo on generic content. Third, we always sharpen the blade - we research, test, and improve constantly, so the system you're paying for gets better every month, responsibly and transparently."}},
     {"@type":"Question","name":"How long until I see results?","acceptedAnswer":{"@type":"Answer","text":"Your media and Google Business Profile improvements go live quickly. Local visibility compounds over weeks as Google indexes the updates and you stay consistently active."}},
-    {"@type":"Question","name":"Do I need a website to work with Ninja-360?","acceptedAnswer":{"@type":"Answer","text":"No. Much of local visibility lives on your Google Business Profile, Maps, and listings. We can also embed tours and video into any site you do have."}},
-    {"@type":"Question","name":"What areas does Ninja-360 serve?","acceptedAnswer":{"@type":"Answer","text":"We're based in Kansas City and serve the greater KC metro across Missouri and Kansas, plus multi-location clients in other markets."}},
+    {"@type":"Question","name":"Do I need a website to work with Ninja 360?","acceptedAnswer":{"@type":"Answer","text":"No. Much of local visibility lives on your Google Business Profile, Maps, and listings. We can also embed tours and video into any site you do have."}},
+    {"@type":"Question","name":"What areas does Ninja 360 serve?","acceptedAnswer":{"@type":"Answer","text":"We're based in Kansas City and serve the greater KC metro across Missouri and Kansas, plus multi-location clients in other markets."}},
     {"@type":"Question","name":"What does it cost?","acceptedAnswer":{"@type":"Answer","text":"Three plans: White Belt $99/month, Brown Belt $499/month, and Black Belt $999/month. Every engagement starts with a free visibility audit."}}
   ]
 }
 </script>
 <script type="application/ld+json">
 { "@context":"https://schema.org","@type":"VideoObject",
-  "name":"REPLACE - e.g. How Ninja-360 Puts Kansas City Businesses on the Map",
+  "name":"REPLACE - e.g. How Ninja 360 Puts Kansas City Businesses on the Map",
   "description":"REPLACE - one sentence describing your M.A.P. / explainer video.",
   "thumbnailUrl":"https://i.ytimg.com/vi/hAZtFQ_5kOk/maxresdefault.jpg",
   "uploadDate":"REPLACE-YYYY-MM-DD","duration":"REPLACE-PT#M#S",
@@ -414,8 +418,8 @@ Publish order, top to bottom. For **each** page in GHL:
   <h1 class="n-h1">The M.A.P. System</h1>
   <p class="n-lead">A simple, proven path to get found, chosen, and consistently ahead: Make, Amplify, Promote &mdash; built on three philosophies we never break.</p>
   <!-- SWAP VIDEO: change data-yt + both image IDs (currently hAZtFQ_5kOk) to your explainer/brand reel. -->
-  <div class="vh-frame" data-yt="hAZtFQ_5kOk" data-title="How Ninja-360 puts Kansas City businesses on the map" role="button" tabindex="0" aria-label="Play the Ninja-360 explainer video">
-    <img src="https://i.ytimg.com/vi/hAZtFQ_5kOk/maxresdefault.jpg" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/hAZtFQ_5kOk/hqdefault.jpg'" alt="How Ninja-360 puts Kansas City businesses on the map">
+  <div class="vh-frame" data-yt="hAZtFQ_5kOk" data-title="How Ninja 360 puts Kansas City businesses on the map" role="button" tabindex="0" aria-label="Play the Ninja 360 explainer video">
+    <img src="https://i.ytimg.com/vi/hAZtFQ_5kOk/maxresdefault.jpg" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/hAZtFQ_5kOk/hqdefault.jpg'" alt="How Ninja 360 puts Kansas City businesses on the map">
     <span class="vh-play"><b></b></span>
   </div>
   <p class="vh-cap">Watch the M.A.P. System in action.</p>
@@ -433,7 +437,7 @@ Publish order, top to bottom. For **each** page in GHL:
 <section class="n-section"><div class="n-wrap">
 
   <div class="row" style="border-top:0">
-    <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/cCPr3A6gnc4ihe1G44w5/media/69c403a5c14403201337659d.png" alt="Ninja-360 Make - White Belt">
+    <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/cCPr3A6gnc4ihe1G44w5/media/69c403a5c14403201337659d.png" alt="Ninja 360 Make - White Belt">
     <div>
       <p class="st">01 - Make</p>
       <h3>We Make Your Business Look Its Best<span class="belt">White Belt</span></h3>
@@ -442,7 +446,7 @@ Publish order, top to bottom. For **each** page in GHL:
   </div>
 
   <div class="row">
-    <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/cCPr3A6gnc4ihe1G44w5/media/69d5a77ba7dcb4cff02c16a2.png" alt="Ninja-360 Amplify - Brown Belt">
+    <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/cCPr3A6gnc4ihe1G44w5/media/69d5a77ba7dcb4cff02c16a2.png" alt="Ninja 360 Amplify - Brown Belt">
     <div>
       <p class="st">02 - Amplify</p>
       <h3>We Get You Showing Up on Google<span class="belt">Brown Belt</span></h3>
@@ -451,7 +455,7 @@ Publish order, top to bottom. For **each** page in GHL:
   </div>
 
   <div class="row">
-    <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/cCPr3A6gnc4ihe1G44w5/media/69c403b776c88204c13af763.png" alt="Ninja-360 Promote - Black Belt">
+    <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/cCPr3A6gnc4ihe1G44w5/media/69c403b776c88204c13af763.png" alt="Ninja 360 Promote - Black Belt">
     <div>
       <p class="st">03 - Promote</p>
       <h3>We Keep You Visible &amp; Top of Search<span class="belt">Black Belt</span></h3>
@@ -468,10 +472,10 @@ Publish order, top to bottom. For **each** page in GHL:
   <p class="n-eyebrow">Questions</p>
   <h2 class="n-h2">Frequently asked</h2>
   <details><summary>What is the M.A.P. System?</summary><p>M.A.P. stands for Make, Amplify, Promote. Make = capture high-quality photo, video, drone and 360&deg; content. Amplify = optimize and publish it to Google Maps, Search, your website and listings. Promote = keep you active and visible so you keep getting chosen. It's Philosophy #1 turned into a system: put people on the map.</p></details>
-  <details><summary>What makes Ninja-360 different from other marketing agencies?</summary><p>Three philosophies. First, we put <em>people</em> on the map &mdash; not just listings; your visibility work is personal to us. Second, we fall in love with your true story &mdash; we capture your real business beautifully instead of pasting your logo on generic content. Third, we always sharpen the blade &mdash; we research, test, and improve constantly, so the system you're paying for gets better every month, responsibly and transparently.</p></details>
+  <details><summary>What makes Ninja 360 different from other marketing agencies?</summary><p>Three philosophies. First, we put <em>people</em> on the map &mdash; not just listings; your visibility work is personal to us. Second, we fall in love with your true story &mdash; we capture your real business beautifully instead of pasting your logo on generic content. Third, we always sharpen the blade &mdash; we research, test, and improve constantly, so the system you're paying for gets better every month, responsibly and transparently.</p></details>
   <details><summary>How long until I see results?</summary><p>Your media and Google Business Profile improvements go live quickly. Local visibility compounds over the following weeks as Google indexes the updates and you stay consistently active.</p></details>
-  <details><summary>Do I need a website to work with Ninja-360?</summary><p>No. Much of local visibility lives on your Google Business Profile, Maps, and listings. We can also embed tours and video into any site you do have.</p></details>
-  <details><summary>What areas does Ninja-360 serve?</summary><p>We're based in Kansas City and serve the greater KC metro across Missouri and Kansas, plus multi-location clients in other markets.</p></details>
+  <details><summary>Do I need a website to work with Ninja 360?</summary><p>No. Much of local visibility lives on your Google Business Profile, Maps, and listings. We can also embed tours and video into any site you do have.</p></details>
+  <details><summary>What areas does Ninja 360 serve?</summary><p>We're based in Kansas City and serve the greater KC metro across Missouri and Kansas, plus multi-location clients in other markets.</p></details>
   <details><summary>What does it cost?</summary><p>Three plans: White Belt $99/month, Brown Belt $499/month, and Black Belt $999/month. Every engagement starts with a free visibility audit.</p></details>
 </div></section>
 
@@ -505,8 +509,9 @@ Publish order, top to bottom. For **each** page in GHL:
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
+      <span style="display:block;margin:-3px 0 4px;font-size:12px;color:#9aa0a8">that&rsquo;s 844-360-NINJA</span>
       <a href="https://ninja360.net/#section-JXWJCHUYEK">Free Visibility Audit</a>
-      <span style="display:block;margin:6px 0;font-size:14px">Kansas City, MO</span>
+      <span style="display:block;margin:6px 0;font-size:14px">3205 NE 70th Ter<br>Gladstone, MO 64119</span>
       <p class="nf-h" style="margin-top:14px">Follow</p>
       <a href="https://www.facebook.com/KCNinja360">Facebook</a>
       <a href="https://www.instagram.com/kcninja360/">Instagram</a>
@@ -517,7 +522,10 @@ Publish order, top to bottom. For **each** page in GHL:
   </div>
   <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell their story, well &middot; Always sharpen the blade</div>
   <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
-  <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
+  <div class="nf-bottom">
+    <p style="margin:0 0 6px">Ninja 360 Digital Media &middot; 3205 NE 70th Ter, Gladstone, MO 64119 &middot; <a href="tel:+18443606465" style="font-size:12px;font-weight:700;color:#cfd3d9">(844) 360-6465</a> &middot; We put you on the M.A.P.</p>
+    <p style="margin:0">&copy; Ninja 360 Digital Media. All rights reserved.</p>
+  </div>
 </footer>
 ```
 
@@ -525,15 +533,15 @@ Publish order, top to bottom. For **each** page in GHL:
 
 ## 3. Services
 - **Slug / path:** `/services`  _(flat fallback: `services`)_
-- **SEO Title:** Services | Drone, 360 Tours, Matterport & Local SEO | Ninja-360
-- **Meta description:** Ninja-360 services in Kansas City: drone, Google 360 tours, Matterport, photo/video, and Google Business Profile optimization.
+- **SEO Title:** Services | Drone, 360 Tours, Matterport & Local SEO | Ninja 360
+- **Meta description:** Ninja 360 services in Kansas City: drone, Google 360 tours, Matterport, photo/video, and Google Business Profile optimization.
 - **301:** /our-services/ -> /services  |  /drone-photography-services/ -> /services#drone  |  /custom-virtual-tour-packages/ -> /services#tours
 
 **Paste this into the Custom JS/HTML element:**
 
 ```html
-<!-- /services  -  GHL SEO Title: Services | Drone, 360 Tours, Matterport & Local SEO | Ninja-360
-     Meta: Ninja-360 services in Kansas City: drone photography, Google 360 virtual tours, Matterport, professional photo/video, and Google Business Profile optimization.
+<!-- /services  -  GHL SEO Title: Services | Drone, 360 Tours, Matterport & Local SEO | Ninja 360
+     Meta: Ninja 360 services in Kansas City: drone photography, Google 360 virtual tours, Matterport, professional photo/video, and Google Business Profile optimization.
      Keep nav + footer native. Paste body into a Custom JS/HTML element.
      Anchors #drone and #tours are linked from old-site 301s - keep them. -->
 
@@ -542,8 +550,8 @@ Publish order, top to bottom. For **each** page in GHL:
 {
   "@context": "https://schema.org",
   "@type": "VideoObject",
-  "name": "REPLACE - e.g. Kansas City [Landmark Name] - Drone, 360 & Video by Ninja-360",
-  "description": "REPLACE - one sentence: the Kansas City landmark shown + the media (drone/360/video) Ninja-360 produced.",
+  "name": "REPLACE - e.g. Kansas City [Landmark Name] - Drone, 360 & Video by Ninja 360",
+  "description": "REPLACE - one sentence: the Kansas City landmark shown + the media (drone/360/video) Ninja 360 produced.",
   "thumbnailUrl": "https://i.ytimg.com/vi/VmOPhGmy2uk/maxresdefault.jpg",
   "uploadDate": "REPLACE-YYYY-MM-DD",
   "duration": "REPLACE-PT#M#S",
@@ -616,8 +624,8 @@ Publish order, top to bottom. For **each** page in GHL:
   <h1 class="n-h1">Everything you need to get found and chosen.</h1>
   <p class="n-lead">We capture your true story, publish it where customers search, and keep sharpening it &mdash; the full M.A.P. system, done for you.</p>
   <!-- SWAP VIDEO: change data-yt + both image IDs (currently VmOPhGmy2uk) to use a different YouTube video here. -->
-  <div class="vh-frame" data-yt="VmOPhGmy2uk" data-title="Kansas City landmark captured by Ninja-360 - drone, 360 and video" role="button" tabindex="0" aria-label="Play Kansas City landmark video">
-    <img src="https://i.ytimg.com/vi/VmOPhGmy2uk/maxresdefault.jpg" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/VmOPhGmy2uk/hqdefault.jpg'" alt="Kansas City landmark captured by Ninja-360 in drone, 360 and video">
+  <div class="vh-frame" data-yt="VmOPhGmy2uk" data-title="Kansas City landmark captured by Ninja 360 - drone, 360 and video" role="button" tabindex="0" aria-label="Play Kansas City landmark video">
+    <img src="https://i.ytimg.com/vi/VmOPhGmy2uk/maxresdefault.jpg" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/VmOPhGmy2uk/hqdefault.jpg'" alt="Kansas City landmark captured by Ninja 360 in drone, 360 and video">
     <span class="vh-play"><b></b></span>
   </div>
   <p class="vh-cap">See the caliber of media we make &mdash; a Kansas City landmark, captured in drone, 360&deg; and video.</p>
@@ -693,8 +701,9 @@ Publish order, top to bottom. For **each** page in GHL:
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
+      <span style="display:block;margin:-3px 0 4px;font-size:12px;color:#9aa0a8">that&rsquo;s 844-360-NINJA</span>
       <a href="https://ninja360.net/#section-JXWJCHUYEK">Free Visibility Audit</a>
-      <span style="display:block;margin:6px 0;font-size:14px">Kansas City, MO</span>
+      <span style="display:block;margin:6px 0;font-size:14px">3205 NE 70th Ter<br>Gladstone, MO 64119</span>
       <p class="nf-h" style="margin-top:14px">Follow</p>
       <a href="https://www.facebook.com/KCNinja360">Facebook</a>
       <a href="https://www.instagram.com/kcninja360/">Instagram</a>
@@ -705,7 +714,10 @@ Publish order, top to bottom. For **each** page in GHL:
   </div>
   <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell their story, well &middot; Always sharpen the blade</div>
   <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
-  <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
+  <div class="nf-bottom">
+    <p style="margin:0 0 6px">Ninja 360 Digital Media &middot; 3205 NE 70th Ter, Gladstone, MO 64119 &middot; <a href="tel:+18443606465" style="font-size:12px;font-weight:700;color:#cfd3d9">(844) 360-6465</a> &middot; We put you on the M.A.P.</p>
+    <p style="margin:0">&copy; Ninja 360 Digital Media. All rights reserved.</p>
+  </div>
 </footer>
 ```
 
@@ -713,7 +725,7 @@ Publish order, top to bottom. For **each** page in GHL:
 
 ## 4. Pricing
 - **Slug / path:** `/pricing`  _(flat fallback: `pricing`)_
-- **SEO Title:** Pricing - White, Brown & Black Belt | Ninja-360 Kansas City
+- **SEO Title:** Pricing - White, Brown & Black Belt | Ninja 360 Kansas City
 - **Meta description:** Simple local-visibility pricing in Kansas City. Three belts - one-time build + monthly. Every plan starts with a free visibility audit.
 - **301:** /google-virtual-tour-pricing-kansas-city/ -> /pricing   (RE-PASTE: live version is stale)
 
@@ -764,11 +776,11 @@ Publish order, top to bottom. For **each** page in GHL:
      NOTE: audit CTAs point to the home-page audit section (https://ninja360.net/#audit).
      Promote to a dedicated /free-audit page later when optimizing conversion.
      GHL PAGE SETTINGS:
-       Title:  Pricing - White, Brown & Black Belt | Ninja-360 Kansas City
+       Title:  Pricing - White, Brown & Black Belt | Ninja 360 Kansas City
        Slug:   pricing
        Meta:   Simple local-visibility pricing in Kansas City. Three belts - one-time build + monthly. Every plan starts with a free visibility audit.
      Put the JSON-LD at the bottom of this file into the page HEAD (tracking code).
-     StoryBrand: customer = hero, Ninja-360 = guide, audit = the obvious next step. -->
+     StoryBrand: customer = hero, Ninja 360 = guide, audit = the obvious next step. -->
 
 <section class="n-hero">
   <div class="n-wrap">
@@ -785,7 +797,7 @@ Publish order, top to bottom. For **each** page in GHL:
 
       <!-- WHITE BELT -->
       <div class="n-card" style="display:flex;flex-direction:column">
-        <img class="belt-icon" src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/cCPr3A6gnc4ihe1G44w5/media/69c403a5c14403201337659d.png" alt="Ninja-360 White Belt" width="96" height="96">
+        <img class="belt-icon" src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/cCPr3A6gnc4ihe1G44w5/media/69c403a5c14403201337659d.png" alt="Ninja 360 White Belt" width="96" height="96">
         <p class="step">White Belt</p>
         <h3 class="n-h2" style="font-size:22px;margin:4px 0">Get on the map</h3>
         <p style="margin:6px 0 2px"><strong style="font-size:30px">$99</strong><span style="color:var(--n-muted)">/month</span></p>
@@ -802,7 +814,7 @@ Publish order, top to bottom. For **each** page in GHL:
       <!-- BROWN BELT (anchor) -->
       <div class="n-card" style="display:flex;flex-direction:column;border:2px solid var(--n-red);position:relative">
         <span style="position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:var(--n-red);color:#fff;font-size:11px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;padding:4px 12px;border-radius:20px">Build fee waived</span>
-        <img class="belt-icon" src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/cCPr3A6gnc4ihe1G44w5/media/69d5a77ba7dcb4cff02c16a2.png" alt="Ninja-360 Brown Belt" width="96" height="96">
+        <img class="belt-icon" src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/cCPr3A6gnc4ihe1G44w5/media/69d5a77ba7dcb4cff02c16a2.png" alt="Ninja 360 Brown Belt" width="96" height="96">
         <p class="step">Brown Belt</p>
         <h3 class="n-h2" style="font-size:22px;margin:4px 0">Grow &amp; get chosen</h3>
         <p style="margin:6px 0 2px"><strong style="font-size:30px">$499</strong><span style="color:var(--n-muted)">/month</span></p>
@@ -820,7 +832,7 @@ Publish order, top to bottom. For **each** page in GHL:
       <!-- BLACK BELT -->
       <div class="n-card" style="display:flex;flex-direction:column;background:var(--n-black);color:#fff">
         <span style="display:inline-block;background:var(--n-red);color:#fff;font-size:11px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;padding:3px 10px;border-radius:20px;width:max-content">Build fee waived</span>
-        <img class="belt-icon" src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/cCPr3A6gnc4ihe1G44w5/media/69c403b776c88204c13af763.png" alt="Ninja-360 Black Belt" width="96" height="96">
+        <img class="belt-icon" src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/cCPr3A6gnc4ihe1G44w5/media/69c403b776c88204c13af763.png" alt="Ninja 360 Black Belt" width="96" height="96">
         <p class="step" style="margin-top:10px">Black Belt</p>
         <h3 class="n-h2" style="font-size:22px;margin:4px 0;color:#fff">Own your market</h3>
         <p style="margin:6px 0 2px"><strong style="font-size:30px">$999</strong><span style="color:#aeb6c0">/month</span></p>
@@ -850,7 +862,7 @@ Publish order, top to bottom. For **each** page in GHL:
   "@context": "https://schema.org",
   "@type": "Service",
   "serviceType": "Local visibility / Google Business Profile optimization",
-  "provider": { "@type": "ProfessionalService", "name": "Ninja-360 Digital Media", "telephone": "+1-844-360-6465", "areaServed": "Kansas City metro" },
+  "provider": { "@id": "https://ninja360.net/#org" },
   "offers": [
     { "@type": "Offer", "name": "White Belt", "price": "99", "priceCurrency": "USD", "description": "Monthly local visibility plan. $300 one-time build, 6-month minimum." },
     { "@type": "Offer", "name": "Brown Belt", "price": "499", "priceCurrency": "USD", "description": "Monthly plan with drone + 360 media. Build fee waived, 12-month minimum." },
@@ -883,8 +895,9 @@ Publish order, top to bottom. For **each** page in GHL:
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
+      <span style="display:block;margin:-3px 0 4px;font-size:12px;color:#9aa0a8">that&rsquo;s 844-360-NINJA</span>
       <a href="https://ninja360.net/#section-JXWJCHUYEK">Free Visibility Audit</a>
-      <span style="display:block;margin:6px 0;font-size:14px">Kansas City, MO</span>
+      <span style="display:block;margin:6px 0;font-size:14px">3205 NE 70th Ter<br>Gladstone, MO 64119</span>
       <p class="nf-h" style="margin-top:14px">Follow</p>
       <a href="https://www.facebook.com/KCNinja360">Facebook</a>
       <a href="https://www.instagram.com/kcninja360/">Instagram</a>
@@ -895,7 +908,10 @@ Publish order, top to bottom. For **each** page in GHL:
   </div>
   <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell their story, well &middot; Always sharpen the blade</div>
   <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
-  <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
+  <div class="nf-bottom">
+    <p style="margin:0 0 6px">Ninja 360 Digital Media &middot; 3205 NE 70th Ter, Gladstone, MO 64119 &middot; <a href="tel:+18443606465" style="font-size:12px;font-weight:700;color:#cfd3d9">(844) 360-6465</a> &middot; We put you on the M.A.P.</p>
+    <p style="margin:0">&copy; Ninja 360 Digital Media. All rights reserved.</p>
+  </div>
 </footer>
 ```
 
@@ -903,15 +919,15 @@ Publish order, top to bottom. For **each** page in GHL:
 
 ## 5. About
 - **Slug / path:** `/about`  _(flat fallback: `about`)_
-- **SEO Title:** About Ninja-360 | Our Three Philosophies | Kansas City
-- **Meta description:** Put them on the map. Tell their story, well. Always sharpen the blade. Meet Ninja-360 and the three philosophies behind every Kansas City project.
+- **SEO Title:** About Ninja 360 | Our Three Philosophies | Kansas City
+- **Meta description:** Put them on the map. Tell their story, well. Always sharpen the blade. Meet Ninja 360 and the three philosophies behind every Kansas City project.
 - **301:** /about-ninja-360-digital-marketing/ -> /about
 
 **Paste this into the Custom JS/HTML element:**
 
 ```html
-<!-- /about - "Our Philosophy"  -  GHL SEO Title: About Ninja-360 | Our Three Philosophies | Kansas City
-     Meta: Put them on the map. Tell their story, well. Always sharpen the blade. Meet Ninja-360 and the three philosophies behind every Kansas City project.
+<!-- /about - "Our Philosophy"  -  GHL SEO Title: About Ninja 360 | Our Three Philosophies | Kansas City
+     Meta: Put them on the map. Tell their story, well. Always sharpen the blade. Meet Ninja 360 and the three philosophies behind every Kansas City project.
      Copy: V02 philosophy infusion, Tim-rooted (see COPY-REWRITE-V02.md + philosophies_V02.md).
      The core of this page is the philosophy; the root of the philosophy is Tim Petet -
      each philosophy carries a first-person "root" from Tim (DRAFTED IN HIS VOICE from
@@ -941,24 +957,26 @@ Publish order, top to bottom. For **each** page in GHL:
   "@type": "AboutPage",
   "@id": "https://ninja360.net/about#aboutpage",
   "url": "https://ninja360.net/about",
-  "name": "About Ninja-360 | Our Three Philosophies",
+  "name": "About Ninja 360 | Our Three Philosophies",
   "mainEntity": {
-    "@type": "ProfessionalService",
+    "@type": ["Organization", "ProfessionalService"],
     "@id": "https://ninja360.net/#org",
-    "name": "Ninja-360 Digital Media",
+    "name": "Ninja 360 Digital Media",
+    "legalName": "Ninja-360 Digital Media LLC",
     "url": "https://ninja360.net",
     "telephone": "+1-844-360-6465",
     "logo": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/cCPr3A6gnc4ihe1G44w5/media/69d5a732a7dcb4cff02c0cf5.png",
     "image": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/cCPr3A6gnc4ihe1G44w5/media/69d5a732a7dcb4cff02c0cf5.png",
-    "address": { "@type": "PostalAddress", "addressLocality": "Kansas City", "addressRegion": "MO", "addressCountry": "US" },
+    "address": { "@type": "PostalAddress", "streetAddress": "3205 NE 70th Ter", "addressLocality": "Gladstone", "addressRegion": "MO", "postalCode": "64119", "addressCountry": "US" },
     "areaServed": { "@type": "Place", "name": "Kansas City metropolitan area" },
     "slogan": "Put them on the map. Tell their story, well. Always sharpen the blade.",
-    "description": "Ninja-360 is Kansas City's local visibility system, built on three philosophies: put people on the map, fall in love with the client's true story, and always sharpen the blade. In short: put them on the map; tell their story, well; always sharpen the blade.",
+    "description": "Ninja 360 is Kansas City's local visibility system, built on three philosophies: put people on the map, fall in love with the client's true story, and always sharpen the blade. In short: put them on the map; tell their story, well; always sharpen the blade.",
     "founder": {
       "@type": "Person",
+      "@id": "https://ninja360.net/#tim-petet",
       "name": "Tim Petet",
       "jobTitle": "Owner / Operator",
-      "description": "Google Certified Photographer, web developer, and Kansas City native. The three Ninja-360 philosophies are built from his experience.",
+      "description": "Google Certified Photographer, web developer, and Kansas City native. The three Ninja 360 philosophies are built from his experience.",
       "knowsAbout": ["Google Business Profile optimization", "Local SEO", "360 virtual tours", "Drone photography", "Web development"]
     },
     "sameAs": [
@@ -978,8 +996,8 @@ Publish order, top to bottom. For **each** page in GHL:
 {
   "@context": "https://schema.org",
   "@type": "VideoObject",
-  "name": "REPLACE - e.g. Kansas City [Landmark Name] - Captured by Ninja-360",
-  "description": "REPLACE - one sentence: the Kansas City landmark shown + that Ninja-360 is a KC-based visibility studio.",
+  "name": "REPLACE - e.g. Kansas City [Landmark Name] - Captured by Ninja 360",
+  "description": "REPLACE - one sentence: the Kansas City landmark shown + that Ninja 360 is a KC-based visibility studio.",
   "thumbnailUrl": "https://i.ytimg.com/vi/SxluMw0OGfo/maxresdefault.jpg",
   "uploadDate": "REPLACE-YYYY-MM-DD",
   "duration": "REPLACE-PT#M#S",
@@ -1057,12 +1075,12 @@ Publish order, top to bottom. For **each** page in GHL:
 .vh-cap{color:#aeb4bd;font-size:14px;margin:14px auto 0;max-width:660px}
 </style>
 <section class="n-hero"><div class="n-wrap vh-center">
-  <p class="n-eyebrow">About Ninja-360</p>
+  <p class="n-eyebrow">About Ninja 360</p>
   <h1 class="n-h1">Put them on the map. Tell their story, well.<br>Always sharpen the blade.</h1>
   <p class="n-lead">Three philosophies. Every project. No exceptions.</p>
   <!-- SWAP VIDEO: change data-yt + both image IDs (currently SxluMw0OGfo) to use a different YouTube video here. -->
-  <div class="vh-frame" data-yt="SxluMw0OGfo" data-title="Kansas City landmark captured by Ninja-360" role="button" tabindex="0" aria-label="Play Kansas City landmark video">
-    <img src="https://i.ytimg.com/vi/SxluMw0OGfo/maxresdefault.jpg" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/SxluMw0OGfo/hqdefault.jpg'" alt="Kansas City landmark captured by Ninja-360">
+  <div class="vh-frame" data-yt="SxluMw0OGfo" data-title="Kansas City landmark captured by Ninja 360" role="button" tabindex="0" aria-label="Play Kansas City landmark video">
+    <img src="https://i.ytimg.com/vi/SxluMw0OGfo/maxresdefault.jpg" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/SxluMw0OGfo/hqdefault.jpg'" alt="Kansas City landmark captured by Ninja 360">
     <span class="vh-play"><b></b></span>
   </div>
   <p class="vh-cap">Kansas City is our home &mdash; here's our city the way we capture it.</p>
@@ -1082,9 +1100,9 @@ Publish order, top to bottom. For **each** page in GHL:
   <p class="n-eyebrow">Where it started</p>
   <h2 class="n-h2">The best businesses aren't always the most visible ones.</h2>
   <p class="n-sub">It started with a simple observation about Kansas City: the restaurant with the perfect recipe loses foot traffic to the chain with better Google photos. The dentist with a decade of five-star care sits below a competitor with triple the reviews. That's not a marketing problem. That's an injustice &mdash; and it's fixable.</p>
-  <p class="n-sub" style="margin-top:12px">Tim Petet watched it happen from both sides: years building marketing technology for the big leagues of automotive retail, then back home in Kansas City, watching the businesses he grew up around lose to weaker competitors with better pixels. Ninja-360 is what he did about it. The three philosophies below aren't a branding exercise &mdash; they're his experience, written down.</p>
+  <p class="n-sub" style="margin-top:12px">Tim Petet watched it happen from both sides: years building marketing technology for the big leagues of automotive retail, then back home in Kansas City, watching the businesses he grew up around lose to weaker competitors with better pixels. Ninja 360 is what he did about it. The three philosophies below aren't a branding exercise &mdash; they're his experience, written down.</p>
   </div>
-  <img class="phil-badge" src="REPLACE-GHL-URL-ninja360-badge-crew" alt="Ninja-360 badge: four-ninja media crew with cameras, microphone, and tools - the Kansas City visibility team" width="280" height="280" loading="lazy" onerror="this.style.display='none'">
+  <img class="phil-badge" src="REPLACE-GHL-URL-ninja360-badge-crew" alt="Ninja 360 badge: four-ninja media crew with cameras, microphone, and tools - the Kansas City visibility team" width="280" height="280" loading="lazy" onerror="this.style.display='none'">
   </div>
 </div></section>
 
@@ -1096,10 +1114,10 @@ Publish order, top to bottom. For **each** page in GHL:
   <p class="n-sub">We exist to make deserving businesses visible, heard, and chosen. Rooted in Kansas City and local business, we use the M.A.P. Method &mdash; Make, Amplify, Promote &mdash; to help our clients grow. And notice the word: <em>people</em>. Behind every storefront is an owner who bet everything on their craft. When we put a business on the map, we're putting a person's life work in front of the customers who've been driving past it.</p>
   <div class="root">
     <p class="rt">The root &mdash; Tim</p>
-    <p>&ldquo;I'm a Kansas City native. The owners behind these storefronts are my neighbors &mdash; people who bet everything on their craft. Ninja-360 started as a hobby that Google put on the map, and being found turned it into a business. I know firsthand what being found can do. Now it's what I do for other people.&rdquo;</p>
+    <p>&ldquo;I'm a Kansas City native. The owners behind these storefronts are my neighbors &mdash; people who bet everything on their craft. Ninja 360 started as a hobby that Google put on the map, and being found turned it into a business. I know firsthand what being found can do. Now it's what I do for other people.&rdquo;</p>
   </div>
   </div>
-  <img class="phil-badge" src="REPLACE-GHL-URL-ninja360-badge-map" alt="Ninja-360 badge: ninja planting a flag beside a glowing map pin on a mountain summit - Put People on the Map" width="280" height="280" loading="lazy" onerror="this.style.display='none'">
+  <img class="phil-badge" src="REPLACE-GHL-URL-ninja360-badge-map" alt="Ninja 360 badge: ninja planting a flag beside a glowing map pin on a mountain summit - Put People on the Map" width="280" height="280" loading="lazy" onerror="this.style.display='none'">
   </div>
 </div></section>
 
@@ -1111,10 +1129,10 @@ Publish order, top to bottom. For **each** page in GHL:
   <p class="n-sub">We seek the authentic heart of every client and tell their story in a unique, beautiful, and emotionally compelling way. Real places, real people &mdash; never staged, never stock. Technology is the tool; genuine human connection is the goal. If the story could be told about any business in your category, we haven't found yours yet.</p>
   <div class="root">
     <p class="rt">The root &mdash; Tim</p>
-    <p>&ldquo;I was a photographer before I was a marketer. Ninja-360 was born from a fascination with virtual reality &mdash; technology that lets someone stand inside your story. The camera, the drone, the 360 rig: none of it is the point. The point is what it lets people feel about a real place. Tech is the tool. The story was always the goal.&rdquo;</p>
+    <p>&ldquo;I was a photographer before I was a marketer. Ninja 360 was born from a fascination with virtual reality &mdash; technology that lets someone stand inside your story. The camera, the drone, the 360 rig: none of it is the point. The point is what it lets people feel about a real place. Tech is the tool. The story was always the goal.&rdquo;</p>
   </div>
   </div>
-  <img class="phil-badge" src="REPLACE-GHL-URL-ninja360-badge-camera-crew" alt="Ninja-360 badge: ninja camera crew with camera, blade, and drone - Fall in Love with the Client's True Story" width="280" height="280" loading="lazy" onerror="this.style.display='none'">
+  <img class="phil-badge" src="REPLACE-GHL-URL-ninja360-badge-camera-crew" alt="Ninja 360 badge: ninja camera crew with camera, blade, and drone - Fall in Love with the Client's True Story" width="280" height="280" loading="lazy" onerror="this.style.display='none'">
   </div>
 </div></section>
 
@@ -1129,14 +1147,14 @@ Publish order, top to bottom. For **each** page in GHL:
     <p>&ldquo;Nobody handed me this. I taught myself virtual tours as a hobby until Google certified the work. Every skill on my belt &mdash; web, photo, drone, 360, Matterport &mdash; came the same way: try, fail, learn, improve. That's why the plans are belts. It's not a gimmick; it's how I actually work.&rdquo;</p>
   </div>
   </div>
-  <img class="phil-badge" src="REPLACE-GHL-URL-ninja360-badge-blades" alt="Ninja-360 badge: ninja with crossed blades and throwing stars - Always Sharpen the Blade" width="280" height="280" loading="lazy" onerror="this.style.display='none'">
+  <img class="phil-badge" src="REPLACE-GHL-URL-ninja360-badge-blades" alt="Ninja 360 badge: ninja with crossed blades and throwing stars - Always Sharpen the Blade" width="280" height="280" loading="lazy" onerror="this.style.display='none'">
   </div>
 </div></section>
 
 <!-- FOUNDER (entity block: name, role - pairs with Organization schema + sameAs links) -->
 <section class="n-section"><div class="n-wrap">
   <div class="bio">
-    <img class="ph" style="object-fit:cover;width:100%;padding:0" src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/cCPr3A6gnc4ihe1G44w5/media/6a26069049e55f8519a1a718.png" alt="Tim Petet, Ninja-360 founder, Kansas City" width="280" height="373" loading="lazy">
+    <img class="ph" style="object-fit:cover;width:100%;padding:0" src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/cCPr3A6gnc4ihe1G44w5/media/6a26069049e55f8519a1a718.png" alt="Tim Petet, Ninja 360 founder, Kansas City" width="280" height="373" loading="lazy">
     <div>
       <p class="n-eyebrow">The root of the philosophy</p>
       <h2 class="n-h2">Tim Petet &mdash; Owner / Operator</h2>
@@ -1144,7 +1162,7 @@ Publish order, top to bottom. For **each** page in GHL:
         <span>Google Certified Photographer</span><span>Web Development</span><span>Graphic Design</span><span>Google Analytics</span><span>Google Ads</span>
       </div>
       <p class="n-sub">Every philosophy above is autobiography before it's strategy. Tim is a Kansas City native and a web developer-turned-photographer who spent years building marketing technology for the big leagues &mdash; VinSolutions, Autotrader, dealer.com, ScriptPro &mdash; and brought everything he learned back to Main Street.</p>
-      <p class="n-sub" style="margin-top:12px">Ninja-360 began as a hobby: Google virtual tours, born from a fascination with virtual reality. The work was good enough that Google made him a Certified Photographer, and being findable turned the hobby into a business. With formal training in marketing and sales, he now does the same for the businesses he grew up around &mdash; building their websites, optimizing their Google Business Profiles, managing their listings, and telling their stories the way he'd want his own told.</p>
+      <p class="n-sub" style="margin-top:12px">Ninja 360 began as a hobby: Google virtual tours, born from a fascination with virtual reality. The work was good enough that Google made him a Certified Photographer, and being findable turned the hobby into a business. With formal training in marketing and sales, he now does the same for the businesses he grew up around &mdash; building their websites, optimizing their Google Business Profiles, managing their listings, and telling their stories the way he'd want his own told.</p>
     </div>
   </div>
 </div></section>
@@ -1165,7 +1183,7 @@ Publish order, top to bottom. For **each** page in GHL:
   <p class="n-sub">Three philosophies are only worth something if they show up in someone else's business. Here's what our clients say &mdash; unedited, straight from the source.</p>
   <div class="rev-embed">
     <iframe src="https://zyenereviews.com/w/ninja-360-digital-media"
-            title="Customer reviews for Ninja-360 Digital Media"
+            title="Customer reviews for Ninja 360 Digital Media"
             loading="lazy"
             width="100%" height="400"></iframe>
   </div>
@@ -1177,7 +1195,7 @@ Publish order, top to bottom. For **each** page in GHL:
   <p class="pull-quote" style="color:#fff;margin-left:auto;margin-right:auto">Put them on the map. Tell their story, well. Always sharpen the blade.</p>
   <p class="n-lead" style="margin:0 auto 22px"><em>Want to see what those three philosophies look like applied to your business?</em></p>
   <a class="n-btn" href="https://ninja360.net/#section-JXWJCHUYEK">Get My Free Visibility Audit</a>
-  <img class="phil-badge" src="REPLACE-GHL-URL-ninja360-badge-checklist" alt="Ninja-360 badge: ninja beside a completed checklist under a shooting star - disciplined execution, honest reflection" width="200" height="200" style="max-width:200px;margin:28px auto 0;display:block" loading="lazy" onerror="this.style.display='none'">
+  <img class="phil-badge" src="REPLACE-GHL-URL-ninja360-badge-checklist" alt="Ninja 360 badge: ninja beside a completed checklist under a shooting star - disciplined execution, honest reflection" width="200" height="200" style="max-width:200px;margin:28px auto 0;display:block" loading="lazy" onerror="this.style.display='none'">
 </div></section>
 
 <!-- FOOTER -->
@@ -1203,8 +1221,9 @@ Publish order, top to bottom. For **each** page in GHL:
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
+      <span style="display:block;margin:-3px 0 4px;font-size:12px;color:#9aa0a8">that&rsquo;s 844-360-NINJA</span>
       <a href="https://ninja360.net/#section-JXWJCHUYEK">Free Visibility Audit</a>
-      <span style="display:block;margin:6px 0;font-size:14px">Kansas City, MO</span>
+      <span style="display:block;margin:6px 0;font-size:14px">3205 NE 70th Ter<br>Gladstone, MO 64119</span>
       <p class="nf-h" style="margin-top:14px">Follow</p>
       <a href="https://www.facebook.com/KCNinja360">Facebook</a>
       <a href="https://www.instagram.com/kcninja360/">Instagram</a>
@@ -1215,7 +1234,10 @@ Publish order, top to bottom. For **each** page in GHL:
   </div>
   <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell their story, well &middot; Always sharpen the blade</div>
   <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
-  <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
+  <div class="nf-bottom">
+    <p style="margin:0 0 6px">Ninja 360 Digital Media &middot; 3205 NE 70th Ter, Gladstone, MO 64119 &middot; <a href="tel:+18443606465" style="font-size:12px;font-weight:700;color:#cfd3d9">(844) 360-6465</a> &middot; We put you on the M.A.P.</p>
+    <p style="margin:0">&copy; Ninja 360 Digital Media. All rights reserved.</p>
+  </div>
 </footer>
 ```
 
@@ -1223,14 +1245,14 @@ Publish order, top to bottom. For **each** page in GHL:
 
 ## 6. Our Work (hub)
 - **Slug / path:** `/work`  _(flat fallback: `work`)_
-- **SEO Title:** Our Work | Kansas City Visibility & Virtual Tours | Ninja-360
-- **Meta description:** See Ninja-360's work across Kansas City - restaurants, real estate, schools, parks, dental, chiropractic, and more.
+- **SEO Title:** Our Work | Kansas City Visibility & Virtual Tours | Ninja 360
+- **Meta description:** See Ninja 360's work across Kansas City - restaurants, real estate, schools, parks, dental, chiropractic, and more.
 - **301:** /portfolio -> /work
 
 **Paste this into the Custom JS/HTML element:**
 
 ```html
-<!-- /work  -  GHL SEO Title: Our Work | Kansas City Visibility & Virtual Tours | Ninja-360
+<!-- /work  -  GHL SEO Title: Our Work | Kansas City Visibility & Virtual Tours | Ninja 360
      Keep nav + footer native. Paste body into a Custom JS/HTML element. -->
 <style>
 :root{--n-red:#FF6A00;--n-red-dk:#E65F00;--n-black:#31343B;--n-ink:#1a1d22;--n-muted:#575B63;--n-line:#e2e4e7;--n-soft:#f6f7f9;}
@@ -1332,8 +1354,9 @@ Publish order, top to bottom. For **each** page in GHL:
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
+      <span style="display:block;margin:-3px 0 4px;font-size:12px;color:#9aa0a8">that&rsquo;s 844-360-NINJA</span>
       <a href="https://ninja360.net/#section-JXWJCHUYEK">Free Visibility Audit</a>
-      <span style="display:block;margin:6px 0;font-size:14px">Kansas City, MO</span>
+      <span style="display:block;margin:6px 0;font-size:14px">3205 NE 70th Ter<br>Gladstone, MO 64119</span>
       <p class="nf-h" style="margin-top:14px">Follow</p>
       <a href="https://www.facebook.com/KCNinja360">Facebook</a>
       <a href="https://www.instagram.com/kcninja360/">Instagram</a>
@@ -1344,7 +1367,10 @@ Publish order, top to bottom. For **each** page in GHL:
   </div>
   <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell their story, well &middot; Always sharpen the blade</div>
   <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
-  <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
+  <div class="nf-bottom">
+    <p style="margin:0 0 6px">Ninja 360 Digital Media &middot; 3205 NE 70th Ter, Gladstone, MO 64119 &middot; <a href="tel:+18443606465" style="font-size:12px;font-weight:700;color:#cfd3d9">(844) 360-6465</a> &middot; We put you on the M.A.P.</p>
+    <p style="margin:0">&copy; Ninja 360 Digital Media. All rights reserved.</p>
+  </div>
 </footer>
 ```
 
@@ -1352,14 +1378,14 @@ Publish order, top to bottom. For **each** page in GHL:
 
 ## 7. Work: Restaurants (flagship)
 - **Slug / path:** `/work/restaurants`  _(flat fallback: `work-restaurants`)_
-- **SEO Title:** Restaurant Virtual Tours | Kansas City | Ninja-360
+- **SEO Title:** Restaurant Virtual Tours | Kansas City | Ninja 360
 - **Meta description:** Restaurant 360 virtual tours and Google visibility in Kansas City. See how we put a 15+ location chain (54th Street Grill) on the map across MO and TX.
 - **301:** /restaurant-virtual-tours-kc/ -> /work/restaurants
 
 **Paste this into the Custom JS/HTML element:**
 
 ```html
-<!-- /work/restaurants  -  FLAGSHIP. GHL SEO Title: Restaurant Virtual Tours | Kansas City | Ninja-360
+<!-- /work/restaurants  -  FLAGSHIP. GHL SEO Title: Restaurant Virtual Tours | Kansas City | Ninja 360
      Meta: Restaurant 360 virtual tours and Google visibility in Kansas City. See how we put a 15+ location chain (54th Street Grill) on the map across MO and TX.
      Keep nav + footer native. Paste body into a Custom JS/HTML element. -->
 
@@ -1367,7 +1393,7 @@ Publish order, top to bottom. For **each** page in GHL:
      Fill in name / description / uploadDate (YYYY-MM-DD) / duration (PT#M#S) / exact location for each. =====
 <script type="application/ld+json">
 { "@context":"https://schema.org","@type":"VideoObject",
-  "name":"54th Street Grill & Bar Pflugerville, TX - FPV Drone Tour by Ninja-360",
+  "name":"54th Street Grill & Bar Pflugerville, TX - FPV Drone Tour by Ninja 360",
   "description":"An FPV drone tour through 54th Street Grill & Bar in Pflugerville, Texas - from the entrance to the bar and dining room, a go-to spot near Austin for game nights and family dinners.",
   "thumbnailUrl":"https://i.ytimg.com/vi/v87kC9x-F04/maxresdefault.jpg",
   "uploadDate":"REPLACE-YYYY-MM-DD","duration":"REPLACE-PT#M#S",
@@ -1375,23 +1401,23 @@ Publish order, top to bottom. For **each** page in GHL:
 </script>
 <script type="application/ld+json">
 { "@context":"https://schema.org","@type":"VideoObject",
-  "name":"Five Four Draft House Zona Rosa - FPV Drone Tour by Ninja-360",
-  "description":"An FPV drone tour of Five Four Draft House in Zona Rosa, Kansas City - immersive virtual-tour video marketing for Kansas City businesses by Ninja-360.",
+  "name":"Five Four Draft House Zona Rosa - FPV Drone Tour by Ninja 360",
+  "description":"An FPV drone tour of Five Four Draft House in Zona Rosa, Kansas City - immersive virtual-tour video marketing for Kansas City businesses by Ninja 360.",
   "thumbnailUrl":"https://i.ytimg.com/vi/aZW2q3-NLwc/maxresdefault.jpg",
   "uploadDate":"2026-02-13","duration":"REPLACE-PT#M#S",
   "contentUrl":"https://www.youtube.com/watch?v=aZW2q3-NLwc","embedUrl":"https://www.youtube.com/embed/aZW2q3-NLwc" }
 </script>
 <script type="application/ld+json">
 { "@context":"https://schema.org","@type":"VideoObject",
-  "name":"Five Four Draft House Independence, MO - FPV Drone Tour by Ninja-360",
-  "description":"A one-take FPV drone tour through Five Four Draft House's reimagined lounge in Independence, MO - sports screens, tap walls and a laid-back vibe, by Ninja-360.",
+  "name":"Five Four Draft House Independence, MO - FPV Drone Tour by Ninja 360",
+  "description":"A one-take FPV drone tour through Five Four Draft House's reimagined lounge in Independence, MO - sports screens, tap walls and a laid-back vibe, by Ninja 360.",
   "thumbnailUrl":"https://i.ytimg.com/vi/QVYWWu5k4Ss/maxresdefault.jpg",
   "uploadDate":"2026-02-06","duration":"REPLACE-PT#M#S",
   "contentUrl":"https://www.youtube.com/watch?v=QVYWWu5k4Ss","embedUrl":"https://www.youtube.com/embed/QVYWWu5k4Ss" }
 </script>
 <script type="application/ld+json">
 { "@context":"https://schema.org","@type":"VideoObject",
-  "name":"54th Street Restaurant & Drafthouse Cedar Park, TX - FPV Drone Tour by Ninja-360",
+  "name":"54th Street Restaurant & Drafthouse Cedar Park, TX - FPV Drone Tour by Ninja 360",
   "description":"A single continuous FPV drone flight through 54th Street Restaurant & Drafthouse in Cedar Park, Texas - front doors, dining room, kitchen, bar, cinema, GolfBay, fire pits and pickleball court.",
   "thumbnailUrl":"https://i.ytimg.com/vi/EHRUOzmVtyA/maxresdefault.jpg",
   "uploadDate":"2026-03-10","duration":"REPLACE-PT#M#S",
@@ -1483,29 +1509,29 @@ Publish order, top to bottom. For **each** page in GHL:
   <p class="n-sub">Highlight videos that show diners the space, the food, and the vibe before they ever walk in &mdash; another way we keep every location getting chosen on Google.</p>
   <div class="n-grid">
     <article class="wc">
-      <div class="vframe" data-yt="v87kC9x-F04" data-title="54th Street Grill &amp; Bar FPV drone tour in Pflugerville, TX - Ninja-360" role="button" tabindex="0" aria-label="Play 54th Street Pflugerville FPV drone tour">
-        <img src="https://i.ytimg.com/vi/v87kC9x-F04/maxresdefault.jpg" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/v87kC9x-F04/hqdefault.jpg'" alt="54th Street Grill and Bar FPV drone tour in Pflugerville, TX by Ninja-360">
+      <div class="vframe" data-yt="v87kC9x-F04" data-title="54th Street Grill &amp; Bar FPV drone tour in Pflugerville, TX - Ninja 360" role="button" tabindex="0" aria-label="Play 54th Street Pflugerville FPV drone tour">
+        <img src="https://i.ytimg.com/vi/v87kC9x-F04/maxresdefault.jpg" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/v87kC9x-F04/hqdefault.jpg'" alt="54th Street Grill and Bar FPV drone tour in Pflugerville, TX by Ninja 360">
         <span class="vplay"><b></b></span>
       </div>
       <div class="wc-body"><h3 class="wc-name">54th Street Grill &amp; Bar</h3><p class="wc-city">Pflugerville, TX</p><div class="wc-badges"><span>FPV Tour</span></div></div>
     </article>
     <article class="wc">
-      <div class="vframe" data-yt="aZW2q3-NLwc" data-title="Five Four Draft House FPV drone tour in Zona Rosa, Kansas City - Ninja-360" role="button" tabindex="0" aria-label="Play Five Four Draft House Zona Rosa FPV drone tour">
-        <img src="https://i.ytimg.com/vi/aZW2q3-NLwc/maxresdefault.jpg" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/aZW2q3-NLwc/hqdefault.jpg'" alt="Five Four Draft House FPV drone tour in Zona Rosa, Kansas City, MO by Ninja-360">
+      <div class="vframe" data-yt="aZW2q3-NLwc" data-title="Five Four Draft House FPV drone tour in Zona Rosa, Kansas City - Ninja 360" role="button" tabindex="0" aria-label="Play Five Four Draft House Zona Rosa FPV drone tour">
+        <img src="https://i.ytimg.com/vi/aZW2q3-NLwc/maxresdefault.jpg" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/aZW2q3-NLwc/hqdefault.jpg'" alt="Five Four Draft House FPV drone tour in Zona Rosa, Kansas City, MO by Ninja 360">
         <span class="vplay"><b></b></span>
       </div>
       <div class="wc-body"><h3 class="wc-name">Five Four Draft House</h3><p class="wc-city">Zona Rosa, MO</p><div class="wc-badges"><span>FPV Tour</span></div></div>
     </article>
     <article class="wc">
-      <div class="vframe" data-yt="QVYWWu5k4Ss" data-title="Five Four Draft House FPV drone tour in Independence, MO - Ninja-360" role="button" tabindex="0" aria-label="Play Five Four Draft House Independence FPV drone tour">
-        <img src="https://i.ytimg.com/vi/QVYWWu5k4Ss/maxresdefault.jpg" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/QVYWWu5k4Ss/hqdefault.jpg'" alt="Five Four Draft House FPV drone tour in Independence, MO by Ninja-360">
+      <div class="vframe" data-yt="QVYWWu5k4Ss" data-title="Five Four Draft House FPV drone tour in Independence, MO - Ninja 360" role="button" tabindex="0" aria-label="Play Five Four Draft House Independence FPV drone tour">
+        <img src="https://i.ytimg.com/vi/QVYWWu5k4Ss/maxresdefault.jpg" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/QVYWWu5k4Ss/hqdefault.jpg'" alt="Five Four Draft House FPV drone tour in Independence, MO by Ninja 360">
         <span class="vplay"><b></b></span>
       </div>
       <div class="wc-body"><h3 class="wc-name">Five Four Draft House</h3><p class="wc-city">Independence, MO</p><div class="wc-badges"><span>FPV Tour</span></div></div>
     </article>
     <article class="wc">
-      <div class="vframe" data-yt="EHRUOzmVtyA" data-title="54th Street Restaurant &amp; Drafthouse FPV drone tour in Cedar Park, TX - Ninja-360" role="button" tabindex="0" aria-label="Play 54th Street Cedar Park FPV drone tour">
-        <img src="https://i.ytimg.com/vi/EHRUOzmVtyA/maxresdefault.jpg" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/EHRUOzmVtyA/hqdefault.jpg'" alt="54th Street Restaurant and Drafthouse FPV drone tour in Cedar Park, TX by Ninja-360">
+      <div class="vframe" data-yt="EHRUOzmVtyA" data-title="54th Street Restaurant &amp; Drafthouse FPV drone tour in Cedar Park, TX - Ninja 360" role="button" tabindex="0" aria-label="Play 54th Street Cedar Park FPV drone tour">
+        <img src="https://i.ytimg.com/vi/EHRUOzmVtyA/maxresdefault.jpg" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/EHRUOzmVtyA/hqdefault.jpg'" alt="54th Street Restaurant and Drafthouse FPV drone tour in Cedar Park, TX by Ninja 360">
         <span class="vplay"><b></b></span>
       </div>
       <div class="wc-body"><h3 class="wc-name">54th Street Drafthouse</h3><p class="wc-city">Cedar Park, TX</p><div class="wc-badges"><span>FPV Tour</span></div></div>
@@ -1526,67 +1552,67 @@ Publish order, top to bottom. For **each** page in GHL:
   <h2 class="n-h2">16 locations. One consistent presence.</h2>
   <div class="n-grid">
       <article class="wc">
-        <iframe class="wc-embed" src="https://kuula.co/share/collection/7vGKJ" loading="lazy" allowfullscreen title="54th Street Grill 360 virtual tour in Zona Rosa, MO - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://kuula.co/share/collection/7vGKJ" loading="lazy" allowfullscreen title="54th Street Grill 360 virtual tour in Zona Rosa, MO - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">54th Street Grill</h3><p class="wc-city">Zona Rosa, MO</p><div class="wc-badges"><span>360 Tour</span></div></div>
       </article>
       <article class="wc">
-        <iframe class="wc-embed" src="https://virtualtour.ninja-360.com/share/collection/7cSTD" loading="lazy" allowfullscreen title="54th Street Grill 360 virtual tour in Olathe, KS - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://virtualtour.ninja-360.com/share/collection/7cSTD" loading="lazy" allowfullscreen title="54th Street Grill 360 virtual tour in Olathe, KS - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">54th Street Grill</h3><p class="wc-city">Olathe, KS</p><div class="wc-badges"><span>360 Tour</span></div></div>
       </article>
       <article class="wc">
-        <iframe class="wc-embed" src="https://virtualtour.ninja-360.com/share/collection/7cCF0" loading="lazy" allowfullscreen title="54th Street Grill 360 virtual tour in Independence, MO - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://virtualtour.ninja-360.com/share/collection/7cCF0" loading="lazy" allowfullscreen title="54th Street Grill 360 virtual tour in Independence, MO - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">54th Street Grill</h3><p class="wc-city">Independence, MO</p><div class="wc-badges"><span>360 Tour</span></div></div>
       </article>
       <article class="wc">
-        <iframe class="wc-embed" src="https://virtualtour.ninja-360.com/share/collection/7qzC7" loading="lazy" allowfullscreen title="54th Street Grill 360 virtual tour in Lee's Summit, MO - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://virtualtour.ninja-360.com/share/collection/7qzC7" loading="lazy" allowfullscreen title="54th Street Grill 360 virtual tour in Lee's Summit, MO - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">54th Street Grill</h3><p class="wc-city">Lee's Summit, MO</p><div class="wc-badges"><span>360 Tour</span></div></div>
       </article>
       <article class="wc">
-        <iframe class="wc-embed" src="https://kuula.co/share/collection/7kKRj" loading="lazy" allowfullscreen title="54th Street Grill 360 virtual tour in Chesterfield, MO - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://kuula.co/share/collection/7kKRj" loading="lazy" allowfullscreen title="54th Street Grill 360 virtual tour in Chesterfield, MO - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">54th Street Grill</h3><p class="wc-city">Chesterfield, MO</p><div class="wc-badges"><span>360 Tour</span></div></div>
       </article>
       <article class="wc">
-        <iframe class="wc-embed" src="https://kuula.co/share/collection/7kybV" loading="lazy" allowfullscreen title="54th Street Grill 360 virtual tour in Glen Carbon, MO - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://kuula.co/share/collection/7kybV" loading="lazy" allowfullscreen title="54th Street Grill 360 virtual tour in Glen Carbon, MO - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">54th Street Grill</h3><p class="wc-city">Glen Carbon, MO</p><div class="wc-badges"><span>360 Tour</span></div></div>
       </article>
       <article class="wc">
-        <iframe class="wc-embed" src="https://kuula.co/share/collection/7YWBv" loading="lazy" allowfullscreen title="54th Street Grill 360 virtual tour in Frisco, TX - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://kuula.co/share/collection/7YWBv" loading="lazy" allowfullscreen title="54th Street Grill 360 virtual tour in Frisco, TX - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">54th Street Grill</h3><p class="wc-city">Frisco, TX</p><div class="wc-badges"><span>360 Tour</span></div></div>
       </article>
       <article class="wc">
-        <iframe class="wc-embed" src="https://kuula.co/share/N70Kn/collection/7kNG4" loading="lazy" allowfullscreen title="54th Street Grill 360 virtual tour in McKinney, TX - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://kuula.co/share/N70Kn/collection/7kNG4" loading="lazy" allowfullscreen title="54th Street Grill 360 virtual tour in McKinney, TX - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">54th Street Grill</h3><p class="wc-city">McKinney, TX</p><div class="wc-badges"><span>360 Tour</span></div></div>
       </article>
       <article class="wc">
-        <iframe class="wc-embed" src="https://kuula.co/share/collection/7kRVv" loading="lazy" allowfullscreen title="54th Street Grill 360 virtual tour in Irving, TX - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://kuula.co/share/collection/7kRVv" loading="lazy" allowfullscreen title="54th Street Grill 360 virtual tour in Irving, TX - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">54th Street Grill</h3><p class="wc-city">Irving, TX</p><div class="wc-badges"><span>360 Tour</span></div></div>
       </article>
       <article class="wc">
-        <iframe class="wc-embed" src="https://kuula.co/share/collection/7Yj01" loading="lazy" allowfullscreen title="54th Street Grill 360 virtual tour in Mansfield, TX - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://kuula.co/share/collection/7Yj01" loading="lazy" allowfullscreen title="54th Street Grill 360 virtual tour in Mansfield, TX - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">54th Street Grill</h3><p class="wc-city">Mansfield, TX</p><div class="wc-badges"><span>360 Tour</span></div></div>
       </article>
       <article class="wc">
-        <iframe class="wc-embed" src="https://kuula.co/share/collection/7Yt0W" loading="lazy" allowfullscreen title="54th Street Grill 360 virtual tour in Lewisville, TX - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://kuula.co/share/collection/7Yt0W" loading="lazy" allowfullscreen title="54th Street Grill 360 virtual tour in Lewisville, TX - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">54th Street Grill</h3><p class="wc-city">Lewisville, TX</p><div class="wc-badges"><span>360 Tour</span></div></div>
       </article>
       <article class="wc">
-        <iframe class="wc-embed" src="https://kuula.co/share/collection/7v9Md" loading="lazy" allowfullscreen title="54th Street Grill 360 virtual tour in Pflugerville, TX - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://kuula.co/share/collection/7v9Md" loading="lazy" allowfullscreen title="54th Street Grill 360 virtual tour in Pflugerville, TX - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">54th Street Grill</h3><p class="wc-city">Pflugerville, TX</p><div class="wc-badges"><span>360 Tour</span></div></div>
       </article>
       <article class="wc">
-        <iframe class="wc-embed" src="https://kuula.co/share/collection/7LiveOak" loading="lazy" allowfullscreen title="54th Street Grill 360 virtual tour in Live Oak, TX - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://kuula.co/share/collection/7LiveOak" loading="lazy" allowfullscreen title="54th Street Grill 360 virtual tour in Live Oak, TX - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">54th Street Grill</h3><p class="wc-city">Live Oak, TX</p><div class="wc-badges"><span>360 Tour</span></div></div>
       </article>
       <article class="wc">
-        <iframe class="wc-embed" src="https://kuula.co/share/collection/7YrRN" loading="lazy" allowfullscreen title="54th Street Grill 360 virtual tour in The Colony, TX - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://kuula.co/share/collection/7YrRN" loading="lazy" allowfullscreen title="54th Street Grill 360 virtual tour in The Colony, TX - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">54th Street Grill</h3><p class="wc-city">The Colony, TX</p><div class="wc-badges"><span>360 Tour</span></div></div>
       </article>
       <article class="wc">
-        <iframe class="wc-embed" src="https://kuula.co/share/collection/7q4hX" loading="lazy" allowfullscreen title="54th Street Grill 360 virtual tour in City Base West, TX - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://kuula.co/share/collection/7q4hX" loading="lazy" allowfullscreen title="54th Street Grill 360 virtual tour in City Base West, TX - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">54th Street Grill</h3><p class="wc-city">City Base West, TX</p><div class="wc-badges"><span>360 Tour</span></div></div>
       </article>
       <article class="wc">
-        <iframe class="wc-embed" src="https://kuula.co/share/NPwbW/collection/7kr2K" loading="lazy" allowfullscreen title="54th Street Grill 360 virtual tour in The Rim, TX - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://kuula.co/share/NPwbW/collection/7kr2K" loading="lazy" allowfullscreen title="54th Street Grill 360 virtual tour in The Rim, TX - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">54th Street Grill</h3><p class="wc-city">The Rim, TX</p><div class="wc-badges"><span>360 Tour</span></div></div>
       </article>
   </div>
@@ -1622,8 +1648,9 @@ Publish order, top to bottom. For **each** page in GHL:
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
+      <span style="display:block;margin:-3px 0 4px;font-size:12px;color:#9aa0a8">that&rsquo;s 844-360-NINJA</span>
       <a href="https://ninja360.net/#section-JXWJCHUYEK">Free Visibility Audit</a>
-      <span style="display:block;margin:6px 0;font-size:14px">Kansas City, MO</span>
+      <span style="display:block;margin:6px 0;font-size:14px">3205 NE 70th Ter<br>Gladstone, MO 64119</span>
       <p class="nf-h" style="margin-top:14px">Follow</p>
       <a href="https://www.facebook.com/KCNinja360">Facebook</a>
       <a href="https://www.instagram.com/kcninja360/">Instagram</a>
@@ -1634,7 +1661,10 @@ Publish order, top to bottom. For **each** page in GHL:
   </div>
   <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell their story, well &middot; Always sharpen the blade</div>
   <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
-  <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
+  <div class="nf-bottom">
+    <p style="margin:0 0 6px">Ninja 360 Digital Media &middot; 3205 NE 70th Ter, Gladstone, MO 64119 &middot; <a href="tel:+18443606465" style="font-size:12px;font-weight:700;color:#cfd3d9">(844) 360-6465</a> &middot; We put you on the M.A.P.</p>
+    <p style="margin:0">&copy; Ninja 360 Digital Media. All rights reserved.</p>
+  </div>
 </footer>
 ```
 
@@ -1642,14 +1672,14 @@ Publish order, top to bottom. For **each** page in GHL:
 
 ## 8. Work: Real Estate
 - **Slug / path:** `/work/real-estate`  _(flat fallback: `work-real-estate`)_
-- **SEO Title:** Real Estate Virtual Tours | Kansas City | Ninja-360
+- **SEO Title:** Real Estate Virtual Tours | Kansas City | Ninja 360
 - **Meta description:** 360 real estate virtual tours in Kansas City - residential & commercial. Add to your website, Zillow, and social.
 - **301:** /real-estate-virtual-tours/ -> /work/real-estate
 
 **Paste this into the Custom JS/HTML element:**
 
 ```html
-<!-- /work/real-estate  -  GHL SEO Title: Real Estate Virtual Tours | Kansas City | Ninja-360
+<!-- /work/real-estate  -  GHL SEO Title: Real Estate Virtual Tours | Kansas City | Ninja 360
      Meta: 360 real estate virtual tours in Kansas City - residential & commercial. Add to your website, Zillow, and social. Drone and video available.
      Keep nav + footer native. Paste body into a Custom JS/HTML element. -->
 <style>
@@ -1716,15 +1746,15 @@ Publish order, top to bottom. For **each** page in GHL:
   <p class="n-sub">Let buyers explore from the comfort of their home or phone, day or night.</p>
   <div class="n-grid">
     <article class="wc">
-      <iframe class="wc-embed" src="https://kuula.co/share/collection/71MZY?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=3" loading="lazy" allowfullscreen title="Residential real estate 360 virtual tour in Kansas City - Ninja-360"></iframe>
+      <iframe class="wc-embed" src="https://kuula.co/share/collection/71MZY?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=3" loading="lazy" allowfullscreen title="Residential real estate 360 virtual tour in Kansas City - Ninja 360"></iframe>
       <div class="wc-body"><h3 class="wc-name">Residential Listing</h3><p class="wc-city">Kansas City, MO</p><div class="wc-badges"><span>360 Tour</span></div></div>
     </article>
     <article class="wc">
-      <iframe class="wc-embed" src="https://kuula.co/share/collection/7K4nF?logo=1&info=1&fs=1&vr=0&sd=1&autop=7&thumbs=1" loading="lazy" allowfullscreen title="Real estate 360 virtual tour collection in Kansas City - Ninja-360"></iframe>
+      <iframe class="wc-embed" src="https://kuula.co/share/collection/7K4nF?logo=1&info=1&fs=1&vr=0&sd=1&autop=7&thumbs=1" loading="lazy" allowfullscreen title="Real estate 360 virtual tour collection in Kansas City - Ninja 360"></iframe>
       <div class="wc-body"><h3 class="wc-name">Property Collection</h3><p class="wc-city">Kansas City, MO</p><div class="wc-badges"><span>360 Tour</span></div></div>
     </article>
     <article class="wc">
-      <iframe class="wc-embed" src="https://my.matterport.com/show/?m=eZRCdUnCQRQ&play=1" loading="lazy" allowfullscreen allow="xr-spatial-tracking" title="Real estate Matterport walkthrough in Kansas City - Ninja-360"></iframe>
+      <iframe class="wc-embed" src="https://my.matterport.com/show/?m=eZRCdUnCQRQ&play=1" loading="lazy" allowfullscreen allow="xr-spatial-tracking" title="Real estate Matterport walkthrough in Kansas City - Ninja 360"></iframe>
       <div class="wc-body"><h3 class="wc-name">Matterport Walkthrough</h3><p class="wc-city">Kansas City, MO</p><div class="wc-badges"><span>Matterport</span></div></div>
     </article>
   </div>
@@ -1770,8 +1800,9 @@ Publish order, top to bottom. For **each** page in GHL:
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
+      <span style="display:block;margin:-3px 0 4px;font-size:12px;color:#9aa0a8">that&rsquo;s 844-360-NINJA</span>
       <a href="https://ninja360.net/#section-JXWJCHUYEK">Free Visibility Audit</a>
-      <span style="display:block;margin:6px 0;font-size:14px">Kansas City, MO</span>
+      <span style="display:block;margin:6px 0;font-size:14px">3205 NE 70th Ter<br>Gladstone, MO 64119</span>
       <p class="nf-h" style="margin-top:14px">Follow</p>
       <a href="https://www.facebook.com/KCNinja360">Facebook</a>
       <a href="https://www.instagram.com/kcninja360/">Instagram</a>
@@ -1782,7 +1813,10 @@ Publish order, top to bottom. For **each** page in GHL:
   </div>
   <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell their story, well &middot; Always sharpen the blade</div>
   <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
-  <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
+  <div class="nf-bottom">
+    <p style="margin:0 0 6px">Ninja 360 Digital Media &middot; 3205 NE 70th Ter, Gladstone, MO 64119 &middot; <a href="tel:+18443606465" style="font-size:12px;font-weight:700;color:#cfd3d9">(844) 360-6465</a> &middot; We put you on the M.A.P.</p>
+    <p style="margin:0">&copy; Ninja 360 Digital Media. All rights reserved.</p>
+  </div>
 </footer>
 ```
 
@@ -1860,7 +1894,7 @@ Publish order, top to bottom. For **each** page in GHL:
   <p class="n-sub">A sample of our automotive and event coverage. We'll capture your lot, showroom, and service department the same way.</p>
   <div class="n-grid">
       <article class="wc">
-        <iframe class="wc-embed" src="https://www.youtube.com/embed/WmYVQPVZKcI" loading="lazy" allowfullscreen title="Karman Kar Show video - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://www.youtube.com/embed/WmYVQPVZKcI" loading="lazy" allowfullscreen title="Karman Kar Show video - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">Karman Kar Show</h3><p class="wc-city">Merriam, KS</p><div class="wc-badges"><span>Video</span></div></div>
       </article>
   </div>
@@ -1896,8 +1930,9 @@ Publish order, top to bottom. For **each** page in GHL:
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
+      <span style="display:block;margin:-3px 0 4px;font-size:12px;color:#9aa0a8">that&rsquo;s 844-360-NINJA</span>
       <a href="https://ninja360.net/#section-JXWJCHUYEK">Free Visibility Audit</a>
-      <span style="display:block;margin:6px 0;font-size:14px">Kansas City, MO</span>
+      <span style="display:block;margin:6px 0;font-size:14px">3205 NE 70th Ter<br>Gladstone, MO 64119</span>
       <p class="nf-h" style="margin-top:14px">Follow</p>
       <a href="https://www.facebook.com/KCNinja360">Facebook</a>
       <a href="https://www.instagram.com/kcninja360/">Instagram</a>
@@ -1908,7 +1943,10 @@ Publish order, top to bottom. For **each** page in GHL:
   </div>
   <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell their story, well &middot; Always sharpen the blade</div>
   <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
-  <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
+  <div class="nf-bottom">
+    <p style="margin:0 0 6px">Ninja 360 Digital Media &middot; 3205 NE 70th Ter, Gladstone, MO 64119 &middot; <a href="tel:+18443606465" style="font-size:12px;font-weight:700;color:#cfd3d9">(844) 360-6465</a> &middot; We put you on the M.A.P.</p>
+    <p style="margin:0">&copy; Ninja 360 Digital Media. All rights reserved.</p>
+  </div>
 </footer>
 ```
 
@@ -1916,14 +1954,14 @@ Publish order, top to bottom. For **each** page in GHL:
 
 ## 10. Work: Gyms & Fitness
 - **Slug / path:** `/work/gyms-fitness`  _(flat fallback: `work-gyms-fitness`)_
-- **SEO Title:** Gym & Fitness Virtual Tours | Kansas City | Ninja-360
+- **SEO Title:** Gym & Fitness Virtual Tours | Kansas City | Ninja 360
 - **Meta description:** Gym and fitness 360 virtual tours in Kansas City - show prospects your equipment, classes, and vibe. Book a demo.
 - **301:** /gym-virtual-tours/ -> /work/gyms-fitness
 
 **Paste this into the Custom JS/HTML element:**
 
 ```html
-<!-- /work/gyms-fitness  -  GHL SEO Title: Gym & Fitness Virtual Tours | Kansas City | Ninja-360
+<!-- /work/gyms-fitness  -  GHL SEO Title: Gym & Fitness Virtual Tours | Kansas City | Ninja 360
      Meta: Gym and fitness 360 virtual tours in Kansas City - show prospects your equipment, classes, and vibe before they walk in. Book a demo.
      Keep nav+footer in this block. Paste into a Custom JS/HTML element.
      NOTE: no client tour yet - publishes as a written pitch + demo CTA. Drop an embed in later. -->
@@ -2037,8 +2075,9 @@ Publish order, top to bottom. For **each** page in GHL:
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
+      <span style="display:block;margin:-3px 0 4px;font-size:12px;color:#9aa0a8">that&rsquo;s 844-360-NINJA</span>
       <a href="https://ninja360.net/#section-JXWJCHUYEK">Free Visibility Audit</a>
-      <span style="display:block;margin:6px 0;font-size:14px">Kansas City, MO</span>
+      <span style="display:block;margin:6px 0;font-size:14px">3205 NE 70th Ter<br>Gladstone, MO 64119</span>
       <p class="nf-h" style="margin-top:14px">Follow</p>
       <a href="https://www.facebook.com/KCNinja360">Facebook</a>
       <a href="https://www.instagram.com/kcninja360/">Instagram</a>
@@ -2049,7 +2088,10 @@ Publish order, top to bottom. For **each** page in GHL:
   </div>
   <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell their story, well &middot; Always sharpen the blade</div>
   <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
-  <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
+  <div class="nf-bottom">
+    <p style="margin:0 0 6px">Ninja 360 Digital Media &middot; 3205 NE 70th Ter, Gladstone, MO 64119 &middot; <a href="tel:+18443606465" style="font-size:12px;font-weight:700;color:#cfd3d9">(844) 360-6465</a> &middot; We put you on the M.A.P.</p>
+    <p style="margin:0">&copy; Ninja 360 Digital Media. All rights reserved.</p>
+  </div>
 </footer>
 ```
 
@@ -2057,14 +2099,14 @@ Publish order, top to bottom. For **each** page in GHL:
 
 ## 11. Work: Hotels & Hospitality
 - **Slug / path:** `/work/hospitality`  _(flat fallback: `work-hospitality`)_
-- **SEO Title:** Hotel & B&B Virtual Tours | Kansas City | Ninja-360
+- **SEO Title:** Hotel & B&B Virtual Tours | Kansas City | Ninja 360
 - **Meta description:** Hotel and bed-and-breakfast 360 virtual tours in Kansas City. Let guests walk your space before they book.
 - **301:** /hotel-bed-and-breakfast-virtual-tours/ -> /work/hospitality
 
 **Paste this into the Custom JS/HTML element:**
 
 ```html
-<!-- /work/hospitality  -  GHL SEO Title: Hotel &amp; B&amp;B Virtual Tours | Kansas City | Ninja-360
+<!-- /work/hospitality  -  GHL SEO Title: Hotel &amp; B&amp;B Virtual Tours | Kansas City | Ninja 360
      Meta: Hotel and bed-and-breakfast 360 virtual tours in Kansas City. Let guests walk your space before they book.
      Keep nav+footer in this block. Paste into a Custom JS/HTML element. -->
 <style>
@@ -2126,15 +2168,15 @@ Publish order, top to bottom. For **each** page in GHL:
   <h2 class="n-h2">Hotels &amp; Hospitality we've put on the map</h2>
   <div class="n-grid">
       <article class="wc">
-        <iframe class="wc-embed" src="https://kuula.co/share/collection/7bvCk?logo=1&info=0&fs=1&vr=0&sd=1&thumbs=3" loading="lazy" allowfullscreen title="Mira Flores Air BnB 360 virtual tour - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://kuula.co/share/collection/7bvCk?logo=1&info=0&fs=1&vr=0&sd=1&thumbs=3" loading="lazy" allowfullscreen title="Mira Flores Air BnB 360 virtual tour - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">Mira Flores Air BnB</h3><p class="wc-city">Kansas City, MO</p><div class="wc-badges"><span>360 Tour</span></div></div>
       </article>
       <article class="wc">
-        <iframe class="wc-embed" src="https://kuula.co/share/collection/7kdQv?logo=1&info=0&fs=1&vr=0&sd=1&thumbs=3" loading="lazy" allowfullscreen title="Chateau Shakespeare 360 virtual tour - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://kuula.co/share/collection/7kdQv?logo=1&info=0&fs=1&vr=0&sd=1&thumbs=3" loading="lazy" allowfullscreen title="Chateau Shakespeare 360 virtual tour - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">Chateau Shakespeare</h3><p class="wc-city">Kansas City, MO</p><div class="wc-badges"><span>360 Tour</span></div></div>
       </article>
       <article class="wc">
-        <iframe class="wc-embed" src="https://www.youtube.com/embed/n9eyHLexhaE" loading="lazy" allowfullscreen title="Marketing for Bed &amp; Breakfasts video - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://www.youtube.com/embed/n9eyHLexhaE" loading="lazy" allowfullscreen title="Marketing for Bed &amp; Breakfasts video - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">Marketing for Bed &amp; Breakfasts</h3><p class="wc-city"></p><div class="wc-badges"><span>Video</span></div></div>
       </article>
   </div>
@@ -2170,8 +2212,9 @@ Publish order, top to bottom. For **each** page in GHL:
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
+      <span style="display:block;margin:-3px 0 4px;font-size:12px;color:#9aa0a8">that&rsquo;s 844-360-NINJA</span>
       <a href="https://ninja360.net/#section-JXWJCHUYEK">Free Visibility Audit</a>
-      <span style="display:block;margin:6px 0;font-size:14px">Kansas City, MO</span>
+      <span style="display:block;margin:6px 0;font-size:14px">3205 NE 70th Ter<br>Gladstone, MO 64119</span>
       <p class="nf-h" style="margin-top:14px">Follow</p>
       <a href="https://www.facebook.com/KCNinja360">Facebook</a>
       <a href="https://www.instagram.com/kcninja360/">Instagram</a>
@@ -2182,7 +2225,10 @@ Publish order, top to bottom. For **each** page in GHL:
   </div>
   <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell their story, well &middot; Always sharpen the blade</div>
   <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
-  <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
+  <div class="nf-bottom">
+    <p style="margin:0 0 6px">Ninja 360 Digital Media &middot; 3205 NE 70th Ter, Gladstone, MO 64119 &middot; <a href="tel:+18443606465" style="font-size:12px;font-weight:700;color:#cfd3d9">(844) 360-6465</a> &middot; We put you on the M.A.P.</p>
+    <p style="margin:0">&copy; Ninja 360 Digital Media. All rights reserved.</p>
+  </div>
 </footer>
 ```
 
@@ -2259,31 +2305,31 @@ Publish order, top to bottom. For **each** page in GHL:
   <h2 class="n-h2">Schools &amp; Athletics we've put on the map</h2>
   <div class="n-grid">
       <article class="wc">
-        <iframe class="wc-embed" src="https://kuula.co/share/collection/7qhgl?logo=1&info=0&fs=1&vr=0&sd=1&thumbs=3" loading="lazy" allowfullscreen title="NKC Early Education Center 360 virtual tour - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://kuula.co/share/collection/7qhgl?logo=1&info=0&fs=1&vr=0&sd=1&thumbs=3" loading="lazy" allowfullscreen title="NKC Early Education Center 360 virtual tour - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">NKC Early Education Center</h3><p class="wc-city">North Kansas City, MO</p><div class="wc-badges"><span>360 Tour</span></div></div>
       </article>
       <article class="wc">
-        <iframe class="wc-embed" src="https://kuula.co/share/collection/7cz0w?logo=1&info=0&fs=1&vr=0&sd=1&thumbs=3" loading="lazy" allowfullscreen title="MU Dorm &ndash; Wolpers Hall 360 virtual tour - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://kuula.co/share/collection/7cz0w?logo=1&info=0&fs=1&vr=0&sd=1&thumbs=3" loading="lazy" allowfullscreen title="MU Dorm &ndash; Wolpers Hall 360 virtual tour - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">MU Dorm &ndash; Wolpers Hall</h3><p class="wc-city">Columbia, MO</p><div class="wc-badges"><span>360 Tour</span></div></div>
       </article>
       <article class="wc">
-        <iframe class="wc-embed" src="https://www.youtube.com/embed/8DvMYjNC21U" loading="lazy" allowfullscreen title="Sky View Over William Jewell College video - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://www.youtube.com/embed/8DvMYjNC21U" loading="lazy" allowfullscreen title="Sky View Over William Jewell College video - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">Sky View Over William Jewell College</h3><p class="wc-city">Liberty, MO</p><div class="wc-badges"><span>Video</span></div></div>
       </article>
       <article class="wc">
-        <iframe class="wc-embed" src="https://www.youtube.com/embed/0AWe6tF-lkg" loading="lazy" allowfullscreen title="Nixa High School Stadium video - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://www.youtube.com/embed/0AWe6tF-lkg" loading="lazy" allowfullscreen title="Nixa High School Stadium video - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">Nixa High School Stadium</h3><p class="wc-city">Nixa, MO</p><div class="wc-badges"><span>Video</span></div></div>
       </article>
       <article class="wc">
-        <iframe class="wc-embed" src="https://www.youtube.com/embed/Y_jqPnfiQuo" loading="lazy" allowfullscreen title="Marshall Intermediate Grand Opening video - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://www.youtube.com/embed/Y_jqPnfiQuo" loading="lazy" allowfullscreen title="Marshall Intermediate Grand Opening video - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">Marshall Intermediate Grand Opening</h3><p class="wc-city">Marshall, MO</p><div class="wc-badges"><span>Video</span></div></div>
       </article>
       <article class="wc">
-        <iframe class="wc-embed" src="https://www.youtube.com/embed/WIPvwiAatEM" loading="lazy" allowfullscreen title="Marshall Intermediate &ndash; Drop-off video - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://www.youtube.com/embed/WIPvwiAatEM" loading="lazy" allowfullscreen title="Marshall Intermediate &ndash; Drop-off video - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">Marshall Intermediate &ndash; Drop-off</h3><p class="wc-city">Marshall, MO</p><div class="wc-badges"><span>Video</span></div></div>
       </article>
       <article class="wc">
-        <iframe class="wc-embed" src="https://www.youtube.com/embed/ttDP1DDXzC0" loading="lazy" allowfullscreen title="Spainhower Primary &ndash; Drop-off video - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://www.youtube.com/embed/ttDP1DDXzC0" loading="lazy" allowfullscreen title="Spainhower Primary &ndash; Drop-off video - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">Spainhower Primary &ndash; Drop-off</h3><p class="wc-city"></p><div class="wc-badges"><span>Video</span></div></div>
       </article>
   </div>
@@ -2319,8 +2365,9 @@ Publish order, top to bottom. For **each** page in GHL:
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
+      <span style="display:block;margin:-3px 0 4px;font-size:12px;color:#9aa0a8">that&rsquo;s 844-360-NINJA</span>
       <a href="https://ninja360.net/#section-JXWJCHUYEK">Free Visibility Audit</a>
-      <span style="display:block;margin:6px 0;font-size:14px">Kansas City, MO</span>
+      <span style="display:block;margin:6px 0;font-size:14px">3205 NE 70th Ter<br>Gladstone, MO 64119</span>
       <p class="nf-h" style="margin-top:14px">Follow</p>
       <a href="https://www.facebook.com/KCNinja360">Facebook</a>
       <a href="https://www.instagram.com/kcninja360/">Instagram</a>
@@ -2331,7 +2378,10 @@ Publish order, top to bottom. For **each** page in GHL:
   </div>
   <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell their story, well &middot; Always sharpen the blade</div>
   <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
-  <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
+  <div class="nf-bottom">
+    <p style="margin:0 0 6px">Ninja 360 Digital Media &middot; 3205 NE 70th Ter, Gladstone, MO 64119 &middot; <a href="tel:+18443606465" style="font-size:12px;font-weight:700;color:#cfd3d9">(844) 360-6465</a> &middot; We put you on the M.A.P.</p>
+    <p style="margin:0">&copy; Ninja 360 Digital Media. All rights reserved.</p>
+  </div>
 </footer>
 ```
 
@@ -2408,27 +2458,27 @@ Publish order, top to bottom. For **each** page in GHL:
   <h2 class="n-h2">Parks &amp; Events we've put on the map</h2>
   <div class="n-grid">
       <article class="wc">
-        <iframe class="wc-embed" src="https://kuula.co/share/collection/7KhwK?logo=1&info=0&fs=1&vr=0&sd=1&thumbs=3" loading="lazy" allowfullscreen title="Hodge Park 360 virtual tour - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://kuula.co/share/collection/7KhwK?logo=1&info=0&fs=1&vr=0&sd=1&thumbs=3" loading="lazy" allowfullscreen title="Hodge Park 360 virtual tour - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">Hodge Park</h3><p class="wc-city">Kansas City, MO</p><div class="wc-badges"><span>360 Tour</span></div></div>
       </article>
       <article class="wc">
-        <iframe class="wc-embed" src="https://kuula.co/share/collection/7KhxG?logo=1&info=0&fs=1&vr=0&sd=1&thumbs=3" loading="lazy" allowfullscreen title="Shoal Creek Park 360 virtual tour - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://kuula.co/share/collection/7KhxG?logo=1&info=0&fs=1&vr=0&sd=1&thumbs=3" loading="lazy" allowfullscreen title="Shoal Creek Park 360 virtual tour - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">Shoal Creek Park</h3><p class="wc-city">Kansas City, MO</p><div class="wc-badges"><span>360 Tour</span></div></div>
       </article>
       <article class="wc">
-        <iframe class="wc-embed" src="https://kuula.co/share/collection/7v5F9?logo=1&info=0&fs=1&vr=0&sd=1&thumbs=3" loading="lazy" allowfullscreen title="Parade of Hearts 360 virtual tour - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://kuula.co/share/collection/7v5F9?logo=1&info=0&fs=1&vr=0&sd=1&thumbs=3" loading="lazy" allowfullscreen title="Parade of Hearts 360 virtual tour - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">Parade of Hearts</h3><p class="wc-city">Kansas City, MO</p><div class="wc-badges"><span>360 Tour</span></div></div>
       </article>
       <article class="wc">
-        <iframe class="wc-embed" src="https://kuula.co/share/collection/7vl7D?logo=1&info=0&fs=1&vr=0&sd=1&thumbs=3" loading="lazy" allowfullscreen title="Parade of Hearts &ndash; Pt. 2 360 virtual tour - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://kuula.co/share/collection/7vl7D?logo=1&info=0&fs=1&vr=0&sd=1&thumbs=3" loading="lazy" allowfullscreen title="Parade of Hearts &ndash; Pt. 2 360 virtual tour - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">Parade of Hearts &ndash; Pt. 2</h3><p class="wc-city">Kansas City, MO</p><div class="wc-badges"><span>360 Tour</span></div></div>
       </article>
       <article class="wc">
-        <iframe class="wc-embed" src="https://kuula.co/share/collection/7vkh6?logo=1&info=0&fs=1&vr=0&sd=1&thumbs=3" loading="lazy" allowfullscreen title="Parade of Hearts &ndash; Pt. 3 360 virtual tour - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://kuula.co/share/collection/7vkh6?logo=1&info=0&fs=1&vr=0&sd=1&thumbs=3" loading="lazy" allowfullscreen title="Parade of Hearts &ndash; Pt. 3 360 virtual tour - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">Parade of Hearts &ndash; Pt. 3</h3><p class="wc-city">Kansas City, MO</p><div class="wc-badges"><span>360 Tour</span></div></div>
       </article>
       <article class="wc">
-        <iframe class="wc-embed" src="https://www.youtube.com/embed/yjIPaWmI9_U" loading="lazy" allowfullscreen title="CPKC Stadium &ndash; Cinematic Reel video - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://www.youtube.com/embed/yjIPaWmI9_U" loading="lazy" allowfullscreen title="CPKC Stadium &ndash; Cinematic Reel video - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">CPKC Stadium &ndash; Cinematic Reel</h3><p class="wc-city">Kansas City, MO</p><div class="wc-badges"><span>Video</span></div></div>
       </article>
   </div>
@@ -2464,8 +2514,9 @@ Publish order, top to bottom. For **each** page in GHL:
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
+      <span style="display:block;margin:-3px 0 4px;font-size:12px;color:#9aa0a8">that&rsquo;s 844-360-NINJA</span>
       <a href="https://ninja360.net/#section-JXWJCHUYEK">Free Visibility Audit</a>
-      <span style="display:block;margin:6px 0;font-size:14px">Kansas City, MO</span>
+      <span style="display:block;margin:6px 0;font-size:14px">3205 NE 70th Ter<br>Gladstone, MO 64119</span>
       <p class="nf-h" style="margin-top:14px">Follow</p>
       <a href="https://www.facebook.com/KCNinja360">Facebook</a>
       <a href="https://www.instagram.com/kcninja360/">Instagram</a>
@@ -2476,7 +2527,10 @@ Publish order, top to bottom. For **each** page in GHL:
   </div>
   <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell their story, well &middot; Always sharpen the blade</div>
   <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
-  <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
+  <div class="nf-bottom">
+    <p style="margin:0 0 6px">Ninja 360 Digital Media &middot; 3205 NE 70th Ter, Gladstone, MO 64119 &middot; <a href="tel:+18443606465" style="font-size:12px;font-weight:700;color:#cfd3d9">(844) 360-6465</a> &middot; We put you on the M.A.P.</p>
+    <p style="margin:0">&copy; Ninja 360 Digital Media. All rights reserved.</p>
+  </div>
 </footer>
 ```
 
@@ -2484,14 +2538,14 @@ Publish order, top to bottom. For **each** page in GHL:
 
 ## 14. Work: Medical & Dental
 - **Slug / path:** `/work/medical-dental`  _(flat fallback: `work-medical-dental`)_
-- **SEO Title:** Dental & Medical Visibility | Kansas City | Ninja-360
+- **SEO Title:** Dental & Medical Visibility | Kansas City | Ninja 360
 - **Meta description:** Dental and medical 360 tours and Google visibility in Kansas City. Build trust before the first visit.
 - **301:** (new page - no 301)
 
 **Paste this into the Custom JS/HTML element:**
 
 ```html
-<!-- /work/medical-dental  -  GHL SEO Title: Dental &amp; Medical Visibility | Kansas City | Ninja-360
+<!-- /work/medical-dental  -  GHL SEO Title: Dental &amp; Medical Visibility | Kansas City | Ninja 360
      Meta: Dental and medical 360 tours and Google visibility in Kansas City. Build trust before the first visit.
      Keep nav+footer in this block. Paste into a Custom JS/HTML element. -->
 <style>
@@ -2553,15 +2607,15 @@ Publish order, top to bottom. For **each** page in GHL:
   <h2 class="n-h2">Medical &amp; Dental we've put on the map</h2>
   <div class="n-grid">
       <article class="wc">
-        <iframe class="wc-embed" src="https://kuula.co/share/collection/7Djws?logo=1&info=0&fs=1&vr=0&sd=1&thumbs=3" loading="lazy" allowfullscreen title="Atchison Family Dental 360 virtual tour - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://kuula.co/share/collection/7Djws?logo=1&info=0&fs=1&vr=0&sd=1&thumbs=3" loading="lazy" allowfullscreen title="Atchison Family Dental 360 virtual tour - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">Atchison Family Dental</h3><p class="wc-city">Atchison, KS</p><div class="wc-badges"><span>360 Tour</span></div></div>
       </article>
       <article class="wc">
-        <iframe class="wc-embed" src="https://kuula.co/share/collection/7DM8X?logo=1&info=0&fs=1&vr=0&sd=1&thumbs=3" loading="lazy" allowfullscreen title="Marx Family Dental 360 virtual tour - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://kuula.co/share/collection/7DM8X?logo=1&info=0&fs=1&vr=0&sd=1&thumbs=3" loading="lazy" allowfullscreen title="Marx Family Dental 360 virtual tour - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">Marx Family Dental</h3><p class="wc-city">Gladstone, MO</p><div class="wc-badges"><span>360 Tour</span></div></div>
       </article>
       <article class="wc">
-        <iframe class="wc-embed" src="https://www.youtube.com/embed/IRu4cR4cYsc" loading="lazy" allowfullscreen title="Atchison Family Dental video - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://www.youtube.com/embed/IRu4cR4cYsc" loading="lazy" allowfullscreen title="Atchison Family Dental video - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">Atchison Family Dental</h3><p class="wc-city">Atchison, KS</p><div class="wc-badges"><span>Video</span></div></div>
       </article>
   </div>
@@ -2597,8 +2651,9 @@ Publish order, top to bottom. For **each** page in GHL:
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
+      <span style="display:block;margin:-3px 0 4px;font-size:12px;color:#9aa0a8">that&rsquo;s 844-360-NINJA</span>
       <a href="https://ninja360.net/#section-JXWJCHUYEK">Free Visibility Audit</a>
-      <span style="display:block;margin:6px 0;font-size:14px">Kansas City, MO</span>
+      <span style="display:block;margin:6px 0;font-size:14px">3205 NE 70th Ter<br>Gladstone, MO 64119</span>
       <p class="nf-h" style="margin-top:14px">Follow</p>
       <a href="https://www.facebook.com/KCNinja360">Facebook</a>
       <a href="https://www.instagram.com/kcninja360/">Instagram</a>
@@ -2609,7 +2664,10 @@ Publish order, top to bottom. For **each** page in GHL:
   </div>
   <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell their story, well &middot; Always sharpen the blade</div>
   <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
-  <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
+  <div class="nf-bottom">
+    <p style="margin:0 0 6px">Ninja 360 Digital Media &middot; 3205 NE 70th Ter, Gladstone, MO 64119 &middot; <a href="tel:+18443606465" style="font-size:12px;font-weight:700;color:#cfd3d9">(844) 360-6465</a> &middot; We put you on the M.A.P.</p>
+    <p style="margin:0">&copy; Ninja 360 Digital Media. All rights reserved.</p>
+  </div>
 </footer>
 ```
 
@@ -2686,31 +2744,31 @@ Publish order, top to bottom. For **each** page in GHL:
   <h2 class="n-h2">Wellness &amp; Chiropractic we've put on the map</h2>
   <div class="n-grid">
       <article class="wc">
-        <iframe class="wc-embed" src="https://kuula.co/share/collection/7JJgQ?logo=1&info=0&fs=1&vr=0&sd=1&thumbs=3" loading="lazy" allowfullscreen title="Kobler Chiropractic 360 virtual tour - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://kuula.co/share/collection/7JJgQ?logo=1&info=0&fs=1&vr=0&sd=1&thumbs=3" loading="lazy" allowfullscreen title="Kobler Chiropractic 360 virtual tour - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">Kobler Chiropractic</h3><p class="wc-city">Kansas City, MO</p><div class="wc-badges"><span>360 Tour</span></div></div>
       </article>
       <article class="wc">
-        <iframe class="wc-embed" src="https://www.youtube.com/embed/X3ORPaoWxO8" loading="lazy" allowfullscreen title="Kobler &ndash; Meet the Team video - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://www.youtube.com/embed/X3ORPaoWxO8" loading="lazy" allowfullscreen title="Kobler &ndash; Meet the Team video - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">Kobler &ndash; Meet the Team</h3><p class="wc-city">Gladstone, MO</p><div class="wc-badges"><span>Video</span></div></div>
       </article>
       <article class="wc">
-        <iframe class="wc-embed" src="https://www.youtube.com/embed/C-0JGmM2I_I" loading="lazy" allowfullscreen title="Dr. Jeremy Kobler, DC &ndash; Owner video - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://www.youtube.com/embed/C-0JGmM2I_I" loading="lazy" allowfullscreen title="Dr. Jeremy Kobler, DC &ndash; Owner video - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">Dr. Jeremy Kobler, DC &ndash; Owner</h3><p class="wc-city"></p><div class="wc-badges"><span>Video</span></div></div>
       </article>
       <article class="wc">
-        <iframe class="wc-embed" src="https://www.youtube.com/embed/9IGEqsUr-_s" loading="lazy" allowfullscreen title="Meet Dr. Brian Frame video - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://www.youtube.com/embed/9IGEqsUr-_s" loading="lazy" allowfullscreen title="Meet Dr. Brian Frame video - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">Meet Dr. Brian Frame</h3><p class="wc-city"></p><div class="wc-badges"><span>Video</span></div></div>
       </article>
       <article class="wc">
-        <iframe class="wc-embed" src="https://www.youtube.com/embed/rjd7dXvk3eg" loading="lazy" allowfullscreen title="New Location &ndash; Overland Park video - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://www.youtube.com/embed/rjd7dXvk3eg" loading="lazy" allowfullscreen title="New Location &ndash; Overland Park video - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">New Location &ndash; Overland Park</h3><p class="wc-city">Overland Park, KS</p><div class="wc-badges"><span>Video</span></div></div>
       </article>
       <article class="wc">
-        <iframe class="wc-embed" src="https://www.youtube.com/embed/GXcYLcl_zQ8" loading="lazy" allowfullscreen title="Massage Services video - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://www.youtube.com/embed/GXcYLcl_zQ8" loading="lazy" allowfullscreen title="Massage Services video - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">Massage Services</h3><p class="wc-city"></p><div class="wc-badges"><span>Video</span></div></div>
       </article>
       <article class="wc">
-        <iframe class="wc-embed" src="https://www.youtube.com/embed/9Z0lUDX50lY" loading="lazy" allowfullscreen title="Adjustments While Pregnant video - Ninja-360"></iframe>
+        <iframe class="wc-embed" src="https://www.youtube.com/embed/9Z0lUDX50lY" loading="lazy" allowfullscreen title="Adjustments While Pregnant video - Ninja 360"></iframe>
         <div class="wc-body"><h3 class="wc-name">Adjustments While Pregnant</h3><p class="wc-city"></p><div class="wc-badges"><span>Video</span></div></div>
       </article>
   </div>
@@ -2747,8 +2805,9 @@ Publish order, top to bottom. For **each** page in GHL:
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
+      <span style="display:block;margin:-3px 0 4px;font-size:12px;color:#9aa0a8">that&rsquo;s 844-360-NINJA</span>
       <a href="https://ninja360.net/#section-JXWJCHUYEK">Free Visibility Audit</a>
-      <span style="display:block;margin:6px 0;font-size:14px">Kansas City, MO</span>
+      <span style="display:block;margin:6px 0;font-size:14px">3205 NE 70th Ter<br>Gladstone, MO 64119</span>
       <p class="nf-h" style="margin-top:14px">Follow</p>
       <a href="https://www.facebook.com/KCNinja360">Facebook</a>
       <a href="https://www.instagram.com/kcninja360/">Instagram</a>
@@ -2759,7 +2818,10 @@ Publish order, top to bottom. For **each** page in GHL:
   </div>
   <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell their story, well &middot; Always sharpen the blade</div>
   <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
-  <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
+  <div class="nf-bottom">
+    <p style="margin:0 0 6px">Ninja 360 Digital Media &middot; 3205 NE 70th Ter, Gladstone, MO 64119 &middot; <a href="tel:+18443606465" style="font-size:12px;font-weight:700;color:#cfd3d9">(844) 360-6465</a> &middot; We put you on the M.A.P.</p>
+    <p style="margin:0">&copy; Ninja 360 Digital Media. All rights reserved.</p>
+  </div>
 </footer>
 ```
 
@@ -2769,15 +2831,15 @@ Publish order, top to bottom. For **each** page in GHL:
 
 ## 16. Contact
 - **Slug / path:** `/contact`  _(flat fallback: `contact`)_
-- **SEO Title:** Contact Ninja-360 | Kansas City Local Visibility
-- **Meta description:** Talk to Ninja-360 - Kansas City's local visibility system. Start with the free 30-second visibility audit, or call (844) 360-6465.
+- **SEO Title:** Contact Ninja 360 | Kansas City Local Visibility
+- **Meta description:** Talk to Ninja 360 - Kansas City's local visibility system. Start with the free 30-second visibility audit, or call (844) 360-6465.
 - **301:** /contact/ -> /contact   (kills the /contact 404 linked from the older nav)
 
 **Paste this into the Custom JS/HTML element:**
 
 ```html
-<!-- /contact  -  GHL SEO Title: Contact Ninja-360 | Kansas City Local Visibility
-     Meta: Talk to Ninja-360 - Kansas City's local visibility system. Start with the free 30-second visibility audit, or call (844) 360-6465.
+<!-- /contact  -  GHL SEO Title: Contact Ninja 360 | Kansas City Local Visibility
+     Meta: Talk to Ninja 360 - Kansas City's local visibility system. Start with the free 30-second visibility audit, or call (844) 360-6465.
      Copy: V02 philosophy infusion (see COPY-REWRITE-V02.md).
      This page kills the live /contact 404 (linked from the older nav template).
      Paste body into a Custom JS/HTML element.
@@ -2843,10 +2905,12 @@ Publish order, top to bottom. For **each** page in GHL:
     <div class="ct-card">
       <p class="ch">Call</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
+      <p style="margin:8px 0 0;font-size:13px;color:#575B63">that&rsquo;s 844-360-NINJA</p>
     </div>
     <div class="ct-card">
       <p class="ch">Location</p>
-      <a href="https://www.google.com/maps/search/?api=1&amp;query=Ninja-360+Kansas+City+MO">Kansas City, MO</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Ninja+360+Digital+Media%2C+3205+NE+70th+Ter%2C+Gladstone%2C+MO+64119">3205 NE 70th Ter<br>Gladstone, MO 64119</a>
+      <p style="margin:8px 0 0;font-size:13px;color:#575B63">Serving the entire Kansas City metro, MO &amp; KS.</p>
     </div>
   </div>
   <div class="ct-card" style="margin-top:18px">
@@ -2891,8 +2955,9 @@ Publish order, top to bottom. For **each** page in GHL:
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
+      <span style="display:block;margin:-3px 0 4px;font-size:12px;color:#9aa0a8">that&rsquo;s 844-360-NINJA</span>
       <a href="https://ninja360.net/#section-JXWJCHUYEK">Free Visibility Audit</a>
-      <span style="display:block;margin:6px 0;font-size:14px">Kansas City, MO</span>
+      <span style="display:block;margin:6px 0;font-size:14px">3205 NE 70th Ter<br>Gladstone, MO 64119</span>
       <p class="nf-h" style="margin-top:14px">Follow</p>
       <a href="https://www.facebook.com/KCNinja360">Facebook</a>
       <a href="https://www.instagram.com/kcninja360/">Instagram</a>
@@ -2903,7 +2968,10 @@ Publish order, top to bottom. For **each** page in GHL:
   </div>
   <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell their story, well &middot; Always sharpen the blade</div>
   <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
-  <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
+  <div class="nf-bottom">
+    <p style="margin:0 0 6px">Ninja 360 Digital Media &middot; 3205 NE 70th Ter, Gladstone, MO 64119 &middot; <a href="tel:+18443606465" style="font-size:12px;font-weight:700;color:#cfd3d9">(844) 360-6465</a> &middot; We put you on the M.A.P.</p>
+    <p style="margin:0">&copy; Ninja 360 Digital Media. All rights reserved.</p>
+  </div>
 </footer>
 ```
 
@@ -2911,7 +2979,7 @@ Publish order, top to bottom. For **each** page in GHL:
 
 ## 17. Free Audit
 - **Slug / path:** `/free-audit`  _(flat fallback: `free-audit`)_
-- **SEO Title:** Free Visibility Audit | Ninja-360 Kansas City
+- **SEO Title:** Free Visibility Audit | Ninja 360 Kansas City
 - **Meta description:** Get a free visibility audit and see exactly where your Kansas City business is losing customers online. Takes 30 seconds, no cost, no obligation.
 - **Canonical:** https://ninja360.net/free-audit
 - **301:** (new page - no 301). Resolves FIX #3 (the /free-audit 404 in the older nav).
@@ -2924,7 +2992,7 @@ Publish order, top to bottom. For **each** page in GHL:
 **Paste this into the Custom JS/HTML element:**
 
 ```html
-<!-- /free-audit  -  GHL SEO Title: Free Visibility Audit | Ninja-360 Kansas City
+<!-- /free-audit  -  GHL SEO Title: Free Visibility Audit | Ninja 360 Kansas City
      Meta: Get a free visibility audit and see exactly where your Kansas City business is losing customers online. Takes 30 seconds, no cost, no obligation.
      Copy: V02 philosophy infusion (see COPY-REWRITE-V02.md + philosophies_V02.md).
      Resolves FIX #3: /free-audit was a 404 linked from the older nav.
@@ -2944,7 +3012,7 @@ Publish order, top to bottom. For **each** page in GHL:
      https://ninja360.net/free-audit so there is ONE audit destination (FIX #3).
      Do NOT repoint before this page is live - that breaks every CTA on the site.
 
-     Page SEO -> Title: Free Visibility Audit | Ninja-360 Kansas City
+     Page SEO -> Title: Free Visibility Audit | Ninja 360 Kansas City
      Page SEO -> Meta:  Get a free visibility audit and see exactly where your Kansas City business is losing customers online. Takes 30 seconds, no cost, no obligation. -->
 
 <!-- ===== PASTE THIS INTO THE PAGE HEAD (GHL tracking code) - FAQPage schema =====
@@ -3110,7 +3178,7 @@ Publish order, top to bottom. For **each** page in GHL:
   <p class="n-sub">Every one of them started with the same free audit you're looking at.</p>
   <div class="rev-embed">
     <iframe src="https://zyenereviews.com/w/ninja-360-digital-media"
-            title="Customer reviews for Ninja-360 Digital Media"
+            title="Customer reviews for Ninja 360 Digital Media"
             loading="lazy"
             width="100%" height="400"></iframe>
   </div>
@@ -3166,8 +3234,9 @@ Publish order, top to bottom. For **each** page in GHL:
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
+      <span style="display:block;margin:-3px 0 4px;font-size:12px;color:#9aa0a8">that&rsquo;s 844-360-NINJA</span>
       <a href="https://ninja360.net/free-audit">Free Visibility Audit</a>
-      <span style="display:block;margin:6px 0;font-size:14px">Kansas City, MO</span>
+      <span style="display:block;margin:6px 0;font-size:14px">3205 NE 70th Ter<br>Gladstone, MO 64119</span>
       <p class="nf-h" style="margin-top:14px">Follow</p>
       <a href="https://www.facebook.com/KCNinja360">Facebook</a>
       <a href="https://www.instagram.com/kcninja360/">Instagram</a>
@@ -3178,7 +3247,10 @@ Publish order, top to bottom. For **each** page in GHL:
   </div>
   <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell their story, well &middot; Always sharpen the blade</div>
   <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
-  <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
+  <div class="nf-bottom">
+    <p style="margin:0 0 6px">Ninja 360 Digital Media &middot; 3205 NE 70th Ter, Gladstone, MO 64119 &middot; <a href="tel:+18443606465" style="font-size:12px;font-weight:700;color:#cfd3d9">(844) 360-6465</a> &middot; We put you on the M.A.P.</p>
+    <p style="margin:0">&copy; Ninja 360 Digital Media. All rights reserved.</p>
+  </div>
 </footer>
 ```
 
@@ -3186,8 +3258,8 @@ Publish order, top to bottom. For **each** page in GHL:
 
 ## 18. Terms of Service
 - **Slug / path:** `/termsofservice`  _(flat fallback: `termsofservice`)_
-- **SEO Title:** Terms of Service | Ninja-360 Kansas City
-- **Meta description:** The terms that govern Ninja-360 Digital Media's local visibility services, plans, billing, and media rights.
+- **SEO Title:** Terms of Service | Ninja 360 Kansas City
+- **Meta description:** The terms that govern Ninja 360 Digital Media's local visibility services, plans, billing, and media rights.
 - **Canonical:** https://ninja360.net/termsofservice
 - **301:** if the live footer links point at a different slug (e.g. `/terms-and-conditions`
   or `/terms-conditions`), either publish at THAT slug or 301 it to `/terms`. Those links
@@ -3202,8 +3274,8 @@ Publish order, top to bottom. For **each** page in GHL:
 **Paste this into the Custom JS/HTML element:**
 
 ```html
-<!-- /termsofservice  -  GHL SEO Title: Terms of Service | Ninja-360 Kansas City
-     Meta: The terms that govern Ninja-360 Digital Media's local visibility services, plans, billing, and media rights.
+<!-- /termsofservice  -  GHL SEO Title: Terms of Service | Ninja 360 Kansas City
+     Meta: The terms that govern Ninja 360 Digital Media's local visibility services, plans, billing, and media rights.
      Canonical: https://ninja360.net/termsofservice
 
      ################ READ BEFORE PUBLISHING ################
@@ -3217,9 +3289,9 @@ Publish order, top to bottom. For **each** page in GHL:
      THREE THINGS ONLY TIM CAN DECIDE - they are marked [[CONFIRM]] in the text below:
        1. LEGAL ENTITY - written as "Ninja-360 Digital Media LLC" (the form used in the
           dojo footers). Confirm the exact registered name and state of formation.
-       2. MEDIA RIGHTS - section 7 proposes the industry-standard split: Ninja-360 keeps
+       2. MEDIA RIGHTS - section 7 proposes the industry-standard split: Ninja 360 keeps
           copyright, the client gets a broad perpetual license to delivered assets, and
-          Ninja-360 keeps portfolio rights. This is a real business decision - some
+          Ninja 360 keeps portfolio rights. This is a real business decision - some
           clients (especially chains) will demand full assignment. Decide the default.
        3. WHAT HAPPENS TO HOSTED TOURS AFTER CANCELLATION - section 9. Whatever you
           choose, it must match what actually happens operationally.
@@ -3326,7 +3398,7 @@ Publish order, top to bottom. For **each** page in GHL:
     </div>
 
     <h2 id="t1"><span>1.</span>Who we are &amp; what this covers</h2>
-    <p>These Terms &amp; Conditions ("Terms") are an agreement between you ("you," "your," or "Client") and Ninja-360 Digital Media LLC ("Ninja-360," "we," "us," or "our"), a Kansas City, Missouri business. <!-- [[CONFIRM]] exact registered entity name + state of formation --></p>
+    <p>These Terms &amp; Conditions ("Terms") are an agreement between you ("you," "your," or "Client") and Ninja-360 Digital Media LLC ("Ninja 360," "we," "us," or "our"), a Gladstone, Missouri business serving the Kansas City metro. <!-- [[CONFIRM]] exact registered entity name + state of formation --></p>
     <p>They govern your use of ninja360.net (the "Site") and any services you purchase from us. By using the Site, submitting a form, or engaging our services, you agree to these Terms.</p>
     <p>If we sign a separate written agreement or Statement of Work ("SOW") with you, and anything in it conflicts with these Terms, <strong>the SOW controls</strong> for that engagement.</p>
 
@@ -3381,7 +3453,7 @@ Publish order, top to bottom. For **each** page in GHL:
          especially multi-location chains and franchises - will push for full assignment
          of copyright. Decide whether that is available, and at what price. -->
     <h3>What we own</h3>
-    <p>Unless your SOW says otherwise in writing, Ninja-360 retains copyright in all photography, video, aerial media, and virtual tours we create, including all raw and unused footage. Raw files are not delivered as part of a standard engagement.</p>
+    <p>Unless your SOW says otherwise in writing, Ninja 360 retains copyright in all photography, video, aerial media, and virtual tours we create, including all raw and unused footage. Raw files are not delivered as part of a standard engagement.</p>
     <h3>What you get</h3>
     <p>On payment in full, you receive a <strong>perpetual, non-exclusive, worldwide license</strong> to use the final delivered assets to market and operate your own business &mdash; on your website, Google Business Profile, listings, social channels, advertising, print, and in-store. You may not resell, sublicense, or redistribute the assets as stock media, and you may not materially alter them in a way that misrepresents your business.</p>
     <h3>Our portfolio rights</h3>
@@ -3430,7 +3502,7 @@ Publish order, top to bottom. For **each** page in GHL:
     <p>Nothing here limits liability that cannot be limited under applicable law, including for fraud, willful misconduct, or gross negligence.</p>
 
     <h2 id="t15"><span>15.</span>Indemnification</h2>
-    <p>You agree to indemnify and hold harmless Ninja-360 and its owners, employees, and contractors from third-party claims arising out of: the information or materials you provide us; your failure to obtain necessary property access, permissions, or consents; your use of the delivered assets beyond the license granted in Section 7; or your violation of these Terms or applicable law.</p>
+    <p>You agree to indemnify and hold harmless Ninja 360 and its owners, employees, and contractors from third-party claims arising out of: the information or materials you provide us; your failure to obtain necessary property access, permissions, or consents; your use of the delivered assets beyond the license granted in Section 7; or your violation of these Terms or applicable law.</p>
     <p>We'll indemnify you against third-party claims that media we independently created for you infringes that party's copyright &mdash; excluding anything arising from materials you supplied or changes made without us.</p>
 
     <h2 id="t16"><span>16.</span>Governing law &amp; disputes</h2>
@@ -3445,7 +3517,8 @@ Publish order, top to bottom. For **each** page in GHL:
     <p>Questions about these Terms:</p>
     <p>
       <strong>Ninja-360 Digital Media LLC</strong><br>
-      Kansas City, MO<br>
+      3205 NE 70th Ter<br>
+      Gladstone, MO 64119<br>
       Phone: <a href="tel:+18443606465" style="color:var(--n-red);font-weight:700;text-decoration:none">(844) 360-6465</a><br>
       Web: <a href="https://ninja360.net" style="color:var(--n-red);font-weight:700;text-decoration:none">ninja360.net</a>
     </p>
@@ -3483,8 +3556,9 @@ Publish order, top to bottom. For **each** page in GHL:
     <div class="nf-col">
       <p class="nf-h">Contact</p>
       <a href="tel:+18443606465">(844) 360-6465</a>
+      <span style="display:block;margin:-3px 0 4px;font-size:12px;color:#9aa0a8">that&rsquo;s 844-360-NINJA</span>
       <a href="https://ninja360.net/free-audit">Free Visibility Audit</a>
-      <span style="display:block;margin:6px 0;font-size:14px">Kansas City, MO</span>
+      <span style="display:block;margin:6px 0;font-size:14px">3205 NE 70th Ter<br>Gladstone, MO 64119</span>
       <p class="nf-h" style="margin-top:14px">Follow</p>
       <a href="https://www.facebook.com/KCNinja360">Facebook</a>
       <a href="https://www.instagram.com/kcninja360/">Instagram</a>
@@ -3495,6 +3569,9 @@ Publish order, top to bottom. For **each** page in GHL:
   </div>
   <div class="nf-triad" style="max-width:1080px;margin:26px auto 0;padding:0 22px;font-size:13px;color:#aeb4bd;font-weight:600">Put them on the map &middot; Tell their story, well &middot; Always sharpen the blade</div>
   <div class="nf-legal"><a href="https://ninja360.net/privacy-policy">Privacy Policy</a><span>|</span><a href="https://ninja360.net/termsofservice">Terms of Service</a></div>
-  <div class="nf-bottom">&copy; Ninja-360 Digital Media. All rights reserved.</div>
+  <div class="nf-bottom">
+    <p style="margin:0 0 6px">Ninja 360 Digital Media &middot; 3205 NE 70th Ter, Gladstone, MO 64119 &middot; <a href="tel:+18443606465" style="font-size:12px;font-weight:700;color:#cfd3d9">(844) 360-6465</a> &middot; We put you on the M.A.P.</p>
+    <p style="margin:0">&copy; Ninja 360 Digital Media. All rights reserved.</p>
+  </div>
 </footer>
 ```
