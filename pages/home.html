@@ -51,7 +51,37 @@
 .map-card img{display:block;width:104px;height:104px;object-fit:contain;margin:0 auto 10px}
 .map-step{font-size:12px;font-weight:800;color:var(--n-red);text-transform:uppercase;letter-spacing:.06em}
 .map-card h3{font-size:19px;margin:4px 0 8px}
-.map-belt{display:inline-block;margin-top:12px;font-size:11px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;color:var(--n-muted);border:1px solid var(--n-line);border-radius:20px;padding:3px
+.map-belt{display:inline-block;margin-top:12px;font-size:11px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;color:var(--n-muted);border:1px solid var(--n-line);border-radius:20px;padding:3px 10px}
+</style>
+<!-- TODO: the home block above is TRUNCATED (CSS cuts off mid .map-belt; Hero + M.A.P.
+     cards never made it into the repo). Export the live GHL custom-code blocks and
+     complete it. See punch list B-1 (2026-10-23). -->
+
+<!-- TRUSTED BY  -  live section order as of 2026-10-23: Trusted By sits ABOVE Reviews.
+     Full strip HTML + 12-logo update script: trusted-by-update-script-V01.md
+     (GHL custom-code element id custom-code-EKLCwSP79t).
+     Sub-line copy is now: "Kansas City businesses we work with." -->
+
+<!-- REVIEWS  -  paste into a GHL Custom Code block directly BELOW the Trusted By strip.
+     The Google Reviews widget itself is a free Zyene embed added in GHL; keep that
+     embed where {{ZYENE_REVIEW_WIDGET_EMBED}} is. Headline is the one word "Reviews";
+     no eyebrow above it (two stacked labels said the same thing). -->
+<style>
+.rv{background:#31343B;color:#fff;padding:56px 0}
+.rv-in{max-width:1080px;margin:0 auto;padding:0 22px}
+.rv-h{font-size:clamp(26px,3.4vw,38px);font-weight:800;margin:0 0 6px;letter-spacing:-.01em}
+.rv-sub{color:#d4d7dd;font-size:16px;max-width:620px;margin:0 0 26px}
+.rv-widget{max-width:780px;margin:0 auto}
+</style>
+<section class="rv" aria-label="Google reviews">
+  <div class="rv-in">
+    <h2 class="rv-h">Reviews</h2>
+    <p class="rv-sub">5.0 on Google from the Kansas City businesses we work with.</p>
+    <div class="rv-widget">
+      {{ZYENE_REVIEW_WIDGET_EMBED}}
+    </div>
+  </div>
+</section>
 
 <!-- FOOTER -->
 <style>
