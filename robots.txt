@@ -1,0 +1,6 @@
+# ninja360.net — served by the Cloudflare Worker `ninja360-llms` from this repo (main).
+User-agent: *
+Allow: /
+Disallow: /audits/
+
+Sitemap: https://ninja360.net/sitemap.xml

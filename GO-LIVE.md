@@ -58,27 +58,46 @@ Funnel: **Ninja 360 Digital Media** (`PQKNMX7MrLGXz9cD7CuQ`).
 
 ---
 
-## PHASE 2 — Host llms.txt at ninja360.net/llms.txt (Cloudflare, 10 min)
-GHL can't serve a raw file there. Cloudflare fronts your DNS, so use a Worker:
+## PHASE 2 — Crawl files at the root: robots.txt · llms.txt · sitemap.xml (Cloudflare Worker)
+GHL can't serve raw files at the root, so a Cloudflare Worker (`ninja360-llms`) intercepts the
+three paths and returns the repo copy from `main`. **Source of truth for the Worker code:**
+`cloudflare/ninja360-llms.worker.js` — paste that file, don't retype it.
 
-1. Cloudflare → **Workers & Pages → Create Worker** → name it `ninja360-llms` → paste:
-```js
-export default {
-  async fetch(request) {
-    const url = new URL(request.url);
-    if (url.pathname.toLowerCase() === "/llms.txt") {
-      const r = await fetch("https://raw.githubusercontent.com/Tetep/ninja360-site/main/llms.txt");
-      return new Response(await r.text(), {
-        headers: { "content-type": "text/plain; charset=utf-8", "cache-control": "public, max-age=3600" }
-      });
-    }
-    return fetch(request);
-  }
-}
-```
-2. **Deploy.**
-3. Worker → **Settings → Triggers → Add route:** `ninja360.net/llms.txt`.
-4. Visit `https://ninja360.net/llms.txt` → returns the text. (Edit llms.txt in the repo anytime; Worker serves the latest.)
+Files it serves (all from branch `main`):
+
+| URL | Repo file |
+|---|---|
+| `/robots.txt` | `robots.txt` |
+| `/llms.txt` | `llms.txt` |
+| `/sitemap.xml` | `seo/sitemap.xml` |
+
+1. Cloudflare → **Workers & Pages → `ninja360-llms`** (create it if missing) → paste
+   `cloudflare/ninja360-llms.worker.js` → **Deploy**.
+2. Worker → **Settings → Triggers → Routes** — bind **six** routes (apex and www for each):
+   `ninja360.net/robots.txt` · `www.ninja360.net/robots.txt` · `ninja360.net/llms.txt` ·
+   `www.ninja360.net/llms.txt` · `ninja360.net/sitemap.xml` · `www.ninja360.net/sitemap.xml`
+3. **DNS → Records:** apex `ninja360.net` and `www` must both be **Proxied (orange cloud)**.
+   Grey/DNS-only = the Worker never runs and GHL's own empty files win.
+4. **Caching → Purge Cache → Purge Everything.**
+5. Verify each URL on both hosts. Good = real content with header `x-ninja360-source:
+   github:main/...`. The Worker returns **503** (not an empty 200) when the repo file is
+   missing or empty — that's deliberate so a regression is visible, not silent.
+
+### Regression checklist — "robots/llms/sitemap come back empty" (seen Jul 2026, Oct 2026)
+Work top to bottom; stop at the first thing that's wrong.
+- [ ] DNS: apex + www both Proxied (orange)? If grey → flip, purge, re-test.
+- [ ] Worker routes: all six present and pointing at `ninja360-llms`? (Routes silently drop when
+      the zone or Worker is recreated.)
+- [ ] Worker code is the current `cloudflare/ninja360-llms.worker.js` (older version only handled
+      `/llms.txt`, so robots + sitemap fell through to GHL = empty).
+- [ ] Repo file exists **on `main`** and is non-empty (`robots.txt` was missing from the repo
+      entirely until 2026-10-26).
+- [ ] Purge cache, then `curl -sI https://ninja360.net/sitemap.xml` → look for `x-ninja360-source`.
+- [ ] Only after `/sitemap.xml` serves real `<loc>` entries: submit it in Google Search Console.
+      **Hold GSC submission while it is empty** — an empty sitemap teaches Google there are no URLs.
+
+> `seo/sitemap.xml` lists nested `/work/<industry>` slugs. If GHL ended up on the flattened
+> `work-<industry>` slugs (see the Phase 1 note), fix the sitemap **before** submitting it.
 
 ---
 
