@@ -7,6 +7,7 @@
 //   ninja360.net/robots.txt      www.ninja360.net/robots.txt
 //   ninja360.net/llms.txt        www.ninja360.net/llms.txt
 //   ninja360.net/sitemap.xml     www.ninja360.net/sitemap.xml
+//   ninja360.net/r/cr-2026-07    (contract route book — pre-existing handler, keep it)
 // Both DNS records (apex A/CNAME + www) must be Proxied (orange cloud) or the
 // Worker never runs and GHL's own empty files are served instead.
 
@@ -16,6 +17,8 @@ const FILES = {
   "/robots.txt":  { src: "robots.txt",      type: "text/plain; charset=utf-8" },
   "/llms.txt":    { src: "llms.txt",        type: "text/plain; charset=utf-8" },
   "/sitemap.xml": { src: "seo/sitemap.xml", type: "application/xml; charset=utf-8" },
+  // Pre-existing route (Jul 2026): the contract route book. Keep it — the link is in use.
+  "/r/cr-2026-07": { src: "contract-route.html", type: "text/html; charset=utf-8" },
 };
 
 export default {

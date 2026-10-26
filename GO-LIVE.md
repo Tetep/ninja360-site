@@ -70,12 +70,14 @@ Files it serves (all from branch `main`):
 | `/robots.txt` | `robots.txt` |
 | `/llms.txt` | `llms.txt` |
 | `/sitemap.xml` | `seo/sitemap.xml` |
+| `/r/cr-2026-07` | `contract-route.html` (contract route book, Jul 2026 — keep) |
 
 1. Cloudflare → **Workers & Pages → `ninja360-llms`** (create it if missing) → paste
    `cloudflare/ninja360-llms.worker.js` → **Deploy**.
-2. Worker → **Settings → Triggers → Routes** — bind **six** routes (apex and www for each):
+2. Worker → **Settings → Triggers → Routes** — bind **six** crawl routes (apex and www for each):
    `ninja360.net/robots.txt` · `www.ninja360.net/robots.txt` · `ninja360.net/llms.txt` ·
    `www.ninja360.net/llms.txt` · `ninja360.net/sitemap.xml` · `www.ninja360.net/sitemap.xml`
+   — plus the existing `ninja360.net/r/cr-2026-07` route; don't remove it.
 3. **DNS → Records:** apex `ninja360.net` and `www` must both be **Proxied (orange cloud)**.
    Grey/DNS-only = the Worker never runs and GHL's own empty files win.
 4. **Caching → Purge Cache → Purge Everything.**
