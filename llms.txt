@@ -11,13 +11,13 @@
 ## Business identity (canonical NAP — matches every listing)
 - Public name: Ninja 360 Digital Media
 - Legal entity: NINJA-360 DIGITAL MEDIA LLC
-- Address: 3205 NE 70th Terrace, Gladstone, MO 64119 (service-area business; by appointment)
+- Address: 3205 NE 70th Ter, Gladstone, MO 64119 (service-area business; by appointment)
 - Phone: (844) 360-6465
 - Email: info@ninja360.net
 - Website: https://ninja360.net
 - Social handle: @ninja360net
 - Primary category: Drone service (drone photography)
-- Secondary categories: Virtual tours, Commercial photographer, Digital marketing agency
+- Secondary categories: Aerial photographer, Video production service, Photographer, Marketing agency, Internet marketing service
 - Founder: Tim Petet, Google Certified Photographer, FAA Part 107
 - Service area: Gladstone, Liberty, North Kansas City, Parkville, Smithville, Kearney,
   and Kansas City, Missouri (Northland first; greater Kansas City metro by arrangement)
