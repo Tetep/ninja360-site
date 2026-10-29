@@ -114,7 +114,7 @@ target: 54th Street. Pavan partnership terms must be in writing before the first
 - Reviews answered in the client's voice; Brown review requests only to customers the client marks
   as served; no incentives.
 - No paid advertising under the agreement.
-- Signer: James Petet, Ninja 360 Digital Media LLC, 3205 NE 70th Terrace, Gladstone, MO 64119,
+- Signer: James Petet, Ninja 360 Digital Media LLC, 3205 NE 70th Ter, Gladstone, MO 64119,
   (844) 360-6465.
 
 ## 8. Standing sales lines
