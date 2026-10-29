@@ -6,7 +6,7 @@
   "statuses": ["done", "progress", "not_started"],
   "top_conflict": {
     "public": "The public name still shows with a hyphen (Ninja-360) in places: the website footers and schema, and the Google Business Profile rename is still in review.",
-    "evidence": "16 footer copies in this repo read '© Ninja-360 Digital Media' and 'Kansas City, MO'. Schema name is hyphenated. GBP rename submitted 10/19, still listed as open in the 10/28 hub."
+    "evidence": "Until this change is pasted into GoHighLevel, the footers and schema are assumed to read '© Ninja-360 Digital Media' and 'Kansas City, MO' (that is what the repo source said on 10/29; the live site was not checked). The source is fixed in this PR. GBP rename submitted 10/19, still listed as open in the 10/28 hub."
   },
   "belts": [
     {
