@@ -34,9 +34,9 @@
 - [Our Work](https://ninja360.net/work): portfolio by industry.
 
 ## Work by industry
-- [Restaurants](https://ninja360.net/work/restaurants): flagship — 54th Street Grill, a 15+ location chain across MO & TX.
-- [Real Estate](https://ninja360.net/work/real-estate): residential & commercial 360 tours.
-- [Automotive](https://ninja360.net/work/automotive), [Gyms & Fitness](https://ninja360.net/work/gyms-fitness), [Hotels & Hospitality](https://ninja360.net/work/hospitality), [Schools & Athletics](https://ninja360.net/work/schools), [Parks & Events](https://ninja360.net/work/parks-events), [Medical & Dental](https://ninja360.net/work/medical-dental), [Wellness & Chiropractic](https://ninja360.net/work/wellness-chiro).
+- [Restaurants](https://ninja360.net/restaurants): flagship — 54th Street Grill, a 15+ location chain across MO & TX.
+- [Real Estate](https://ninja360.net/real-estate): residential & commercial 360 tours.
+- [Automotive](https://ninja360.net/automotive), [Gyms & Fitness](https://ninja360.net/gyms-fitness), [Hotels & Hospitality](https://ninja360.net/hospitality), [Schools & Athletics](https://ninja360.net/schools), [Parks & Events](https://ninja360.net/parks-and-recreation), [Medical & Dental](https://ninja360.net/medical-and-dental), [Wellness & Chiropractic](https://ninja360.net/wellness-and-chiropractic).
 
 ## Offer (Belt System V3, effective 2026-10-22)
 - Free Visibility Audit — every engagement starts here: https://ninja360.net/#section-JXWJCHUYEK
