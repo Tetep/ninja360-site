@@ -34,7 +34,12 @@
 .bio .ph{aspect-ratio:3/4;background:#eef0f3;border:1px solid var(--n-line);border-radius:12px;display:flex;align-items:center;justify-content:center;color:#8a929b;font-size:13px;text-align:center;padding:10px}
 .creds{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}
 .creds span{font-size:12px;font-weight:700;background:var(--n-soft);border:1px solid var(--n-line);border-radius:20px;padding:5px 11px;color:#3b454f}
-@media(max-width:780px){.bio{grid-template-columns:1fr}}
+.hx{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin:24px 0 0;padding:0}
+.hx div{background:var(--n-soft);border:1px solid var(--n-line);border-radius:10px;padding:12px 14px}
+.hx dt{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--n-muted);font-weight:800}
+.hx dd{margin:4px 0 0;font-weight:700;color:var(--n-ink);font-size:15px}
+.hx-nap{margin:18px 0 0;font-size:14px;color:var(--n-muted)}
+@media(max-width:780px){.bio{grid-template-columns:1fr}.hx{grid-template-columns:repeat(2,minmax(0,1fr))}}
 </style>
 
 <!-- NAV -->
@@ -108,6 +113,20 @@
       <p class="n-sub" style="margin-top:12px">A Kansas City native with deep ties to the local business community, Tim started doing Google virtual tours as a hobby. His skill earned him the Google Certified Photographer badge, which turned into local business leads &mdash; and the start of Ninja-360. With formal training in marketing and sales, he helps businesses thrive by building websites, optimizing Google Business Profiles, and managing local listings.</p>
     </div>
   </div>
+</div></section>
+
+<section class="n-section" id="history" style="border-top:1px solid var(--n-line)"><div class="n-wrap">
+  <p class="n-eyebrow">Our History</p>
+  <h2 class="n-h2">Started in Gladstone in 2022.</h2>
+  <p class="n-sub">I started Ninja 360 Digital Media LLC in 2022 in Gladstone, Missouri. I'm James Timothy &ldquo;Tim&rdquo; Petet, the founder, and I'm an FAA Part 107 licensed drone pilot.</p>
+  <p class="n-sub" style="margin-top:12px">Ninja 360 is a local-visibility and immersive media agency. We do 360 photography, drone, Matterport 3D scanning, video production, and digital marketing. Our tagline says what we do: We put you on the M.A.P.</p>
+  <dl class="hx">
+    <div><dt>Founded</dt><dd>2022</dd></div>
+    <div><dt>Based in</dt><dd>Gladstone, MO</dd></div>
+    <div><dt>Founder</dt><dd>James Timothy &ldquo;Tim&rdquo; Petet</dd></div>
+    <div><dt>Licensed</dt><dd>FAA Part 107 drone pilot</dd></div>
+  </dl>
+  <p class="hx-nap">Ninja 360 Digital Media · (844) 360-6465 · https://ninja360.net · 3205 NE 70th Ter, Gladstone, MO 64119</p>
 </div></section>
 
 <section class="n-section" style="background:var(--n-soft)"><div class="n-wrap">

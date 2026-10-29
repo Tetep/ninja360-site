@@ -1,0 +1,87 @@
+{
+  "_readme": "Inputs for the Entity Confidence self-check. The number on the page is COUNTED from the statuses below by seo/build-entity-score.py. Never type the total by hand. 'label' and 'status' are public (rendered on the page). 'evidence' and 'source' stay in this file.",
+  "standard": "AI-Search NAP / Entity Confidence Standard v1.0",
+  "as_of": "2026-10-29",
+  "basis": "Read from documents, not checked live: Business Identity Standard + Platform Punchlist (10/27, corrected 10/28), Citation Tracker (rows dated through 10/21), Master Hub (10/28), FACE live site audit (10/21), crawl-file check (10/27), Ninja-360 site repo (main, 10/29). Re-verify each status in the live profile before publishing.",
+  "statuses": ["done", "progress", "not_started"],
+  "top_conflict": {
+    "public": "The public name still shows with a hyphen (Ninja-360) in places: the website footers and schema, and the Google Business Profile rename is still in review.",
+    "evidence": "16 footer copies in this repo read '© Ninja-360 Digital Media' and 'Kansas City, MO'. Schema name is hyphenated. GBP rename submitted 10/19, still listed as open in the 10/28 hub."
+  },
+  "belts": [
+    {
+      "key": "white", "name": "White Belt", "title": "Get Consistent",
+      "items": [
+        {"id": "W1", "label": "Write the one canonical NAP string", "status": "done",
+         "evidence": "Identity Standard locked 10/27 and corrected 10/28; Citation Tracker NAP block corrected 10/21; llms.txt carries it (PR #11, 10/29). Hub Rule 25 still says 'Terrace'; Tim ruled 'Ter' on 10/29.",
+         "source": "Business Identity Standard; Citation Tracker; repo llms.txt", "as_of": "2026-10-29"},
+        {"id": "W2", "label": "Audit listings for duplicates and NAP conflicts", "status": "progress",
+         "evidence": "Punchlist names the known mismatches. Google duplicate check and the Whitespark audit are not started. The 10/19 wrap says the known-mismatch list is a starting point, not a full inventory.",
+         "source": "Identity Standard; Citation Tracker D1/D2", "as_of": "2026-10-28"},
+        {"id": "W3", "label": "Fix, merge or suppress duplicate and conflicting listings", "status": "not_started",
+         "evidence": "Facebook has two pages (merge is irreversible, deferred). YouTube has two channels (consolidation pending). Apple stray listing unclaimed. Tracker D2 (Google duplicate check) not started.",
+         "source": "Identity Standard; 10/19 wrap; Citation Tracker", "as_of": "2026-10-28"},
+        {"id": "W4", "label": "Claim and align Google Business Profile", "status": "progress",
+         "evidence": "Name and category edits submitted 10/19, in Google review (tracker, 10/21). The 10/28 hub still lists the name hyphen fix as open, so the live name may still carry the hyphen. Address hidden by design (service-area business).",
+         "source": "Citation Tracker row 1; Master Hub 10/28", "as_of": "2026-10-28"},
+        {"id": "W5", "label": "Claim and align Apple Business Connect", "status": "not_started",
+         "evidence": "Stray 'Ninja 360 / Web Designer' listing shows the street address. Claim blocked on two-method verification (DNS TXT added 10/22, unconfirmed).",
+         "source": "Identity Standard; 10/23 wrap; Master Hub 10/28", "as_of": "2026-10-28"},
+        {"id": "W6", "label": "Claim and align Bing Places", "status": "done",
+         "evidence": "Tracker: 'DONE, imported from Google 10/21'. The name on the import was not independently checked, and an import carries whatever Google showed that day.",
+         "source": "Citation Tracker row 4", "as_of": "2026-10-21"},
+        {"id": "W7", "label": "Claim and align Yelp", "status": "progress",
+         "evidence": "One claimed listing (the three-record note was stale). NAP touch-up to the canonical string is still on the hands list.",
+         "source": "10/23 wrap; Citation Tracker D1; Master Hub 10/28", "as_of": "2026-10-28"},
+        {"id": "W8", "label": "Claim and align Facebook", "status": "not_started",
+         "evidence": "Website field points to the retired domain and the phone field is malformed (10/27 punchlist). Two pages exist. Tracker row 8: NOT STARTED.",
+         "source": "Identity Standard; Citation Tracker row 8", "as_of": "2026-10-28"},
+        {"id": "W9", "label": "Complete GBP basics: categories, hours, service area, contact", "status": "progress",
+         "evidence": "Categories submitted 10/19. Service areas (Northland) wait for the name review to clear. Hours are in the tracker NAP block but no confirmation they are live.",
+         "source": "10/19 wrap; Citation Tracker", "as_of": "2026-10-21"}
+      ]
+    },
+    {
+      "key": "brown", "name": "Brown Belt", "title": "Become Machine-Confirmable",
+      "items": [
+        {"id": "B1", "label": "LocalBusiness schema on the site", "status": "progress",
+         "evidence": "Homepage carries ProfessionalService JSON-LD (FACE live audit 10/21) with the hyphenated name. No street address, geo or hours in the schema. Repo source matches.",
+         "source": "FACE wrap 10/21; seo/schema/localbusiness.json", "as_of": "2026-10-21"},
+        {"id": "B2", "label": "Organization schema with a full sameAs array", "status": "progress",
+         "evidence": "sameAs lists five social profiles. GBP, Apple, Bing, Yelp and BBB are not in it. The Facebook URL differs from the page the tracker names.",
+         "source": "FACE wrap 10/21; seo/schema/localbusiness.json; Citation Tracker row 8", "as_of": "2026-10-21"},
+        {"id": "B3", "label": "Validate the schema and the sameAs links", "status": "not_started",
+         "evidence": "No validation recorded. FACE flagged aggregateRating reviewCount=10 against 4 reviews shown on the page (10/21).",
+         "source": "FACE wrap 10/21; 9/28 wrap", "as_of": "2026-10-21"},
+        {"id": "B4", "label": "One clean aggregator push", "status": "not_started",
+         "evidence": "Foursquare, Data Axle and TransUnion are all NOT STARTED in the tracker.",
+         "source": "Citation Tracker rows 5-7", "as_of": "2026-10-21"},
+        {"id": "B5", "label": "Duplicate-suppression sweep", "status": "not_started",
+         "evidence": "No sweep recorded; depends on W3.",
+         "source": "Identity Standard", "as_of": "2026-10-28"},
+        {"id": "B6", "label": "Start corroboration: consistent authoritative mentions", "status": "progress",
+         "evidence": "LinkedIn company page exists with a retired-domain website field. D&B profile update submitted 10/23 (case open). BBB not started.",
+         "source": "Identity Standard; 10/23 wrap; Citation Tracker row 15", "as_of": "2026-10-28"}
+      ]
+    },
+    {
+      "key": "black", "name": "Black Belt", "title": "Own the Answer",
+      "items": [
+        {"id": "K1", "label": "Create or claim a Wikidata entry", "status": "not_started",
+         "evidence": "No entry recorded. The 9/28 wrap treats it as almost certainly not done; nothing newer.",
+         "source": "9/28 wrap", "as_of": "2026-09-28"},
+        {"id": "K2", "label": "Wire the Wikidata Q-ID into sameAs", "status": "not_started",
+         "evidence": "Depends on K1.", "source": "9/28 wrap", "as_of": "2026-09-28"},
+        {"id": "K3", "label": "Model the service-area entity cleanly", "status": "not_started",
+         "evidence": "No record.", "source": "none found", "as_of": "2026-10-29"},
+        {"id": "K4", "label": "Quarterly entity re-audit and monitoring", "status": "not_started",
+         "evidence": "No schedule recorded for Ninja 360 itself.", "source": "none found", "as_of": "2026-10-29"},
+        {"id": "K5", "label": "Advanced corroboration: PR and authoritative mentions", "status": "not_started",
+         "evidence": "No record.", "source": "none found", "as_of": "2026-10-29"},
+        {"id": "K6", "label": "FAQ and Speakable schema", "status": "not_started",
+         "evidence": "FACE recommended FAQPage schema (10/21); not present.",
+         "source": "FACE wrap 10/21", "as_of": "2026-10-21"}
+      ]
+    }
+  ]
+}
