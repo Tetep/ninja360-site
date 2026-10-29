@@ -87,21 +87,41 @@ Files it serves (all from branch `main`):
    github:main/...`. The Worker returns **503** (not an empty 200) when the repo file is
    missing or empty — that's deliberate so a regression is visible, not silent.
 
-### Cloudflare account inventory (2026-10-29, from the Cloudflare session's API read)
+### ROOT CAUSE of the empty-crawl-files regressions (found 2026-10-29)
+**The apex `ninja360.net` was an A record → `162.159.140.166` (GHL's Cloudflare-for-SaaS IP,
+labelled "pointing to a service provider" in the Cloudflare UI).** On that path the request is
+handed to GHL's Cloudflare config *before* this zone's Worker routes fire, so the Worker never
+ran on the apex — only on `www` (CNAME → `sites.ludicrous.cloud`). Proxied/orange was never the
+problem; both records were orange the whole time.
+
+**Fix applied 2026-10-29:** apex converted in place to **CNAME → `sites.ludicrous.cloud`, Proxied**
+(Cloudflare flattens it). Same path as `www`. Homepage unchanged (200, same byte count).
+Rollback value if ever needed: A `ninja360.net` → `162.159.140.166`, Proxied.
+
+**Rule:** the apex must stay a proxied CNAME to `sites.ludicrous.cloud`. If anyone (GHL support,
+a domain wizard, a re-add) puts the A record back, the Worker silently stops on the apex and
+GHL's empty `robots.txt` / 107-byte `sitemap.xml` come back.
+
+### Cloudflare account state (2026-10-29, after the fix)
 | Worker | Routes | Status |
 |---|---|---|
-| `ninja360-llms` | 6 crawl routes on `ninja360.net` + `www` (needs the 2 `/r/cr-2026-07` routes added) | **Live, but running the Jun 28 code** until `cloudflare/ninja360-llms.worker.js` is deployed |
+| `ninja360-llms` | 8 — apex + `www` × `/robots.txt` `/llms.txt` `/sitemap.xml` `/r/cr-2026-07` | **Live on `cloudflare/ninja360-llms.worker.js`**, compat date 2026-10-01. All 8 paths verified 200 + `x-ninja360-source`. |
 | `ninja360-redirect` | `acanorthland.com/*`, `www.acanorthland.com/*` | Live — 302 everything to `northlandaca.com` (ACA Northland client) |
 | `ninja360-events-proxy` | none | Dead. iCal → JSON events feed built for 1894.tours / acanorthland.com. Keep until ACA Northland confirms it's not needed. |
-| `_gh_fetch_helper` | none | Dead **and an open fetch proxy** on its workers.dev URL. Delete. |
+| `_gh_fetch_helper` | — | **Deleted 2026-10-29** (was an open fetch proxy with no routes). |
 
-Zone notes (ninja360.net): apex A → Cloudflare IP (proxied), `www` CNAME → `sites.ludicrous.cloud` (GHL, proxied), `audits.` → Pages, `livesmart.` → Pages, `app.` + `links.` → GHL white-label (DNS-only, correct). Redirect ruleset "ninja360.net slug fixes" exists but was unreadable with the API token — read it in the dashboard. Duplicate `cf2024-1._domainkey` DKIM TXT (split-string + full) — delete one.
+Verified sizes (match the repo files exactly): `robots.txt` 175 B · `llms.txt` 3,885 B ·
+`sitemap.xml` 1,690 B / 17 `<loc>` · `contract-route.html` 196,542 B.
 
-Zone notes (ninja-360.com): apex A → `194.163.46.197` **proxied** — that is a real origin IP, so the 301s in the "default" redirect ruleset are the only thing keeping the dead Wix site from answering. Ruleset was unreadable with the API token; confirm in the dashboard that it covers every row in `data/redirects.csv` (18 rows). `mail.ninja-360.com` CNAME → `ghs.googlehosted.com` is proxied; Google recommends DNS-only for that record — flip to grey.
+Zone notes (ninja360.net): apex **CNAME** → `sites.ludicrous.cloud` (proxied, see root cause), `www` CNAME → same, `audits.` → Pages, `livesmart.` → Pages, `app.` + `links.` → GHL white-label (DNS-only, correct). Redirect ruleset "ninja360.net slug fixes" exists but was unreadable with the API token — read it in the dashboard. Duplicate `cf2024-1._domainkey` DKIM TXT removed 2026-10-29 (kept the Email Routing–managed split record; the manual single-string copy was the duplicate).
+
+Zone notes (ninja-360.com): apex A → `194.163.46.197` **proxied** — that is a real origin IP, so the 301s in the "default" redirect ruleset are the only thing keeping the dead old site from answering. Ruleset was unreadable with the API token; confirm in the dashboard that it covers every row in `data/redirects.csv` (18 rows), then retire the origin box. `mail.ninja-360.com` CNAME → `ghs.googlehosted.com` is proxied; Google recommends DNS-only for that record — flip to grey.
 
 ### Regression checklist — "robots/llms/sitemap come back empty" (seen Jul 2026, Oct 2026)
 Work top to bottom; stop at the first thing that's wrong.
-- [ ] DNS: apex + www both Proxied (orange)? If grey → flip, purge, re-test.
+- [ ] **DNS: is the apex a CNAME → `sites.ludicrous.cloud`?** An A record to a `162.159.x.x` IP
+      bypasses the Worker on the apex even when orange (root cause, above). `www` must be the
+      same CNAME. Both proxied.
 - [ ] Worker routes: all six present and pointing at `ninja360-llms`? (Routes silently drop when
       the zone or Worker is recreated.)
 - [ ] Worker code is the current `cloudflare/ninja360-llms.worker.js` — check **Last modified** on the
