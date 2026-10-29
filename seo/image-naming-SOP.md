@@ -15,9 +15,9 @@ Examples:
 NEVER: `IMG_4821.jpg`, `final_v2.png`, `DJI_0099.JPG`
 
 ## Alt text formula
-`{Business} {what} in {City} - Ninja-360`
-- "54th Street Grill 360 virtual tour interior in Olathe, KS - Ninja-360"
-- "Aerial drone photo of 54th Street Grill in Zona Rosa, Kansas City - Ninja-360"
+`{Business} {what} in {City} - Ninja 360`
+- "54th Street Grill 360 virtual tour interior in Olathe, KS - Ninja 360"
+- "Aerial drone photo of 54th Street Grill in Zona Rosa, Kansas City - Ninja 360"
 
 ## Technical
 - Format: WebP. Target < 200 KB (hero < 350 KB).
