@@ -25,7 +25,7 @@ GoHighLevel Website Builder, which hosts the live site.
 - `/assets/img-src` - originals pulled from ninja-360.com
 - `/data/portfolio.json` - ALL work as structured data (drives the work cards)
 - `/data/redirects.csv` - old URL -> new URL -> 301
-- `/seo/sitemap.xml` - planning master (mirror of the live GHL sitemap)
+- `/seo/sitemap.xml` - **served live** at ninja360.net/sitemap.xml via the Cloudflare Worker. Industry pages live at the root (`/restaurants`, `/medical-and-dental`, `/wellness-and-chiropractic`, `/parks-and-recreation`, ...), not `/work/<x>`.
 - `/seo/image-naming-SOP.md` - image rename + alt-text rules
 - `/seo/schema/` - JSON-LD templates
 
