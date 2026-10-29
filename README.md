@@ -24,7 +24,7 @@ GoHighLevel Website Builder, which hosts the live site.
 - `/assets/img` - optimized WebP (named per `/seo/image-naming-SOP.md`)
 - `/assets/img-src` - originals pulled from ninja-360.com
 - `/data/portfolio.json` - ALL work as structured data (drives the work cards)
-- `/data/redirects.csv` - old URL -> new URL -> 301
+- `/data/redirects.csv` - old URL -> new URL -> 301 (ninja-360.com + ninja360.co only; **ninja360.org is intentionally NOT redirected** — it hosts the internal "Ninja-360 Run Sheet")
 - `/seo/sitemap.xml` - **served live** at ninja360.net/sitemap.xml via the Cloudflare Worker. Industry pages live at the root (`/restaurants`, `/medical-and-dental`, `/wellness-and-chiropractic`, `/parks-and-recreation`, ...), not `/work/<x>`.
 - `/seo/image-naming-SOP.md` - image rename + alt-text rules
 - `/seo/schema/` - JSON-LD templates
