@@ -77,7 +77,9 @@ Files it serves (all from branch `main`):
 2. Worker → **Settings → Triggers → Routes** — bind **six** crawl routes (apex and www for each):
    `ninja360.net/robots.txt` · `www.ninja360.net/robots.txt` · `ninja360.net/llms.txt` ·
    `www.ninja360.net/llms.txt` · `ninja360.net/sitemap.xml` · `www.ninja360.net/sitemap.xml`
-   — plus the existing `ninja360.net/r/cr-2026-07` route; don't remove it.
+   — **plus two more for the contract route book** (never existed; the Jul 2026 handler was
+   unreachable until these are added): `ninja360.net/r/cr-2026-07` · `www.ninja360.net/r/cr-2026-07`.
+   **Eight routes total.** Set **Compatibility date** on the Worker (Settings → Runtime) — it was blank.
 3. **DNS → Records:** apex `ninja360.net` and `www` must both be **Proxied (orange cloud)**.
    Grey/DNS-only = the Worker never runs and GHL's own empty files win.
 4. **Caching → Purge Cache → Purge Everything.**
@@ -85,13 +87,26 @@ Files it serves (all from branch `main`):
    github:main/...`. The Worker returns **503** (not an empty 200) when the repo file is
    missing or empty — that's deliberate so a regression is visible, not silent.
 
+### Cloudflare account inventory (2026-10-29, from the Cloudflare session's API read)
+| Worker | Routes | Status |
+|---|---|---|
+| `ninja360-llms` | 6 crawl routes on `ninja360.net` + `www` (needs the 2 `/r/cr-2026-07` routes added) | **Live, but running the Jun 28 code** until `cloudflare/ninja360-llms.worker.js` is deployed |
+| `ninja360-redirect` | `acanorthland.com/*`, `www.acanorthland.com/*` | Live — 302 everything to `northlandaca.com` (ACA Northland client) |
+| `ninja360-events-proxy` | none | Dead. iCal → JSON events feed built for 1894.tours / acanorthland.com. Keep until ACA Northland confirms it's not needed. |
+| `_gh_fetch_helper` | none | Dead **and an open fetch proxy** on its workers.dev URL. Delete. |
+
+Zone notes (ninja360.net): apex A → Cloudflare IP (proxied), `www` CNAME → `sites.ludicrous.cloud` (GHL, proxied), `audits.` → Pages, `livesmart.` → Pages, `app.` + `links.` → GHL white-label (DNS-only, correct). Redirect ruleset "ninja360.net slug fixes" exists but was unreadable with the API token — read it in the dashboard. Duplicate `cf2024-1._domainkey` DKIM TXT (split-string + full) — delete one.
+
+Zone notes (ninja-360.com): apex A → `194.163.46.197` **proxied** — that is a real origin IP, so the 301s in the "default" redirect ruleset are the only thing keeping the dead Wix site from answering. Ruleset was unreadable with the API token; confirm in the dashboard that it covers every row in `data/redirects.csv` (18 rows). `mail.ninja-360.com` CNAME → `ghs.googlehosted.com` is proxied; Google recommends DNS-only for that record — flip to grey.
+
 ### Regression checklist — "robots/llms/sitemap come back empty" (seen Jul 2026, Oct 2026)
 Work top to bottom; stop at the first thing that's wrong.
 - [ ] DNS: apex + www both Proxied (orange)? If grey → flip, purge, re-test.
 - [ ] Worker routes: all six present and pointing at `ninja360-llms`? (Routes silently drop when
       the zone or Worker is recreated.)
-- [ ] Worker code is the current `cloudflare/ninja360-llms.worker.js` (older version only handled
-      `/llms.txt`, so robots + sitemap fell through to GHL = empty).
+- [ ] Worker code is the current `cloudflare/ninja360-llms.worker.js` — check **Last modified** on the
+      Worker; if it predates the repo file, it was never deployed. (Oct 29: still the Jun 28 build,
+      which only handled `/llms.txt`, so robots + sitemap fell through to GHL = empty.)
 - [ ] Repo file exists **on `main`** and is non-empty (`robots.txt` was missing from the repo
       entirely until 2026-10-26).
 - [ ] Purge cache, then `curl -sI https://ninja360.net/sitemap.xml` → look for `x-ninja360-source`.
