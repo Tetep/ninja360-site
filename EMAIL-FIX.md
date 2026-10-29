@@ -18,8 +18,9 @@ only live job now is **Google Workspace email**. The website is the separate `ni
 | MX ×5 | `@` | `ASPMX.L.GOOGLE.COM` (1), `ALT1`/`ALT2` (5), `ALT3`/`ALT4` (10) | ✅ |
 | SPF (TXT) | `@` | `v=spf1 include:_spf.google.com ~all` | ✅ |
 | DKIM (TXT) | `google._domainkey` | `v=DKIM1; k=rsa; p=…` (2048-bit, DNS-only) | ✅ Authenticating |
-| DMARC (TXT) | `_dmarc` | `v=DMARC1; p=none; rua=mailto:postmaster@ninja-360.com` | ✅ |
+| DMARC (TXT) | `_dmarc` | `v=DMARC1; p=none; rua=mailto:dmarc@ninja-360.com; pct=100; adkim=s; aspf=s` (live value 2026-10-29; strict alignment already set) | ✅ |
 | Cloudflare Email Routing | — | Disabled (so Google MX is authoritative) | ✅ correct |
+| `mail` CNAME | `mail` | `ghs.googlehosted.com` — currently **proxied**; should be DNS-only | ⚠️ flip to grey |
 
 Open follow-up (non-urgent): once DKIM passes in the wild for a week or two, tighten DMARC
 from `p=none` → `p=quarantine`.
