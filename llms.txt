@@ -1,27 +1,36 @@
-# Ninja-360 Digital Media
+# Ninja 360 Digital Media
 
-> Ninja-360 is a Kansas City local-visibility system. We help local businesses get
-> found and chosen on Google with professional media (drone photography, 360 virtual
-> tours, Matterport, video) and ongoing Google Business Profile optimization. Our
-> method is the M.A.P. System: Make (capture the right visuals), Amplify (publish to
-> Google), Promote (keep you visible). Founded and run by Tim Petet, a Google
-> Certified Photographer based in Kansas City.
+> Ninja 360 Digital Media is a Kansas City Northland local-visibility system. We help
+> local businesses get found and chosen on Google with professional media (drone
+> photography and video, Google 360 virtual tours, Matterport, product video) and
+> ongoing Google Business Profile optimization. Our method is the M.A.P. System:
+> Make (capture the right visuals), Amplify (publish to Google), Promote (keep you
+> visible). Tagline: "We put you on the M.A.P." Founded and run by Tim Petet, a Google
+> Certified Photographer and FAA Part 107 drone pilot based in Gladstone, Missouri.
 
-## Key facts
-- Business: Ninja-360 Digital Media (local visibility / local SEO studio)
-- Founder: Tim Petet, Google Certified Photographer
-- Service area: Kansas City metro (Missouri & Kansas)
+## Business identity (canonical NAP — matches every listing)
+- Public name: Ninja 360 Digital Media
+- Legal entity: NINJA-360 DIGITAL MEDIA LLC
+- Address: 3205 NE 70th Terrace, Gladstone, MO 64119 (service-area business; by appointment)
 - Phone: (844) 360-6465
-- Site: https://ninja360.net
-- Positioning: a local VISIBILITY system, not a "virtual tour company." Tours, drone,
+- Email: info@ninja360.net
+- Website: https://ninja360.net
+- Social handle: @ninja360net
+- Primary category: Drone service (drone photography)
+- Secondary categories: Virtual tours, Commercial photographer, Digital marketing agency
+- Founder: Tim Petet, Google Certified Photographer, FAA Part 107
+- Service area: Gladstone, Liberty, North Kansas City, Parkville, Smithville, Kearney,
+  and Kansas City, Missouri (Northland first; greater Kansas City metro by arrangement)
+- Positioning: a local VISIBILITY system, not a "virtual tour company." Drone, tours,
   and video are the proof; the product is getting local businesses found and chosen.
+- No paid ads, no social-media management. Google-first.
 
 ## Core pages
 - [Home](https://ninja360.net/): the problem (invisible on Google) and the M.A.P. fix.
 - [How It Works](https://ninja360.net/how-it-works): the M.A.P. System explained — Make, Amplify, Promote.
-- [Pricing](https://ninja360.net/pricing): three plans — White Belt $99/mo, Brown Belt $499/mo, Black Belt $999/mo.
+- [Pricing](https://ninja360.net/pricing): the Belt System (see Offer below).
 - [Services](https://ninja360.net/services): drone, Google & custom 360 tours, Matterport, photo/video, GBP optimization, local listings.
-- [About](https://ninja360.net/about): founder Tim Petet — Google Certified Photographer; why Ninja-360 exists.
+- [About](https://ninja360.net/about): founder Tim Petet — Google Certified Photographer; why Ninja 360 exists.
 - [Our Work](https://ninja360.net/work): portfolio by industry.
 
 ## Work by industry
@@ -29,11 +38,19 @@
 - [Real Estate](https://ninja360.net/work/real-estate): residential & commercial 360 tours.
 - [Automotive](https://ninja360.net/work/automotive), [Gyms & Fitness](https://ninja360.net/work/gyms-fitness), [Hotels & Hospitality](https://ninja360.net/work/hospitality), [Schools & Athletics](https://ninja360.net/work/schools), [Parks & Events](https://ninja360.net/work/parks-events), [Medical & Dental](https://ninja360.net/work/medical-dental), [Wellness & Chiropractic](https://ninja360.net/work/wellness-chiro).
 
-## Offer
-- Free Visibility Audit (30 seconds): https://ninja360.net/#section-JXWJCHUYEK — every engagement starts here.
+## Offer (Belt System V3, effective 2026-10-22)
+- Free Visibility Audit — every engagement starts here: https://ninja360.net/#section-JXWJCHUYEK
+- White Belt "Get on the map": $300 build (one shoot + Google 360 tour + GBP optimization + an
+  "Inside" page on ninja360.net), then $99/month for 6 months of listing upkeep.
+- Brown Belt "Get chosen": $1,000 build (adds custom Kuula tour, product video, citations, and
+  missed-call text-back / review requests / booking via GoHighLevel), then $299/month for 12 months.
+- Black Belt "Facilities Ninja": Matterport digital twins and asset capture for multi-site and
+  facilities clients. By invitation; custom scope.
+- Add-ons: cinematic shots, drone video packs, FPV, seasonal refresh shoots.
 
 ## Contact
 - Phone: (844) 360-6465
+- Email: info@ninja360.net
 - YouTube: https://www.youtube.com/@ninja360vr
 - Facebook: https://www.facebook.com/KCNinja360
 - Instagram: https://www.instagram.com/kcninja360/

@@ -36,6 +36,10 @@ GoHighLevel Website Builder, which hosts the live site.
 - One H1 per page. Every image alt-tagged. WebP < 200KB.
 
 ## Brand / NAP (use everywhere - pick ONE of each)
-- Phone: **(844) 360-6465**
+Locked card: Drive `Ninja-360 — Business Identity Standard + Platform Punchlist` (FACE, 2026-10-27).
+- Public name: **Ninja 360 Digital Media** (no hyphen). Legal entity only: NINJA-360 DIGITAL MEDIA LLC.
+- Address: **3205 NE 70th Terrace, Gladstone, MO 64119** (service-area business; hidden on GBP, present in schema/footer/citations)
+- Phone: **(844) 360-6465** · Email: **info@ninja360.net** · Handle: **@ninja360net**
 - Site: **ninja360.net**
+- Listing category: primary **Drone service**; secondary Virtual tours / Commercial photographer / Digital marketing agency
 - Positioning: local **visibility** system - "get found and chosen on Google." NOT "virtual tour company."
