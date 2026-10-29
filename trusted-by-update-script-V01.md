@@ -4,6 +4,8 @@ Deploy doc for the ninja360.net "Trusted By" scroll strip. Pairs with [client-lo
 
 Goal: take the strip from **5 logos** to **12 logos**, all normalized to the same white-monochrome treatment, all served from a single host.
 
+**Page position (2026-10-23):** the strip sits **directly above the Reviews section** on Home (it used to sit below it). Sub-line copy changed from "The businesses that put their brand in our hands." to **"Kansas City businesses we work with."** — the old line made Ninja-360 the hero; StoryBrand rule is customer = hero. The Reviews section headline was cut to the single word "Reviews" at the same time (see `pages/home.html`).
+
 ---
 
 ## Step-by-step directions
@@ -98,7 +100,7 @@ The `<img>` list inside `tb-track` is duplicated once (entries 1–12 then 1–1
 </style>
 <section class="tb" aria-label="Trusted by">
   <h2 class="tb-h">Trusted <span class="o">By</span></h2>
-  <p class="tb-sub">The businesses that put their brand in our hands.</p>
+  <p class="tb-sub">Kansas City businesses we work with.</p>
   <div class="tb-mask">
     <div class="tb-track">
       <img src="{{URL_1_HOMEDEPOT}}" alt="The Home Depot">
@@ -189,4 +191,4 @@ If anything looks wrong post-deploy, restore the original strip by pasting back 
 - Add `loading="lazy"` to all `<img>` (12 imgs × 2 = 24 — minor weight, no rush).
 - Swap PNGs to SVGs once you confirm Canva can export clean monochrome SVG paths — better at all sizes, smaller files.
 - Click-through: wrap each `<img>` in an `<a>` to the client's site if you want the strip to drive outbound traffic (only if the clients are okay with it).
-- Caption microcopy A/B: *"The businesses that put their brand in our hands."* vs. *"Trusted across Kansas City and beyond."* — current copy is good; flag for later.
+- Caption microcopy A/B: *"Kansas City businesses we work with."* (current, 2026-10-23) vs. *"Trusted across Kansas City and beyond."* — flag for later.

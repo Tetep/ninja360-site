@@ -35,6 +35,8 @@ Drive, not this repo):
 
 ## Where knowledge lives (read these, don't re-derive)
 - `README.md` — master index: the three systems, folder map, workflow, brand/NAP rules.
+- `BELT-SYSTEM-V3.md` — offer sheet, SOWs, GHL build spec, contract terms (mirror of the Drive
+  canonical pack; Drive wins if they differ).
 - `GO-LIVE.md` — publish runbook (GHL pages, Cloudflare Worker for `llms.txt`, 301s).
 - `EMAIL-FIX.md` — Google Workspace email DNS for `ninja-360.com` (MX/SPF/DKIM/DMARC) +
   current verified DNS state.
@@ -53,10 +55,12 @@ Drive, not this repo):
 - **Strategy spine (from Drive `000 - MASTER INDEX`):** **M.A.P. System** (Make → Amplify →
   Promote) · micro-niche = **local visibility in Kansas City** (not marketing / SEO /
   photography / drone / virtual-tours) · markets: primary **restaurants & cafés**, secondary
-  dental/chiro/wellness, white-whale multi-location chains · product ladder: **Free Visibility
-  Audit → White Belt (6-mo) → Brown Belt (12-mo) → Black Belt (18-mo) → Chain/Enterprise**
-  (confirm live pricing before quoting) · frameworks: **KPI 5 Ps + StoryBrand SB7** (customer =
-  hero, Ninja-360 = guide).
+  dental/chiro/wellness, white-whale multi-location chains · product ladder (**Belt System V3**,
+  canonical 2026-10-22 — see `BELT-SYSTEM-V3.md`): **Free Visibility Audit → White Belt
+  ($300 build · $99/mo · 6-mo) → Brown Belt ($1,000 build · $299/mo · 12-mo) → Black Belt
+  "Facilities Ninja" (by invitation only, custom SOW, not sold off the page)**. No
+  Chain/Enterprise tier. **No paid ads, no social management** (Rule 48). Frameworks: **KPI 5 Ps
+  + StoryBrand SB7** (customer = hero, Ninja-360 = guide).
 
 ## Rules
 - Nothing in this repo is live; pages are pasted into GoHighLevel to publish.
