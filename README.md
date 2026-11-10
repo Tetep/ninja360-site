@@ -41,5 +41,7 @@ Locked card: Drive `Ninja-360 — Business Identity Standard + Platform Punchlis
 - Address: **3205 NE 70th Ter, Gladstone, MO 64119** (service-area business; hidden on GBP, present in schema/footer/citations)
 - Phone: **(844) 360-6465** · Email: **info@ninja360.net** · Handle: **@ninja360net**
 - Site: **ninja360.net**
+- Phone rule: dialable = **1-844-360-6465**; "360-NINJA" is mnemonic-only, never "Call 844-360-NINJA".
+- Brand orange **#FF6A00** (charcoal #31343B). `styles/ninja360.css` + page CSS still use #FF8D2D — drift, fix to #FF6A00.
 - Listing category: primary **Drone service**; secondary Aerial photographer / Video production service / Photographer / Marketing agency / Internet marketing service (10/19 decision; the 10/27 card drifted — Ter not Terrace, no Commercial photographer)
 - Positioning: local **visibility** system - "get found and chosen on Google." NOT "virtual tour company."
