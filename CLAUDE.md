@@ -49,9 +49,17 @@ Drive, not this repo):
   = the **live website** (GoHighLevel-hosted, fronted by Cloudflare).
 - **Three systems:** GitHub (this repo) · GoHighLevel (hosts the site + funnel) · Cloudflare
   (DNS, 301s, caching, email DNS).
-- **Brand/NAP — pick ONE of each:** Phone **(844) 360-6465** · Site **ninja360.net** ·
+- **Brand/NAP — pick ONE of each:** Public name **Ninja 360 Digital Media** (no hyphen; legal
+  entity only is NINJA-360 DIGITAL MEDIA LLC) · Phone **(844) 360-6465** · Site **ninja360.net** ·
   Positioning: local **visibility** system ("get found and chosen on Google"), NOT a
   "virtual tour company."
+- **Phone rule (Identity Standard, 2026-11-10):** anything a customer can tap or dial shows
+  **1-844-360-6465**. "360-NINJA" is a spoken/sung mnemonic only — N-I-N-J-A is five letters, a
+  keypad takes four, so "Call 844-360-NINJA" mis-dials. Never put "Call" in front of 360-NINJA.
+- **Brand orange is `#FF6A00`** — one hex everywhere (charcoal `#31343B`). The website CSS still
+  carries `#FF8D2D` (`--n-red`) and the embroidery SVGs `#FC7202`; both are drift to be fixed to
+  `#FF6A00`, not a second palette. Logo kit = Drive `Ninja-360 — Brand Assets` (5 PNGs, opaque
+  white, 700×360 — not overlay-ready); true vector = the `N360_Patch_*.svg` files.
 - **Strategy spine (from Drive `000 - MASTER INDEX`):** **M.A.P. System** (Make → Amplify →
   Promote) · micro-niche = **local visibility in Kansas City** (not marketing / SEO /
   photography / drone / virtual-tours) · markets: primary **restaurants & cafés**, secondary
