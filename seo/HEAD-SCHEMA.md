@@ -16,9 +16,9 @@ hold multiple blocks. VideoObject blocks already live in services/about/work-res
   "description":"Kansas City local-visibility studio. We help local businesses get found and chosen on Google with drone, 360 virtual tours, Matterport, video, and Google Business Profile optimization.",
   "url":"https://ninja360.net",
   "telephone":"+1-844-360-6465",
-  "areaServed":"Kansas City metro (MO/KS)",
+  "areaServed":[{"@type":"City","name":"Gladstone, MO"},{"@type":"Place","name":"Kansas City metro (MO/KS)"}],
   "priceRange":"$99–$999/mo",
-  "address":{"@type":"PostalAddress","streetAddress":"3205 NE 70th Ter","addressLocality":"Gladstone","addressRegion":"MO","postalCode":"64119","addressCountry":"US"},
+  "address":{"@type":"PostalAddress","addressLocality":"Gladstone","addressRegion":"MO","addressCountry":"US"},
   "founder":{"@type":"Person","name":"Tim Petet"},
   "sameAs":["https://www.youtube.com/@ninja360vr","https://www.facebook.com/KCNinja360","https://www.instagram.com/kcninja360/","https://www.linkedin.com/company/ninja360/","https://www.tiktok.com/@ninja360digitalma"]
 }
