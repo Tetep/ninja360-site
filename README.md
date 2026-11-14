@@ -38,7 +38,7 @@ GoHighLevel Website Builder, which hosts the live site.
 ## Brand / NAP (use everywhere - pick ONE of each)
 Locked card: Drive `Ninja-360 — Business Identity Standard + Platform Punchlist` (FACE, 2026-10-27).
 - Public name: **Ninja 360 Digital Media** (no hyphen). Legal entity only: NINJA-360 DIGITAL MEDIA LLC.
-- Address: **3205 NE 70th Ter, Gladstone, MO 64119** (service-area business; hidden on GBP, present in schema/footer/citations)
+- Location: **Gladstone, MO** — service-area business (Option B, 2026-11-14): city/state only on every public surface (footer, schema, `/about`, `llms.txt`); no street address, no ZIP.
 - Phone: **(844) 360-6465** · Email: **info@ninja360.net** · Handle: **@ninja360net**
 - Site: **ninja360.net**
 - Phone rule: dialable = **1-844-360-6465**; "360-NINJA" is mnemonic-only, never "Call 844-360-NINJA".

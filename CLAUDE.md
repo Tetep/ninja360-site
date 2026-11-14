@@ -56,12 +56,12 @@ Drive, not this repo):
 - **Phone rule (Identity Standard, 2026-11-10):** anything a customer can tap or dial shows
   **1-844-360-6465**. "360-NINJA" is a spoken/sung mnemonic only — N-I-N-J-A is five letters, a
   keypad takes four, so "Call 844-360-NINJA" mis-dials. Never put "Call" in front of 360-NINJA.
-- **ADDRESS HOLD (Tim, 2026-11-13):** until the 3205 inventory is reviewed and an address
-  policy is decided, **no new asset, page, draft, schema, or listing gets `3205 NE 70th Ter`.**
-  If a field requires an address, leave it blank and flag it. The address already appears in
-  every page footer, the JSON-LD, `/about`, `llms.txt`, README and BELT-SYSTEM-V3 — leave those
-  as they are until the decision; don't add more. Inventory + open decision: Drive `_Inbox` →
-  `2026-11-13 — 3205 ADDRESS INVENTORY` (BUILD → Murdoch + FACE).
+- **ADDRESS POLICY — Option B, service-area posture (Tim, decided 2026-11-14; replaces the
+  11/13 hold):** public surfaces carry **Gladstone, MO** only — never a street address or ZIP.
+  Footer, `/about` NAP, `llms.txt` and README say "Gladstone, MO"; JSON-LD keeps a PostalAddress
+  with locality/region/country only and lists `areaServed` (Gladstone, MO + Kansas City metro).
+  If a field truly requires a street (legal / third-party records), flag it to Tim — don't fill
+  it here. Inventory: Drive `_Inbox` → `2026-11-13 — 3205 ADDRESS INVENTORY`.
 - **Brand orange is `#FF6A00`** — one hex everywhere (charcoal `#31343B`). The website CSS still
   carries `#FF8D2D` (`--n-red`) and the embroidery SVGs `#FC7202`; both are drift to be fixed to
   `#FF6A00`, not a second palette. Logo kit = Drive `Ninja-360 — Brand Assets` (5 PNGs, opaque
