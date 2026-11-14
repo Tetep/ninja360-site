@@ -11,7 +11,7 @@
 ## Business identity (canonical NAP — matches every listing)
 - Public name: Ninja 360 Digital Media
 - Legal entity: NINJA-360 DIGITAL MEDIA LLC
-- Address: 3205 NE 70th Ter, Gladstone, MO 64119 (service-area business; by appointment)
+- Location: Gladstone, MO (service-area business serving the Kansas City metro; by appointment)
 - Phone: (844) 360-6465
 - Email: info@ninja360.net
 - Website: https://ninja360.net
