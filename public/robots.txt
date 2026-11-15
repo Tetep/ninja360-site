@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# AI crawlers welcome (own-the-answer goal)
+User-agent: GPTBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://ninja360.net/sitemap-index.xml

@@ -1,0 +1,38 @@
+---
+import '../styles/tokens.css';
+import { BUSINESS } from '../consts.ts';
+const { title, description, path = '' } = Astro.props;
+const canonical = new URL(path, Astro.site).href;
+const org = {
+  "@context":"https://schema.org","@type":"Organization",
+  "name": BUSINESS.name, "legalName": BUSINESS.legalName, "url": BUSINESS.url,
+  "telephone": BUSINESS.phoneDial, "email": BUSINESS.email, "sameAs": BUSINESS.sameAs
+};
+const local = {
+  "@context":"https://schema.org","@type":"LocalBusiness",
+  "name": BUSINESS.name, "url": BUSINESS.url, "telephone": BUSINESS.phoneDial,
+  "areaServed": BUSINESS.areaServed,           // Option B: areaServed, NOT PostalAddress street
+  "openingHours": "Mo-Fr 09:00-17:00"
+};
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title} | {BUSINESS.name}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonical} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:site_name" content={BUSINESS.name} />
+  <meta property="og:url" content={canonical} />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Poppins:wght@400;500;600;700&family=Alfa+Slab+One&display=swap" rel="stylesheet" />
+  <script type="application/ld+json" set:html={JSON.stringify(org)} />
+  <script type="application/ld+json" set:html={JSON.stringify(local)} />
+</head>
+<body>
+  <slot />
+</body>
+</html>

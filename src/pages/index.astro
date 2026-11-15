@@ -1,0 +1,16 @@
+---
+import Base from '../layouts/Base.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import { BUSINESS } from '../consts.ts';
+---
+<Base title="Local Business Visibility in Kansas City" description="Ninja 360 Digital Media puts Kansas City businesses on the map with 360 virtual tours, drone photography, and local visibility. We put you on the M.A.P." path="/">
+  <header style="padding:18px;text-align:center">
+    <a class="cta" href={`tel:${BUSINESS.phoneDial}`}>{BUSINESS.phoneDisplay}</a>
+  </header>
+  <main style="max-width:760px;margin:0 auto;padding:40px 18px;text-align:center">
+    <h1 style="color:var(--charcoal)">We put you on the M.A.P.</h1>
+    <p>Phase 0 scaffold is live. Shell + SEO spine come next in Phase 1.</p>
+    <a class="cta" href="/free-audit">Get your free visibility audit</a>
+  </main>
+  <SiteFooter />
+</Base>

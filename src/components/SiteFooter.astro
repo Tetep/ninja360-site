@@ -1,0 +1,9 @@
+---
+import { BUSINESS } from '../consts.ts';
+---
+<footer style="background:var(--charcoal);color:#fff;padding:28px 18px;text-align:center;font-size:13px">
+  <strong>{BUSINESS.name}</strong> &middot; {BUSINESS.cityState}<br/>
+  <a href={`tel:${BUSINESS.phoneDial}`} style="color:#FF6A00">{BUSINESS.phoneDisplay}</a> &middot;
+  <a href={BUSINESS.url} style="color:#FF6A00">ninja360.net</a><br/>
+  <em>{BUSINESS.tagline}</em>
+</footer>
