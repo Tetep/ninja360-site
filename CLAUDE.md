@@ -53,9 +53,11 @@ Drive, not this repo):
   entity only is NINJA-360 DIGITAL MEDIA LLC) · Phone **(844) 360-6465** · Site **ninja360.net** ·
   Positioning: local **visibility** system ("get found and chosen on Google"), NOT a
   "virtual tour company."
-- **Phone rule (Identity Standard, 2026-11-10):** anything a customer can tap or dial shows
-  **1-844-360-6465**. "360-NINJA" is a spoken/sung mnemonic only — N-I-N-J-A is five letters, a
-  keypad takes four, so "Call 844-360-NINJA" mis-dials. Never put "Call" in front of 360-NINJA.
+- **Phone:** On anything tappable or machine-read (`tel:` links, schema `telephone`), the destination
+  must be `+18443606465` (1-844-360-6465). The visible label may use the vanity form
+  “Call 844-360-NINJA” — it dials correctly like 1-800-MATTRESS (the switch routes on the first 10
+  digits and drops the extra letter). Advertising and on-screen copy use 844-360-NINJA freely; only
+  the underlying `href`/schema value must be the bare digits.
 - **ADDRESS HOLD (Tim, 2026-11-13):** until the 3205 inventory is reviewed and an address
   policy is decided, **no new asset, page, draft, schema, or listing gets `3205 NE 70th Ter`.**
   If a field requires an address, leave it blank and flag it. The address already appears in
