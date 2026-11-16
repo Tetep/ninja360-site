@@ -38,10 +38,10 @@ GoHighLevel Website Builder, which hosts the live site.
 ## Brand / NAP (use everywhere - pick ONE of each)
 Locked card: Drive `Ninja-360 — Business Identity Standard + Platform Punchlist` (FACE, 2026-10-27).
 - Public name: **Ninja 360 Digital Media** (no hyphen). Legal entity only: NINJA-360 DIGITAL MEDIA LLC.
-- Address: **3205 NE 70th Ter, Gladstone, MO 64119** (service-area business; hidden on GBP, present in schema/footer/citations)
-- Phone: **(844) 360-6465** · Email: **info@ninja360.net** · Handle: **@ninja360net**
+- Address (Option B, 2026-11-15): public surfaces show **Gladstone, MO** only — no street, no ZIP; schema uses areaServed. Street (3205 NE 70th Ter, Gladstone, MO 64119) stays on legal/private records only.
+- - Phone: **(844) 360-6465** · Email: **info@ninja360.net** · Handle: **@ninja360net**
 - Site: **ninja360.net**
-- Phone rule: dialable = **1-844-360-6465**; "360-NINJA" is mnemonic-only, never "Call 844-360-NINJA".
-- Brand orange **#FF6A00** (charcoal #31343B). `styles/ninja360.css` + page CSS still use #FF8D2D — drift, fix to #FF6A00.
-- Listing category: primary **Drone service**; secondary Aerial photographer / Video production service / Photographer / Marketing agency / Internet marketing service (10/19 decision; the 10/27 card drifted — Ter not Terrace, no Commercial photographer)
+- Phone rule (corrected 2026-11-15): advertising uses the vanity **Call 844-360-NINJA** (it dials correctly like 1-800-MATTRESS — the switch routes on the first 10 digits and drops the extra letter). Only tappable/machine-read surfaces (tel: links, schema telephone) use the bare digits **1-844-360-6465**.
+- - Brand orange **#FF6A00** (charcoal #31343B). `styles/ninja360.css` + page CSS still use #FF8D2D — drift, fix to #FF6A00.
+  - - Listing category: primary **Drone service**; secondary Aerial photographer / Video production service / Photographer / Marketing agency / Internet marketing service (10/19 decision; the 10/27 card drifted — Ter not Terrace, no Commercial photographer)
 - Positioning: local **visibility** system - "get found and chosen on Google." NOT "virtual tour company."
