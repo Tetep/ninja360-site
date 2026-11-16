@@ -53,7 +53,7 @@ Drive, not this repo):
   entity only is NINJA-360 DIGITAL MEDIA LLC) · Phone **(844) 360-6465** · Site **ninja360.net** ·
   Positioning: local **visibility** system ("get found and chosen on Google"), NOT a
   "virtual tour company."
-- **Phone:** On anything tappable or machine-read (`tel:` links, schema `telephone`), the destination
+- **Phone (corrected 2026-11-15):** On anything tappable or machine-read (`tel:` links, schema `telephone`), the destination
   must be `+18443606465` (1-844-360-6465). The visible label may use the vanity form
   “Call 844-360-NINJA” — it dials correctly like 1-800-MATTRESS (the switch routes on the first 10
   digits and drops the extra letter). Advertising and on-screen copy use 844-360-NINJA freely; only
