@@ -111,3 +111,43 @@ Google says site name and favicon changes can take days to a few weeks after the
 
 **Done when:** a search for "ninja 360 digital media" shows the ninja mark, the site name
 "Ninja 360 Digital Media" and the new snippet. Log a one-line wrap note in `_Inbox`.
+
+## Ticket log
+
+- **2026-11-16, LinkedIn: verified correct, no change made.** Tim checked the live company Page:
+  - Name "Ninja 360 Digital Media"
+  - Website https://ninja360.net
+  - Location Gladstone, MO (HQ)
+  - Tagline, description, logo and industry untouched.
+
+  So the "Ninja-360 … founded 2015" in Google's AI summary is **not** coming from the current
+  LinkedIn Page. It's a stale cached copy or another source. Don't attribute the hyphen to
+  LinkedIn.
+- **2026-11-16, GBP category change: ON HOLD** per Tim. BUILD does not touch GBP.
+
+### Other live sources still saying "Ninja-360" (read-only scan, 2026-11-16, not changed)
+
+1. **The live site body.** This is the biggest source Google can see. Hyphen counts in the
+   rendered HTML, all 17 sitemap pages:
+   - 52 on /about, 29 on /how-it-works, 28 on the homepage, 28 on /services
+   - every other page has 3–26
+   - The repo's page sources are already clean, so GHL is running older pasted copy.
+     Re-pasting the current `pages/*.html` fixes the visible copy.
+2. **The live JSON-LD names the entity "Ninja-360 Digital Media".** The homepage's
+   ProfessionalService block (`#org`) still has the hyphen. That is the name Google's
+   knowledge graph and AI summary read. Re-paste the site-wide block from `seo/HEAD-SCHEMA.md`
+   (it says "Ninja 360 Digital Media"). **This fix matters as much as the title.**
+3. **aria-labels and alt text in the GHL code blocks**, e.g. "Ninja-360 home", "Brands
+   Ninja-360 has shot for", "Ninja-360 work showcase", "Ninja-360 visibility reel". The
+   re-paste in (1) covers these.
+4. **Not a source:**
+   - **`/llms.txt`**: 0 hyphens.
+   - **"2015" on the live site**: false positive. It's a number inside GHL's internal data
+     array, not a "founded 2015" claim.
+   - **ninja-360.com and www**: they 301 to ninja360.net, so no duplicate site is live. The
+     redirect target has a double slash (`https://ninja360.net//`). It still lands on the
+     homepage, but it's worth tidying in Cloudflare.
+5. **Not checked (outside BUILD's reach):** directories and citations, the GBP description,
+   Facebook/Instagram/YouTube/TikTok "About" text, Crunchbase-style profiles, and old press
+   mentions. Any of these could be the "founded 2015" source. The browser pass should search
+   for `"Ninja-360" 2015`.
