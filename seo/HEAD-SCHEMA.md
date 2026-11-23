@@ -24,7 +24,7 @@ hold multiple blocks. VideoObject blocks already live in services/about/work-res
 }
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","name":"Ninja 360","url":"https://ninja360.net"}
+{"@context":"https://schema.org","@type":"WebSite","name":"Ninja 360 Digital Media","alternateName":["Ninja 360","Ninja360"],"url":"https://ninja360.net/"}
 </script>
 ```
 
